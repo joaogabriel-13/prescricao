@@ -57,7 +57,7 @@
         /* Conteúdo das Abas */
         .tab-content { display: none; animation: fadeIn 0.4s; padding: 25px; background-color: var(--card-bg); border-radius: var(--radius-md); margin-top: 25px; transition: background-color var(--transition-speed); }
         .tab-content.active { display: block; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 
         /* Recentes e Favoritos */
         .quick-access-container { margin-bottom: 20px; display: none; padding: 15px; background-color: rgba(0,0,0,0.02); border-radius: var(--radius-md); transition: background-color var(--transition-speed); border: 1px solid var(--border-color); }
@@ -75,44 +75,6 @@
         .quick-access-item .copy-icon { font-size: 1.1em; color: var(--text-muted); margin-left: auto; padding-left: 8px; transition: color var(--transition-speed); opacity: 0.7; cursor: pointer; }
         .quick-access-item .copy-icon:hover { color: var(--primary-color); opacity: 1;}
         .quick-access-item .copy-icon.copied { color: var(--success-color); }
-
-        /* Campos de Busca */
-        .busca-container { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 15px; padding: 20px; background-color: rgba(0,0,0,0.03); border-radius: var(--radius-md); transition: background-color var(--transition-speed); }
-        [data-theme="dark"] .busca-container { background-color: rgba(255,255,255,0.03); }
-        .busca-container div { flex: 1; min-width: 200px; }
-        .busca-container label { display: block; margin-bottom: 8px; font-weight: 600; font-size: 13px; color: var(--text-color); transition: color var(--transition-speed); }
-        .busca-container input { width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: var(--radius-sm); font-size: 14px; background-color: var(--card-bg); color: var(--text-color); transition: all var(--transition-speed); }
-        .busca-container input:focus { outline: none; border-color: var(--primary-color); box-shadow: 0 0 0 2px rgba(42, 111, 151, 0.2); }
-        .busca-container-single input { width: 100%; }
-        .busca-controles-extra { display: flex; gap: 10px; margin-top: 15px; width: 100%; justify-content: flex-end; flex-basis: 100%;}
-        .btn-limpar { font-size: 0.8em; padding: 5px 10px; background-color: #f8f9fa; color: var(--text-muted); border: 1px solid var(--border-color); border-radius: var(--radius-sm); cursor: pointer; transition: all var(--transition-speed); }
-        .btn-limpar:hover { background-color: #e9ecef; color: var(--text-color); }
-        [data-theme="dark"] .btn-limpar { background-color: #343a40; color: var(--text-muted); border-color: #444; }
-        [data-theme="dark"] .btn-limpar:hover { background-color: #495057; color: var(--text-color); }
-
-        /* Itens */
-        .item { display: flex; gap: 15px; border: 1px solid var(--card-border); margin-bottom: 20px; padding: 20px; border-radius: var(--radius-md); background-color: var(--card-bg); box-shadow: var(--shadow-sm); transition: all var(--transition-speed); }
-        .item:hover { box-shadow: var(--shadow-hover); border-color: var(--primary-color); }
-        .item-selecionar { margin-top: 5px; accent-color: var(--primary-color); transform: scale(1.2); cursor: pointer; flex-shrink: 0; }
-        .item-conteudo { flex-grow: 1; }
-        .item-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px dashed var(--border-color); flex-wrap: wrap; gap: 10px; transition: border-color var(--transition-speed); }
-        .item-nome { font-weight: 600; font-size: 1.1em; color: var(--text-color); flex-basis: 60%; flex-grow: 1; transition: color var(--transition-speed); }
-        .item-meta { font-size: 0.85em; color: var(--text-muted); text-align: right; flex-basis: 35%; flex-grow: 1; transition: color var(--transition-speed); }
-        .item-meta span { display: block; margin-bottom: 3px; }
-        .item-meta span strong { font-weight: 600; color: var(--text-color); transition: color var(--transition-speed); }
-        .item pre { white-space: pre-wrap; word-wrap: break-word; margin: 0 0 15px 0; font-family: 'Consolas', 'Monaco', monospace; font-size: 14px; line-height: 1.6; color: var(--text-color); background-color: rgba(0,0,0,0.02); padding: 15px; border-radius: var(--radius-sm); border: 1px solid var(--border-color); transition: all var(--transition-speed); position: relative; }
-        [data-theme="dark"] .item pre { background-color: rgba(255,255,255,0.02); }
-        .char-counter { position: absolute; bottom: 5px; right: 10px; font-size: 11px; color: var(--text-muted); background-color: var(--card-bg); padding: 2px 5px; border-radius: 3px; opacity: 0.7; }
-        .item-actions { margin-top: 10px; display: flex; gap: 8px; }
-        .item button { padding: 8px 15px; border: none; border-radius: var(--radius-sm); cursor: pointer; font-size: 14px; transition: all var(--transition-speed); }
-        .btn-copiar-item { background-color: var(--primary-color); color: white; }
-        .btn-copiar-item:hover { background-color: var(--primary-hover); transform: translateY(-1px); }
-        .btn-favorito-item { background-color: transparent; color: var(--primary-color) !important; border: 1px solid var(--primary-color) !important; }
-        .btn-favorito-item:hover { transform: translateY(-1px); border-color: var(--primary-hover); color: var(--primary-hover) !important; }
-        .btn-favorito-item.ativo { color: #ffc107 !important; border-color: #ffc107 !important; }
-        .item button.copiado-feedback { background-color: var(--success-color); color: white; }
-
-        .escondido { display: none; }
 
         /* Botão Voltar ao Topo */
         #scrollToTopBtn {
@@ -147,12 +109,6 @@
              opacity: 1;
         }
 
-        /* Botão Copiar Selecionados */
-        #copiarSelecionadosBtn { background-color: var(--success-color); color: white; border: none; border-radius: var(--radius-sm); padding: 8px 12px; cursor: pointer; display: none; /* Começa escondido */ align-items: center; gap: 5px; transition: all var(--transition-speed); }
-        #copiarSelecionadosBtn:hover { filter: brightness(90%); box-shadow: var(--shadow-hover); }
-        #copiarSelecionadosBtn.visivel { display: inline-flex !important; } /* Garante visibilidade */
-        #copiarSelecionadosBtn.copiado-multi { background-color: #17a2b8; }
-
         /* Botão Copiar Flutuante */
         .botao-copiar-flutuante {
           position: fixed;
@@ -168,6 +124,7 @@
 
         /* Animações e Responsividade */
         @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); }
+        }
         .pulse { animation: pulse 0.3s ease-in-out; }
         @media (max-width: 768px) { .container { margin: 15px; padding: 20px; } .tab-nav li { min-width: 100px; } .tab-nav button { padding: 10px 8px; font-size: 14px; } .item { padding: 15px; flex-direction: column; gap: 10px;} .item-selecionar { margin-top: 0; align-self: flex-start; } .item-conteudo{ width: 100%;} .item-header { flex-direction: column; align-items: flex-start; } .item-meta { text-align: left; margin-top: 5px; } .busca-container { padding: 15px; } .header-container { flex-direction: column; gap: 15px; } h1 { margin-bottom: 15px; } }
         @media (max-width: 480px) { .tab-nav li { min-width: 80px;} .item-actions { flex-direction: column; align-items: flex-start; } }
@@ -2827,9 +2784,9 @@ Aplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias</pre>
             });
             console.log(`[copiarSelecionados] ${countCopiados} textos coletados.`);
             if (countCopiados === 0) { alert("Não foi possível extrair texto."); atualizarBotaoCopiarSelecionados(); return; }
-            const textoFinal = textoCombinado.join('
+            const textoFinal = textoCombinado.join(`
 
-');
+`); // Usar template literal JS
             console.log("[copiarSelecionados] Texto final (início):", textoFinal.substring(0,100)+"...");
             navigator.clipboard.writeText(textoFinal).then(() => {
                 console.log("[copiarSelecionados] Sucesso na cópia.");
@@ -2867,11 +2824,178 @@ Aplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias</pre>
              requestAnimationFrame(atualizarBotaoCopiarSelecionados);
         }
 
-        // Funções de favoritos
-        function loadFavoritos() { const savedFavoritos = localStorage.getItem(STORAGE_KEY_FAVORITOS); if (savedFavoritos) { try { favoritos = JSON.parse(savedFavoritos) || {}; } catch (e) { console.error("Erro ao carregar favoritos:", e); favoritos = {}; } } else { favoritos = {}; } document.querySelectorAll('.btn-favorito-item').forEach(button => { const item = button.closest('.item'); const aba = item.closest('.tab-content'); if (!item || !aba) return; const abaId = aba.id; const nome = item.querySelector('.item-nome')?.textContent; if (!nome) return; if (favoritos[abaId] && favoritos[abaId].includes(nome)) { button.classList.add('ativo'); button.textContent = '★ Favorito'; } else { button.classList.remove('ativo'); button.textContent = 'Favoritar'; } }); }
-        function saveFavoritos() { localStorage.setItem(STORAGE_KEY_FAVORITOS, JSON.stringify(favoritos)); }
-        function toggleFavorito(button) { const item = button.closest('.item'); const aba = item.closest('.tab-content'); if (!item || !aba) return; const abaId = aba.id; const nomeElement = item.querySelector('.item-nome'); if (!nomeElement) return; const nome = nomeElement.textContent; if (!favoritos[abaId]) { favoritos[abaId] = []; } const index = favoritos[abaId].indexOf(nome); if (index === -1) { favoritos[abaId].push(nome); button.classList.add('ativo'); button.textContent = '★ Favorito'; button.classList.add('pulse'); setTimeout(() => button.classList.remove('pulse'), 300); } else { favoritos[abaId].splice(index, 1); button.classList.remove('ativo'); button.textContent = 'Favoritar'; } saveFavoritos(); atualizarFavoritos(abaId); }
-        function atualizarFavoritos(abaId) { const fContainer = document.getElementById(`favoritos-${abaId}`); const fList = document.getElementById(`lista-favoritos-${abaId}`); if (!fContainer || !fList) return; fList.innerHTML = ''; if (favoritos[abaId] && favoritos[abaId].length > 0) { fContainer.classList.add('visible'); const fOrdenados = [...favoritos[abaId]].sort((a, b) => a.localeCompare(b)); fOrdenados.forEach(nome => { const fItem = document.createElement('div'); fItem.className = 'quick-access-item favorito-item'; fItem.innerHTML = `<span class="icon favorito-icon">⭐</span><span class="nome-link">${nome}</span><span class="copy-icon" title="Copiar este favorito">📋</span>`; fItem.querySelector('.nome-link').onclick = () => { irParaItem(abaId, nome); }; fItem.querySelector('.copy-icon').onclick = (e) => { e.stopPropagation(); const items = document.querySelectorAll(`#${abaId} .item`); for (const item of items) { const nEl = item.querySelector('.item-nome'); if (nEl && nEl.textContent === nome) { const pre = item.querySelector('pre'); if(pre){ const preClone = pre.cloneNode(true); const counter = preClone.querySelector('.char-counter'); if (counter) preClone.removeChild(counter); const texto = (preClone.innerText || preClone.textContent).trim(); navigator.clipboard.writeText(texto).then(() => { const icon = e.target; icon.innerHTML = '✓'; icon.classList.add('copied'); setTimeout(() => { icon.innerHTML = '📋'; icon.classList.remove('copied');}, 1500); registrarUsoRecente([{nome: nome, texto: texto, abaId: abaId}]); }).catch(err => console.error("Erro copia fav:", err)); } break; } } }; fList.appendChild(fItem); }); } else { fContainer.classList.remove('visible'); } }
+        // --- Funções de Favoritos (Refatoradas) ---
+        function loadFavoritos() {
+            const savedFavoritos = localStorage.getItem(STORAGE_KEY_FAVORITOS);
+            if (savedFavoritos) {
+                try {
+                    favoritos = JSON.parse(savedFavoritos) || {};
+                } catch (e) {
+                    console.error("Erro ao carregar favoritos:", e);
+                    favoritos = {};
+                }
+            } else {
+                favoritos = {};
+            }
+            // Atualiza estado inicial dos botões e as listas de favoritos visíveis
+            document.querySelectorAll('.btn-favorito-item').forEach(button => {
+                atualizarEstadoBotaoFavorito(button);
+            });
+            document.querySelectorAll('.tab-content').forEach(aba => {
+                atualizarFavoritos(aba.id); // Atualiza a lista de favoritos para cada aba
+            });
+        }
+
+        function saveFavoritos() {
+            localStorage.setItem(STORAGE_KEY_FAVORITOS, JSON.stringify(favoritos));
+        }
+
+        function atualizarEstadoBotaoFavorito(button) {
+            const item = button.closest('.item');
+            const aba = item?.closest('.tab-content');
+            if (!item || !aba) return;
+            const abaId = aba.id;
+            const nomeElement = item.querySelector('.item-nome');
+            if (!nomeElement) return;
+            const nome = nomeElement.textContent;
+
+            if (favoritos[abaId] && favoritos[abaId].includes(nome)) {
+                button.classList.add('ativo');
+                button.textContent = '★ Favorito';
+            } else {
+                button.classList.remove('ativo');
+                button.textContent = 'Favoritar';
+            }
+        }
+
+        function toggleFavorito(button) {
+            const item = button.closest('.item');
+            const aba = item?.closest('.tab-content');
+            if (!item || !aba) return;
+            const abaId = aba.id;
+            const nomeElement = item.querySelector('.item-nome');
+            if (!nomeElement) return;
+            const nome = nomeElement.textContent;
+
+            if (!favoritos[abaId]) {
+                favoritos[abaId] = [];
+            }
+            const index = favoritos[abaId].indexOf(nome);
+
+            if (index === -1) { // Adicionar favorito
+                favoritos[abaId].push(nome);
+                button.classList.add('pulse');
+                setTimeout(() => button.classList.remove('pulse'), 300);
+            } else { // Remover favorito
+                favoritos[abaId].splice(index, 1);
+            }
+
+            saveFavoritos();
+            atualizarEstadoBotaoFavorito(button); // Atualiza o botão clicado
+            atualizarFavoritos(abaId); // Atualiza a lista de favoritos da aba
+        }
+
+        function atualizarFavoritos(abaId) {
+            const fContainer = document.getElementById(`favoritos-${abaId}`);
+            const fList = document.getElementById(`lista-favoritos-${abaId}`);
+            if (!fContainer || !fList) {
+                 // Não é um erro fatal se a aba não tiver container de favoritos
+                 // console.warn(`Container/Lista de favoritos não encontrados para: ${abaId}`);
+                 return;
+            }
+
+            fList.innerHTML = ''; // Limpa a lista atual
+
+            if (favoritos[abaId] && favoritos[abaId].length > 0) {
+                fContainer.classList.add('visible');
+                // Ordena alfabeticamente para exibição
+                const fOrdenados = [...favoritos[abaId]].sort((a, b) => a.localeCompare(b));
+
+                fOrdenados.forEach(nome => {
+                    // Encontra o item original para obter o texto (necessário para cópia)
+                    const itemOriginal = document.querySelector(`#${abaId} .item[data-nome="${nome.toLowerCase()}"]`);
+                    const preOriginal = itemOriginal?.querySelector('pre');
+                    let textoOriginal = '';
+                    if (preOriginal) {
+                        const preClone = preOriginal.cloneNode(true);
+                        const counter = preClone.querySelector('.char-counter');
+                        if (counter) preClone.removeChild(counter);
+                        textoOriginal = (preClone.innerText || preClone.textContent).trim();
+                    } else {
+                        console.warn(`Não foi possível encontrar o texto original para o favorito: ${nome} na aba ${abaId}`);
+                    }
+
+                    const fItem = document.createElement('div');
+                    fItem.className = 'quick-access-item favorito-item';
+
+                    // Escapa dados para HTML e atributos data-*
+                    const nomeHtml = htmlEscape(nome);
+                    const abaIdHtml = htmlEscape(abaId);
+                    const textoData = textoOriginal; // Texto original para data attribute
+
+                    // Cria HTML com data-* attributes
+                    fItem.innerHTML = `<span class="icon favorito-icon">⭐</span><span class="nome-link" data-abaid="${abaIdHtml}" data-nome="${nomeHtml}">${nomeHtml}</span><span class="copy-icon" data-texto="${htmlEscape(textoData)}" data-nome="${nomeHtml}" data-abaid="${abaIdHtml}" title="Copiar: ${nomeHtml}">📋</span>`;
+
+                    // Adiciona Listeners usando querySelector no fItem recém-criado
+                    const nomeLink = fItem.querySelector('.nome-link');
+                    const copyIcon = fItem.querySelector('.copy-icon');
+
+                    if (nomeLink) {
+                        nomeLink.addEventListener('click', (event) => {
+                            const targetAbaId = event.target.dataset.abaid;
+                            const targetNome = event.target.dataset.nome;
+                            if(targetAbaId && targetNome) {
+                                irParaItem(targetAbaId, targetNome);
+                            } else {
+                                console.error("Dados faltando no data attribute do nome-link (favoritos).");
+                            }
+                        });
+                    }
+
+                    if (copyIcon) {
+                        copyIcon.addEventListener('click', (event) => {
+                            event.stopPropagation();
+                            const icon = event.target;
+                            const targetTexto = icon.dataset.texto;
+                            const targetNome = icon.dataset.nome;
+                            const targetAbaId = icon.dataset.abaid;
+
+                            if (targetTexto === undefined || targetNome === undefined || targetAbaId === undefined) {
+                                console.error("Dados faltando no data attribute do copy-icon (favoritos).");
+                                alert("Erro ao obter dados para cópia do favorito.");
+                                return;
+                            }
+
+                            if (!targetTexto) {
+                                console.warn(`Texto vazio para favorito: ${targetNome}. Cópia abortada.`);
+                                alert(`Não foi possível encontrar o conteúdo para copiar "${targetNome}".`);
+                                return;
+                            }
+
+
+                            navigator.clipboard.writeText(targetTexto).then(() => {
+                                icon.innerHTML = '✓';
+                                icon.classList.add('copied');
+                                setTimeout(() => {
+                                    if (icon) {
+                                        icon.innerHTML = '📋';
+                                        icon.classList.remove('copied');
+                                    }
+                                }, 1500);
+                                const itemInfo = { nome: targetNome, texto: targetTexto, abaId: targetAbaId };
+                                registrarUsoRecente([itemInfo]); // Registra como recente
+                            }).catch(err => {
+                                console.error("Erro ao copiar favorito:", err, targetNome);
+                                alert("Erro ao copiar o favorito.");
+                            });
+                        });
+                    }
+                    fList.appendChild(fItem); // Adiciona o item à lista
+                });
+            } else {
+                fContainer.classList.remove('visible'); // Esconde se não houver favoritos
+            }
+        }
 
         // Funções de contador de caracteres
         function addCharCounters() { const preElements = document.querySelectorAll('pre'); preElements.forEach(pre => { const oldCounter = pre.querySelector('.char-counter'); if (oldCounter) pre.removeChild(oldCounter); const counter = document.createElement('span'); counter.className = 'char-counter'; counter.textContent = `${pre.textContent.trim().length} caracteres`; pre.appendChild(counter); }); }
@@ -2947,8 +3071,97 @@ Aplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias</pre>
         function loadRecentes() { const savedRecentes = localStorage.getItem(STORAGE_KEY_RECENTES); if (savedRecentes) { try { recentes = JSON.parse(savedRecentes) || []; } catch (e) { recentes = []; } } else { recentes = []; } atualizarRecentes(); }
         function saveRecentes() { localStorage.setItem(STORAGE_KEY_RECENTES, JSON.stringify(recentes)); }
         function registrarUsoRecente(itensInfo) { if (!Array.isArray(itensInfo)) itensInfo = [itensInfo]; const atuais = recentes || []; const novosRecentes = [...itensInfo, ...atuais]; const recentesUnicos = []; const vistos = new Set(); for (const item of novosRecentes) { const chave = `${item.abaId}|${item.nome}`; if (item.nome && item.texto && item.abaId && !vistos.has(chave)) { recentesUnicos.push(item); vistos.add(chave); if (recentesUnicos.length >= MAX_RECENTES) { break; } } } recentes = recentesUnicos; saveRecentes(); atualizarRecentes(); }
-        function atualizarRecentes() { const rContainer = document.getElementById('recentesContainer'); const rList = document.getElementById('listaRecentes'); if (!rContainer || !rList) return; rList.innerHTML = ''; if (recentes && recentes.length > 0) { rContainer.classList.add('visible'); recentes.forEach(item => { const rItem = document.createElement('div'); rItem.className = 'quick-access-item recente-item'; const nomeEscapado = htmlEscape(item.nome); rItem.innerHTML = `<span class="recent-icon">🕒</span><span class="nome-link">${nomeEscapado}</span><span class="copy-icon" title="Copiar: ${nomeEscapado}">📋</span>`; rItem.querySelector('.nome-link').onclick = () => { irParaItem(item.abaId, item.nome); }; rItem.querySelector('.copy-icon').onclick = (e) => { e.stopPropagation(); navigator.clipboard.writeText(item.texto).then(() => { const icon = e.target; icon.innerHTML = '✓'; icon.classList.add('copied'); setTimeout(() => { icon.innerHTML = '📋'; icon.classList.remove('copied');}, 1500); registrarUsoRecente([item]); }).catch(err => console.error("Erro copia recente:", err)); }; rList.appendChild(rItem); }); } else { rContainer.classList.remove('visible'); rList.innerHTML = '<span style="color: var(--text-muted); font-style: italic;">Nenhum item copiado recentemente.</span>'; } }
-        function irParaItem(abaId, nomeItem) { mostrarAba(abaId); setTimeout(() => { const abaC = document.getElementById(abaId); if (!abaC) return; const itensNaAba = abaC.querySelectorAll('.item'); for(const el of itemsNaAba) { const nEl = el.querySelector('.item-nome'); if(nEl && nEl.textContent === nomeItem) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('pulse'); setTimeout(() => el.classList.remove('pulse'), 1200); break; } } }, 150); }
+        function atualizarRecentes() {
+            const rContainer = document.getElementById('recentesContainer');
+            const rList = document.getElementById('listaRecentes');
+            if (!rContainer || !rList) {
+                console.error("Elementos de recentes não encontrados.");
+                return;
+            }
+            rList.innerHTML = ''; // Limpa a lista atual
+
+            if (recentes && recentes.length > 0) {
+                rContainer.classList.add('visible');
+                recentes.forEach(item => {
+                    // Validação básica do item
+                    if (!item || typeof item.nome !== 'string' || typeof item.texto !== 'string' || typeof item.abaId !== 'string') {
+                        console.warn("Item recente inválido encontrado:", item);
+                        return; // Pula item inválido
+                    }
+
+                    const rItem = document.createElement('div');
+                    rItem.className = 'quick-access-item recente-item';
+
+                    // Escapa os dados para uso seguro em atributos HTML e texto visível
+                    const nomeHtml = htmlEscape(item.nome);
+                    const abaIdHtml = htmlEscape(item.abaId);
+                    const textoData = item.texto; // Usar o texto original para o data attribute
+
+                    // Cria a estrutura HTML básica com data-* attributes
+                    rItem.innerHTML = `<span class="recent-icon">🕒</span><span class="nome-link" data-abaid="${abaIdHtml}" data-nome="${nomeHtml}">${nomeHtml}</span><span class="copy-icon" data-texto="${htmlEscape(textoData)}" data-nome="${nomeHtml}" data-abaid="${abaIdHtml}" title='Copiar: ${nomeHtml}'>📋</span>`;
+
+                    // Encontra os elementos dentro do item recém-criado
+                    const nomeLink = rItem.querySelector('.nome-link');
+                    const copyIcon = rItem.querySelector('.copy-icon');
+
+                    // Adiciona event listener para o link do nome
+                    if (nomeLink) {
+                        nomeLink.addEventListener('click', (event) => {
+                            const targetAbaId = event.target.dataset.abaid;
+                            const targetNome = event.target.dataset.nome;
+                            if (targetAbaId && targetNome) {
+                                irParaItem(targetAbaId, targetNome);
+                            } else {
+                                console.error("Dados faltando no data attribute do nome-link (recentes).");
+                            }
+                        });
+                    } else {
+                        console.warn("Elemento .nome-link não encontrado para item recente:", nomeHtml);
+                    }
+
+                    // Adiciona event listener para o ícone de cópia
+                    if (copyIcon) {
+                        copyIcon.addEventListener('click', (event) => {
+                            event.stopPropagation();
+                            const icon = event.target;
+                            const targetTexto = icon.dataset.texto;
+                            const targetNome = icon.dataset.nome;
+                            const targetAbaId = icon.dataset.abaid;
+
+                            if (targetTexto === undefined || targetNome === undefined || targetAbaId === undefined) {
+                                console.error("Dados faltando no data attribute do copy-icon (recentes).");
+                                alert("Erro ao obter dados para cópia.");
+                                return;
+                            }
+
+                            navigator.clipboard.writeText(targetTexto).then(() => {
+                                icon.innerHTML = '✓';
+                                icon.classList.add('copied');
+                                setTimeout(() => {
+                                    if (icon) {
+                                        icon.innerHTML = '📋';
+                                        icon.classList.remove('copied');
+                                    }
+                                }, 1500);
+                                const itemInfo = { nome: targetNome, texto: targetTexto, abaId: targetAbaId };
+                                registrarUsoRecente([itemInfo]);
+                            }).catch(err => {
+                                console.error("Erro ao copiar item recente:", err, targetNome);
+                                alert("Erro ao copiar o item.");
+                            });
+                        });
+                    } else {
+                         console.warn("Elemento .copy-icon não encontrado para item recente:", nomeHtml);
+                    }
+                    rList.appendChild(rItem);
+                });
+            } else {
+                rContainer.classList.remove('visible');
+                rList.innerHTML = '<span style="color: var(--text-muted); font-style: italic;">Nenhum item copiado recentemente.</span>';
+            }
+        }
+
+        function irParaItem(abaId, nomeItem) { mostrarAba(abaId); setTimeout(() => { const abaC = document.getElementById(abaId); if (!abaC) return; const itensNaAba = abaC.querySelectorAll('.item'); for(const el of itensNaAba) { const nEl = el.querySelector('.item-nome'); if(nEl && nEl.textContent === nomeItem) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('pulse'); setTimeout(() => el.classList.remove('pulse'), 1200); break; } } }, 150); }
         function htmlEscape(str) { return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;'); }
 
         // --- Funções Botão Voltar ao Topo ---
@@ -2958,23 +3171,16 @@ Aplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias</pre>
                 console.error("Botão Voltar ao Topo (#scrollToTopBtn) não encontrado!");
                 return;
             }
-
             window.onscroll = function() { scrollFunction() };
-
             function scrollFunction() {
-                // Mostra botão após rolar 100px
                 if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
                     scrollToTopBtn.style.display = "block";
-                    // Pequeno delay para garantir que a transição de opacidade funcione
                     setTimeout(() => { scrollToTopBtn.style.opacity = 0.8; }, 10);
                 } else {
                     scrollToTopBtn.style.opacity = 0;
-                    // Esconde completamente após a transição
-                    setTimeout(() => { scrollToTopBtn.style.display = "none"; }, 300); // Tempo igual à transição CSS
+                    setTimeout(() => { scrollToTopBtn.style.display = "none"; }, 300);
                 }
             }
-
-            // Ação de clique
             scrollToTopBtn.addEventListener("click", function() {
                 window.scrollTo({top: 0, behavior: 'smooth'});
             });
