@@ -9,7 +9,7 @@ PASTA_ATUAL = os.path.dirname(os.path.abspath(__file__))
 ARQUIVO_EXCEL = os.path.join(PASTA_ATUAL, 'prescricoes.xlsx')
 ARQUIVO_HTML_SAIDA = os.path.join(PASTA_ATUAL, 'minhas_prescricoes.html')
 
-COLUNAS_MEDICAMENTOS = ['NomeBusca', 'PrescricaoCompleta', 'Categoria', 'Doenca']
+COLUNAS_MEDICAMENTOS = ['NomeBusca', 'PrescricaoCompleta', 'Categoria', 'Doenca', 'OrdemPrioridade']
 COLUNAS_GENERICAS = ['NomeBusca', 'ConteudoTexto']
 
 CORES_ABAS = [
@@ -132,6 +132,39 @@ HTML_INICIO = """
 
         .escondido { display: none; }
 
+        /* Botão Voltar ao Topo */
+        #scrollToTopBtn {
+            display: none; /* Começa escondido */
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            z-index: 100;
+            border: none;
+            outline: none;
+            background-color: var(--primary-color);
+            color: white;
+            cursor: pointer;
+            padding: 12px 15px;
+            border-radius: var(--radius-md);
+            font-size: 18px;
+            box-shadow: var(--shadow-md);
+            transition: background-color var(--transition-speed), opacity var(--transition-speed), visibility var(--transition-speed), transform var(--transition-speed);
+            opacity: 0.8;
+        }
+        #scrollToTopBtn:hover {
+            background-color: var(--primary-hover);
+            opacity: 1;
+            transform: translateY(-2px);
+        }
+        [data-theme="dark"] #scrollToTopBtn {
+             background-color: var(--primary-hover); /* Um pouco mais claro no modo escuro */
+             opacity: 0.9;
+        }
+        [data-theme="dark"] #scrollToTopBtn:hover {
+             background-color: var(--primary-color);
+             opacity: 1;
+        }
+
         /* Botão Copiar Selecionados */
         #copiarSelecionadosBtn { background-color: var(--success-color); color: white; border: none; border-radius: var(--radius-sm); padding: 8px 12px; cursor: pointer; display: none; /* Começa escondido */ align-items: center; gap: 5px; transition: all var(--transition-speed); }
         #copiarSelecionadosBtn:hover { filter: brightness(90%); box-shadow: var(--shadow-hover); }
@@ -177,7 +210,10 @@ HTML_INICIO = """
             @@@PLACEHOLDER_NAV@@@
         </ul>
         @@@PLACEHOLDER_CONTENT@@@
-""" # Fim do HTML_INICIO
+        <button id="scrollToTopBtn" title="Voltar ao topo">↑</button>
+    </div> </body>
+</html>
+"""
 
 # TEMPLATES COM checkbox SEM onchange (CORRIGIDO)
 ITEM_TEMPLATE_MEDICAMENTOS = """
@@ -227,6 +263,7 @@ JAVASCRIPT_BLOCO = r"""
              loadRecentes();
              addCharCounters();
              setupCheckboxListeners();
+             setupScrollToTop();
 
              const navAbas = document.getElementById('navAbas');
              const primeiraAbaButton = navAbas ? navAbas.querySelector('button') : null;
@@ -433,6 +470,35 @@ JAVASCRIPT_BLOCO = r"""
         function irParaItem(abaId, nomeItem) { mostrarAba(abaId); setTimeout(() => { const abaC = document.getElementById(abaId); if (!abaC) return; const itensNaAba = abaC.querySelectorAll('.item'); for(const el of itemsNaAba) { const nEl = el.querySelector('.item-nome'); if(nEl && nEl.textContent === nomeItem) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('pulse'); setTimeout(() => el.classList.remove('pulse'), 1200); break; } } }, 150); }
         function htmlEscape(str) { return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;'); }
 
+        // --- Funções Botão Voltar ao Topo ---
+        function setupScrollToTop() {
+            const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+            if (!scrollToTopBtn) {
+                console.error("Botão Voltar ao Topo (#scrollToTopBtn) não encontrado!");
+                return;
+            }
+
+            window.onscroll = function() { scrollFunction() };
+
+            function scrollFunction() {
+                // Mostra botão após rolar 100px
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    scrollToTopBtn.style.display = "block";
+                    // Pequeno delay para garantir que a transição de opacidade funcione
+                    setTimeout(() => { scrollToTopBtn.style.opacity = 0.8; }, 10);
+                } else {
+                    scrollToTopBtn.style.opacity = 0;
+                    // Esconde completamente após a transição
+                    setTimeout(() => { scrollToTopBtn.style.display = "none"; }, 300); // Tempo igual à transição CSS
+                }
+            }
+
+            // Ação de clique
+            scrollToTopBtn.addEventListener("click", function() {
+                window.scrollTo({top: 0, behavior: 'smooth'});
+            });
+        }
+
     </script>
 """
 
@@ -459,10 +525,32 @@ def gerar_html():
     for idx, sheet_name in enumerate(ordem_planilhas):
         if sheet_name not in sheets_data: print(f"AVISO: Planilha '{sheet_name}' não encontrada. Pulando."); continue
         df = sheets_data[sheet_name]; print(f"Processando planilha: '{sheet_name}'..."); id_aba = f"aba-{sanitizar_nome(sheet_name)}"
-        is_medicamentos = False; template_item = ITEM_TEMPLATE_GENERICO; colunas_esperadas = COLUNAS_GENERICAS; coluna_conteudo = 'ConteudoTexto'
-        if sheet_name.lower() == 'medicamentos': colunas_esperadas = COLUNAS_MEDICAMENTOS; template_item = ITEM_TEMPLATE_MEDICAMENTOS; is_medicamentos = True; coluna_conteudo = 'PrescricaoCompleta'
+        is_medicamentos = sheet_name.lower() == 'medicamentos'
+        if is_medicamentos:
+            colunas_esperadas = COLUNAS_MEDICAMENTOS
+            template_item = ITEM_TEMPLATE_MEDICAMENTOS
+            coluna_conteudo = 'PrescricaoCompleta'
+        else:
+            colunas_esperadas = COLUNAS_GENERICAS
+            template_item = ITEM_TEMPLATE_GENERICO
+            coluna_conteudo = 'ConteudoTexto'
         colunas_faltantes = [col for col in colunas_esperadas if col not in df.columns]
         if colunas_faltantes: print(f"AVISO: Planilha '{sheet_name}' pulada. Colunas faltantes: {', '.join(colunas_faltantes)}."); continue
+
+        # --- Ordenação --- (Aplicada ANTES de iterar pelas linhas)
+        if is_medicamentos:
+            print(f"Aplicando ordenação personalizada para '{sheet_name}'...")
+            # Converter OrdemPrioridade para numérico, tratando erros e preenchendo NaN
+            # Usamos um valor alto (float('inf')) para que NaNs fiquem por último
+            df['OrdemPrioridadeNumerica'] = pd.to_numeric(df['OrdemPrioridade'], errors='coerce').fillna(float('inf'))
+            # Ordena: 1º Doenca (A-Z), 2º OrdemPrioridade (Menor primeiro, sem prioridade por último), 3º NomeBusca (A-Z)
+            df = df.sort_values(by=['Doenca', 'OrdemPrioridadeNumerica', 'NomeBusca'], ascending=[True, True, True])
+            # Opcional: Remover a coluna numérica auxiliar se não for mais necessária
+            # df = df.drop(columns=['OrdemPrioridadeNumerica'])
+            print(f"Ordenação para '{sheet_name}' concluída.")
+        elif not df.empty and 'NomeBusca' in df.columns: # Ordenação padrão para outras abas
+             df = df.sort_values(by=['NomeBusca'], ascending=True)
+
         cor_index = idx % len(CORES_ABAS); classe_cor = f"tab-color-{cor_index}"; active_class_nav = 'active' if primeira_aba else ''
         html_abas_nav_list.append(f'<li><button class="{active_class_nav} {classe_cor}" onclick="mostrarAba(\'{id_aba}\')">{sheet_name}</button></li>')
         active_class_content = 'active' if primeira_aba else ''; conteudo_atual_partes = [f'<div id="{id_aba}" class="tab-content {active_class_content}">']
@@ -499,23 +587,21 @@ def gerar_html():
         html_abas_conteudo_list.append("\n".join(conteudo_atual_partes)) # Junta partes da aba
         primeira_aba = False
 
-    # --- Montagem Final e Escrita (Incremental) ---
-    print("Iniciando escrita incremental do HTML...")
+    # Combina todas as partes do HTML
+    html_navegacao = "\n".join(html_abas_nav_list)
+    html_conteudo = "\n".join(html_abas_conteudo_list)
+    html_final = HTML_INICIO.replace('@@@PLACEHOLDER_NAV@@@', html_navegacao)
+    html_final = html_final.replace('@@@PLACEHOLDER_CONTENT@@@', html_conteudo)
+    html_final += JAVASCRIPT_BLOCO # Adiciona o bloco JavaScript
+    html_final += HTML_FIM # Adiciona o final do HTML
+
+    # Escreve o arquivo HTML
     try:
-        placeholder_nav = '@@@PLACEHOLDER_NAV@@@'; placeholder_conteudo = '@@@PLACEHOLDER_CONTENT@@@'
-        idx_nav_placeholder = HTML_INICIO.find(placeholder_nav); idx_conteudo_placeholder = HTML_INICIO.find(placeholder_conteudo)
-        if idx_nav_placeholder == -1 or idx_conteudo_placeholder == -1: print("ERRO CRÍTICO: Placeholders não encontrados!"); return
         with open(ARQUIVO_HTML_SAIDA, 'w', encoding='utf-8') as f:
-            f.write(HTML_INICIO[:idx_nav_placeholder]) # Parte 1
-            f.write("\n".join(html_abas_nav_list)) # Nav
-            f.write(HTML_INICIO[idx_nav_placeholder + len(placeholder_nav) : idx_conteudo_placeholder]) # Parte 2
-            for conteudo_aba in html_abas_conteudo_list: f.write(conteudo_aba + "\n") # Conteúdos
-            f.write(HTML_INICIO[idx_conteudo_placeholder + len(placeholder_conteudo):]) # Parte 3
-            f.write(JAVASCRIPT_BLOCO) # Script
-            f.write(HTML_FIM) # Fim
-        print(f"Arquivo HTML final gerado com sucesso em: {ARQUIVO_HTML_SAIDA}")
-    except MemoryError: print(f"ERRO DE MEMÓRIA durante escrita.");
-    except Exception as e: print(f"ERRO inesperado durante escrita: {e}");
+            f.write(html_final)
+        print(f"Arquivo HTML \'{ARQUIVO_HTML_SAIDA}\' gerado/atualizado com sucesso.")
+    except Exception as e:
+        print(f"ERRO ao escrever o arquivo HTML: {e}")
 
 
 # --- Execução ---
