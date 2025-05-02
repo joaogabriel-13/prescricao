@@ -519,12 +519,39 @@ JAVASCRIPT_BLOCO = r"""
              const abaConteudo = document.getElementById(idAba); if (!abaConteudo) return;
              const itens = abaConteudo.querySelectorAll(`.item`);
              let mostrarItem;
-             if (idAba === 'aba-medicamentos') {
-                 const termoNome = document.getElementById('busca-medicamentos-nome').value.toLowerCase(); const termoCategoria = document.getElementById('busca-medicamentos-categoria').value.toLowerCase(); const termoDoenca = document.getElementById('busca-medicamentos-doenca').value.toLowerCase();
-                 itens.forEach(item => { const nomeItem = item.getAttribute('data-nome') || ''; const categoriaItem = item.getAttribute('data-categoria') || ''; const doencaItem = item.getAttribute('data-doenca') || ''; const matchNome = (termoNome === '') || nomeItem.includes(termoNome); const matchCategoria = (termoCategoria === '') || categoriaItem.includes(termoCategoria); const matchDoenca = (termoDoenca === '') || doencaItem.includes(termoDoenca); mostrarItem = matchNome && matchCategoria && matchDoenca; item.classList.toggle('escondido', !mostrarItem); });
+
+             // Verifica se a aba é a de medicamentos (ajuste o ID se necessário)
+             // O ID 'medicamentos' é um exemplo, use o ID real gerado por sanitizar_nome()
+             // para a sua planilha de medicamentos.
+             const abaMedicamentosId = 'medicamentos'; // <<< CONFIRME ESTE ID
+
+             if (idAba === abaMedicamentosId) {
+                 const termoNome = document.getElementById('busca-medicamentos-nome').value.toLowerCase();
+                 const termoCategoria = document.getElementById('busca-medicamentos-categoria').value.toLowerCase();
+                 const termoDoenca = document.getElementById('busca-medicamentos-doenca').value.toLowerCase();
+
+                 itens.forEach(item => {
+                     // Converte atributos para minúsculas para comparação case-insensitive
+                     const nomeItem = (item.getAttribute('data-nome') || '').toLowerCase();
+                     const categoriaItem = (item.getAttribute('data-categoria') || '').toLowerCase();
+                     const doencaItem = (item.getAttribute('data-doenca') || '').toLowerCase();
+
+                     const matchNome = (termoNome === '') || nomeItem.includes(termoNome);
+                     const matchCategoria = (termoCategoria === '') || categoriaItem.includes(termoCategoria);
+                     const matchDoenca = (termoDoenca === '') || doencaItem.includes(termoDoenca);
+                     mostrarItem = matchNome && matchCategoria && matchDoenca;
+                     item.classList.toggle('escondido', !mostrarItem);
+                 });
              } else {
+                 // Lógica para outras abas (já converte para minúsculas)
                  const termoBusca = document.getElementById(`busca-${idAba}`).value.toLowerCase();
-                 itens.forEach(item => { const nomeItem = item.getAttribute('data-nome') || ''; const preElement = item.querySelector('pre'); const textoConteudo = preElement ? preElement.textContent.toLowerCase() : ''; mostrarItem = (termoBusca === '') || nomeItem.includes(termoBusca) || textoConteudo.includes(termoBusca); item.classList.toggle('escondido', !mostrarItem); });
+                 itens.forEach(item => {
+                     const nomeItem = (item.getAttribute('data-nome') || '').toLowerCase(); // Já estava convertendo nome
+                     const preElement = item.querySelector('pre');
+                     const textoConteudo = preElement ? preElement.textContent.toLowerCase() : ''; // Conteúdo já era lowercase
+                     mostrarItem = (termoBusca === '') || nomeItem.includes(termoBusca) || textoConteudo.includes(termoBusca);
+                     item.classList.toggle('escondido', !mostrarItem);
+                 });
              }
              requestAnimationFrame(atualizarBotaoCopiarSelecionados);
         }
