@@ -75,7 +75,7 @@ HTML_INICIO = """
         /* Conteúdo das Abas */
         .tab-content { display: none; animation: fadeIn 0.4s; padding: 25px; background-color: var(--card-bg); border-radius: var(--radius-md); margin-top: 25px; transition: background-color var(--transition-speed); }
         .tab-content.active { display: block; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); }
 
         /* Recentes e Favoritos */
         .quick-access-container { margin-bottom: 20px; display: none; padding: 15px; background-color: rgba(0,0,0,0.02); border-radius: var(--radius-md); transition: background-color var(--transition-speed); border: 1px solid var(--border-color); }
@@ -171,8 +171,21 @@ HTML_INICIO = """
         #copiarSelecionadosBtn.visivel { display: inline-flex !important; } /* Garante visibilidade */
         #copiarSelecionadosBtn.copiado-multi { background-color: #17a2b8; }
 
+        /* Botão Copiar Flutuante */
+        .botao-copiar-flutuante {
+          position: fixed;
+          bottom: 20px; /* Distância da parte inferior */
+          right: 20px;  /* Distância da direita */
+          z-index: 1000; /* Garante que fique sobre outros elementos */
+          display: none; /* Começa oculto */
+        }
+
+        .botao-copiar-flutuante.visivel {
+          display: block; /* Torna visível quando a classe 'visivel' é adicionada */
+        }
+
         /* Animações e Responsividade */
-        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); }
         .pulse { animation: pulse 0.3s ease-in-out; }
         @media (max-width: 768px) { .container { margin: 15px; padding: 20px; } .tab-nav li { min-width: 100px; } .tab-nav button { padding: 10px 8px; font-size: 14px; } .item { padding: 15px; flex-direction: column; gap: 10px;} .item-selecionar { margin-top: 0; align-self: flex-start; } .item-conteudo{ width: 100%;} .item-header { flex-direction: column; align-items: flex-start; } .item-meta { text-align: left; margin-top: 5px; } .busca-container { padding: 15px; } .header-container { flex-direction: column; gap: 15px; } h1 { margin-bottom: 15px; } }
         @media (max-width: 480px) { .tab-nav li { min-width: 80px;} .item-actions { flex-direction: column; align-items: flex-start; } }
@@ -250,7 +263,7 @@ JAVASCRIPT_BLOCO = r"""
         const STORAGE_KEY_THEME = 'assistenteMedicoTheme';
         const STORAGE_KEY_FAVORITOS = 'assistenteMedicoFavoritos';
         const STORAGE_KEY_RECENTES = 'assistenteMedicoRecentes';
-        const MAX_RECENTES = """ + str(MAX_RECENTES) + """;
+        const MAX_RECENTES = """ + f"{MAX_RECENTES}" + """;
         let favoritos = {};
         let recentes = [];
         let copiarBtnMulti = null; // Definido no DOMContentLoaded
@@ -353,7 +366,7 @@ JAVASCRIPT_BLOCO = r"""
             });
             console.log(`[copiarSelecionados] ${countCopiados} textos coletados.`);
             if (countCopiados === 0) { alert("Não foi possível extrair texto."); atualizarBotaoCopiarSelecionados(); return; }
-            const textoFinal = textoCombinado.join('\\r\\n\\r\\n');
+            const textoFinal = textoCombinado.join('\r\n\r\n');
             console.log("[copiarSelecionados] Texto final (início):", textoFinal.substring(0,100)+"...");
             navigator.clipboard.writeText(textoFinal).then(() => {
                 console.log("[copiarSelecionados] Sucesso na cópia.");
@@ -403,7 +416,7 @@ JAVASCRIPT_BLOCO = r"""
         // --- Funções para Multi-Seleção e Limpar ---
         function setupCheckboxListeners() { const container = document.querySelector('.container'); if (container) { container.addEventListener('change', function(event) { if (event.target.matches('.item-selecionar')) { console.log("[Checkbox Change] Evento detectado:", event.target.checked); atualizarBotaoCopiarSelecionados(); } }); } else { console.error("Container principal não encontrado."); } }
 
-        // Função ATUALIZADA para mostrar/esconder botão e atualizar contador (mais robusta)
+        // Função ATUALIZADA para mostrar/esconder botão, atualizar contador E controlar flutuação
         function atualizarBotaoCopiarSelecionados() {
             console.log("[atualizarBotao] Iniciando...");
             const abaAtiva = document.querySelector('.tab-content.active');
@@ -411,14 +424,16 @@ JAVASCRIPT_BLOCO = r"""
 
             if (!abaAtiva || !btnMulti) {
                  console.warn("[atualizarBotao] Aba ativa ou Botão não encontrados.");
-                 if(btnMulti) btnMulti.classList.remove('visivel');
+                 if(btnMulti) {
+                     btnMulti.classList.remove('visivel', 'botao-copiar-flutuante'); // Esconde e remove flutuação se botão existe mas aba não
+                 }
                 return;
             }
 
             // Busca o span DENTRO do botão CADA VEZ
             let spanContador = btnMulti.querySelector('#contadorSelecionados');
 
-            // Conta TODOS os checkboxes checados na aba ativa
+            // Conta TODOS os checkboxes checados na aba ativa (usando a classe correta '.item-selecionar')
             const checkboxesSelecionados = abaAtiva.querySelectorAll('.item-selecionar:checked');
             let contagemItens = checkboxesSelecionados.length;
             console.log(`[atualizarBotao] Contagem na aba '${abaAtiva.id}': ${contagemItens}`);
@@ -441,14 +456,17 @@ JAVASCRIPT_BLOCO = r"""
                  console.error("[atualizarBotao] ERRO FATAL: Span #contadorSelecionados não pôde ser encontrado ou recriado!");
             }
 
-            // Mostra ou esconde o BOTÃO
+            // Mostra ou esconde o BOTÃO E CONTROLA FLUTUAÇÃO
+            // Alterado para > 0 para mostrar com 1 ou mais selecionados
             if (contagemItens > 0) {
-                console.log("[atualizarBotao] CONDIÇÃO: contagemItens > 0. Tornando visível.");
-                btnMulti.classList.add('visivel');
-                btnMulti.classList.remove('copiado-multi');
+                console.log("[atualizarBotao] CONDIÇÃO: contagemItens > 0. Tornando visível E flutuante.");
+                // Adiciona ambas as classes para mostrar e flutuar
+                btnMulti.classList.add('visivel', 'botao-copiar-flutuante');
+                btnMulti.classList.remove('copiado-multi'); // Remove feedback de cópia se houver
             } else { // contagemItens é 0
-                console.log("[atualizarBotao] CONDIÇÃO: contagemItens === 0. Escondendo.");
-                btnMulti.classList.remove('visivel');
+                console.log("[atualizarBotao] CONDIÇÃO: contagemItens === 0. Escondendo E removendo flutuação.");
+                // Remove ambas as classes para esconder e parar de flutuar
+                btnMulti.classList.remove('visivel', 'botao-copiar-flutuante');
                 btnMulti.classList.remove('copiado-multi');
                 // Garante que o contador (se existir) mostra 0
                  if (spanContador) spanContador.textContent = '0';
@@ -519,9 +537,6 @@ def gerar_html():
     html_abas_nav_list = []; html_abas_conteudo_list = []; primeira_aba = True
     ordem_planilhas = ["Medicamentos", "ExameFisicos", "Procedimentos", "Orientacoes", "Outros"]
     planilhas_encontradas = list(sheets_data.keys())
-    for sheet_name in planilhas_encontradas:
-        if sheet_name not in ordem_planilhas: ordem_planilhas.append(sheet_name)
-
     for idx, sheet_name in enumerate(ordem_planilhas):
         if sheet_name not in sheets_data: print(f"AVISO: Planilha '{sheet_name}' não encontrada. Pulando."); continue
         df = sheets_data[sheet_name]; print(f"Processando planilha: '{sheet_name}'..."); id_aba = f"aba-{sanitizar_nome(sheet_name)}"
@@ -551,7 +566,7 @@ def gerar_html():
         elif not df.empty and 'NomeBusca' in df.columns: # Ordenação padrão para outras abas
              df = df.sort_values(by=['NomeBusca'], ascending=True)
 
-        cor_index = idx % len(CORES_ABAS); classe_cor = f"tab-color-{cor_index}"; active_class_nav = 'active' if primeira_aba else ''
+        cor_index = ordem_planilhas.index(sheet_name) % len(CORES_ABAS); classe_cor = f"tab-color-{cor_index}"; active_class_nav = 'active' if primeira_aba else ''
         html_abas_nav_list.append(f'<li><button class="{active_class_nav} {classe_cor}" onclick="mostrarAba(\'{id_aba}\')">{sheet_name}</button></li>')
         active_class_content = 'active' if primeira_aba else ''; conteudo_atual_partes = [f'<div id="{id_aba}" class="tab-content {active_class_content}">']
         conteudo_atual_partes.append(f'<div class="quick-access-container favoritos-container" id="favoritos-{id_aba}"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-{id_aba}"></div></div>')
