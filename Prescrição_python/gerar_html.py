@@ -92,21 +92,17 @@ HTML_INICIO = """
         .theme-toggle:hover { background-color: rgba(0,0,0,0.05); border-color: var(--primary-color); }
         [data-theme="dark"] .theme-toggle:hover { background-color: rgba(255,255,255,0.1); border-color: var(--primary-color); }
         #copiarSelecionadosBtn { /* Estilo do botão copiar */
-            background-color: var(--primary-color); color: white; border: none; padding: 8px 15px; border-radius: var(--radius-md); cursor: pointer; font-size: 0.9em; transition: background-color var(--transition-speed), opacity var(--transition-speed); display: none; /* Começa escondido - JS controla visibilidade */
-            opacity: 0; /* Começa transparente */
-            visibility: hidden; /* Começa inacessível */
+            background-color: #6c757d; /* Cinza escuro como nova cor base */
+            color: white; border: none; padding: 8px 15px; border-radius: var(--radius-md); cursor: pointer; font-size: 0.9em; transition: all var(--transition-speed); display: none; /* Começa escondido */
+            opacity: 0; visibility: hidden;
         }
         #copiarSelecionadosBtn.visivel { /* Classe adicionada por JS */
-            display: inline-flex; /* Ou block, dependendo do fluxo */
-            align-items: center;
-            gap: 6px;
-            opacity: 1;
-            visibility: visible;
+            display: inline-flex; align-items: center; gap: 6px;
+            opacity: 1; visibility: visible;
         }
-        #copiarSelecionadosBtn:hover { background-color: var(--primary-hover); }
-        #copiarSelecionadosBtn.copiado-multi { background-color: var(--success-color); }
+        #copiarSelecionadosBtn:hover { background-color: #5a6268; /* Cinza mais escuro no hover */ }
+        #copiarSelecionadosBtn.copiado-multi { background-color: var(--success-color); } /* Verde sucesso mantido */
         #copiarSelecionadosBtn .btn-icon { margin-right: 4px; }
-
 
         /* Abas */
         .tab-nav { list-style-type: none; padding: 0; margin: 25px 0 0 0; display: flex; flex-wrap: wrap; gap: 10px; border: none; width: 100%; }
@@ -222,43 +218,57 @@ HTML_INICIO = """
         }
         [data-theme="dark"] .char-counter { background-color: rgba(0, 0, 0, 0.5); }
         .item-actions { display: flex; gap: 10px; margin-top: 5px; }
+        /* Estilo Base Comum para botões de ação */
         .item-actions button {
             padding: 6px 12px; font-size: 0.85em; border-radius: var(--radius-md); cursor: pointer;
-            border: 1px solid var(--border-color); background-color: var(--card-bg); color: var(--primary-color);
-            transition: all var(--transition-speed);
+            border: 1px solid var(--border-color); transition: all var(--transition-speed);
         }
-        .item-actions button:hover { background-color: var(--light-bg); border-color: var(--primary-color); }
-        [data-theme="dark"] .item-actions button { background-color: var(--dark-bg); border-color: var(--border-color); color: var(--primary-color); }
-        [data-theme="dark"] .item-actions button:hover { background-color: var(--card-bg); border-color: var(--primary-color); }
+        /* Botão Copiar Item (Fundo Primário) */
+        .item-actions .btn-copiar-item {
+            background-color: var(--primary-color); color: white; border-color: var(--primary-color);
+        }
+        .item-actions .btn-copiar-item:hover { background-color: var(--primary-hover); border-color: var(--primary-hover); }
         .item-actions .btn-copiar-item.copiado-feedback { background-color: var(--success-color); color: white; border-color: var(--success-color); }
-        .item-actions .btn-favorito-item.ativo { background-color: #ffc107; color: #333; border-color: #ffc107; font-weight: 500; }
+
+        /* Botão Favoritar Item (Estilo Sutil por Padrão) */
+        .item-actions .btn-favorito-item {
+            background-color: transparent; color: var(--text-muted); border-color: var(--border-color);
+        }
+        .item-actions .btn-favorito-item:hover { background-color: var(--light-bg); border-color: var(--text-muted); color: var(--text-color); }
+        [data-theme="dark"] .item-actions .btn-favorito-item { background-color: transparent; color: var(--text-muted); border-color: var(--border-color); }
+        [data-theme="dark"] .item-actions .btn-favorito-item:hover { background-color: var(--dark-bg); border-color: var(--text-muted); color: var(--text-color); }
+
+        /* Botão Favoritar ATIVO (Estilo Amarelo) */
+        .item-actions .btn-favorito-item.ativo {
+            background-color: #ffc107; color: #333; border-color: #ffc107; font-weight: 500;
+        }
         .item-actions .btn-favorito-item.ativo:hover { filter: brightness(95%); }
 
-        /* Botão Voltar ao Topo */
+        /* Botão Voltar ao Topo (Retangular) */
         #scrollToTopBtn {
             display: none; position: fixed; bottom: 20px; right: 20px; z-index: 99;
             border: none; outline: none; background-color: var(--primary-color); color: white;
-            cursor: pointer; padding: 10px 14px; border-radius: 50%; /* Círculo */
-            font-size: 18px; box-shadow: var(--shadow-md);
+            cursor: pointer; padding: 8px 12px; /* Ajuste padding para retângulo */
+            border-radius: var(--radius-sm); /* Pequeno arredondamento, não círculo */
+            font-size: 16px; /* Pode ajustar tamanho do ícone/texto */
+            box-shadow: var(--shadow-md);
             transition: background-color var(--transition-speed), opacity var(--transition-speed), transform var(--transition-speed);
-            opacity: 0; transform: translateY(10px); /* Começa deslocado */
+            opacity: 0; transform: translateY(10px);
         }
-        #scrollToTopBtn.visible { /* Classe adicionada por JS */
-             display: block;
-             opacity: 0.8;
-             transform: translateY(0);
-        }
+        #scrollToTopBtn.visible { display: block; opacity: 0.8; transform: translateY(0); }
         #scrollToTopBtn:hover { background-color: var(--primary-hover); opacity: 1; }
         [data-theme="dark"] #scrollToTopBtn { background-color: var(--primary-hover); }
         [data-theme="dark"] #scrollToTopBtn:hover { background-color: var(--primary-color); }
 
-        /* Botão Copiar Flutuante (Apenas estilo base, JS controla visibilidade e posição) */
+        /* Botão Copiar Flutuante (Posição Ajustada) */
         .botao-copiar-flutuante {
-          /* Estilos já definidos em #copiarSelecionadosBtn */
-          position: fixed; /* Garante posição fixa */
-          bottom: 70px; /* Posição acima do botão Voltar ao Topo */
-          right: 20px;
+          /* Herda estilos de #copiarSelecionadosBtn */
+          position: fixed;
+          bottom: 85px; /* Mais para cima */
+          right: 50%; /* Centraliza horizontalmente */
+          transform: translateX(50%); /* Corrige centralização */
           z-index: 1000;
+          box-shadow: var(--shadow-md); /* Adiciona sombra para destaque */
         }
 
         /* Animações e Responsividade */
@@ -281,13 +291,24 @@ HTML_INICIO = """
             .busca-container { flex-direction: column; } /* Empilha busca em mobile */
             .busca-controles-extra { justify-content: center; } /* Centraliza botões limpar */
             #scrollToTopBtn { bottom: 15px; right: 15px; padding: 8px 12px; font-size: 16px; }
-            .botao-copiar-flutuante { bottom: 60px; right: 15px; }
+            .botao-copiar-flutuante {
+                bottom: 75px; /* Ajusta posição em telas menores */
+                right: 50%;
+                transform: translateX(50%);
+                padding: 10px 18px; /* Um pouco maior em mobile */
+            }
         }
         @media (max-width: 480px) {
             .tab-nav li { min-width: 70px;}
             .item-actions { flex-direction: row; flex-wrap: wrap; } /* Botões podem quebrar linha */
             .quick-access-lista { gap: 6px; }
             .quick-access-item { padding: 4px 8px; font-size: 0.8em; }
+            .botao-copiar-flutuante {
+                 width: calc(100% - 30px); /* Ocupa mais largura em telas muito pequenas */
+                 right: 15px;
+                 transform: translateX(0); /* Remove centralização */
+                 bottom: 65px;
+            }
         }
     </style>
 </head>
@@ -880,49 +901,75 @@ HTML_FIM = """
 
 # --- Lógica Principal ---
 def gerar_html():
-    print(f"Tentando ler TODAS as planilhas do arquivo Excel: {ARQUIVO_EXCEL}")
     try:
-        sheets_data = pd.read_excel(ARQUIVO_EXCEL, sheet_name=None)
-        print(f"Planilhas lidas com sucesso: {list(sheets_data.keys())}")
-    except FileNotFoundError: print(f"ERRO: Arquivo Excel não encontrado em '{ARQUIVO_EXCEL}'"); return
-    except Exception as e: print(f"ERRO ao ler o arquivo Excel: {e}"); return
+        xls = pd.ExcelFile(ARQUIVO_EXCEL)
+    except FileNotFoundError:
+        print(f"ERRO: Arquivo Excel não encontrado em '{ARQUIVO_EXCEL}'.")
+        return
+    except Exception as e:
+        print(f"ERRO ao abrir o arquivo Excel: {e}")
+        return
 
-    html_abas_nav_list = []; html_abas_conteudo_list = []; primeira_aba = True
-    ordem_planilhas = ["Medicamentos", "ExameFisicos", "Procedimentos", "Orientacoes", "Outros"]
-    planilhas_encontradas = list(sheets_data.keys())
-    for idx, sheet_name in enumerate(ordem_planilhas):
-        if sheet_name not in sheets_data: print(f"AVISO: Planilha '{sheet_name}' não encontrada. Pulando."); continue
-        df = sheets_data[sheet_name]; print(f"Processando planilha: '{sheet_name}'..."); id_aba = f"aba-{sanitizar_nome(sheet_name)}"
-        is_medicamentos = sheet_name.lower() == 'medicamentos'
+    ordem_planilhas = xls.sheet_names # Ordem padrão do arquivo
+    html_abas_nav_list = []
+    html_abas_conteudo_list = []
+    primeira_aba = True
+
+    # Loop principal sobre as planilhas
+    for sheet_name in ordem_planilhas:
+        print(f"Processando planilha: '{sheet_name}'...")
+        try:
+            df = pd.read_excel(xls, sheet_name=sheet_name)
+            # Remover linhas onde 'NomeBusca' é NaN ou vazio
+            df = df.dropna(subset=['NomeBusca'])
+            df = df[df['NomeBusca'].astype(str).str.strip() != '']
+        except Exception as e:
+            print(f"ERRO ao ler a planilha '{sheet_name}': {e}")
+            continue # Pula para a próxima planilha
+
+        id_aba = sanitizar_nome(sheet_name)
+
+        # Determina se é planilha de medicamentos (verifica colunas)
+        is_medicamentos = all(col in df.columns for col in COLUNAS_MEDICAMENTOS)
+
         if is_medicamentos:
             colunas_esperadas = COLUNAS_MEDICAMENTOS
-            template_item = ITEM_TEMPLATE_MEDICAMENTOS
             coluna_conteudo = 'PrescricaoCompleta'
         else:
             colunas_esperadas = COLUNAS_GENERICAS
-            template_item = ITEM_TEMPLATE_GENERICO
             coluna_conteudo = 'ConteudoTexto'
-        colunas_faltantes = [col for col in colunas_esperadas if col not in df.columns]
-        if colunas_faltantes: print(f"AVISO: Planilha '{sheet_name}' pulada. Colunas faltantes: {', '.join(colunas_faltantes)}."); continue
 
-        # --- Ordenação --- (Aplicada ANTES de iterar pelas linhas)
+        # Verifica colunas essenciais
+        colunas_faltantes = [col for col in colunas_esperadas if col not in df.columns]
+        if colunas_faltantes:
+            print(f"AVISO: Planilha '{sheet_name}' pulada. Colunas essenciais faltantes: {', '.join(colunas_faltantes)}.")
+            continue # Pula para a próxima planilha
+
+        # --- Ordenação ---
         if is_medicamentos:
             print(f"Aplicando ordenação personalizada para '{sheet_name}'...")
             # Converter OrdemPrioridade para numérico, tratando erros e preenchendo NaN
-            # Usamos um valor alto (float('inf')) para que NaNs fiquem por último
             df['OrdemPrioridadeNumerica'] = pd.to_numeric(df['OrdemPrioridade'], errors='coerce').fillna(float('inf'))
             # Ordena: 1º Doenca (A-Z), 2º OrdemPrioridade (Menor primeiro, sem prioridade por último), 3º NomeBusca (A-Z)
             df = df.sort_values(by=['Doenca', 'OrdemPrioridadeNumerica', 'NomeBusca'], ascending=[True, True, True])
-            # Opcional: Remover a coluna numérica auxiliar se não for mais necessária
-            # df = df.drop(columns=['OrdemPrioridadeNumerica'])
+            # df = df.drop(columns=['OrdemPrioridadeNumerica']) # Opcional
             print(f"Ordenação para '{sheet_name}' concluída.")
         elif not df.empty and 'NomeBusca' in df.columns: # Ordenação padrão para outras abas
              df = df.sort_values(by=['NomeBusca'], ascending=True)
 
-        cor_index = ordem_planilhas.index(sheet_name) % len(CORES_ABAS); classe_cor = f"tab-color-{cor_index}"; active_class_nav = 'active' if primeira_aba else ''
+        # --- Geração de HTML para a Aba ---
+        cor_index = ordem_planilhas.index(sheet_name) % len(CORES_ABAS)
+        classe_cor = f"tab-color-{cor_index}"
+        active_class_nav = 'active' if primeira_aba else ''
         html_abas_nav_list.append(f'<li><button class="{active_class_nav} {classe_cor}" onclick="mostrarAba(\'{id_aba}\')">{sheet_name}</button></li>')
-        active_class_content = 'active' if primeira_aba else ''; conteudo_atual_partes = [f'<div id="{id_aba}" class="tab-content {active_class_content}">']
+
+        active_class_content = 'active' if primeira_aba else ''
+        conteudo_atual_partes = [f'<div id="{id_aba}" class="tab-content {active_class_content}">']
+
+        # Adiciona container de favoritos
         conteudo_atual_partes.append(f'<div class="quick-access-container favoritos-container" id="favoritos-{id_aba}"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-{id_aba}"></div></div>')
+
+        # Adiciona container de busca
         busca_html = ['<div class="busca-container">']
         if is_medicamentos:
             busca_html.append(f'<div><label for="busca-medicamentos-nome">Buscar por Nome:</label><input type="text" id="busca-medicamentos-nome" onkeyup="filtrarLista(\'{id_aba}\')" placeholder="Ex: Dipirona..."></div>')
@@ -933,27 +980,49 @@ def gerar_html():
         busca_html.append('<div class="busca-controles-extra" style="flex-basis: 100%;">')
         busca_html.append(f'<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros(\'{id_aba}\')">Limpar Filtros</button>')
         busca_html.append(f'<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao(\'{id_aba}\')">Limpar Seleção</button>')
-        busca_html.append('</div>')
-        busca_html.append('</div>')
+        busca_html.append('</div>') # Fecha busca-controles-extra
+        busca_html.append('</div>') # Fecha busca-container
         conteudo_atual_partes.extend(busca_html)
-        # CORREÇÃO DE INDENTAÇÃO APLICADA AQUI
-        itens_html_lista = [] # Inicializa lista AQUI com indentação correta
-        for indice, linha in df.iterrows(): # Loop interno com indentação maior
-            if 'NomeBusca' not in linha or pd.isna(linha['NomeBusca']): continue
-            nome_busca = str(linha['NomeBusca']).strip()
-            if coluna_conteudo not in linha or pd.isna(linha[coluna_conteudo]): continue
-            conteudo_texto = str(linha[coluna_conteudo]).strip(); conteudo_formatado_escaped = html.escape(conteudo_texto)
-            if is_medicamentos:
-                 categoria = str(linha.get('Categoria', '')).strip(); doenca = str(linha.get('Doenca', '')).strip(); categoria_display = categoria if categoria else ''; doenca_display = doenca if doenca else ''
-                 item_html = template_item.format(nome_busca=nome_busca, categoria=categoria_display, doenca=doenca_display, nome_busca_lower=nome_busca.lower(), categoria_lower=categoria.lower(), doenca_lower=doenca.lower(), conteudo_formatado=conteudo_formatado_escaped)
-            else: item_html = template_item.format(id_aba=id_aba, nome_busca=nome_busca, nome_busca_lower=nome_busca.lower(), conteudo_formatado=conteudo_formatado_escaped)
-            itens_html_lista.append(item_html) # Append indentado dentro do loop interno
 
-        # Linhas seguintes alinhadas com itens_html_lista = []
+        # --- Geração de HTML para os Itens ---
+        itens_html_lista = []
+        for indice, linha in df.iterrows():
+            # Pula linha se coluna de conteúdo estiver vazia (NomeBusca já foi verificado)
+            if pd.isna(linha[coluna_conteudo]): continue
+            nome_busca = str(linha['NomeBusca']).strip()
+            conteudo_texto = str(linha[coluna_conteudo]).strip()
+            conteudo_formatado_escaped = html.escape(conteudo_texto)
+
+            template_item = ITEM_TEMPLATE_MEDICAMENTOS if is_medicamentos else ITEM_TEMPLATE_GENERICO
+
+            if is_medicamentos:
+                 categoria = str(linha.get('Categoria', '')).strip()
+                 doenca = str(linha.get('Doenca', '')).strip()
+                 categoria_display = categoria if categoria else ''
+                 doenca_display = doenca if doenca else ''
+                 item_html = template_item.format(
+                     nome_busca=html.escape(nome_busca),
+                     categoria=html.escape(categoria_display),
+                     doenca=html.escape(doenca_display),
+                     nome_busca_lower=html.escape(nome_busca.lower()),
+                     categoria_lower=html.escape(categoria.lower()),
+                     doenca_lower=html.escape(doenca.lower()),
+                     conteudo_formatado=conteudo_formatado_escaped
+                 )
+            else:
+                 item_html = template_item.format(
+                     id_aba=id_aba,
+                     nome_busca=html.escape(nome_busca),
+                     nome_busca_lower=html.escape(nome_busca.lower()),
+                     conteudo_formatado=conteudo_formatado_escaped
+                 )
+            itens_html_lista.append(item_html)
+
         conteudo_atual_partes.append("\n".join(itens_html_lista))
-        conteudo_atual_partes.append('</div>'); # Fecha tab-content
-        html_abas_conteudo_list.append("\n".join(conteudo_atual_partes)) # Junta partes da aba
+        conteudo_atual_partes.append('</div>') # Fecha tab-content
+        html_abas_conteudo_list.append("\n".join(conteudo_atual_partes))
         primeira_aba = False
+    # Fim do loop principal sobre as planilhas
 
     # Combina todas as partes do HTML
     html_navegacao = "\n".join(html_abas_nav_list)

@@ -55,21 +55,17 @@
         .theme-toggle:hover { background-color: rgba(0,0,0,0.05); border-color: var(--primary-color); }
         [data-theme="dark"] .theme-toggle:hover { background-color: rgba(255,255,255,0.1); border-color: var(--primary-color); }
         #copiarSelecionadosBtn { /* Estilo do botão copiar */
-            background-color: var(--primary-color); color: white; border: none; padding: 8px 15px; border-radius: var(--radius-md); cursor: pointer; font-size: 0.9em; transition: background-color var(--transition-speed), opacity var(--transition-speed); display: none; /* Começa escondido - JS controla visibilidade */
-            opacity: 0; /* Começa transparente */
-            visibility: hidden; /* Começa inacessível */
+            background-color: #6c757d; /* Cinza escuro como nova cor base */
+            color: white; border: none; padding: 8px 15px; border-radius: var(--radius-md); cursor: pointer; font-size: 0.9em; transition: all var(--transition-speed); display: none; /* Começa escondido */
+            opacity: 0; visibility: hidden;
         }
         #copiarSelecionadosBtn.visivel { /* Classe adicionada por JS */
-            display: inline-flex; /* Ou block, dependendo do fluxo */
-            align-items: center;
-            gap: 6px;
-            opacity: 1;
-            visibility: visible;
+            display: inline-flex; align-items: center; gap: 6px;
+            opacity: 1; visibility: visible;
         }
-        #copiarSelecionadosBtn:hover { background-color: var(--primary-hover); }
-        #copiarSelecionadosBtn.copiado-multi { background-color: var(--success-color); }
+        #copiarSelecionadosBtn:hover { background-color: #5a6268; /* Cinza mais escuro no hover */ }
+        #copiarSelecionadosBtn.copiado-multi { background-color: var(--success-color); } /* Verde sucesso mantido */
         #copiarSelecionadosBtn .btn-icon { margin-right: 4px; }
-
 
         /* Abas */
         .tab-nav { list-style-type: none; padding: 0; margin: 25px 0 0 0; display: flex; flex-wrap: wrap; gap: 10px; border: none; width: 100%; }
@@ -194,43 +190,57 @@
         }
         [data-theme="dark"] .char-counter { background-color: rgba(0, 0, 0, 0.5); }
         .item-actions { display: flex; gap: 10px; margin-top: 5px; }
+        /* Estilo Base Comum para botões de ação */
         .item-actions button {
             padding: 6px 12px; font-size: 0.85em; border-radius: var(--radius-md); cursor: pointer;
-            border: 1px solid var(--border-color); background-color: var(--card-bg); color: var(--primary-color);
-            transition: all var(--transition-speed);
+            border: 1px solid var(--border-color); transition: all var(--transition-speed);
         }
-        .item-actions button:hover { background-color: var(--light-bg); border-color: var(--primary-color); }
-        [data-theme="dark"] .item-actions button { background-color: var(--dark-bg); border-color: var(--border-color); color: var(--primary-color); }
-        [data-theme="dark"] .item-actions button:hover { background-color: var(--card-bg); border-color: var(--primary-color); }
+        /* Botão Copiar Item (Fundo Primário) */
+        .item-actions .btn-copiar-item {
+            background-color: var(--primary-color); color: white; border-color: var(--primary-color);
+        }
+        .item-actions .btn-copiar-item:hover { background-color: var(--primary-hover); border-color: var(--primary-hover); }
         .item-actions .btn-copiar-item.copiado-feedback { background-color: var(--success-color); color: white; border-color: var(--success-color); }
-        .item-actions .btn-favorito-item.ativo { background-color: #ffc107; color: #333; border-color: #ffc107; font-weight: 500; }
+
+        /* Botão Favoritar Item (Estilo Sutil por Padrão) */
+        .item-actions .btn-favorito-item {
+            background-color: transparent; color: var(--text-muted); border-color: var(--border-color);
+        }
+        .item-actions .btn-favorito-item:hover { background-color: var(--light-bg); border-color: var(--text-muted); color: var(--text-color); }
+        [data-theme="dark"] .item-actions .btn-favorito-item { background-color: transparent; color: var(--text-muted); border-color: var(--border-color); }
+        [data-theme="dark"] .item-actions .btn-favorito-item:hover { background-color: var(--dark-bg); border-color: var(--text-muted); color: var(--text-color); }
+
+        /* Botão Favoritar ATIVO (Estilo Amarelo) */
+        .item-actions .btn-favorito-item.ativo {
+            background-color: #ffc107; color: #333; border-color: #ffc107; font-weight: 500;
+        }
         .item-actions .btn-favorito-item.ativo:hover { filter: brightness(95%); }
 
-        /* Botão Voltar ao Topo */
+        /* Botão Voltar ao Topo (Retangular) */
         #scrollToTopBtn {
             display: none; position: fixed; bottom: 20px; right: 20px; z-index: 99;
             border: none; outline: none; background-color: var(--primary-color); color: white;
-            cursor: pointer; padding: 10px 14px; border-radius: 50%; /* Círculo */
-            font-size: 18px; box-shadow: var(--shadow-md);
+            cursor: pointer; padding: 8px 12px; /* Ajuste padding para retângulo */
+            border-radius: var(--radius-sm); /* Pequeno arredondamento, não círculo */
+            font-size: 16px; /* Pode ajustar tamanho do ícone/texto */
+            box-shadow: var(--shadow-md);
             transition: background-color var(--transition-speed), opacity var(--transition-speed), transform var(--transition-speed);
-            opacity: 0; transform: translateY(10px); /* Começa deslocado */
+            opacity: 0; transform: translateY(10px);
         }
-        #scrollToTopBtn.visible { /* Classe adicionada por JS */
-             display: block;
-             opacity: 0.8;
-             transform: translateY(0);
-        }
+        #scrollToTopBtn.visible { display: block; opacity: 0.8; transform: translateY(0); }
         #scrollToTopBtn:hover { background-color: var(--primary-hover); opacity: 1; }
         [data-theme="dark"] #scrollToTopBtn { background-color: var(--primary-hover); }
         [data-theme="dark"] #scrollToTopBtn:hover { background-color: var(--primary-color); }
 
-        /* Botão Copiar Flutuante (Apenas estilo base, JS controla visibilidade e posição) */
+        /* Botão Copiar Flutuante (Posição Ajustada) */
         .botao-copiar-flutuante {
-          /* Estilos já definidos em #copiarSelecionadosBtn */
-          position: fixed; /* Garante posição fixa */
-          bottom: 70px; /* Posição acima do botão Voltar ao Topo */
-          right: 20px;
+          /* Herda estilos de #copiarSelecionadosBtn */
+          position: fixed;
+          bottom: 85px; /* Mais para cima */
+          right: 50%; /* Centraliza horizontalmente */
+          transform: translateX(50%); /* Corrige centralização */
           z-index: 1000;
+          box-shadow: var(--shadow-md); /* Adiciona sombra para destaque */
         }
 
         /* Animações e Responsividade */
@@ -253,13 +263,24 @@
             .busca-container { flex-direction: column; } /* Empilha busca em mobile */
             .busca-controles-extra { justify-content: center; } /* Centraliza botões limpar */
             #scrollToTopBtn { bottom: 15px; right: 15px; padding: 8px 12px; font-size: 16px; }
-            .botao-copiar-flutuante { bottom: 60px; right: 15px; }
+            .botao-copiar-flutuante {
+                bottom: 75px; /* Ajusta posição em telas menores */
+                right: 50%;
+                transform: translateX(50%);
+                padding: 10px 18px; /* Um pouco maior em mobile */
+            }
         }
         @media (max-width: 480px) {
             .tab-nav li { min-width: 70px;}
             .item-actions { flex-direction: row; flex-wrap: wrap; } /* Botões podem quebrar linha */
             .quick-access-lista { gap: 6px; }
             .quick-access-item { padding: 4px 8px; font-size: 0.8em; }
+            .botao-copiar-flutuante {
+                 width: calc(100% - 30px); /* Ocupa mais largura em telas muito pequenas */
+                 right: 15px;
+                 transform: translateX(0); /* Remove centralização */
+                 bottom: 65px;
+            }
         }
     </style>
 </head>
@@ -292,21 +313,21 @@
 
         <!-- Navegação e Conteúdo das Abas -->
         <ul class="tab-nav" id="navAbas">
-            <li><button class="active tab-color-0" onclick="mostrarAba('aba-medicamentos')">Medicamentos</button></li>
-<li><button class=" tab-color-1" onclick="mostrarAba('aba-examefisicos')">ExameFisicos</button></li>
-<li><button class=" tab-color-2" onclick="mostrarAba('aba-procedimentos')">Procedimentos</button></li>
-<li><button class=" tab-color-3" onclick="mostrarAba('aba-orientacoes')">Orientacoes</button></li>
-<li><button class=" tab-color-4" onclick="mostrarAba('aba-outros')">Outros</button></li>
+            <li><button class="active tab-color-0" onclick="mostrarAba('medicamentos')">Medicamentos</button></li>
+<li><button class=" tab-color-1" onclick="mostrarAba('examefisicos')">ExameFisicos</button></li>
+<li><button class=" tab-color-2" onclick="mostrarAba('procedimentos')">Procedimentos</button></li>
+<li><button class=" tab-color-3" onclick="mostrarAba('orientacoes')">Orientacoes</button></li>
+<li><button class=" tab-color-4" onclick="mostrarAba('outros')">Outros</button></li>
         </ul>
-        <div id="aba-medicamentos" class="tab-content active">
-<div class="quick-access-container favoritos-container" id="favoritos-aba-medicamentos"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-aba-medicamentos"></div></div>
+        <div id="medicamentos" class="tab-content active">
+<div class="quick-access-container favoritos-container" id="favoritos-medicamentos"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-medicamentos"></div></div>
 <div class="busca-container">
-<div><label for="busca-medicamentos-nome">Buscar por Nome:</label><input type="text" id="busca-medicamentos-nome" onkeyup="filtrarLista('aba-medicamentos')" placeholder="Ex: Dipirona..."></div>
-<div><label for="busca-medicamentos-categoria">Buscar por Categoria:</label><input type="text" id="busca-medicamentos-categoria" onkeyup="filtrarLista('aba-medicamentos')" placeholder="Ex: Antibiótico..."></div>
-<div><label for="busca-medicamentos-doenca">Buscar por Doença:</label><input type="text" id="busca-medicamentos-doenca" onkeyup="filtrarLista('aba-medicamentos')" placeholder="Ex: Dor, HAS..."></div>
+<div><label for="busca-medicamentos-nome">Buscar por Nome:</label><input type="text" id="busca-medicamentos-nome" onkeyup="filtrarLista('medicamentos')" placeholder="Ex: Dipirona..."></div>
+<div><label for="busca-medicamentos-categoria">Buscar por Categoria:</label><input type="text" id="busca-medicamentos-categoria" onkeyup="filtrarLista('medicamentos')" placeholder="Ex: Antibiótico..."></div>
+<div><label for="busca-medicamentos-doenca">Buscar por Doença:</label><input type="text" id="busca-medicamentos-doenca" onkeyup="filtrarLista('medicamentos')" placeholder="Ex: Dor, HAS..."></div>
 <div class="busca-controles-extra" style="flex-basis: 100%;">
-<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('aba-medicamentos')">Limpar Filtros</button>
-<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('aba-medicamentos')">Limpar Seleção</button>
+<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('medicamentos')">Limpar Filtros</button>
+<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('medicamentos')">Limpar Seleção</button>
 </div>
 </div>
 
@@ -2194,17 +2215,17 @@ Tomar 1 comprimido por dia por 7 dias</pre>
         </div>
 
 </div>
-<div id="aba-examefisicos" class="tab-content ">
-<div class="quick-access-container favoritos-container" id="favoritos-aba-examefisicos"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-aba-examefisicos"></div></div>
+<div id="examefisicos" class="tab-content ">
+<div class="quick-access-container favoritos-container" id="favoritos-examefisicos"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-examefisicos"></div></div>
 <div class="busca-container">
-<div style="flex-basis: 100%;"><label for="busca-aba-examefisicos">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-aba-examefisicos" onkeyup="filtrarLista('aba-examefisicos')" placeholder="Digite para buscar..."></div>
+<div style="flex-basis: 100%;"><label for="busca-examefisicos">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-examefisicos" onkeyup="filtrarLista('examefisicos')" placeholder="Digite para buscar..."></div>
 <div class="busca-controles-extra" style="flex-basis: 100%;">
-<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('aba-examefisicos')">Limpar Filtros</button>
-<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('aba-examefisicos')">Limpar Seleção</button>
+<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('examefisicos')">Limpar Filtros</button>
+<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('examefisicos')">Limpar Seleção</button>
 </div>
 </div>
 
-        <div class="item item-aba-examefisicos" data-nome="dengue">
+        <div class="item item-examefisicos" data-nome="dengue">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Dengue</span> <span class="item-meta"></span> </div>
@@ -2229,7 +2250,7 @@ Oroscopia: sem lesões ou sinais de sangramento</pre>
         </div>
 
 
-        <div class="item item-aba-examefisicos" data-nome="feminino">
+        <div class="item item-examefisicos" data-nome="feminino">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Feminino</span> <span class="item-meta"></span> </div>
@@ -2247,7 +2268,7 @@ Neurológico: pupilas isocóricas e foto reagentes. Glasgow 15</pre>
         </div>
 
 
-        <div class="item item-aba-examefisicos" data-nome="masculino">
+        <div class="item item-examefisicos" data-nome="masculino">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Masculino</span> <span class="item-meta"></span> </div>
@@ -2265,7 +2286,7 @@ Neurológico: pupilas isocóricas e foto reagentes. Glasgow 15</pre>
         </div>
 
 
-        <div class="item item-aba-examefisicos" data-nome="psiquiátrico">
+        <div class="item item-examefisicos" data-nome="psiquiátrico">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Psiquiátrico</span> <span class="item-meta"></span> </div>
@@ -2278,7 +2299,7 @@ Neurológico: pupilas isocóricas e foto reagentes. Glasgow 15</pre>
         </div>
 
 
-        <div class="item item-aba-examefisicos" data-nome="trauma">
+        <div class="item item-examefisicos" data-nome="trauma">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Trauma</span> <span class="item-meta"></span> </div>
@@ -2295,17 +2316,17 @@ E –</pre>
         </div>
 
 </div>
-<div id="aba-procedimentos" class="tab-content ">
-<div class="quick-access-container favoritos-container" id="favoritos-aba-procedimentos"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-aba-procedimentos"></div></div>
+<div id="procedimentos" class="tab-content ">
+<div class="quick-access-container favoritos-container" id="favoritos-procedimentos"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-procedimentos"></div></div>
 <div class="busca-container">
-<div style="flex-basis: 100%;"><label for="busca-aba-procedimentos">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-aba-procedimentos" onkeyup="filtrarLista('aba-procedimentos')" placeholder="Digite para buscar..."></div>
+<div style="flex-basis: 100%;"><label for="busca-procedimentos">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-procedimentos" onkeyup="filtrarLista('procedimentos')" placeholder="Digite para buscar..."></div>
 <div class="busca-controles-extra" style="flex-basis: 100%;">
-<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('aba-procedimentos')">Limpar Filtros</button>
-<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('aba-procedimentos')">Limpar Seleção</button>
+<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('procedimentos')">Limpar Filtros</button>
+<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('procedimentos')">Limpar Seleção</button>
 </div>
 </div>
 
-        <div class="item item-aba-procedimentos" data-nome="cvc">
+        <div class="item item-procedimentos" data-nome="cvc">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">CVC</span> <span class="item-meta"></span> </div>
@@ -2318,7 +2339,7 @@ E –</pre>
         </div>
 
 
-        <div class="item item-aba-procedimentos" data-nome="iot">
+        <div class="item item-procedimentos" data-nome="iot">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">IOT</span> <span class="item-meta"></span> </div>
@@ -2331,7 +2352,7 @@ E –</pre>
         </div>
 
 
-        <div class="item item-aba-procedimentos" data-nome="rcp">
+        <div class="item item-procedimentos" data-nome="rcp">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">RCP</span> <span class="item-meta"></span> </div>
@@ -2357,17 +2378,17 @@ Cuidados Pós-Parada:
         </div>
 
 </div>
-<div id="aba-orientacoes" class="tab-content ">
-<div class="quick-access-container favoritos-container" id="favoritos-aba-orientacoes"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-aba-orientacoes"></div></div>
+<div id="orientacoes" class="tab-content ">
+<div class="quick-access-container favoritos-container" id="favoritos-orientacoes"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-orientacoes"></div></div>
 <div class="busca-container">
-<div style="flex-basis: 100%;"><label for="busca-aba-orientacoes">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-aba-orientacoes" onkeyup="filtrarLista('aba-orientacoes')" placeholder="Digite para buscar..."></div>
+<div style="flex-basis: 100%;"><label for="busca-orientacoes">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-orientacoes" onkeyup="filtrarLista('orientacoes')" placeholder="Digite para buscar..."></div>
 <div class="busca-controles-extra" style="flex-basis: 100%;">
-<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('aba-orientacoes')">Limpar Filtros</button>
-<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('aba-orientacoes')">Limpar Seleção</button>
+<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('orientacoes')">Limpar Filtros</button>
+<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('orientacoes')">Limpar Seleção</button>
 </div>
 </div>
 
-        <div class="item item-aba-orientacoes" data-nome="constipação">
+        <div class="item item-orientacoes" data-nome="constipação">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Constipação</span> <span class="item-meta"></span> </div>
@@ -2384,7 +2405,7 @@ e)	Durante a evacuação, pode-se tentar elevar os joelhos, apoiando os pés em 
         </div>
 
 
-        <div class="item item-aba-orientacoes" data-nome="drge">
+        <div class="item item-orientacoes" data-nome="drge">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">DRGE</span> <span class="item-meta"></span> </div>
@@ -2404,7 +2425,7 @@ g)	Tomar os medicamentos prescritos, mesmo na ausência de sintomas, e não usar
         </div>
 
 
-        <div class="item item-aba-orientacoes" data-nome="dengue">
+        <div class="item item-orientacoes" data-nome="dengue">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Dengue</span> <span class="item-meta"></span> </div>
@@ -2422,7 +2443,7 @@ Beba bastante líquidos!!!</pre>
         </div>
 
 
-        <div class="item item-aba-orientacoes" data-nome="dificuldade para dormir">
+        <div class="item item-orientacoes" data-nome="dificuldade para dormir">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Dificuldade para dormir</span> <span class="item-meta"></span> </div>
@@ -2445,7 +2466,7 @@ i)	Ter horários regulares para dormir e acordar, evitando cochilos durante o di
         </div>
 
 
-        <div class="item item-aba-orientacoes" data-nome="epistaxe">
+        <div class="item item-orientacoes" data-nome="epistaxe">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Epistaxe</span> <span class="item-meta"></span> </div>
@@ -2468,7 +2489,7 @@ k)	Procurar um médico em caso de sangramentos que não cessem.</pre>
         </div>
 
 
-        <div class="item item-aba-orientacoes" data-nome="hemorroida">
+        <div class="item item-orientacoes" data-nome="hemorroida">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Hemorroida</span> <span class="item-meta"></span> </div>
@@ -2487,7 +2508,7 @@ sentando-se nu dentro dela, de modo a permitir o contato da água com a lesão, 
         </div>
 
 
-        <div class="item item-aba-orientacoes" data-nome="tce">
+        <div class="item item-orientacoes" data-nome="tce">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">TCE</span> <span class="item-meta"></span> </div>
@@ -2521,17 +2542,17 @@ Pode continuar usando as medicações prescritas pelo seu MÉDICO, porém não u
         </div>
 
 </div>
-<div id="aba-outros" class="tab-content ">
-<div class="quick-access-container favoritos-container" id="favoritos-aba-outros"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-aba-outros"></div></div>
+<div id="outros" class="tab-content ">
+<div class="quick-access-container favoritos-container" id="favoritos-outros"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-outros"></div></div>
 <div class="busca-container">
-<div style="flex-basis: 100%;"><label for="busca-aba-outros">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-aba-outros" onkeyup="filtrarLista('aba-outros')" placeholder="Digite para buscar..."></div>
+<div style="flex-basis: 100%;"><label for="busca-outros">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-outros" onkeyup="filtrarLista('outros')" placeholder="Digite para buscar..."></div>
 <div class="busca-controles-extra" style="flex-basis: 100%;">
-<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('aba-outros')">Limpar Filtros</button>
-<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('aba-outros')">Limpar Seleção</button>
+<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('outros')">Limpar Filtros</button>
+<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('outros')">Limpar Seleção</button>
 </div>
 </div>
 
-        <div class="item item-aba-outros" data-nome="admissão ou observação">
+        <div class="item item-outros" data-nome="admissão ou observação">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Admissão ou observação</span> <span class="item-meta"></span> </div>
@@ -2599,7 +2620,7 @@ Peso:
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="atestado acompanhante">
+        <div class="item item-outros" data-nome="atestado acompanhante">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Atestado acompanhante</span> <span class="item-meta"></span> </div>
@@ -2617,7 +2638,7 @@ Data:</pre>
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="atestado médico">
+        <div class="item item-outros" data-nome="atestado médico">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Atestado médico</span> <span class="item-meta"></span> </div>
@@ -2634,7 +2655,7 @@ Data:</pre>
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="atestado paciente internado">
+        <div class="item item-outros" data-nome="atestado paciente internado">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Atestado paciente internado</span> <span class="item-meta"></span> </div>
@@ -2656,7 +2677,7 @@ Data:</pre>
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="evolução, amarela">
+        <div class="item item-outros" data-nome="evolução, amarela">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Evolução, amarela</span> <span class="item-meta"></span> </div>
@@ -2669,7 +2690,7 @@ Data:</pre>
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="evolução, vermelha">
+        <div class="item item-outros" data-nome="evolução, vermelha">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Evolução, vermelha</span> <span class="item-meta"></span> </div>
@@ -2682,7 +2703,7 @@ Data:</pre>
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="renovação uso contínuo">
+        <div class="item item-outros" data-nome="renovação uso contínuo">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Renovação Uso Contínuo</span> <span class="item-meta"></span> </div>
@@ -2697,7 +2718,7 @@ Obs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida 
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="renovação hospital dia">
+        <div class="item item-outros" data-nome="renovação hospital dia">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Renovação hospital dia</span> <span class="item-meta"></span> </div>
@@ -2712,7 +2733,7 @@ Obs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida 
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="solicitação exame">
+        <div class="item item-outros" data-nome="solicitação exame">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Solicitação exame</span> <span class="item-meta"></span> </div>
@@ -2727,7 +2748,7 @@ Obs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida 
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="sutura">
+        <div class="item item-outros" data-nome="sutura">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Sutura</span> <span class="item-meta"></span> </div>
@@ -2757,7 +2778,7 @@ Obs3.: Retirar os pontos com _ dias</pre>
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="sutura">
+        <div class="item item-outros" data-nome="sutura">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Sutura</span> <span class="item-meta"></span> </div>
@@ -2770,7 +2791,7 @@ Obs3.: Retirar os pontos com _ dias</pre>
         </div>
 
 
-        <div class="item item-aba-outros" data-nome="síndrome gripal">
+        <div class="item item-outros" data-nome="síndrome gripal">
              <input type="checkbox" class="item-selecionar">
              <div class="item-conteudo">
                 <div class="item-header"> <span class="item-nome">Síndrome gripal</span> <span class="item-meta"></span> </div>
