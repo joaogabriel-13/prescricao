@@ -10,7 +10,7 @@ PASTA_ATUAL = os.path.dirname(os.path.abspath(__file__))
 ARQUIVO_EXCEL = os.path.join(PASTA_ATUAL, 'prescricoes.xlsx')
 ARQUIVO_HTML_SAIDA = os.path.join(PASTA_ATUAL, 'minhas_prescricoes.html')
 
-COLUNAS_MEDICAMENTOS = ['NomeBusca', 'PrescricaoCompleta', 'Categoria', 'Doenca', 'OrdemPrioridade']
+COLUNAS_MEDICAMENTOS = ['NomeBusca', 'PrescricaoCompleta', 'Categoria', 'Doenca', 'OrdemPrioridade', 'FormaFarmaceutica']
 COLUNAS_GENERICAS = ['NomeBusca', 'ConteudoTexto']
 
 CORES_ABAS = [
@@ -1020,29 +1020,53 @@ def gerar_html():
             conteudo_texto = str(linha[coluna_conteudo]).strip()
             conteudo_formatado_escaped = html.escape(conteudo_texto)
 
-            template_item = ITEM_TEMPLATE_MEDICAMENTOS if is_medicamentos else ITEM_TEMPLATE_GENERICO
-
             if is_medicamentos:
-                 categoria = str(linha.get('Categoria', '')).strip()
-                 doenca = str(linha.get('Doenca', '')).strip()
-                 categoria_display = categoria if categoria else ''
-                 doenca_display = doenca if doenca else ''
-                 item_html = template_item.format(
-                     nome_busca=html.escape(nome_busca),
-                     categoria=html.escape(categoria_display),
-                     doenca=html.escape(doenca_display),
-                     nome_busca_lower=html.escape(nome_busca.lower()),
-                     categoria_lower=html.escape(categoria.lower()),
-                     doenca_lower=html.escape(doenca.lower()),
-                     conteudo_formatado=conteudo_formatado_escaped
-                 )
-            else:
-                 item_html = template_item.format(
-                     id_aba=id_aba,
-                     nome_busca=html.escape(nome_busca),
-                     nome_busca_lower=html.escape(nome_busca.lower()),
-                     conteudo_formatado=conteudo_formatado_escaped
-                 )
+                categoria = str(linha.get('Categoria', '')).strip()
+                doenca = str(linha.get('Doenca', '')).strip()
+                forma_farmaceutica = str(linha.get('FormaFarmaceutica', '')).strip()
+
+                categoria_display = categoria if categoria else ''
+                doenca_display = doenca if doenca else ''
+                forma_display = forma_farmaceutica if forma_farmaceutica else ''
+
+                meta_html_parts = []
+                if categoria_display:
+                    meta_html_parts.append(f'<span class="item-categoria"><strong>Cat:</strong> {html.escape(categoria_display)}</span>')
+                if doenca_display:
+                    meta_html_parts.append(f'<span class="item-doenca"><strong>Ind:</strong> {html.escape(doenca_display)}</span>')
+                if forma_display:
+                    meta_html_parts.append(f'<span class="item-forma"><strong>Forma:</strong> {html.escape(forma_display)}</span>')
+                
+                meta_html_final = " ".join(meta_html_parts)
+
+                item_html = f"""
+        <div class="item item-medicamentos" 
+             data-nome="{html.escape(nome_busca.lower())}" 
+             data-categoria="{html.escape(categoria.lower())}" 
+             data-doenca="{html.escape(doenca.lower())}"
+             data-forma="{html.escape(forma_farmaceutica.lower()) if forma_farmaceutica else ''}">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">{html.escape(nome_busca)}</span> 
+                    <span class="item-meta"> {meta_html_final} </span> 
+                </div>
+                <pre>{conteudo_formatado_escaped}</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    """
+            else: # Para abas genéricas
+                template_item = ITEM_TEMPLATE_GENERICO
+                item_html = template_item.format(
+                    id_aba=id_aba,
+                    nome_busca=html.escape(nome_busca),
+                    nome_busca_lower=html.escape(nome_busca.lower()),
+                    conteudo_formatado=conteudo_formatado_escaped
+                )
             itens_html_lista.append(item_html)
 
         conteudo_atual_partes.append("\n".join(itens_html_lista))
