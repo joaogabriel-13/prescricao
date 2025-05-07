@@ -313,12 +313,2840 @@
 
         <!-- Navegação e Conteúdo das Abas -->
         <ul class="tab-nav" id="navAbas">
-            <li><button class="active tab-color-1" onclick="mostrarAba('examefisicos')">ExameFisicos</button></li>
+            <li><button class="active tab-color-0" onclick="mostrarAba('medicamentos')">Medicamentos</button></li>
+<li><button class=" tab-color-1" onclick="mostrarAba('examefisicos')">ExameFisicos</button></li>
 <li><button class=" tab-color-2" onclick="mostrarAba('procedimentos')">Procedimentos</button></li>
 <li><button class=" tab-color-3" onclick="mostrarAba('orientacoes')">Orientacoes</button></li>
 <li><button class=" tab-color-4" onclick="mostrarAba('outros')">Outros</button></li>
         </ul>
-        <div id="examefisicos" class="tab-content active">
+        <div id="medicamentos" class="tab-content active">
+<div class="quick-access-container favoritos-container" id="favoritos-medicamentos"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-medicamentos"></div></div>
+<div class="busca-container">
+<div><label for="busca-medicamentos-nome">Buscar por Nome:</label><input type="text" id="busca-medicamentos-nome" onkeyup="filtrarLista('medicamentos')" placeholder="Ex: Dipirona..."></div>
+<div><label for="busca-medicamentos-categoria">Buscar por Categoria:</label><input type="text" id="busca-medicamentos-categoria" onkeyup="filtrarLista('medicamentos')" placeholder="Ex: Antibiótico..."></div>
+<div><label for="busca-medicamentos-doenca">Buscar por Doença:</label><input type="text" id="busca-medicamentos-doenca" onkeyup="filtrarLista('medicamentos')" placeholder="Ex: Dor, HAS..."></div>
+<div class="busca-controles-extra" style="flex-basis: 100%;">
+<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros('medicamentos')">Limpar Filtros</button>
+<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao('medicamentos')">Limpar Seleção</button>
+</div>
+</div>
+
+        <div class="item item-medicamentos" 
+             data-nome="dexametasona" 
+             data-categoria="corticoide tópico" 
+             data-doenca="estomatite aftosa"
+             data-forma="solução">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Dexametasona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide tópico</span> <span class="item-doenca"><strong>Ind:</strong> Estomatite aftosa</span> <span class="item-forma"><strong>Forma:</strong> solução</span> </span> 
+                </div>
+                <pre>1 – Dexametasona elixir 0,5 mg/5ml ____________________ 1 frasco
+Realizar bocejo com 5 ml de solução por 5 min de 8 em 8 horas por 7 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="triancinolona" 
+             data-categoria="corticoide tópico" 
+             data-doenca="estomatite aftosa"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Triancinolona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide tópico</span> <span class="item-doenca"><strong>Ind:</strong> Estomatite aftosa</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Triancinolona acetonida 1mg/g ________________ 1 tubo
+Aplicar sobre a lesão até de 8 em 8 horas por 7 dias após as refeições.</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="desloratadina" 
+             data-categoria="anti-histamínico" 
+             data-doenca="alergia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Desloratadina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-histamínico</span> <span class="item-doenca"><strong>Ind:</strong> alergia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Desloratadina 5 mg ______________________________ 1 caixa
+Tomar 1 comprimido por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="loratadina" 
+             data-categoria="anti-histamínico" 
+             data-doenca="alergia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Loratadina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-histamínico</span> <span class="item-doenca"><strong>Ind:</strong> alergia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Loratadina 10 mg _____________ 1 caixa
+Tomar 1 comprimido por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="dexclorfeniramina" 
+             data-categoria="anti-histamínico" 
+             data-doenca="alergia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Dexclorfeniramina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-histamínico</span> <span class="item-doenca"><strong>Ind:</strong> alergia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Dexclorfeniramina 2 mg ________ 1 caixa
+Tomar 1 comprimido de 8 em 8 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="hidroxizina" 
+             data-categoria="anti-histamínico" 
+             data-doenca="alergia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Hidroxizina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-histamínico</span> <span class="item-doenca"><strong>Ind:</strong> alergia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Hidroxizina 25 mg _______________________________ 1 caixa
+Tomar 1 comprimido de 8 em 8 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="prometazina" 
+             data-categoria="anti-histamínico" 
+             data-doenca="alergia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Prometazina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-histamínico</span> <span class="item-doenca"><strong>Ind:</strong> alergia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Prometazina 25 mg ______________________________ 1 caixa
+Tomar 1 comprimido de 12 em 12 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="sacarato de hidróxido férrico" 
+             data-categoria="ferro" 
+             data-doenca="anemia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Sacarato de hidróxido férrico</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Ferro</span> <span class="item-doenca"><strong>Ind:</strong> anemia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Sacarato de hidróxido férrico (ex..: noripurum) __________ __ amp(s)
+Diluir ___ ampolas em ___ de S.F.0,9%. Correr lentamente. Repetir a cada uma semana (__ semanas de duração)</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="salbutamol" 
+             data-categoria="agonista beta-2-adrenérgico" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Salbutamol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Agonista beta-2-adrenérgico</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Salbutamol 100 mcg aerossol ______________ 1 frasco
+Inalar 4 jatos se desconforto respiratório pela asma</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="formoterol, beclometasona" 
+             data-categoria="agonista beta-2-adrenérgico, corticoide" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Formoterol, beclometasona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Agonista beta-2-adrenérgico, corticoide</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Dipropionato de beclometasona + fumarato de formoterol 100/6 mcg aerossol ___ 1 frasco
+Inalar 1 jato de 12 em 12 horas por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="formoterol, budesonida" 
+             data-categoria="agonista beta-2-adrenérgico, corticoide" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Formoterol, budesonida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Agonista beta-2-adrenérgico, corticoide</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Fumarato de formoterol + budesonida 6/200 mcg capsula para inalação ____ 1 frasco
+Inalar 1 jato por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="formoterol, budesonida" 
+             data-categoria="agonista beta-2-adrenérgico, corticoide" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Formoterol, budesonida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Agonista beta-2-adrenérgico, corticoide</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Fumarato de formoterol + budesonida 12/400 mcg capsula para inalação ____ 1 frasco
+Inalar 1 jato por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="beclometasona" 
+             data-categoria="corticoide" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Beclometasona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Beclometasona 50 mcg aerossol _____________ 1 frasco
+Inalar 4 jatos de 12 em 12 horas por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="beclometasona" 
+             data-categoria="corticoide" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Beclometasona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Beclometasona 250 mcg aerossol ___________ 1 frasco
+Inalar 1 jato de 12 em 12 horas por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="beclometasona" 
+             data-categoria="corticoide" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Beclometasona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Beclometasona 250 mcg aerossol ___________ 1 frasco
+Inalar 1 jato de 12 em 12 horas por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="budesonida" 
+             data-categoria="corticoide" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Budesonida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Budesonida 50 mcg aerossol ______________ 1 frasco
+Inalar 4 puffs por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="budesonida" 
+             data-categoria="corticoide" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Budesonida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Budesonida 200 mcg aerossol ______________ 1 frasco
+Inalar 1 puffs por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="formoterol" 
+             data-categoria="agonista beta-2-adrenérgico" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Formoterol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Agonista beta-2-adrenérgico</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Formoterol 6 mcg aerossol _________________ 1 frasco
+Inalar 1 jato por dia. Máximo de 8 doses por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="formoterol" 
+             data-categoria="agonista beta-2-adrenérgico" 
+             data-doenca="asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Formoterol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Agonista beta-2-adrenérgico</span> <span class="item-doenca"><strong>Ind:</strong> asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Formoterol 12 mcg aerossol _________________ 1 frasco
+Inalar 1 jato por dia. Máximo de 4 doses por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="prednisona" 
+             data-categoria="corticoide" 
+             data-doenca="asma, dermatite"
+             data-forma="comprimido">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Prednisona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> asma, dermatite</span> <span class="item-forma"><strong>Forma:</strong> comprimido</span> </span> 
+                </div>
+                <pre>1 – Prednisona 5 mg _______________________________ __ CPs
+Tomar ___ comprimido (s) por dia por ___ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="sumatriptina" 
+             data-categoria="agonista do receptor 5-ht1" 
+             data-doenca="cefaleia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Sumatriptina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Agonista do receptor 5-HT1</span> <span class="item-doenca"><strong>Ind:</strong> cefaleia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Sumatriptana 50 mg __________ 1 caixa
+Tomar 1 comprimido se dor de cabeça intensa</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="carmelose" 
+             data-categoria="lubrificante" 
+             data-doenca="conjuntivite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Carmelose</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Lubrificante</span> <span class="item-doenca"><strong>Ind:</strong> conjuntivite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Carmelose colírio _________ 1 frasco
+Aplicar de 4 a 8 vezes ao dia se ardência ou secura nos olhos</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="prednisolona" 
+             data-categoria="corticoide" 
+             data-doenca="conjuntivite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Prednisolona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> conjuntivite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Prednisolona 0,1% colírio ______________ 1 frasco
+Aplicar __ gotas de ___ horas por 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="óleo mineral" 
+             data-categoria="laxante" 
+             data-doenca="constipação"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Óleo mineral</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Laxante</span> <span class="item-doenca"><strong>Ind:</strong> constipação</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Óleo mineral ______________________________ 1 frasco
+Tomar 1 colher de sopa (15 ml) ao deitar a noite
+Obs.: Se não melhora, pode aumentar para 2 (duas) colheres de sopa à noite e 1 (uma) pela manhã</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="lactulose" 
+             data-categoria="laxante" 
+             data-doenca="constipação"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Lactulose</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Laxante</span> <span class="item-doenca"><strong>Ind:</strong> constipação</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Lactulose 667 mg/ml ________________________ 1 frasco
+Tomar 15 ml de 12 em 12 horas até melhora das fezes</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="macrogol 3350, bicarbonato de sódio, cloreto de sódio, cloreto de potássio" 
+             data-categoria="laxante" 
+             data-doenca="constipação"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Macrogol 3350, bicarbonato de sódio, cloreto de sódio, cloreto de potássio</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Laxante</span> <span class="item-doenca"><strong>Ind:</strong> constipação</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Muvinlax (Macrogol 3350 + bicarbanato de sódio + cloreto de sódio + cloreto de potássio)
+___________________________________ 1 frasco
+Tomar 1 sache por dia até melhora das fezes. Diluir 1 sache em 1 copo com água, chá ou suco</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="macrogol 3500" 
+             data-categoria="laxante" 
+             data-doenca="constipação"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Macrogol 3500</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Laxante</span> <span class="item-doenca"><strong>Ind:</strong> constipação</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Macrogol 3500 ____________________________ 1 caixa/envolopes
+Dissolver 1 (um) envelope em um copo com água e tomar 1 vez ao dia. Após o preparo, consumir imediatamente por via oral.</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="psyllium" 
+             data-categoria="laxante" 
+             data-doenca="constipação"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Psyllium</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Laxante</span> <span class="item-doenca"><strong>Ind:</strong> constipação</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Psyllium __________________________________ 1 caixa
+Tomar 7 g ou 1 colhe de chá em 240 ml de água ou bebida favorita, 2 vezes ao dia. Misture bem e beba imediatamente. Para melhor efeito tome um copo adicional de água.</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="salbutamol" 
+             data-categoria="agonista beta-2-adrenérgico" 
+             data-doenca="crise asma"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Salbutamol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Agonista beta-2-adrenérgico</span> <span class="item-doenca"><strong>Ind:</strong> crise asma</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Salbutamol 100 mcg aerossol ______________ 1 frasco
+Inalar 4 jatos de 4 em 4 horas por 2 dias, e após, usar de chiado no peito ou falta de ar</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="prednisona" 
+             data-categoria="corticoide" 
+             data-doenca="crise asma"
+             data-forma="comprimido">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Prednisona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> crise asma</span> <span class="item-forma"><strong>Forma:</strong> comprimido</span> </span> 
+                </div>
+                <pre>1 – Prednisona 20 mg ________________ 10 cp
+Tomar 2 cp por dia por 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="prednisona" 
+             data-categoria="corticoide" 
+             data-doenca="crise asma, bronquite"
+             data-forma="solução oral">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Prednisona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> crise asma, bronquite</span> <span class="item-forma"><strong>Forma:</strong> solução oral</span> </span> 
+                </div>
+                <pre>1 – Prednisolona 3 mg/ml _____________ 1 caixa
+Tomar 14 ml por dia por 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="escopolamina" 
+             data-categoria="antiespasmódico" 
+             data-doenca="cólica"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Escopolamina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiespasmódico</span> <span class="item-doenca"><strong>Ind:</strong> cólica</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Escopolamina 10 mg _______________ 1 caixa
+Tomar 1 comprimido de 6 em 6 horas se dor</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="sais de reidratação oral" 
+             data-categoria="eletrólitos" 
+             data-doenca="dengue"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Sais de reidratação oral</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Eletrólitos</span> <span class="item-doenca"><strong>Ind:</strong> dengue</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Sais de reidratação oral ________________ _ envelopes
+Para preparar o soro de reidratação oral: diluir 1 envelope em 1 litro de água fervida ou filtrada. Tomar ___ L por dia de soro de reidratação oral. Tomar também líquido caseiros (água, suco, soro caseiro, chá e outros): ___ L. Total de litros por dia ___ L.) Tomar essa quantidade depois de dois dias de estar sem febre.</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="betametasona" 
+             data-categoria="corticoide" 
+             data-doenca="dermatite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Betametasona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> dermatite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Betametasona 0,1mg/ml ________________________ 1 frasco
+Tomar 10 ml de 8 em 8 horas por 4 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="dexametasona" 
+             data-categoria="corticoide" 
+             data-doenca="dermatite"
+             data-forma="creme">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Dexametasona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> dermatite</span> <span class="item-forma"><strong>Forma:</strong> creme</span> </span> 
+                </div>
+                <pre>1 - Dexametasona creme ___________________________ 1 tubo
+Aplicar 2 vezes ao dia por ___</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="hidrocortisona" 
+             data-categoria="corticoide" 
+             data-doenca="dermatite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Hidrocortisona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> dermatite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Hidrocortisona creme ____________________________ 1 tubo
+Aplicar 2 vezes ao dia por ___ dias. Realizar leve fricção</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="sais de reidratação oral" 
+             data-categoria="eletrólitos" 
+             data-doenca="diarreia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Sais de reidratação oral</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Eletrólitos</span> <span class="item-doenca"><strong>Ind:</strong> diarreia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Soro de reidratação oral ________________ _ envelopes
+Diluir 1 envelope em 1 litro de água fervida ou filtrada. Tomar 1 copo para cada evacuação ou vômitos</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="domperidona" 
+             data-categoria="procinético" 
+             data-doenca="dispepsia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Domperidona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Procinético</span> <span class="item-doenca"><strong>Ind:</strong> dispepsia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Domperidona 10 mg ___________________ 1 caixa
+Tomar 1 comprimido de 8 em 8 horas. Tomar 15-30 minutos antes das refeições</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="metformina" 
+             data-categoria="biguanida" 
+             data-doenca="dm"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Metformina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Biguanida</span> <span class="item-doenca"><strong>Ind:</strong> dm</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Metformina 850 mg ____________________ 30 cp/mês
+Tomar 1 comprimido após o almoço</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="metformina" 
+             data-categoria="biguanida" 
+             data-doenca="dm"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Metformina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Biguanida</span> <span class="item-doenca"><strong>Ind:</strong> dm</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Metformina 850 mg ____________________ 60 cp/mês
+Tomar 1 comprimido no café da manhã e 1 comprimido no jantar</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="metformina" 
+             data-categoria="biguanida" 
+             data-doenca="dm"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Metformina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Biguanida</span> <span class="item-doenca"><strong>Ind:</strong> dm</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Metformina 850 mg ____________________ 90 cp/mês
+Tomar 1 comprimido no café da manhã
+Tomar 1 comprimido no almoço
+Tomar 1 comprimido no jantar</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="gliclazida" 
+             data-categoria="secretagogos" 
+             data-doenca="dm"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Gliclazida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Secretagogos</span> <span class="item-doenca"><strong>Ind:</strong> dm</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Gliclazida 30 mg _________________ 30 cp/mês
+Tomar 1 comprimido no café da manhã</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="gliclazida" 
+             data-categoria="secretagogos" 
+             data-doenca="dm"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Gliclazida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Secretagogos</span> <span class="item-doenca"><strong>Ind:</strong> dm</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Gliclazida 60 mg _________________ 30 cp/mês
+Tomar 1 comprimido no café da manhã</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="insulina humana nph" 
+             data-categoria="análogo de insulina" 
+             data-doenca="dm"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Insulina humana NPH</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Análogo de insulina</span> <span class="item-doenca"><strong>Ind:</strong> dm</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Insulina NPH 100 UI/ml ________________ 1 frasco-ampola
+Aplicar 10 UI à noite antes de deitar-se</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="insulina humana nph" 
+             data-categoria="análogo de insulina" 
+             data-doenca="dm"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Insulina humana NPH</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Análogo de insulina</span> <span class="item-doenca"><strong>Ind:</strong> dm</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Insulina NPH 100 UI/ml ________________ 1 frasco-ampola
+Aplicar 10 UI pela manhã e 10 UI à noite antes de deitar-se</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="insulina humana nph" 
+             data-categoria="análogo de insulina" 
+             data-doenca="dm"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Insulina humana NPH</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Análogo de insulina</span> <span class="item-doenca"><strong>Ind:</strong> dm</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Insulina NPH 100 UI/ml ________________ ___ frasco-ampola
+Aplicar ___ UI pela manhã (em torno de 8h00)
+Aplicar ___ UI à tarde (em torno de 14h00)
+Aplicar ___ UI à noite (em torno de 20h00)</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="insulina humana regular" 
+             data-categoria="análogo de insulina" 
+             data-doenca="dm"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Insulina humana regular</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Análogo de insulina</span> <span class="item-doenca"><strong>Ind:</strong> dm</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Insulina humana regular 100 UI/ml ________ ___ frasco(s)
+Aplicar ___ antes do café da manhã
+Aplicar ___ antes do almoço
+Aplicar ___ antes da janta</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="insulina humana nph" 
+             data-categoria="análogo de insulina" 
+             data-doenca="dm, carpule"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Insulina humana NPH</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Análogo de insulina</span> <span class="item-doenca"><strong>Ind:</strong> dm, carpule</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Insulina NPH 100 UI/ml ________________ 1 carpule/mês
+Aplicar 10 UI à noite antes de deitar-se</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="insulina humana nph" 
+             data-categoria="análogo de insulina" 
+             data-doenca="dm, carpule"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Insulina humana NPH</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Análogo de insulina</span> <span class="item-doenca"><strong>Ind:</strong> dm, carpule</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Insulina NPH 100 UI/ml ________________ 1 carpule/mês
+Aplicar 10 UI pela manhã (às 8h) e aplicar 10 UI à noite antes de deitar-se</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="insulina humana nph" 
+             data-categoria="análogo de insulina" 
+             data-doenca="dm, carpule"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Insulina humana NPH</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Análogo de insulina</span> <span class="item-doenca"><strong>Ind:</strong> dm, carpule</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Insulina NPH 100 UI/ml ________________ ___ carpule
+Aplicar ___ UI pela manhã (em torno de 8h00)
+Aplicar ___ UI à tarde (em torno de 14h00)
+Aplicar ___ UI à noite (em torno de 20h00)</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="insulina humana regular" 
+             data-categoria="análogo de insulina" 
+             data-doenca="dm, carpule"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Insulina humana regular</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Análogo de insulina</span> <span class="item-doenca"><strong>Ind:</strong> dm, carpule</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Insulina humana regular 100 UI/ml ________ ___ carpule(s)
+Aplicar ___ antes do café da manhã
+Aplicar ___ antes do almoço
+Aplicar ___ antes da janta</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="dipirona" 
+             data-categoria="analgésico" 
+             data-doenca="dor"
+             data-forma="comprimido">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Dipirona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Analgésico</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> comprimido</span> </span> 
+                </div>
+                <pre>1 – Dipirona 500 mg _______________________ 1 caixa
+Tomar 1 comprimido de 6 em 6 horas se dor ou febre</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="dipirona" 
+             data-categoria="analgésico" 
+             data-doenca="dor"
+             data-forma="comprimido">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Dipirona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Analgésico</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> comprimido</span> </span> 
+                </div>
+                <pre>1 – Dipirona 500 mg _______________________ 1 caixa
+Tomar 1 comprimido de 6 em 6 horas se dor ou febre
+Obs.: Pode tomar até 2 comprimidos de 6 em 6 horas
+Obs. 2: Se não melhora somente com a dipirona, continue tomando-a junto com o anti-inflamatório abaixo</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="dipirona" 
+             data-categoria="analgésico" 
+             data-doenca="dor"
+             data-forma="solução oral">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Dipirona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Analgésico</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> solução oral</span> </span> 
+                </div>
+                <pre>1 – Dipirona 500 mg/ml _____________________ 1 caixa
+Tomar 20 gotas de 6 em 6 horas se dor ou febre
+Obs.: Pode tomar até 40 gotas de 6 em 6 horas
+Obs. 2: Se não melhora somente com a dipirona, continue tomando-a junto com o anti-inflamatório abaixo</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="paracetamol" 
+             data-categoria="analgésico" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Paracetamol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Analgésico</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Paracetamol 750 mg ___________________ 1 caixa
+Tomar 1 comprimido de 6 em 6 horas se dor ou febre
+Obs. 1: Se não melhora somente com o paracetamol, continue tomando-o junto com o anti-inflamatório abaixo</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="paracetamol" 
+             data-categoria="analgésico" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Paracetamol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Analgésico</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Paracetamol 500 mg ___________________ 1 caixa
+Tomar 1 comprimido de 6 em 6 horas se dor ou febre
+Obs. 1: Se não melhora somente com o paracetamol, continue tomando-o junto com o
+anti-inflamatório abaixo</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ibuprofeno" 
+             data-categoria="aine" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ibuprofeno</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> AINE</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Ibuprofeno 600 mg _________________________ 1 caixa
+Tomar 1 comprimido de 8 em 8 horas por 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="diclofenaco" 
+             data-categoria="aine" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Diclofenaco</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> AINE</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Diclofenaco 50 mg _____________________ 1 caixa
+Tomar 1 comprimido de 8 em 8 horas por até 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="naproxeno" 
+             data-categoria="aine" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Naproxeno</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> AINE</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Naproxeno 250 mg ______________________1 caixa
+Tomar 1 comprimido de 12 em 12 horas por até 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="naproxeno" 
+             data-categoria="aine" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Naproxeno</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> AINE</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Naproxeno 500 mg ________________________ 1 caixa
+Tomar 1 comprimido de 12 em 12 horas por até 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="nimesulida" 
+             data-categoria="aine" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Nimesulida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> AINE</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Nimesulida 100 mg_________________________ 1 caixa
+Tomar 1 comprimido de 12 em 12 horas por até 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="tenoxicam" 
+             data-categoria="aine" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Tenoxicam</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> AINE</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Tenoxicam 20 mg _________________________ 1 caixa
+Tomar 1 comprimido por dia por até 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="codeína" 
+             data-categoria="analgésico opioide" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Codeína</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Analgésico opioide</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Codeina 30 mg _______________ 1 caixa
+Tomar 1 comprimido de 6 em 6 horas se dor</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="tramadol" 
+             data-categoria="analgésico opioide" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Tramadol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Analgésico opioide</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Tramadol 50 mg ______________ 1 caixa
+Tomar 1 comprimido de 6 em 6 horas se dor</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="tramadol" 
+             data-categoria="analgésico opioide" 
+             data-doenca="dor"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Tramadol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Analgésico opioide</span> <span class="item-doenca"><strong>Ind:</strong> dor</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Tramadol 100 mg _____________ 1 caixa
+Tomar 1 comprimido de 6 em 6 horas se dor</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ciclobenzaprina" 
+             data-categoria="relaxante muscular" 
+             data-doenca="dor muscular"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ciclobenzaprina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Relaxante muscular</span> <span class="item-doenca"><strong>Ind:</strong> dor muscular</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Ciclobenzaprina 10 mg __________________ 1 caixa
+Tomar 1 comprimido por dia à noite por 7 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ácido mefenâmico" 
+             data-categoria="aine" 
+             data-doenca="dor, dismenorreia, menorragia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ácido mefenâmico</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> AINE</span> <span class="item-doenca"><strong>Ind:</strong> dor, dismenorreia, menorragia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Ácido mefenâmico 500 mg __________________ 1 caixa
+Tomar 1 comprimido de 8 em 8 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="codeína" 
+             data-categoria="analgésico opioide" 
+             data-doenca="dor, tosse"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Codeína</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Analgésico opioide</span> <span class="item-doenca"><strong>Ind:</strong> dor, tosse</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Codeina 3 mg/ml _____________ 1 frasco
+Tomar 10 ml de 6 em 6 horas se dor</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ivermectina" 
+             data-categoria="antiparasitário" 
+             data-doenca="escabiose"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ivermectina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiparasitário</span> <span class="item-doenca"><strong>Ind:</strong> escabiose</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Ivermectina 6 mg _______________ __ comprimido(s)
+Tomar __ comprimido(s). Após 1 semana tomar __ comprimido(s)</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="permetrina" 
+             data-categoria="escabicida, pediculicida" 
+             data-doenca="escabiose, pediculose"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Permetrina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> escabicida, pediculicida</span> <span class="item-doenca"><strong>Ind:</strong> escabiose, pediculose</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Permetrina 5% loção _________________ 1 frasco
+Aplicar sobre o corpo (Não aplicar em região de cabeça) à noite. Enxaguar pela manhã. Repetir por 3 dias. Após 1 semana, repetir por mais 3 dias.</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="permetrina" 
+             data-categoria="escabicida, pediculicida" 
+             data-doenca="escabiose, pediculose"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Permetrina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> escabicida, pediculicida</span> <span class="item-doenca"><strong>Ind:</strong> escabiose, pediculose</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Permetrina 1% xampu ________________ 1 frasco
+Após lavar cabelo, deve-se aplicar este produto nos cabelos úmidos, cobrindo todo o couro cabeludo, e esfregar abundantemente em toda a extensão; O produto deve agir por 10 minutos. Passar o pente fino para a remoção dos piolhos e das lêndeas; Enxaguar o cabelo com água morna e enxugar com a toalha; Repetir após 7 dias, se houver necessidade; A quantidade necessária do produto depende do volume e tamanho dos cabelos, pode ser necessário usar o frasco inteiro e em alguns casos, de cabelo mais longos, pode ser necessário mais de um frasco;</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="permanganato de potássio" 
+             data-categoria="antisséptico" 
+             data-doenca="ferida"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Permanganato de potássio</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antisséptico</span> <span class="item-doenca"><strong>Ind:</strong> ferida</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>Diluir 1 envelope em 3 litros de água morna. Realizar banho ou compressa, 3x ao dia. Evitar
+contato com região de mucosa (olhos e boca por exemplo)</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="água boricada" 
+             data-categoria="antisséptico" 
+             data-doenca="ferida"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Água boricada</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antisséptico</span> <span class="item-doenca"><strong>Ind:</strong> ferida</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Água boricada 3% _______________________ 1 frasco
+Aplicar 2 vezes ao dia em lesão</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="mupirocina" 
+             data-categoria="antibiótico" 
+             data-doenca="ferida, impetigo"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Mupirocina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico</span> <span class="item-doenca"><strong>Ind:</strong> ferida, impetigo</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Mupirocina 2% creme ______ 1 tubo
+Aplicar nas lesões de 8 em 8 horas por 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="simeticona" 
+             data-categoria="antifisético" 
+             data-doenca="flatulência"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Simeticona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antifisético</span> <span class="item-doenca"><strong>Ind:</strong> flatulência</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Simeticona 40 mg __________________ 1 caixa
+Tomar 1 comprimido de 8 em 8h por 3 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="hidróxido de alumínio, hidróxido de magnésio" 
+             data-categoria="antiácido" 
+             data-doenca="gastrite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Hidróxido de alumínio, hidróxido de magnésio</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiácido</span> <span class="item-doenca"><strong>Ind:</strong> gastrite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Hidróxido de alumínio + hidróxido de magnésio _________ 1 frasco
+Tomar 1 colher 30 min antes das refeições principais</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="omeprazol" 
+             data-categoria="antiulceroso" 
+             data-doenca="gastrite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Omeprazol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiulceroso</span> <span class="item-doenca"><strong>Ind:</strong> gastrite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1. Omeprazol 20 mg - 1 caixa
+Tomar 1 cápsula pela manhã em jejum, 30 minutos antes da refeição</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="clortalidona" 
+             data-categoria="anti-hipertensivo" 
+             data-doenca="has"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Clortalidona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo</span> <span class="item-doenca"><strong>Ind:</strong> has</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Clortalidona 25 mg _________________ 30 cp/mês
+Tomar 1 comprimido por dia pela manhã</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="espironolactona" 
+             data-categoria="anti-hipertensivo" 
+             data-doenca="has"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Espironolactona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo</span> <span class="item-doenca"><strong>Ind:</strong> has</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Espironolactona 25 mg ______________ 30 cp/mês
+Tomar 1 comprimido por dia pela manhã</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="hidroclorotiazida" 
+             data-categoria="anti-hipertensivo, diurético tiazídico" 
+             data-doenca="has"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Hidroclorotiazida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, diurético tiazídico</span> <span class="item-doenca"><strong>Ind:</strong> has</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Hidroclorotiazida 25 mg _____________ 30 cp/mês
+Tomar 1 comprimido por dia pela manhã</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="indapamida" 
+             data-categoria="anti-hipertensivo" 
+             data-doenca="has"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Indapamida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo</span> <span class="item-doenca"><strong>Ind:</strong> has</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Indapamida 1,5 mg _________________ 30 cp/mês
+Tomar 1 comprimido por dia pela manhã</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="indapamida" 
+             data-categoria="anti-hipertensivo" 
+             data-doenca="has"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Indapamida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo</span> <span class="item-doenca"><strong>Ind:</strong> has</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Indapamida 2,5 mg _________________ 30 cp/mês
+Tomar 1 comprimido por dia pela manhã</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="anlodipino" 
+             data-categoria="anti-hipertensivo, bcc" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Anlodipino</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, BCC</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Anlodipino 5 mg _____________ 60 cp/mês
+Tomar 1 (um) comprimido de 12 em 12 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="anlodipino" 
+             data-categoria="anti-hipertensivo, bcc" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Anlodipino</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, BCC</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Anlodipino 5 mg _____________ 30 cp/mês
+Tomar 1 (um) comprimido por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="carvedilol" 
+             data-categoria="anti-hipertensivo, bb" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Carvedilol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, BB</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Carvedilol 12,5 mg ____ 60 cp/mês
+Tomar 1 comprimido de 12 em 12 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="carvedilol" 
+             data-categoria="anti-hipertensivo, bb" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Carvedilol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, BB</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Carvedilol 6,25 mg ____ 60 cp/mês
+Tomar 1 comprimido de 12 em 12 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="carvedilol" 
+             data-categoria="anti-hipertensivo, bb" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Carvedilol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, BB</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Carvedilol 3,125 mg ____ 60 cp/mês
+Tomar 1 comprimido de 12 em 12 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="enalapril" 
+             data-categoria="anti-hipertensivo, ieca" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Enalapril</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, IECA</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Enalapril 10 mg ___________________ 30 cp/mês
+Tomar 1 comprimido por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="enalapril" 
+             data-categoria="anti-hipertensivo, ieca" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Enalapril</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, IECA</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Enalapril 10 mg ___________________ 60 cp/mês
+Tomar 1 comprimido de 12 em 12 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="losartana" 
+             data-categoria="anti-hipertensivo, bra" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Losartana</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, BRA</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Losartana 50 mg __________________ 30 cp/mês
+Tomar 1 comprimido por dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="losartana" 
+             data-categoria="anti-hipertensivo, bra" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Losartana</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, BRA</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Losartana 50 mg __________________ 60 cp/mês
+Tomar 1 comprimido de 12 em 12 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="metoprolol" 
+             data-categoria="anti-hipertensivo, bb" 
+             data-doenca="has, ic"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Metoprolol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-hipertensivo, BB</span> <span class="item-doenca"><strong>Ind:</strong> has, ic</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Succinato de metoprolol 50 mg _______ 30 cp/mês
+Tomar 1 comprimido de 12 em 12 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="albendazol" 
+             data-categoria="anti-helmíntico" 
+             data-doenca="helmintoses"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Albendazol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-helmíntico</span> <span class="item-doenca"><strong>Ind:</strong> helmintoses</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Albendazol 400 mg ______ 3 cp
+Tomar 1 comprimido por dia por 3 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="nitazoxanida" 
+             data-categoria="anti-helmíntico" 
+             data-doenca="helmintoses"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Nitazoxanida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Anti-helmíntico</span> <span class="item-doenca"><strong>Ind:</strong> helmintoses</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Nitazoxanida 500 mg _____ 1 cp
+Tomar 1 comprimido de 12 em 12 horas por 3 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="policresuleno, cinchocaína" 
+             data-categoria="antisséptico, adstringente, anestésico local" 
+             data-doenca="hemorroida"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Policresuleno, cinchocaína</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antisséptico, adstringente, anestésico local</span> <span class="item-doenca"><strong>Ind:</strong> hemorroida</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Policresuleno + Cloridrato de cinchocaína pomada _____ 1 frasco
+Aplicar de 2 a 3 vezes no dia na região afetada até melhora dos sintomas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="amoxicilina" 
+             data-categoria="antibiótico, betalactâmico" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Amoxicilina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, betalactâmico</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Amoxicilina 500 mg ______________________ __ comprimidos
+Tomar 1 comprimido de 8 em 8 horas por __ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="amoxicilina, clavulanato" 
+             data-categoria="antibiótico, betalactâmico" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Amoxicilina, clavulanato</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, betalactâmico</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1. Amoxicilina+clavulanato 500/125 mg ______ ___ comprimidos
+Tomar 1 comprimido de 8 em 8 horas por ___ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="cefalexina" 
+             data-categoria="antibiótico, betalactâmico, cefalosporina 1ª geração" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Cefalexina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, betalactâmico, cefalosporina 1ª geração</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Cefalexina 500 mg ______________________ __ comprimidos
+Tomar 1 comprimido de 6 em 6 horas por __ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ceftriaxona" 
+             data-categoria="antibiótico, betalactâmico, cefalosporina 3ª geração" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ceftriaxona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, betalactâmico, cefalosporina 3ª geração</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Ceftriaxona 1 g, 2 g (2 amp) em 100 ml de S.F. 0,9%, EV, correr em 30 minutos, 24/24h, por ___ dias
+Indicação:</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ciprofloxacino" 
+             data-categoria="antibiótico, quinolona" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ciprofloxacino</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, quinolona</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Ciprofloxacino 250 mg _____________________ ___ comprimidos
+Tomar 1 comprimido de 12 em 12 horas por ___ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ciprofloxacino" 
+             data-categoria="antibiótico, quinolona" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ciprofloxacino</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, quinolona</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Ciprofloxacino 500 mg _____________________ ___ comprimidos
+Tomar 1 comprimido de 12 em 12 horas por ___ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="clindamicina" 
+             data-categoria="antibiótico, lincosamida" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Clindamicina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, lincosamida</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Clindamicina 300 mg ______ ___ comprimidos
+Tomar 1 comprimido de 8 em 8 horas por ___ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="levofloxacino" 
+             data-categoria="antibiótico, quinolona" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Levofloxacino</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, quinolona</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Levofloxacino 750 mg _______________ ___ comprimidos
+Tomar 1 comprimido por dia por ___ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="metronidazol" 
+             data-categoria="antiparasitário" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Metronidazol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiparasitário</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Metronidazol 400 mg ____________________ 20 comprimidos
+Tomar 1 comprimido de 8 em 8 horas por 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="sulfametoxazol, trimetoprima" 
+             data-categoria="antibiótico, antifolato" 
+             data-doenca="infecção"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Sulfametoxazol, trimetoprima</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, antifolato</span> <span class="item-doenca"><strong>Ind:</strong> infecção</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Sulfametoxazol+trimetoprima 400/80mg ________ __ comprimidos
+Tomar ___ comprimidos de _____ horas por ___ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="fosfomicina" 
+             data-categoria="antibiótico" 
+             data-doenca="infecção, itu"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Fosfomicina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico</span> <span class="item-doenca"><strong>Ind:</strong> infecção, ITU</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Fosfomicina 3 g ________________ 1 sache
+Tomar 1 sache diluido em água. Dose única</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="nitrofurantoína" 
+             data-categoria="antibiótico" 
+             data-doenca="infecção, itu"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Nitrofurantoína</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico</span> <span class="item-doenca"><strong>Ind:</strong> infecção, ITU</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Nitrofurantoina 100 mg __________ __ comprimidos
+Tomar 1 comprimido de 6 em 6 horas por __ dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="clorexidina" 
+             data-categoria="antisséptico" 
+             data-doenca="infecção, ferida"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Clorexidina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antisséptico</span> <span class="item-doenca"><strong>Ind:</strong> infecção, ferida</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Clorexidina 1% solução ___________________ 1 frasco
+Aplicar 2 vezes ao dia em lesão</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="fluconazol" 
+             data-categoria="antifúngico" 
+             data-doenca="infecção, vaginose"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Fluconazol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antifúngico</span> <span class="item-doenca"><strong>Ind:</strong> infecção, vaginose</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Fluconazol 150 mg __________ 1 cp
+Tomar 1 comprimido. Dose única</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="metronidazol" 
+             data-categoria="antiparasitário" 
+             data-doenca="infecção, vaginose"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Metronidazol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiparasitário</span> <span class="item-doenca"><strong>Ind:</strong> infecção, vaginose</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Metronidazol 10% _________ 1 tubo
+Usar 1 aplicar a noite por 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="miconazol" 
+             data-categoria="antifúngico" 
+             data-doenca="infecção, vaginose"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Miconazol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antifúngico</span> <span class="item-doenca"><strong>Ind:</strong> infecção, vaginose</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Miconazol 2% creme ________ 1 tubo
+Usar 1 aplicador a noite por 7 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ácido tranexâmico" 
+             data-categoria="antifibrinolítico" 
+             data-doenca="menorreia"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ácido tranexâmico</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antifibrinolítico</span> <span class="item-doenca"><strong>Ind:</strong> menorreia</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Ácido tranexâmico 500 mg _________ 1 caixa
+Tomar 1 comprimido de 8 em 8 horas por 3 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="bromoprida" 
+             data-categoria="antiemético" 
+             data-doenca="náuseas, vômitos"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Bromoprida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiemético</span> <span class="item-doenca"><strong>Ind:</strong> náuseas, vômitos</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Bromoprida 10 mg _________________ 1 caixa
+Tomar 1 comprimido de 8 em 8h se náusea</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="dimenidrinato" 
+             data-categoria="antiemético" 
+             data-doenca="náuseas, vômitos"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Dimenidrinato</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiemético</span> <span class="item-doenca"><strong>Ind:</strong> náuseas, vômitos</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Dimenidrinato 50 mg ________________ 10 cp
+Tomar 1 comprimido de 6 em 6 horas se náuseas ou vômitos</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="dimenidrinato, piridoxina" 
+             data-categoria="antiemético" 
+             data-doenca="náuseas, vômitos"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Dimenidrinato, piridoxina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiemético</span> <span class="item-doenca"><strong>Ind:</strong> náuseas, vômitos</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Dimenidrinato + piridoxina 50/10 mg ___ 10 cp
+Tomar 1 comprimido de 6 em 6 horas se náuseas ou vômitos</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="metoclopramida" 
+             data-categoria="antiemético" 
+             data-doenca="náuseas, vômitos"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Metoclopramida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiemético</span> <span class="item-doenca"><strong>Ind:</strong> náuseas, vômitos</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Metoclopramida 10 mg _____________ 20 cp
+Tomar 1 comprimido de 8 em 8 horas se náuseas ou vômitos</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ondansetrona" 
+             data-categoria="antiemético" 
+             data-doenca="náuseas, vômitos"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ondansetrona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antiemético</span> <span class="item-doenca"><strong>Ind:</strong> náuseas, vômitos</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Ondansetrona 4 mg _______________ 20 cp
+Tomar 1 comprimido de 8 em 8 horas se náuseas ou vômitos</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ciprofloxacino, dexametasona" 
+             data-categoria="antibiótico, corticoide" 
+             data-doenca="otite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ciprofloxacino, dexametasona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, corticoide</span> <span class="item-doenca"><strong>Ind:</strong> otite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Ciprofloxacino + dexametasona solução tópica ______ 1 frasco
+Aplicar 4 gotas no ouvido acometido de 12/12h por 7 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="neomicina, polimixina b, hidrocortisona" 
+             data-categoria="antibiótico, corticoide" 
+             data-doenca="otite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Neomicina, polimixina B, hidrocortisona</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antibiótico, corticoide</span> <span class="item-doenca"><strong>Ind:</strong> otite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Sulfato de neomicina 0,5 % + sulfato de polimixina B + hidrocortisona 1 % _______ 1 frasco
+Aplicar 4 gotas no(s) ouvido(s) acometidos de 6/6 horas por 10 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="budesonida" 
+             data-categoria="corticoide" 
+             data-doenca="rinite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Budesonida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> rinite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Budesonida spray nasal 32 mcg _______________ 1 frasco
+Aplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="budesonida" 
+             data-categoria="corticoide" 
+             data-doenca="rinite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Budesonida</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Corticoide</span> <span class="item-doenca"><strong>Ind:</strong> rinite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Budesonida spray nasal 50 mcg _______________ 1 frasco
+Aplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="nafazolina" 
+             data-categoria="descongestionante nasal" 
+             data-doenca="rinite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Nafazolina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Descongestionante nasal</span> <span class="item-doenca"><strong>Ind:</strong> rinite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Nafazolina 0,5mg/ml solução nasal _____________ 1 frasco
+Aplicar 4 gotas “dentro de cada nariz” de 6 em 6 horas por até 5 dias
+Obs.: Não fazer uso prolongado desta medicação.</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="soro fisiológico" 
+             data-categoria="soro fisiológico" 
+             data-doenca="rinite"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Soro fisiológico</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Soro fisiológico</span> <span class="item-doenca"><strong>Ind:</strong> rinite</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Soro fisiológico
+Realizar lavagem nasal com soro. Usar seringa</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="hidroxiquinolina, trolamina" 
+             data-categoria="emoliente otológico" 
+             data-doenca="rolha de cerumem"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Hidroxiquinolina, trolamina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> emoliente otológico</span> <span class="item-doenca"><strong>Ind:</strong> rolha de cerumem</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Hidroxiquinolina + trolamina otológico (0,4 + 140 mg) __________ 1 frasco
+Aplicar 3 gotas no ouvido afetado de 8 em 8 horas por 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="cetoconazol" 
+             data-categoria="antifúngico" 
+             data-doenca="tinea"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Cetoconazol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Antifúngico</span> <span class="item-doenca"><strong>Ind:</strong> tinea</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Cetoconazol 2% xampu __________________________ 1 frasco
+Lavar o couro cabeludo e demais lesões 3 a 4 vezes por semana na crise
+Lavar o couro cabeludo e demais lesões 1 a 2 vezes por semana fora da crise
+Deixar agir por 3 a 5 minutos antes de enxaguar</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="guaco" 
+             data-categoria="expectorante" 
+             data-doenca="tosse"
+             data-forma="xarope">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Guaco</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Expectorante</span> <span class="item-doenca"><strong>Ind:</strong> tosse</span> <span class="item-forma"><strong>Forma:</strong> xarope</span> </span> 
+                </div>
+                <pre>1 – Guaco xarope ______________________ 1 frasco
+Tomar 10 ml de 8 em 8 horas por 5 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="acetilcisteína" 
+             data-categoria="mucolítico" 
+             data-doenca="tosse"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Acetilcisteína</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Mucolítico</span> <span class="item-doenca"><strong>Ind:</strong> tosse</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Acetilcisteína 20 mg/ml _________ 1 frasco
+Tomar 10 ml de 8 em 8 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="ambroxol" 
+             data-categoria="expectorante" 
+             data-doenca="tosse"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Ambroxol</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Expectorante</span> <span class="item-doenca"><strong>Ind:</strong> tosse</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 - Ambroxol 6 mg/ml ____________ 1 frasco
+Tomar 5 ml de 8 em 8 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="guaco" 
+             data-categoria="expectorante" 
+             data-doenca="tosse"
+             data-forma="chá">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Guaco</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Expectorante</span> <span class="item-doenca"><strong>Ind:</strong> tosse</span> <span class="item-forma"><strong>Forma:</strong> chá</span> </span> 
+                </div>
+                <pre>1 – Chá de guaco 30 g __________________________________ 1 envelope
+Infundir 1 colher de sopa (3 g) para cada 150ml de água. Tomar 3 vezes ao dia</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="guaco" 
+             data-categoria="expectorante" 
+             data-doenca="tosse"
+             data-forma="tintura">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Guaco</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> Expectorante</span> <span class="item-doenca"><strong>Ind:</strong> tosse</span> <span class="item-forma"><strong>Forma:</strong> tintura</span> </span> 
+                </div>
+                <pre>1 – Guaco tintura ______________________ 1 frasco
+Aplicar 40 gotas em um pouco de água e tomar de 8 em 8 horas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="diosmina, hesperidina" 
+             data-categoria="antivaricoso" 
+             data-doenca="varizes, hemorroida"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Diosmina, hesperidina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> antivaricoso</span> <span class="item-doenca"><strong>Ind:</strong> varizes, hemorroida</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Diosmina + hesperidina 450/50 mg ______ 1 caixa
+Tomar 1 comprimido de 12 em 12 horas até melhora dos sintomas</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="cinarizina" 
+             data-categoria="antivertiginoso" 
+             data-doenca="vertigem"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Cinarizina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> antivertiginoso</span> <span class="item-doenca"><strong>Ind:</strong> vertigem</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Cinarizina 25 mg ____________ 1 caixa
+Tomar 1 comprimido de 8 em 8 horas por 7 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="item item-medicamentos" 
+             data-nome="flunarizina" 
+             data-categoria="antivertiginoso" 
+             data-doenca="vertigem"
+             data-forma="nan">
+            <input type="checkbox" class="item-selecionar">
+            <div class="item-conteudo">
+                <div class="item-header"> 
+                    <span class="item-nome">Flunarizina</span> 
+                    <span class="item-meta"> <span class="item-categoria"><strong>Cat:</strong> antivertiginoso</span> <span class="item-doenca"><strong>Ind:</strong> vertigem</span> <span class="item-forma"><strong>Forma:</strong> nan</span> </span> 
+                </div>
+                <pre>1 – Flunarizina 10 mg ____________ 1 caixa
+Tomar 1 comprimido por dia por 7 dias</pre>
+                <div class="item-actions">
+                    <button onclick="copiarTexto(this)" class="btn-copiar-item">Copiar</button>
+                    <button class="btn-favorito-item" onclick="toggleFavorito(this)">Favoritar</button>
+                </div>
+            </div>
+        </div>
+    
+</div>
+<div id="examefisicos" class="tab-content ">
 <div class="quick-access-container favoritos-container" id="favoritos-examefisicos"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-examefisicos"></div></div>
 <div class="busca-container">
 <div style="flex-basis: 100%;"><label for="busca-examefisicos">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-examefisicos" onkeyup="filtrarLista('examefisicos')" placeholder="Digite para buscar..."></div>
