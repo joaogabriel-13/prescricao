@@ -937,109 +937,70 @@ def gerar_html():
         print(f"ERRO ao abrir o arquivo Excel: {e}")
         return
 
-    ordem_planilhas = xls.sheet_names # Ordem padrão do arquivo
+    ordem_planilhas = xls.sheet_names  # Ordem padrão do arquivo
     html_abas_nav_list = []
     html_abas_conteudo_list = []
-    primeira_aba = True
+    primeira_planilha_nome = ordem_planilhas[0] if ordem_planilhas else None
 
     # Loop principal sobre as planilhas
-    for sheet_name in ordem_planilhas:
-        print(f"Processando planilha: '{sheet_name}'...")
+    for nome_planilha in ordem_planilhas:
+        id_aba = sanitizar_nome(nome_planilha)
+        nome_aba_display = nome_planilha
+        print(f"Processando planilha: {nome_planilha} (ID da aba: {id_aba})")
+
+        div_conteudo_aba_atual_partes = [
+            f'<div id="{id_aba}" class="tab-content {"active" if nome_planilha == primeira_planilha_nome else ""}">',
+            f'<div class="quick-access-container favoritos-container" id="favoritos-{id_aba}"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-{id_aba}"></div></div>',
+        ]
+
+        # Adiciona os campos de busca específicos para medicamentos
+        if id_aba == 'medicamentos':
+            div_conteudo_aba_atual_partes.append(f'<div class="busca-container"><div><label for="busca-medicamentos-nome">Buscar por Nome:</label><input type="text" id="busca-medicamentos-nome" onkeyup="filtrarLista(\'{id_aba}\')" placeholder="Ex: Dipirona..."></div><div><label for="busca-medicamentos-categoria">Buscar por Categoria:</label><input type="text" id="busca-medicamentos-categoria" onkeyup="filtrarLista(\'{id_aba}\')" placeholder="Ex: Antibiótico..."></div><div><label for="busca-medicamentos-doenca">Buscar por Doença:</label><input type="text" id="busca-medicamentos-doenca" onkeyup="filtrarLista(\'{id_aba}\')" placeholder="Ex: Dor, HAS..."></div><div class="busca-controles-extra" style="flex-basis: 100%;"><button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros(\'{id_aba}\')">Limpar Filtros</button><button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao(\'{id_aba}\')">Limpar Seleção</button></div></div>')
+        else:
+            div_conteudo_aba_atual_partes.append(f'<div class="busca-container"><div style="flex-basis: 100%;"><label for="busca-{id_aba}">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-{id_aba}" onkeyup="filtrarLista(\'{id_aba}\')" placeholder="Digite para buscar..."></div><div class="busca-controles-extra" style="flex-basis: 100%;"><button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros(\'{id_aba}\')">Limpar Filtros</button><button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao(\'{id_aba}\')">Limpar Seleção</button></div></div>')
+
         try:
-            df = pd.read_excel(xls, sheet_name=sheet_name)
-            # Remover linhas onde 'NomeBusca' é NaN ou vazio
-            df = df.dropna(subset=['NomeBusca'])
-            df = df[df['NomeBusca'].astype(str).str.strip() != '']
-        except Exception as e:
-            print(f"ERRO ao ler a planilha '{sheet_name}': {e}")
-            continue # Pula para a próxima planilha
+            df = pd.read_excel(xls, sheet_name=nome_planilha, dtype=str).fillna('')
+            coluna_conteudo = 'PrescricaoCompleta' if id_aba == 'medicamentos' else 'ConteudoTexto'
 
-        id_aba = sanitizar_nome(sheet_name)
+            # Adicionar ordenação específica para a aba 'examefisicos'
+            if id_aba == 'examefisicos' and 'OrdemPrioridade' in df.columns:
+                print(f"Aplicando ordenação por 'OrdemPrioridade' para a aba '{id_aba}'...")
+                df['__OrdemPrioridadeNumerica__'] = pd.to_numeric(df['OrdemPrioridade'], errors='coerce')
+                df.sort_values(by='__OrdemPrioridadeNumerica__', inplace=True, na_position='last', kind='mergesort')
+            elif id_aba == 'examefisicos':
+                print(f"Aviso: Aba '{id_aba}' não possui a coluna 'OrdemPrioridade' para ordenação.")
 
-        # Determina se é planilha de medicamentos (verifica colunas)
-        is_medicamentos = all(col in df.columns for col in COLUNAS_MEDICAMENTOS)
+            if not df.empty and 'NomeBusca' in df.columns and not df['NomeBusca'].isnull().all() and coluna_conteudo:
+                is_medicamentos = (id_aba == 'medicamentos')
+                itens_html_lista = []
+                for _, linha in df.iterrows():
+                    if pd.isna(linha[coluna_conteudo]):
+                        continue
+                    nome_busca = str(linha['NomeBusca']).strip()
+                    conteudo_texto = str(linha[coluna_conteudo]).strip()
+                    conteudo_formatado_escaped = html.escape(conteudo_texto)
 
-        if is_medicamentos:
-            colunas_esperadas = COLUNAS_MEDICAMENTOS
-            coluna_conteudo = 'PrescricaoCompleta'
-        else:
-            colunas_esperadas = COLUNAS_GENERICAS
-            coluna_conteudo = 'ConteudoTexto'
+                    if is_medicamentos:
+                        categoria = str(linha.get('Categoria', '')).strip()
+                        doenca = str(linha.get('Doenca', '')).strip()
+                        forma_farmaceutica = str(linha.get('FormaFarmaceutica', '')).strip()
 
-        # Verifica colunas essenciais
-        colunas_faltantes = [col for col in colunas_esperadas if col not in df.columns]
-        if colunas_faltantes:
-            print(f"AVISO: Planilha '{sheet_name}' pulada. Colunas essenciais faltantes: {', '.join(colunas_faltantes)}.")
-            continue # Pula para a próxima planilha
+                        categoria_display = categoria if categoria else ''
+                        doenca_display = doenca if doenca else ''
+                        forma_display = forma_farmaceutica if forma_farmaceutica else ''
 
-        # --- Ordenação ---
-        if is_medicamentos:
-            print(f"Aplicando ordenação personalizada para '{sheet_name}'...")
-            # Converter OrdemPrioridade para numérico, tratando erros e preenchendo NaN
-            df['OrdemPrioridadeNumerica'] = pd.to_numeric(df['OrdemPrioridade'], errors='coerce').fillna(float('inf'))
-            # Ordena: 1º Doenca (A-Z), 2º OrdemPrioridade (Menor primeiro, sem prioridade por último), 3º NomeBusca (A-Z)
-            df = df.sort_values(by=['Doenca', 'OrdemPrioridadeNumerica', 'NomeBusca'], ascending=[True, True, True])
-            # df = df.drop(columns=['OrdemPrioridadeNumerica']) # Opcional
-            print(f"Ordenação para '{sheet_name}' concluída.")
-        elif not df.empty and 'NomeBusca' in df.columns: # Ordenação padrão para outras abas
-             df = df.sort_values(by=['NomeBusca'], ascending=True)
+                        meta_html_parts = []
+                        if categoria_display:
+                            meta_html_parts.append(f'<span class="item-categoria"><strong>Cat:</strong> {html.escape(categoria_display)}</span>')
+                        if doenca_display:
+                            meta_html_parts.append(f'<span class="item-doenca"><strong>Ind:</strong> {html.escape(doenca_display)}</span>')
+                        if forma_display:
+                            meta_html_parts.append(f'<span class="item-forma"><strong>Forma:</strong> {html.escape(forma_display)}</span>')
 
-        # --- Geração de HTML para a Aba ---
-        cor_index = ordem_planilhas.index(sheet_name) % len(CORES_ABAS)
-        classe_cor = f"tab-color-{cor_index}"
-        active_class_nav = 'active' if primeira_aba else ''
-        html_abas_nav_list.append(f'<li><button class="{active_class_nav} {classe_cor}" onclick="mostrarAba(\'{id_aba}\')">{sheet_name}</button></li>')
+                        meta_html_final = " ".join(meta_html_parts)
 
-        active_class_content = 'active' if primeira_aba else ''
-        conteudo_atual_partes = [f'<div id="{id_aba}" class="tab-content {active_class_content}">']
-
-        # Adiciona container de favoritos
-        conteudo_atual_partes.append(f'<div class="quick-access-container favoritos-container" id="favoritos-{id_aba}"><div class="quick-access-titulo favoritos-titulo"><span class="icon favorito-icon">⭐</span> Favoritos</div><div class="quick-access-lista favoritos-lista" id="lista-favoritos-{id_aba}"></div></div>')
-
-        # Adiciona container de busca
-        busca_html = ['<div class="busca-container">']
-        if is_medicamentos:
-            busca_html.append(f'<div><label for="busca-medicamentos-nome">Buscar por Nome:</label><input type="text" id="busca-medicamentos-nome" onkeyup="filtrarLista(\'{id_aba}\')" placeholder="Ex: Dipirona..."></div>')
-            busca_html.append(f'<div><label for="busca-medicamentos-categoria">Buscar por Categoria:</label><input type="text" id="busca-medicamentos-categoria" onkeyup="filtrarLista(\'{id_aba}\')" placeholder="Ex: Antibiótico..."></div>')
-            busca_html.append(f'<div><label for="busca-medicamentos-doenca">Buscar por Doença:</label><input type="text" id="busca-medicamentos-doenca" onkeyup="filtrarLista(\'{id_aba}\')" placeholder="Ex: Dor, HAS..."></div>')
-        else:
-             busca_html.append(f'<div style="flex-basis: 100%;"><label for="busca-{id_aba}">Buscar por Nome ou Conteúdo:</label><input type="text" id="busca-{id_aba}" onkeyup="filtrarLista(\'{id_aba}\')" placeholder="Digite para buscar..."></div>')
-        busca_html.append('<div class="busca-controles-extra" style="flex-basis: 100%;">')
-        busca_html.append(f'<button class="btn-limpar btn-limpar-filtros" onclick="limparFiltros(\'{id_aba}\')">Limpar Filtros</button>')
-        busca_html.append(f'<button class="btn-limpar btn-limpar-selecao" onclick="limparSelecao(\'{id_aba}\')">Limpar Seleção</button>')
-        busca_html.append('</div>') # Fecha busca-controles-extra
-        busca_html.append('</div>') # Fecha busca-container
-        conteudo_atual_partes.extend(busca_html)
-
-        # --- Geração de HTML para os Itens ---
-        itens_html_lista = []
-        for indice, linha in df.iterrows():
-            # Pula linha se coluna de conteúdo estiver vazia (NomeBusca já foi verificado)
-            if pd.isna(linha[coluna_conteudo]): continue
-            nome_busca = str(linha['NomeBusca']).strip()
-            conteudo_texto = str(linha[coluna_conteudo]).strip()
-            conteudo_formatado_escaped = html.escape(conteudo_texto)
-
-            if is_medicamentos:
-                categoria = str(linha.get('Categoria', '')).strip()
-                doenca = str(linha.get('Doenca', '')).strip()
-                forma_farmaceutica = str(linha.get('FormaFarmaceutica', '')).strip()
-
-                categoria_display = categoria if categoria else ''
-                doenca_display = doenca if doenca else ''
-                forma_display = forma_farmaceutica if forma_farmaceutica else ''
-
-                meta_html_parts = []
-                if categoria_display:
-                    meta_html_parts.append(f'<span class="item-categoria"><strong>Cat:</strong> {html.escape(categoria_display)}</span>')
-                if doenca_display:
-                    meta_html_parts.append(f'<span class="item-doenca"><strong>Ind:</strong> {html.escape(doenca_display)}</span>')
-                if forma_display:
-                    meta_html_parts.append(f'<span class="item-forma"><strong>Forma:</strong> {html.escape(forma_display)}</span>')
-                
-                meta_html_final = " ".join(meta_html_parts)
-
-                item_html = f"""
+                        item_html = f"""
         <div class="item item-medicamentos" 
              data-nome="{html.escape(nome_busca.lower())}" 
              data-categoria="{html.escape(categoria.lower())}" 
@@ -1059,29 +1020,35 @@ def gerar_html():
             </div>
         </div>
     """
-            else: # Para abas genéricas
-                template_item = ITEM_TEMPLATE_GENERICO
-                item_html = template_item.format(
-                    id_aba=id_aba,
-                    nome_busca=html.escape(nome_busca),
-                    nome_busca_lower=html.escape(nome_busca.lower()),
-                    conteudo_formatado=conteudo_formatado_escaped
-                )
-            itens_html_lista.append(item_html)
+                    else:  # Para abas genéricas
+                        item_html = ITEM_TEMPLATE_GENERICO.format(
+                            id_aba=id_aba,
+                            nome_busca=html.escape(nome_busca),
+                            nome_busca_lower=html.escape(nome_busca.lower()),
+                            conteudo_formatado=conteudo_formatado_escaped
+                        )
+                    itens_html_lista.append(item_html)
 
-        conteudo_atual_partes.append("\n".join(itens_html_lista))
-        conteudo_atual_partes.append('</div>') # Fecha tab-content
-        html_abas_conteudo_list.append("\n".join(conteudo_atual_partes))
-        primeira_aba = False
-    # Fim do loop principal sobre as planilhas
+                div_conteudo_aba_atual_partes.append("\n".join(itens_html_lista))
+
+        except Exception as e:
+            print(f"ERRO ao ler a planilha '{nome_planilha}': {e}")
+            continue
+
+        div_conteudo_aba_atual_partes.append('</div>')
+        html_abas_conteudo_list.append("".join(div_conteudo_aba_atual_partes))
+
+        cor_index = ordem_planilhas.index(nome_planilha) % len(CORES_ABAS)
+        classe_cor = f"tab-color-{cor_index}"
+        html_abas_nav_list.append(f'<li><button class="{classe_cor} {"active" if nome_planilha == primeira_planilha_nome else ""}" onclick="mostrarAba(\'{id_aba}\')">{nome_aba_display}</button></li>')
 
     # Combina todas as partes do HTML
     html_navegacao = "\n".join(html_abas_nav_list)
     html_conteudo = "\n".join(html_abas_conteudo_list)
     html_final = HTML_INICIO.replace('@@@PLACEHOLDER_NAV@@@', html_navegacao)
     html_final = html_final.replace('@@@PLACEHOLDER_CONTENT@@@', html_conteudo)
-    html_final += JAVASCRIPT_BLOCO # Adiciona o bloco JavaScript
-    html_final += HTML_FIM # Adiciona o final do HTML
+    html_final += JAVASCRIPT_BLOCO  # Adiciona o bloco JavaScript
+    html_final += HTML_FIM  # Adiciona o final do HTML
 
     # Escreve o arquivo HTML
     try:
