@@ -1,0 +1,28 @@
+{
+  "name": "excel-to-json-converter",
+  "version": "1.0.0",
+  "description": "Converte planilhas de um arquivo Excel para arquivos JSON.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "prestart": "npm run build",
+    "predev": "npm run build"
+  },
+  "keywords": [
+    "excel",
+    "json",
+    "converter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

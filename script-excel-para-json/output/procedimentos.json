@@ -1,0 +1,20 @@
+[
+  {
+    "ID_Item": 1,
+    "NomeBusca": "IOT",
+    "ConteudoTexto": "Pré-oxigenado paciente por 3 minutos com O2 à 100%; Realizados medicações para otimização: Realizada sedação com: ?, e bloqueio neuromuscular com: ?; Posicionado paciente com coxim; Feito laringoscopia. Cormack-Lehane: __; Passado tubo endotraqueal n° __. Passado em __ tentativas; Insuflado cuff e conectado ao dispositivo bolsa-válvula-máscara; Checado posicionamento do tubo por meio da ausculta, já que não dispomos de capnógrafo ou de capnografia. Verificado que o tubo endotraqueal está bem-posicionado; Fixado tubo endotraqueal em ___ cm a nível de comissura labial; Conectado tudo endotraqueal ao ventilador mecânico com parâmetros: __; ",
+    "Categoria": "Via aérea"
+  },
+  {
+    "ID_Item": 2,
+    "NomeBusca": "CVC",
+    "ConteudoTexto": "Explico procedimento para paciente. Posiciono de forma adequada o paciente; Realizo paramentação; Realizado antissepsia de local de punção: ?; Realizado anestesia local; Realizado punção com agulha, introduzido fio-guia e, após, feito dilatação com o dilatador; Introduzido cateter, retirado fio-guia e feito fixação com fio nylon. Procedimento sem intercorrência. Cateter duplo lúmen e tamanho Fr 7",
+    "Categoria": "Acesso venoso"
+  },
+  {
+    "ID_Item": 3,
+    "NomeBusca": "RCP",
+    "ConteudoTexto": "Circunstâncias do Evento:\r\n• Hora e local do início da parada cardíaca.\r\n• Condição do paciente no momento da parada (ex.: apneia, ausência de pulso, inconsciência).\r\nIntervenções Realizadas:\r\n• Compressões Torácicas: Frequência, profundidade e qualidade das compressões (ex.: \"compressões realizadas a uma frequência de 100-120/min e profundidade de 5-6 cm\").\r\n• Ventilação: Método utilizado (ex.: ventilação boca-a-máscara, bolsa-válvula-máscara, intubação endotraqueal) e frequência das ventilações.\r\n• Desfibrilação: Número de choques administrados, energia utilizada (ex.: \"choque de 200J administrado\") e resposta do paciente.\r\n• Medicações: Tipo, dose e via de administração de medicamentos (ex.: \"1 mg de epinefrina IV a cada 3-5 minutos\").\r\nResultados da RCP:\r\nRetorno da Circulação Espontânea (RCE): Hora do RCE e condição do paciente após o RCE (ex.: \"RCE obtido às 14:35, paciente com pulso palpável e pressão arterial de 90/60 mmHg\").\r\nInterrupção da RCP: Hora e motivo da interrupção (ex.: \"RCP interrompida às 14:50 devido a ordem de não ressuscitar\").\r\nCuidados Pós-Parada:\r\n• Medidas de suporte hemodinâmico e ventilatório.\r\n• Gerenciamento da temperatura alvo e outras intervenções crítica ",
+    "Categoria": "Ressuscitação cardiopulmonar"
+  }
+]
