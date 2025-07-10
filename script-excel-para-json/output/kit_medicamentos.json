@@ -1,0 +1,37 @@
+[
+  {
+    "ID_Item": 1,
+    "NomeBusca": "Síndrome gripal",
+    "ConteudoTexto": "Uso oral\r\n\r\n1 – Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas\r\nObs. 2: Se não melhora somente com a dipirona, continue tomando-a junto com o anti-inflamatório abaixo\r\n\r\n1 - Ibuprofeno 600 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por 5 dias\r\n\r\n1 – Loratadina 10 mg _____ 1 caixa\r\nTomar 1 comprimido por dia\r\n\r\n1 – Guaco xarope _____ 1 frasco\r\nTomar 10 ml de 8 em 8 horas por 5 dias\r\n\r\nUso tópico\r\n\r\n1 - Soro fisiológico \r\nRealizar lavagem nasal com soro. Usar seringa\r\n\r\n1 - Budesonida spray nasal 50 mcg _____ 1 frasco\r\nAplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias",
+    "Categoria": "Sistema respiratório",
+    "OrdemPrioridade": 1
+  },
+  {
+    "ID_Item": 2,
+    "NomeBusca": "Dispepsia",
+    "ConteudoTexto": "Uso oral\r\n\r\n1 – Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas\r\n\r\n1 – Escopolamina 10 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor\r\n\r\n1 – Domperidona 10 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas. Tomar 15-30 minutos antes das refeições\r\n\r\n1 – Metoclopramida 10 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas se náuseas ou vômitos\r\n\r\n1 - Hidróxido de alumínio + hidróxido de magnésio _____ 1 frasco\r\nTomar 1 colher 30 min antes das refeições principais\r\n\r\n1 -  Omeprazol 20 mg _____ 60 comprimidos\r\nTomar 1 cápsula pela manhã em jejum, 30 minutos antes da refeição, por 2 meses",
+    "Categoria": "Sistema gastrointestinal",
+    "OrdemPrioridade": 2
+  },
+  {
+    "ID_Item": 3,
+    "NomeBusca": "Sutura",
+    "ConteudoTexto": "Uso oral \r\n\r\n1 – Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\n\r\n2 – Ibuprofeno 600 mg _____ 1 caixa \r\nTomar 1 comprimido de 8 em 8 horas por até 5 dias\r\n\r\nUso tópico\r\n\r\n1 – Clorexidina 1% solução _____ 1 frasco\r\nAplicar 2 vezes ao dia em lesão\r\n\r\nObs.: Como curativo utilizar gazes ou outros curativos específicos. Usar esparadrapo para fixar. \r\n\r\nObs2.: Deixa a ferida com o curativo inicial por 24h. Realizar a troca de curativo 2 vezes ao dia. Na troca de curativo realizar limpeza com água e antisséptico (sabão neutro ou solução antisséptica); Sempre deixar a ferida coberta. Em caso de surgimento de edema, vermelhidão ou pus, ou seja, sinais de infecção procurar assistência médica. \r\n\r\nObs3.: Retirar os pontos com _ dias",
+    "Categoria": "Ferimento",
+    "OrdemPrioridade": 3
+  },
+  {
+    "ID_Item": 4,
+    "NomeBusca": "Asma",
+    "ConteudoTexto": "Uso inalatório\r\n\r\n1 - Fumarato de formoterol + budesonida 6/200 mcg capsula para inalação _____ 1 frasco\r\nInalar 1 jato por dia\r\n\r\n2 – Salbutamol 100 mcg aerossol _____ 1 frasco\r\nInalar 4 jatos de 4 em 4 horas por 2 dias, e após, usar de chiado no peito ou falta de ar\r\n\r\nUso oral\r\n\r\n1 – Prednisona 20 mg _____ 10 cp\r\nTomar 2 cp por dia por 5 dias",
+    "Categoria": "Sistema respiratório",
+    "OrdemPrioridade": 4
+  },
+  {
+    "ID_Item": 5,
+    "NomeBusca": "Dengue",
+    "ConteudoTexto": "Uso oral\r\n\r\n1 - Sais de reidratação oral _____ __ envelopes\r\nPara preparar o soro de reidratação oral: diluir 1 envelope em 1 litro de água fervida ou filtrada. \r\nTomar soro de reidratação oral: ___ L.\r\nTomar também líquido caseiros (água, suco, soro caseiro, chá e outros): ___ L. \r\nTotal de litros por dia ___ L. \r\nObs.: Tomar essa quantidade depois de dois dias de estar sem febre.\r\n\r\n1 – Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas\r\n\r\nou\r\n\r\n1 – Paracetamol 750 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\n\r\n1 – Loratadina 10 mg _____ 1 caixa\r\nTomar 1 comprimido por dia\r\n\r\nOrientações gerais:\r\n1 – Procurar urgência e emergência se sinais de alarme: vômitos persistentes (um vômito “atrás do outro”; dor de barriga intensa; sensação de desmaio/desmaio; sangramentos (dentro da boca, na tosse, no vômito ou nas fezes)\r\n2 – Combater o mosquito transmissor da dengue (Aedes Aegypti)\r\n3 – Usar medicações com orientação médica\r\n4 – Não usar antiinflimatórios não esteroidais (Exemplo: ibuprofeno, nimesulida, cetoprofeno, naproxeno, diclofenaco etc etc) e salicilatos (Exemplo: AAS)\r\nBeba bastante líquidos!!!",
+    "Categoria": "Sistema hematológico",
+    "OrdemPrioridade": 5
+  }
+]

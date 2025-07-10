@@ -2,340 +2,340 @@
   {
     "ID_Item": 1,
     "NomeBusca": "Acetilcisteína",
-    "PrescricaoCompleta": "1 - Acetilcisteína 20 mg/ml _________ 1 frasco\r\nTomar 10 ml de 8 em 8 horas ",
+    "PrescricaoCompleta": "1 - Acetilcisteína 20 mg/ml _____ 1 frasco\r\nTomar 10 ml de 8 em 8 horas",
     "Categoria": "Mucolítico",
     "Doenca": "tosse",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução oral"
   },
   {
     "ID_Item": 2,
     "NomeBusca": "Ácido mefenâmico",
-    "PrescricaoCompleta": "1 – Ácido mefenâmico 500 mg __________________ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas",
+    "PrescricaoCompleta": "1 - Ácido mefenâmico 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas",
     "Categoria": "AINE",
     "Doenca": "dor, dismenorreia, menorragia",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 3,
     "NomeBusca": "Ácido tranexâmico",
-    "PrescricaoCompleta": "1 - Ácido tranexâmico 500 mg _________ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por 3 dias",
+    "PrescricaoCompleta": "1 - Ácido tranexâmico 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por 3 dias",
     "Categoria": "Antifibrinolítico",
     "Doenca": "menorreia",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 4,
     "NomeBusca": "Água boricada",
-    "PrescricaoCompleta": "1 – Água boricada 3% _______________________ 1 frasco\r\nAplicar 2 vezes ao dia em lesão",
+    "PrescricaoCompleta": "1 - Água boricada 3% _____ 1 frasco\r\nAplicar 2 vezes ao dia em lesão",
     "Categoria": "Antisséptico",
     "Doenca": "ferida",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução tópica"
   },
   {
     "ID_Item": 5,
     "NomeBusca": "Albendazol",
-    "PrescricaoCompleta": "1 – Albendazol 400 mg ______ 3 cp\r\nTomar 1 comprimido por dia por 3 dias",
+    "PrescricaoCompleta": "1 - Albendazol 400 mg _____ 3 cp\r\nTomar 1 comprimido por dia por 3 dias",
     "Categoria": "Anti-helmíntico",
     "Doenca": "helmintoses",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução"
   },
   {
     "ID_Item": 6,
     "NomeBusca": "Ambroxol",
-    "PrescricaoCompleta": "1 - Ambroxol 6 mg/ml ____________ 1 frasco\r\nTomar 5 ml de 8 em 8 horas ",
+    "PrescricaoCompleta": "1 - Ambroxol 6 mg/ml _____ 1 frasco\r\nTomar 5 ml de 8 em 8 horas",
     "Categoria": "Expectorante",
     "Doenca": "tosse",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução oral"
   },
   {
     "ID_Item": 7,
     "NomeBusca": "Amoxicilina",
-    "PrescricaoCompleta": "1 – Amoxicilina 500 mg ______________________ __ comprimidos\r\nTomar 1 comprimido de 8 em 8 horas por __ dias",
+    "PrescricaoCompleta": "1 - Amoxicilina 500 mg _____ __ comprimidos\r\nTomar 1 comprimido de 8 em 8 horas por __ dias",
     "Categoria": "Antibiótico, betalactâmico",
     "Doenca": "infecção",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 8,
     "NomeBusca": "Amoxicilina, clavulanato",
-    "PrescricaoCompleta": "1. Amoxicilina+clavulanato 500/125 mg ______ ___ comprimidos\r\nTomar 1 comprimido de 8 em 8 horas por ___ dias",
+    "PrescricaoCompleta": "1. Amoxicilina+clavulanato 500/125 mg _____ ___ comprimidos\r\nTomar 1 comprimido de 8 em 8 horas por ___ dias",
     "Categoria": "Antibiótico, betalactâmico",
     "Doenca": "infecção",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 9,
     "NomeBusca": "Anlodipino",
-    "PrescricaoCompleta": "1 – Anlodipino 5 mg _____________ 60 cp/mês\r\nTomar 1 (um) comprimido de 12 em 12 horas",
+    "PrescricaoCompleta": "1 - Anlodipino 5 mg _____ 60 cp/mês\r\nTomar 1 (um) comprimido de 12 em 12 horas",
     "Categoria": "Anti-hipertensivo, BCC",
     "Doenca": "has, ic",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 10,
     "NomeBusca": "Anlodipino",
-    "PrescricaoCompleta": "1 – Anlodipino 5 mg _____________ 30 cp/mês\r\nTomar 1 (um) comprimido por dia",
+    "PrescricaoCompleta": "1 - Anlodipino 5 mg _____ 30 cp/mês\r\nTomar 1 (um) comprimido por dia",
     "Categoria": "Anti-hipertensivo, BCC",
     "Doenca": "has, ic",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 11,
     "NomeBusca": "Beclometasona",
-    "PrescricaoCompleta": "1 – Beclometasona 50 mcg aerossol _____________ 1 frasco\r\nInalar 4 jatos de 12 em 12 horas por dia",
+    "PrescricaoCompleta": "1 - Beclometasona 50 mcg aerossol _____ 1 frasco\r\nInalar 4 jatos de 12 em 12 horas por dia",
     "Categoria": "Corticoide",
     "Doenca": "asma",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "aerossol"
   },
   {
     "ID_Item": 12,
     "NomeBusca": "Beclometasona",
-    "PrescricaoCompleta": "1 – Beclometasona 250 mcg aerossol ___________ 1 frasco\r\nInalar 1 jato de 12 em 12 horas por dia",
+    "PrescricaoCompleta": "1 - Beclometasona 250 mcg aerossol _____ 1 frasco\r\nInalar 1 jato de 12 em 12 horas por dia",
     "Categoria": "Corticoide",
     "Doenca": "asma",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "aerossol"
   },
   {
     "ID_Item": 13,
     "NomeBusca": "Beclometasona",
-    "PrescricaoCompleta": "1 – Beclometasona 250 mcg aerossol ___________ 1 frasco\r\nInalar 1 jato de 12 em 12 horas por dia",
+    "PrescricaoCompleta": "1 - Beclometasona 250 mcg aerossol _____ 1 frasco\r\nInalar 1 jato de 12 em 12 horas por dia",
     "Categoria": "Corticoide",
     "Doenca": "asma",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução oral"
   },
   {
     "ID_Item": 14,
     "NomeBusca": "Betametasona",
-    "PrescricaoCompleta": "1 - Betametasona 0,1mg/ml ________________________ 1 frasco\r\nTomar 10 ml de 8 em 8 horas por 4 dias",
+    "PrescricaoCompleta": "1 - Betametasona 0,1mg/ml _____ 1 frasco\r\nTomar 10 ml de 8 em 8 horas por 4 dias",
     "Categoria": "Corticoide",
     "Doenca": "dermatite",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 15,
     "NomeBusca": "Bromoprida",
-    "PrescricaoCompleta": "1 - Bromoprida 10 mg _________________ 1 caixa\r\nTomar 1 comprimido de 8 em 8h se náusea",
+    "PrescricaoCompleta": "1 - Bromoprida 10 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8h se náusea",
     "Categoria": "Antiemético",
     "Doenca": "náuseas, vômitos",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 16,
     "NomeBusca": "Budesonida",
-    "PrescricaoCompleta": "1 - Budesonida 50 mcg aerossol ______________ 1 frasco\r\nInalar 4 puffs por dia",
+    "PrescricaoCompleta": "1 - Budesonida 50 mcg aerossol _____ 1 frasco\r\nInalar 4 puffs por dia",
     "Categoria": "Corticoide",
     "Doenca": "asma",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "aerossol"
   },
   {
     "ID_Item": 17,
     "NomeBusca": "Budesonida",
-    "PrescricaoCompleta": "1 - Budesonida 200 mcg aerossol ______________ 1 frasco\r\nInalar 1 puffs por dia",
+    "PrescricaoCompleta": "1 - Budesonida 200 mcg aerossol _____ 1 frasco\r\nInalar 1 puffs por dia",
     "Categoria": "Corticoide",
     "Doenca": "asma",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "aerossol"
   },
   {
     "ID_Item": 18,
     "NomeBusca": "Budesonida",
-    "PrescricaoCompleta": "1 - Budesonida spray nasal 32 mcg _______________ 1 frasco\r\nAplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias",
+    "PrescricaoCompleta": "1 - Budesonida spray nasal 32 mcg _____ 1 frasco\r\nAplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias",
     "Categoria": "Corticoide",
     "Doenca": "rinite",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "suspensão nasal"
   },
   {
     "ID_Item": 19,
     "NomeBusca": "Budesonida",
-    "PrescricaoCompleta": "1 - Budesonida spray nasal 50 mcg _______________ 1 frasco\r\nAplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias",
+    "PrescricaoCompleta": "1 - Budesonida spray nasal 50 mcg _____ 1 frasco\r\nAplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias",
     "Categoria": "Corticoide",
     "Doenca": "rinite",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "suspensão nasal"
   },
   {
     "ID_Item": 20,
     "NomeBusca": "Carmelose",
-    "PrescricaoCompleta": "1 – Carmelose colírio _________ 1 frasco\r\nAplicar de 4 a 8 vezes ao dia se ardência ou secura nos olhos",
+    "PrescricaoCompleta": "1 - Carmelose colírio _____ 1 frasco\r\nAplicar de 4 a 8 vezes ao dia se ardência ou secura nos olhos",
     "Categoria": "Lubrificante",
     "Doenca": "conjuntivite",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução oftálmica"
   },
   {
     "ID_Item": 21,
     "NomeBusca": "Carvedilol",
-    "PrescricaoCompleta": "1 – Carvedilol 12,5 mg ____ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
+    "PrescricaoCompleta": "1 - Carvedilol 12,5 mg _____ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
     "Categoria": "Anti-hipertensivo, BB",
     "Doenca": "has, ic",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 22,
     "NomeBusca": "Carvedilol",
-    "PrescricaoCompleta": "1 – Carvedilol 6,25 mg ____ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
+    "PrescricaoCompleta": "1 - Carvedilol 6,25 mg _____ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
     "Categoria": "Anti-hipertensivo, BB",
     "Doenca": "has, ic",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 23,
     "NomeBusca": "Carvedilol",
-    "PrescricaoCompleta": "1 – Carvedilol 3,125 mg ____ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
+    "PrescricaoCompleta": "1 - Carvedilol 3,125 mg _____ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
     "Categoria": "Anti-hipertensivo, BB",
     "Doenca": "has, ic",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 24,
     "NomeBusca": "Cefalexina",
-    "PrescricaoCompleta": "1 – Cefalexina 500 mg ______________________ __ comprimidos\r\nTomar 1 comprimido de 6 em 6 horas por __ dias",
+    "PrescricaoCompleta": "1 - Cefalexina 500 mg _____ __ comprimidos\r\nTomar 1 comprimido de 6 em 6 horas por __ dias",
     "Categoria": "Antibiótico, betalactâmico, cefalosporina 1ª geração",
     "Doenca": "infecção",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 25,
     "NomeBusca": "Ceftriaxona",
-    "PrescricaoCompleta": "1 – Ceftriaxona 1 g, 2 g (2 amp) em 100 ml de S.F. 0,9%, EV, correr em 30 minutos, 24/24h, por ___ dias\r\nIndicação:",
+    "PrescricaoCompleta": "1 - Ceftriaxona 1 g, 2 g (2 amp) em 100 ml de S.F. 0,9%, EV, correr em 30 minutos, 24/24h, por ___ dias\r\nIndicação:",
     "Categoria": "Antibiótico, betalactâmico, cefalosporina 3ª geração",
     "Doenca": "infecção",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "pó para solução injetável"
   },
   {
     "ID_Item": 26,
     "NomeBusca": "Cetoconazol",
-    "PrescricaoCompleta": "1 – Cetoconazol 2% xampu __________________________ 1 frasco\r\nLavar o couro cabeludo e demais lesões 3 a 4 vezes por semana na crise\r\nLavar o couro cabeludo e demais lesões 1 a 2 vezes por semana fora da crise\r\nDeixar agir por 3 a 5 minutos antes de enxaguar",
+    "PrescricaoCompleta": "1 - Cetoconazol 2% xampu _____ 1 frasco\r\nLavar o couro cabeludo e demais lesões 3 a 4 vezes por semana na crise\r\nLavar o couro cabeludo e demais lesões 1 a 2 vezes por semana fora da crise\r\nDeixar agir por 3 a 5 minutos antes de enxaguar",
     "Categoria": "Antifúngico",
     "Doenca": "tinea",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "xampu"
   },
   {
     "ID_Item": 27,
     "NomeBusca": "Ciclobenzaprina",
-    "PrescricaoCompleta": "1 – Ciclobenzaprina 10 mg __________________ 1 caixa\r\nTomar 1 comprimido por dia à noite por 7 dias",
+    "PrescricaoCompleta": "1 - Ciclobenzaprina 10 mg _____ 1 caixa\r\nTomar 1 comprimido por dia à noite por 7 dias",
     "Categoria": "Relaxante muscular",
     "Doenca": "dor muscular",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 28,
     "NomeBusca": "Cinarizina",
-    "PrescricaoCompleta": "1 – Cinarizina 25 mg ____________ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por 7 dias",
+    "PrescricaoCompleta": "1 - Cinarizina 25 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por 7 dias",
     "Categoria": "antivertiginoso",
     "Doenca": "vertigem",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 29,
     "NomeBusca": "Ciprofloxacino",
-    "PrescricaoCompleta": "1 – Ciprofloxacino 250 mg _____________________ ___ comprimidos\r\nTomar 1 comprimido de 12 em 12 horas por ___ dias",
+    "PrescricaoCompleta": "1 - Ciprofloxacino 250 mg _____ ___ comprimidos\r\nTomar 1 comprimido de 12 em 12 horas por ___ dias",
     "Categoria": "Antibiótico, quinolona",
     "Doenca": "infecção",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 30,
     "NomeBusca": "Ciprofloxacino",
-    "PrescricaoCompleta": "1 – Ciprofloxacino 500 mg _____________________ ___ comprimidos\r\nTomar 1 comprimido de 12 em 12 horas por ___ dias",
+    "PrescricaoCompleta": "1 - Ciprofloxacino 500 mg _____ ___ comprimidos\r\nTomar 1 comprimido de 12 em 12 horas por ___ dias",
     "Categoria": "Antibiótico, quinolona",
     "Doenca": "infecção",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 31,
     "NomeBusca": "Ciprofloxacino, dexametasona",
-    "PrescricaoCompleta": "1 – Ciprofloxacino + dexametasona solução tópica ______ 1 frasco\r\nAplicar 4 gotas no ouvido acometido de 12/12h por 7 dias",
+    "PrescricaoCompleta": "1 - Ciprofloxacino + dexametasona solução tópica _____ 1 frasco\r\nAplicar 4 gotas no ouvido acometido de 12/12h por 7 dias",
     "Categoria": "Antibiótico, corticoide",
     "Doenca": "otite",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução otológica"
   },
   {
     "ID_Item": 32,
     "NomeBusca": "Clindamicina",
-    "PrescricaoCompleta": "1 - Clindamicina 300 mg ______ ___ comprimidos\r\nTomar 1 comprimido de 8 em 8 horas por ___ dias",
+    "PrescricaoCompleta": "1 - Clindamicina 300 mg _____ ___ comprimidos\r\nTomar 1 comprimido de 8 em 8 horas por ___ dias",
     "Categoria": "Antibiótico, lincosamida",
     "Doenca": "infecção",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 33,
     "NomeBusca": "Clorexidina",
-    "PrescricaoCompleta": "1 – Clorexidina 1% solução ___________________ 1 frasco\r\nAplicar 2 vezes ao dia em lesão",
+    "PrescricaoCompleta": "1 - Clorexidina 1% solução _____ 1 frasco\r\nAplicar 2 vezes ao dia em lesão",
     "Categoria": "Antisséptico",
     "Doenca": "infecção, ferida",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução"
   },
   {
     "ID_Item": 34,
     "NomeBusca": "Clortalidona",
-    "PrescricaoCompleta": "1 – Clortalidona 25 mg _________________ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
+    "PrescricaoCompleta": "1 - Clortalidona 25 mg _____ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
     "Categoria": "Anti-hipertensivo",
     "Doenca": "has",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução"
   },
   {
     "ID_Item": 35,
     "NomeBusca": "Codeína",
-    "PrescricaoCompleta": "1 – Codeina 30 mg _______________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor",
+    "PrescricaoCompleta": "1 - Codeina 30 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor",
     "Categoria": "Analgésico opioide",
     "Doenca": "dor",
     "OrdemPrioridade": 4,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 36,
     "NomeBusca": "Codeína",
-    "PrescricaoCompleta": "1 – Codeina 3 mg/ml _____________ 1 frasco\r\nTomar 10 ml de 6 em 6 horas se dor",
+    "PrescricaoCompleta": "1 - Codeina 3 mg/ml _____ 1 frasco\r\nTomar 10 ml de 6 em 6 horas se dor",
     "Categoria": "Analgésico opioide",
     "Doenca": "dor, tosse",
     "OrdemPrioridade": 4,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução oral"
   },
   {
     "ID_Item": 37,
     "NomeBusca": "Desloratadina",
-    "PrescricaoCompleta": "1 – Desloratadina 5 mg ______________________________ 1 caixa\r\nTomar 1 comprimido por dia",
+    "PrescricaoCompleta": "1 - Desloratadina 5 mg _____ 1 caixa\r\nTomar 1 comprimido por dia",
     "Categoria": "Anti-histamínico",
     "Doenca": "alergia",
     "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 38,
     "NomeBusca": "Dexametasona",
-    "PrescricaoCompleta": "1 - Dexametasona creme ___________________________ 1 tubo\r\nAplicar 2 vezes ao dia por ___",
+    "PrescricaoCompleta": "1 - Dexametasona creme _____ 1 tubo\r\nAplicar 2 vezes ao dia por ___",
     "Categoria": "Corticoide",
     "Doenca": "dermatite",
     "OrdemPrioridade": "",
@@ -344,7 +344,7 @@
   {
     "ID_Item": 39,
     "NomeBusca": "Dexametasona",
-    "PrescricaoCompleta": "1 – Dexametasona elixir 0,5 mg/5ml ____________________ 1 frasco\r\nRealizar bocejo com 5 ml de solução por 5 min de 8 em 8 horas por 7 dias",
+    "PrescricaoCompleta": "1 - Dexametasona elixir 0,5 mg/5ml _____ 1 frasco\r\nRealizar bocejo com 5 ml de solução por 5 min de 8 em 8 horas por 7 dias",
     "Categoria": "Corticoide tópico",
     "Doenca": "Estomatite aftosa",
     "OrdemPrioridade": "",
@@ -353,52 +353,52 @@
   {
     "ID_Item": 40,
     "NomeBusca": "Dexclorfeniramina",
-    "PrescricaoCompleta": "1 – Dexclorfeniramina 2 mg ________ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas",
+    "PrescricaoCompleta": "1 - Dexclorfeniramina 2 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas",
     "Categoria": "Anti-histamínico",
     "Doenca": "alergia",
     "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 41,
     "NomeBusca": "Diclofenaco",
-    "PrescricaoCompleta": "1 – Diclofenaco 50 mg _____________________ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por até 5 dias",
+    "PrescricaoCompleta": "1 - Diclofenaco 50 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por até 5 dias",
     "Categoria": "AINE",
     "Doenca": "dor",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 42,
     "NomeBusca": "Dimenidrinato",
-    "PrescricaoCompleta": "1 – Dimenidrinato 50 mg ________________ 10 cp\r\nTomar 1 comprimido de 6 em 6 horas se náuseas ou vômitos",
+    "PrescricaoCompleta": "1 - Dimenidrinato 50 mg _____ 10 cp\r\nTomar 1 comprimido de 6 em 6 horas se náuseas ou vômitos",
     "Categoria": "Antiemético",
     "Doenca": "náuseas, vômitos",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 43,
     "NomeBusca": "Dimenidrinato, piridoxina",
-    "PrescricaoCompleta": "1 – Dimenidrinato + piridoxina 50/10 mg ___ 10 cp\r\nTomar 1 comprimido de 6 em 6 horas se náuseas ou vômitos",
+    "PrescricaoCompleta": "1 - Dimenidrinato + piridoxina 50/10 mg ___ 10 cp\r\nTomar 1 comprimido de 6 em 6 horas se náuseas ou vômitos",
     "Categoria": "Antiemético",
     "Doenca": "náuseas, vômitos",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 44,
     "NomeBusca": "Diosmina, hesperidina",
-    "PrescricaoCompleta": "1 – Diosmina + hesperidina 450/50 mg ______ 1 caixa\r\nTomar 1 comprimido de 12 em 12 horas até melhora dos sintomas",
+    "PrescricaoCompleta": "1 - Diosmina + hesperidina 450/50 mg _____ 1 caixa\r\nTomar 1 comprimido de 12 em 12 horas até melhora dos sintomas",
     "Categoria": "antivaricoso",
     "Doenca": "varizes, hemorroida",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 45,
     "NomeBusca": "Dipirona",
-    "PrescricaoCompleta": "1 – Dipirona 500 mg _______________________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre",
+    "PrescricaoCompleta": "1 - Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre",
     "Categoria": "Analgésico",
     "Doenca": "dor",
     "OrdemPrioridade": 1,
@@ -407,7 +407,7 @@
   {
     "ID_Item": 46,
     "NomeBusca": "Dipirona",
-    "PrescricaoCompleta": "1 – Dipirona 500 mg _______________________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas\r\nObs. 2: Se não melhora somente com a dipirona, continue tomando-a junto com o anti-inflamatório abaixo",
+    "PrescricaoCompleta": "1 - Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas",
     "Categoria": "Analgésico",
     "Doenca": "dor",
     "OrdemPrioridade": 1,
@@ -416,7 +416,7 @@
   {
     "ID_Item": 47,
     "NomeBusca": "Dipirona",
-    "PrescricaoCompleta": "1 – Dipirona 500 mg/ml _____________________ 1 caixa\r\nTomar 20 gotas de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 40 gotas de 6 em 6 horas\r\nObs. 2: Se não melhora somente com a dipirona, continue tomando-a junto com o anti-inflamatório abaixo",
+    "PrescricaoCompleta": "1 - Dipirona 500 mg/ml _____ 1 caixa\r\nTomar 20 gotas de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 40 gotas de 6 em 6 horas",
     "Categoria": "Analgésico",
     "Doenca": "dor",
     "OrdemPrioridade": 1,
@@ -424,776 +424,812 @@
   },
   {
     "ID_Item": 48,
-    "NomeBusca": "Domperidona",
-    "PrescricaoCompleta": "1 – Domperidona 10 mg ___________________ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas. Tomar 15-30 minutos antes das refeições",
-    "Categoria": "Procinético",
-    "Doenca": "dispepsia",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Dipirona e AINE",
+    "PrescricaoCompleta": "1 - Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas\r\nObs. 2: Se não melhora somente com a dipirona, continue tomando-a junto com o anti-inflamatório abaixo",
+    "Categoria": "Analgésico",
+    "Doenca": "dor",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 49,
-    "NomeBusca": "Enalapril",
-    "PrescricaoCompleta": "1 – Enalapril 10 mg ___________________ 30 cp/mês\r\nTomar 1 comprimido por dia",
-    "Categoria": "Anti-hipertensivo, IECA",
-    "Doenca": "has, ic",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Dipirona e AINE",
+    "PrescricaoCompleta": "1 - Dipirona 500 mg/ml _____ 1 caixa\r\nTomar 20 gotas de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 40 gotas de 6 em 6 horas\r\nObs. 2: Se não melhora somente com a dipirona, continue tomando-a junto com o anti-inflamatório abaixo",
+    "Categoria": "Analgésico",
+    "Doenca": "dor",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "solução oral"
   },
   {
     "ID_Item": 50,
-    "NomeBusca": "Enalapril",
-    "PrescricaoCompleta": "1 – Enalapril 10 mg ___________________ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
-    "Categoria": "Anti-hipertensivo, IECA",
-    "Doenca": "has, ic",
+    "NomeBusca": "Domperidona",
+    "PrescricaoCompleta": "1 - Domperidona 10 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas. Tomar 15-30 minutos antes das refeições",
+    "Categoria": "Procinético",
+    "Doenca": "dispepsia",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 51,
-    "NomeBusca": "Escopolamina",
-    "PrescricaoCompleta": "1 – Escopolamina 10 mg _______________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor",
-    "Categoria": "Antiespasmódico",
-    "Doenca": "cólica",
+    "NomeBusca": "Enalapril",
+    "PrescricaoCompleta": "1 - Enalapril 10 mg _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Anti-hipertensivo, IECA",
+    "Doenca": "has, ic",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 52,
-    "NomeBusca": "Espironolactona",
-    "PrescricaoCompleta": "1 – Espironolactona 25 mg ______________ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
-    "Categoria": "Anti-hipertensivo",
-    "Doenca": "has",
+    "NomeBusca": "Enalapril",
+    "PrescricaoCompleta": "1 - Enalapril 10 mg _____ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
+    "Categoria": "Anti-hipertensivo, IECA",
+    "Doenca": "has, ic",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 53,
-    "NomeBusca": "Fluconazol",
-    "PrescricaoCompleta": "1 – Fluconazol 150 mg __________ 1 cp\r\nTomar 1 comprimido. Dose única",
-    "Categoria": "Antifúngico",
-    "Doenca": "infecção, vaginose",
+    "NomeBusca": "Escopolamina",
+    "PrescricaoCompleta": "1 - Escopolamina 10 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor",
+    "Categoria": "Antiespasmódico",
+    "Doenca": "cólica",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 54,
-    "NomeBusca": "Flunarizina",
-    "PrescricaoCompleta": "1 – Flunarizina 10 mg ____________ 1 caixa\r\nTomar 1 comprimido por dia por 7 dias",
-    "Categoria": "antivertiginoso",
-    "Doenca": "vertigem",
+    "NomeBusca": "Espironolactona",
+    "PrescricaoCompleta": "1 - Espironolactona 25 mg _____ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
+    "Categoria": "Anti-hipertensivo",
+    "Doenca": "has",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 55,
-    "NomeBusca": "Formoterol",
-    "PrescricaoCompleta": "1 – Formoterol 6 mcg aerossol _________________ 1 frasco\r\nInalar 1 jato por dia. Máximo de 8 doses por dia",
-    "Categoria": "Agonista beta-2-adrenérgico",
-    "Doenca": "asma",
-    "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Fluconazol",
+    "PrescricaoCompleta": "1 - Fluconazol 150 mg _____ 1 cp\r\nTomar 1 comprimido. Dose única",
+    "Categoria": "Antifúngico",
+    "Doenca": "infecção, vaginose",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 56,
-    "NomeBusca": "Formoterol",
-    "PrescricaoCompleta": "1 – Formoterol 12 mcg aerossol _________________ 1 frasco\r\nInalar 1 jato por dia. Máximo de 4 doses por dia",
-    "Categoria": "Agonista beta-2-adrenérgico",
-    "Doenca": "asma",
-    "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Flunarizina",
+    "PrescricaoCompleta": "1 - Flunarizina 10 mg _____ 1 caixa\r\nTomar 1 comprimido por dia por 7 dias",
+    "Categoria": "antivertiginoso",
+    "Doenca": "vertigem",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 57,
-    "NomeBusca": "Formoterol, beclometasona",
-    "PrescricaoCompleta": "1 - Dipropionato de beclometasona + fumarato de formoterol 100/6 mcg aerossol ___ 1 frasco\r\nInalar 1 jato de 12 em 12 horas por dia",
-    "Categoria": "Agonista beta-2-adrenérgico, corticoide",
+    "NomeBusca": "Formoterol",
+    "PrescricaoCompleta": "1 - Formoterol 6 mcg aerossol _____ 1 frasco\r\nInalar 1 jato por dia. Máximo de 8 doses por dia",
+    "Categoria": "Agonista beta-2-adrenérgico",
     "Doenca": "asma",
-    "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
+    "OrdemPrioridade": 3,
+    "FormaFarmaceutica": "aerossol"
   },
   {
     "ID_Item": 58,
-    "NomeBusca": "Formoterol, budesonida",
-    "PrescricaoCompleta": "1 - Fumarato de formoterol + budesonida 6/200 mcg capsula para inalação ____ 1 frasco\r\nInalar 1 jato por dia",
-    "Categoria": "Agonista beta-2-adrenérgico, corticoide",
+    "NomeBusca": "Formoterol",
+    "PrescricaoCompleta": "1 - Formoterol 12 mcg aerossol _____ 1 frasco\r\nInalar 1 jato por dia. Máximo de 4 doses por dia",
+    "Categoria": "Agonista beta-2-adrenérgico",
     "Doenca": "asma",
-    "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
+    "OrdemPrioridade": 3,
+    "FormaFarmaceutica": "aerossol"
   },
   {
     "ID_Item": 59,
-    "NomeBusca": "Formoterol, budesonida",
-    "PrescricaoCompleta": "1 - Fumarato de formoterol + budesonida 12/400 mcg capsula para inalação ____ 1 frasco\r\nInalar 1 jato por dia",
+    "NomeBusca": "Formoterol, beclometasona",
+    "PrescricaoCompleta": "1 - Dipropionato de beclometasona + fumarato de formoterol 100/6 mcg aerossol _____ 1 frasco\r\nInalar 1 jato de 12 em 12 horas por dia",
     "Categoria": "Agonista beta-2-adrenérgico, corticoide",
     "Doenca": "asma",
     "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "aerossol"
   },
   {
     "ID_Item": 60,
-    "NomeBusca": "Fosfomicina",
-    "PrescricaoCompleta": "1 – Fosfomicina 3 g ________________ 1 sache\r\nTomar 1 sache diluido em água. Dose única",
-    "Categoria": "Antibiótico",
-    "Doenca": "infecção, ITU",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Formoterol, budesonida",
+    "PrescricaoCompleta": "1 - Fumarato de formoterol + budesonida 6/200 mcg capsula para inalação _____ 1 frasco\r\nInalar 1 jato por dia",
+    "Categoria": "Agonista beta-2-adrenérgico, corticoide",
+    "Doenca": "asma",
+    "OrdemPrioridade": 2,
+    "FormaFarmaceutica": "pó para inalação"
   },
   {
     "ID_Item": 61,
-    "NomeBusca": "Gliclazida",
-    "PrescricaoCompleta": "1 – Gliclazida 30 mg _________________ 30 cp/mês\r\nTomar 1 comprimido no café da manhã",
-    "Categoria": "Secretagogos",
-    "Doenca": "dm",
+    "NomeBusca": "Formoterol, budesonida",
+    "PrescricaoCompleta": "1 - Fumarato de formoterol + budesonida 12/400 mcg capsula para inalação _____ 1 frasco\r\nInalar 1 jato por dia",
+    "Categoria": "Agonista beta-2-adrenérgico, corticoide",
+    "Doenca": "asma",
     "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "pó para inalação"
   },
   {
     "ID_Item": 62,
-    "NomeBusca": "Gliclazida",
-    "PrescricaoCompleta": "1 – Gliclazida 60 mg _________________ 30 cp/mês\r\nTomar 1 comprimido no café da manhã",
-    "Categoria": "Secretagogos",
-    "Doenca": "dm",
-    "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Fosfomicina",
+    "PrescricaoCompleta": "1 - Fosfomicina 3 g _____ 1 sache\r\nTomar 1 sache diluido em água. Dose única",
+    "Categoria": "Antibiótico",
+    "Doenca": "infecção, ITU",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "grânulo"
   },
   {
     "ID_Item": 63,
+    "NomeBusca": "Gliclazida",
+    "PrescricaoCompleta": "1 - Gliclazida 30 mg _____ 30 cp/mês\r\nTomar 1 comprimido no café da manhã",
+    "Categoria": "Secretagogos",
+    "Doenca": "dm",
+    "OrdemPrioridade": 2,
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 64,
+    "NomeBusca": "Gliclazida",
+    "PrescricaoCompleta": "1 - Gliclazida 60 mg _____ 30 cp/mês\r\nTomar 1 comprimido no café da manhã",
+    "Categoria": "Secretagogos",
+    "Doenca": "dm",
+    "OrdemPrioridade": 2,
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 65,
     "NomeBusca": "Guaco",
-    "PrescricaoCompleta": "1 – Chá de guaco 30 g __________________________________ 1 envelope\r\nInfundir 1 colher de sopa (3 g) para cada 150ml de água. Tomar 3 vezes ao dia",
+    "PrescricaoCompleta": "1 - Chá de guaco 30 g _____ 1 envelope\r\nInfundir 1 colher de sopa (3 g) para cada 150ml de água. Tomar 3 vezes ao dia",
     "Categoria": "Expectorante",
     "Doenca": "tosse",
     "OrdemPrioridade": "",
     "FormaFarmaceutica": "chá"
   },
   {
-    "ID_Item": 64,
+    "ID_Item": 66,
     "NomeBusca": "Guaco",
-    "PrescricaoCompleta": "1 – Guaco tintura ______________________ 1 frasco\r\nAplicar 40 gotas em um pouco de água e tomar de 8 em 8 horas",
+    "PrescricaoCompleta": "1 - Guaco tintura _____ 1 frasco\r\nAplicar 40 gotas em um pouco de água e tomar de 8 em 8 horas",
     "Categoria": "Expectorante",
     "Doenca": "tosse",
     "OrdemPrioridade": "",
     "FormaFarmaceutica": "tintura"
   },
   {
-    "ID_Item": 65,
+    "ID_Item": 67,
     "NomeBusca": "Guaco",
-    "PrescricaoCompleta": "1 – Guaco xarope ______________________ 1 frasco\r\nTomar 10 ml de 8 em 8 horas por 5 dias",
+    "PrescricaoCompleta": "1 - Guaco solução oral _____ 1 frasco\r\nTomar 10 ml de 8 em 8 horas por 5 dias",
     "Categoria": "Expectorante",
     "Doenca": "tosse",
     "OrdemPrioridade": 1,
-    "FormaFarmaceutica": "xarope"
-  },
-  {
-    "ID_Item": 66,
-    "NomeBusca": "Hidroclorotiazida",
-    "PrescricaoCompleta": "1 – Hidroclorotiazida 25 mg _____________ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
-    "Categoria": "Anti-hipertensivo, diurético tiazídico",
-    "Doenca": "has",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 67,
-    "NomeBusca": "Hidrocortisona",
-    "PrescricaoCompleta": "1 - Hidrocortisona creme ____________________________ 1 tubo\r\nAplicar 2 vezes ao dia por ___ dias. Realizar leve fricção",
-    "Categoria": "Corticoide",
-    "Doenca": "dermatite",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução oral"
   },
   {
     "ID_Item": 68,
-    "NomeBusca": "Hidróxido de alumínio, hidróxido de magnésio",
-    "PrescricaoCompleta": "1 - Hidróxido de alumínio + hidróxido de magnésio _________ 1 frasco\r\nTomar 1 colher 30 min antes das refeições principais",
-    "Categoria": "Antiácido",
-    "Doenca": "gastrite",
+    "NomeBusca": "Hidroclorotiazida",
+    "PrescricaoCompleta": "1 - Hidroclorotiazida 25 mg _____ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
+    "Categoria": "Anti-hipertensivo, diurético tiazídico",
+    "Doenca": "has",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 69,
-    "NomeBusca": "Hidroxiquinolina, trolamina",
-    "PrescricaoCompleta": "1 – Hidroxiquinolina + trolamina otológico (0,4 + 140 mg) __________ 1 frasco\r\nAplicar 3 gotas no ouvido afetado de 8 em 8 horas por 5 dias",
-    "Categoria": "emoliente otológico",
-    "Doenca": "rolha de cerumem",
+    "NomeBusca": "Hidrocortisona",
+    "PrescricaoCompleta": "1 - Hidrocortisona creme _____ 1 tubo\r\nAplicar 2 vezes ao dia por ___ dias. Realizar leve fricção",
+    "Categoria": "Corticoide",
+    "Doenca": "dermatite",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "creme"
   },
   {
     "ID_Item": 70,
-    "NomeBusca": "Hidroxizina",
-    "PrescricaoCompleta": "1 – Hidroxizina 25 mg _______________________________ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas",
-    "Categoria": "Anti-histamínico",
-    "Doenca": "alergia",
-    "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Hidróxido de alumínio, hidróxido de magnésio",
+    "PrescricaoCompleta": "1 - Hidróxido de alumínio + hidróxido de magnésio _____ 1 frasco\r\nTomar 1 colher 30 min antes das refeições principais",
+    "Categoria": "Antiácido",
+    "Doenca": "gastrite",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "solução oral"
   },
   {
     "ID_Item": 71,
-    "NomeBusca": "Ibuprofeno",
-    "PrescricaoCompleta": "1 - Ibuprofeno 600 mg _________________________ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por 5 dias",
-    "Categoria": "AINE",
-    "Doenca": "dor",
-    "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Hidroxiquinolina, trolamina",
+    "PrescricaoCompleta": "1 - Hidroxiquinolina + trolamina otológico (0,4 + 140 mg) _____ 1 frasco\r\nAplicar 3 gotas no ouvido afetado de 8 em 8 horas por 5 dias",
+    "Categoria": "emoliente otológico",
+    "Doenca": "rolha de cerumem",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "solução otológica"
   },
   {
     "ID_Item": 72,
-    "NomeBusca": "Indapamida",
-    "PrescricaoCompleta": "1 – Indapamida 1,5 mg _________________ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
-    "Categoria": "Anti-hipertensivo",
-    "Doenca": "has",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Hidroxizina",
+    "PrescricaoCompleta": "1 - Hidroxizina 25 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas",
+    "Categoria": "Anti-histamínico",
+    "Doenca": "alergia",
+    "OrdemPrioridade": 2,
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 73,
-    "NomeBusca": "Indapamida",
-    "PrescricaoCompleta": "1 – Indapamida 2,5 mg _________________ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
-    "Categoria": "Anti-hipertensivo",
-    "Doenca": "has",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Ibuprofeno",
+    "PrescricaoCompleta": "1 - Ibuprofeno 600 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por 5 dias",
+    "Categoria": "AINE",
+    "Doenca": "dor",
+    "OrdemPrioridade": 2,
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 74,
-    "NomeBusca": "Insulina humana NPH",
-    "PrescricaoCompleta": "1 – Insulina NPH 100 UI/ml ________________ 1 frasco-ampola\r\nAplicar 10 UI à noite antes de deitar-se",
-    "Categoria": "Análogo de insulina",
-    "Doenca": "dm",
-    "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Indapamida",
+    "PrescricaoCompleta": "1 - Indapamida 1,5 mg _____ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
+    "Categoria": "Anti-hipertensivo",
+    "Doenca": "has",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 75,
-    "NomeBusca": "Insulina humana NPH",
-    "PrescricaoCompleta": "1 – Insulina NPH 100 UI/ml ________________ 1 frasco-ampola\r\nAplicar 10 UI pela manhã e 10 UI à noite antes de deitar-se",
-    "Categoria": "Análogo de insulina",
-    "Doenca": "dm",
-    "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Indapamida",
+    "PrescricaoCompleta": "1 - Indapamida 2,5 mg _____ 30 cp/mês\r\nTomar 1 comprimido por dia pela manhã",
+    "Categoria": "Anti-hipertensivo",
+    "Doenca": "has",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 76,
     "NomeBusca": "Insulina humana NPH",
-    "PrescricaoCompleta": "1 – Insulina NPH 100 UI/ml ________________ ___ frasco-ampola\r\nAplicar ___ UI pela manhã (em torno de 8h00)\r\nAplicar ___ UI à tarde (em torno de 14h00)\r\nAplicar ___ UI à noite (em torno de 20h00)",
+    "PrescricaoCompleta": "1 - Insulina NPH 100 UI/ml _____ 1 frasco-ampola\r\nAplicar 10 UI à noite antes de deitar-se",
     "Categoria": "Análogo de insulina",
     "Doenca": "dm",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "suspensão injetável"
   },
   {
     "ID_Item": 77,
     "NomeBusca": "Insulina humana NPH",
-    "PrescricaoCompleta": "1 – Insulina NPH 100 UI/ml ________________ 1 carpule/mês\r\nAplicar 10 UI à noite antes de deitar-se",
+    "PrescricaoCompleta": "1 - Insulina NPH 100 UI/ml _____ 1 frasco-ampola\r\nAplicar 10 UI pela manhã e 10 UI à noite antes de deitar-se",
     "Categoria": "Análogo de insulina",
-    "Doenca": "dm, carpule",
+    "Doenca": "dm",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "suspensão injetável"
   },
   {
     "ID_Item": 78,
     "NomeBusca": "Insulina humana NPH",
-    "PrescricaoCompleta": "1 – Insulina NPH 100 UI/ml ________________ 1 carpule/mês\r\nAplicar 10 UI pela manhã (às 8h) e aplicar 10 UI à noite antes de deitar-se",
+    "PrescricaoCompleta": "1 - Insulina NPH 100 UI/ml _____ ___ frasco-ampola\r\nAplicar ___ UI pela manhã (em torno de 8h00)\r\nAplicar ___ UI à tarde (em torno de 14h00)\r\nAplicar ___ UI à noite (em torno de 20h00)",
     "Categoria": "Análogo de insulina",
-    "Doenca": "dm, carpule",
+    "Doenca": "dm",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "suspensão injetável"
   },
   {
     "ID_Item": 79,
     "NomeBusca": "Insulina humana NPH",
-    "PrescricaoCompleta": "1 – Insulina NPH 100 UI/ml ________________ ___ carpule\r\nAplicar ___ UI pela manhã (em torno de 8h00)\r\nAplicar ___ UI à tarde (em torno de 14h00)\r\nAplicar ___ UI à noite (em torno de 20h00)",
+    "PrescricaoCompleta": "1 - Insulina NPH 100 UI/ml _____ 1 carpule/mês\r\nAplicar 10 UI à noite antes de deitar-se",
     "Categoria": "Análogo de insulina",
-    "Doenca": "dm, carpule",
+    "Doenca": "dm",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "suspensão injetável"
   },
   {
     "ID_Item": 80,
-    "NomeBusca": "Insulina humana regular",
-    "PrescricaoCompleta": "1 – Insulina humana regular 100 UI/ml ________ ___ frasco(s)\r\nAplicar ___ antes do café da manhã\r\nAplicar ___ antes do almoço\r\nAplicar ___ antes da janta",
+    "NomeBusca": "Insulina humana NPH",
+    "PrescricaoCompleta": "1 - Insulina NPH 100 UI/ml _____ 1 carpule/mês\r\nAplicar 10 UI pela manhã (às 8h) e aplicar 10 UI à noite antes de deitar-se",
     "Categoria": "Análogo de insulina",
     "Doenca": "dm",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "suspensão injetável"
   },
   {
     "ID_Item": 81,
-    "NomeBusca": "Insulina humana regular",
-    "PrescricaoCompleta": "1 – Insulina humana regular 100 UI/ml ________ ___ carpule(s)\r\nAplicar ___ antes do café da manhã\r\nAplicar ___ antes do almoço\r\nAplicar ___ antes da janta",
+    "NomeBusca": "Insulina humana NPH",
+    "PrescricaoCompleta": "1 - Insulina NPH 100 UI/ml _____ ___ carpule\r\nAplicar ___ UI pela manhã (em torno de 8h00)\r\nAplicar ___ UI à tarde (em torno de 14h00)\r\nAplicar ___ UI à noite (em torno de 20h00)",
     "Categoria": "Análogo de insulina",
-    "Doenca": "dm, carpule",
+    "Doenca": "dm",
     "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "suspensão injetável"
   },
   {
     "ID_Item": 82,
-    "NomeBusca": "Ivermectina",
-    "PrescricaoCompleta": "1 – Ivermectina 6 mg _______________ __ comprimido(s)\r\nTomar __ comprimido(s). Após 1 semana tomar __ comprimido(s)",
-    "Categoria": "Antiparasitário",
-    "Doenca": "escabiose",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Insulina humana regular",
+    "PrescricaoCompleta": "1 - Insulina humana regular 100 UI/ml _____ ___ frasco(s)\r\nAplicar ___ antes do café da manhã\r\nAplicar ___ antes do almoço\r\nAplicar ___ antes da janta",
+    "Categoria": "Análogo de insulina",
+    "Doenca": "dm",
+    "OrdemPrioridade": 3,
+    "FormaFarmaceutica": "suspensão injetável"
   },
   {
     "ID_Item": 83,
-    "NomeBusca": "Lactulose",
-    "PrescricaoCompleta": "1 – Lactulose 667 mg/ml ________________________ 1 frasco\r\nTomar 15 ml de 12 em 12 horas até melhora das fezes",
-    "Categoria": "Laxante",
-    "Doenca": "constipação",
-    "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Insulina humana regular",
+    "PrescricaoCompleta": "1 - Insulina humana regular 100 UI/ml _____ ___ carpule(s)\r\nAplicar ___ antes do café da manhã\r\nAplicar ___ antes do almoço\r\nAplicar ___ antes da janta",
+    "Categoria": "Análogo de insulina",
+    "Doenca": "dm, carpule",
+    "OrdemPrioridade": 3,
+    "FormaFarmaceutica": "suspensão injetável"
   },
   {
     "ID_Item": 84,
-    "NomeBusca": "Levofloxacino",
-    "PrescricaoCompleta": "1 – Levofloxacino 750 mg _______________ ___ comprimidos\r\nTomar 1 comprimido por dia por ___ dias",
-    "Categoria": "Antibiótico, quinolona",
-    "Doenca": "infecção",
+    "NomeBusca": "Ivermectina",
+    "PrescricaoCompleta": "1 - Ivermectina 6 mg _____ __ comprimido(s)\r\nTomar __ comprimido(s). Após 1 semana tomar __ comprimido(s)",
+    "Categoria": "Antiparasitário",
+    "Doenca": "escabiose",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 85,
-    "NomeBusca": "Loratadina",
-    "PrescricaoCompleta": "1 – Loratadina 10 mg _____________ 1 caixa\r\nTomar 1 comprimido por dia",
-    "Categoria": "Anti-histamínico",
-    "Doenca": "alergia",
-    "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Lactulose",
+    "PrescricaoCompleta": "1 - Lactulose 667 mg/ml _____ 1 frasco\r\nTomar 15 ml de 12 em 12 horas até melhora das fezes",
+    "Categoria": "Laxante",
+    "Doenca": "constipação",
+    "OrdemPrioridade": 2,
+    "FormaFarmaceutica": "solução oral"
   },
   {
     "ID_Item": 86,
-    "NomeBusca": "Losartana",
-    "PrescricaoCompleta": "1 – Losartana 50 mg __________________ 30 cp/mês\r\nTomar 1 comprimido por dia",
-    "Categoria": "Anti-hipertensivo, BRA",
-    "Doenca": "has, ic",
+    "NomeBusca": "Levofloxacino",
+    "PrescricaoCompleta": "1 - Levofloxacino 750 mg _____ ___ comprimidos\r\nTomar 1 comprimido por dia por ___ dias",
+    "Categoria": "Antibiótico, quinolona",
+    "Doenca": "infecção",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 87,
-    "NomeBusca": "Losartana",
-    "PrescricaoCompleta": "1 – Losartana 50 mg __________________ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
-    "Categoria": "Anti-hipertensivo, BRA",
-    "Doenca": "has, ic",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Loratadina",
+    "PrescricaoCompleta": "1 - Loratadina 10 mg _____ 1 caixa\r\nTomar 1 comprimido por dia",
+    "Categoria": "Anti-histamínico",
+    "Doenca": "alergia",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 88,
-    "NomeBusca": "Macrogol 3350, bicarbonato de sódio, cloreto de sódio, cloreto de potássio",
-    "PrescricaoCompleta": "1 - Muvinlax (Macrogol 3350 + bicarbanato de sódio + cloreto de sódio + cloreto de potássio)\r\n___________________________________ 1 frasco\r\nTomar 1 sache por dia até melhora das fezes. Diluir 1 sache em 1 copo com água, chá ou suco",
-    "Categoria": "Laxante",
-    "Doenca": "constipação",
-    "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Losartana",
+    "PrescricaoCompleta": "1 - Losartana 50 mg _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Anti-hipertensivo, BRA",
+    "Doenca": "has, ic",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 89,
-    "NomeBusca": "Macrogol 3500",
-    "PrescricaoCompleta": "1 – Macrogol 3500 ____________________________ 1 caixa/envolopes\r\nDissolver 1 (um) envelope em um copo com água e tomar 1 vez ao dia. Após o preparo, consumir imediatamente por via oral.",
-    "Categoria": "Laxante",
-    "Doenca": "constipação",
-    "OrdemPrioridade": 4,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Losartana",
+    "PrescricaoCompleta": "1 - Losartana 50 mg _____ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
+    "Categoria": "Anti-hipertensivo, BRA",
+    "Doenca": "has, ic",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 90,
-    "NomeBusca": "Metformina",
-    "PrescricaoCompleta": "1 – Metformina 850 mg ____________________ 30 cp/mês\r\nTomar 1 comprimido após o almoço",
-    "Categoria": "Biguanida",
-    "Doenca": "dm",
-    "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Macrogol 3350, bicarbonato de sódio, cloreto de sódio, cloreto de potássio",
+    "PrescricaoCompleta": "1 - Muvinlax (Macrogol 3350 + bicarbanato de sódio + cloreto de sódio + cloreto de potássio)\r\n_____ 1 frasco\r\nTomar 1 sache por dia até melhora das fezes. Diluir 1 sache em 1 copo com água, chá ou suco",
+    "Categoria": "Laxante",
+    "Doenca": "constipação",
+    "OrdemPrioridade": 3,
+    "FormaFarmaceutica": "Pó para preparação extemporânea"
   },
   {
     "ID_Item": 91,
-    "NomeBusca": "Metformina",
-    "PrescricaoCompleta": "1 – Metformina 850 mg ____________________ 60 cp/mês\r\nTomar 1 comprimido no café da manhã e 1 comprimido no jantar",
-    "Categoria": "Biguanida",
-    "Doenca": "dm",
-    "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Macrogol 3350",
+    "PrescricaoCompleta": "1 - Macrogol 3350 _____ 1 caixa/envolopes\r\nDissolver 1 (um) envelope em um copo com água e tomar 1 vez ao dia. Após o preparo, consumir imediatamente por via oral.",
+    "Categoria": "Laxante",
+    "Doenca": "constipação",
+    "OrdemPrioridade": 4,
+    "FormaFarmaceutica": "pó para solução oral"
   },
   {
     "ID_Item": 92,
     "NomeBusca": "Metformina",
-    "PrescricaoCompleta": "1 – Metformina 850 mg ____________________ 90 cp/mês\r\nTomar 1 comprimido no café da manhã\r\nTomar 1 comprimido no almoço\r\nTomar 1 comprimido no jantar",
+    "PrescricaoCompleta": "1 - Metformina 850 mg _____ 30 cp/mês\r\nTomar 1 comprimido após o almoço",
     "Categoria": "Biguanida",
     "Doenca": "dm",
     "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 93,
-    "NomeBusca": "Metoclopramida",
-    "PrescricaoCompleta": "1 – Metoclopramida 10 mg _____________ 20 cp\r\nTomar 1 comprimido de 8 em 8 horas se náuseas ou vômitos",
-    "Categoria": "Antiemético",
-    "Doenca": "náuseas, vômitos",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Metformina",
+    "PrescricaoCompleta": "1 - Metformina 850 mg _____ 60 cp/mês\r\nTomar 1 comprimido no café da manhã e 1 comprimido no jantar",
+    "Categoria": "Biguanida",
+    "Doenca": "dm",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 94,
-    "NomeBusca": "Metoprolol",
-    "PrescricaoCompleta": "1 – Succinato de metoprolol 50 mg _______ 30 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
-    "Categoria": "Anti-hipertensivo, BB",
-    "Doenca": "has, ic",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Metformina",
+    "PrescricaoCompleta": "1 - Metformina 850 mg _____ 90 cp/mês\r\nTomar 1 comprimido no café da manhã\r\nTomar 1 comprimido no almoço\r\nTomar 1 comprimido no jantar",
+    "Categoria": "Biguanida",
+    "Doenca": "dm",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 95,
-    "NomeBusca": "Metronidazol",
-    "PrescricaoCompleta": "1 – Metronidazol 400 mg ____________________ 20 comprimidos\r\nTomar 1 comprimido de 8 em 8 horas por 5 dias",
-    "Categoria": "Antiparasitário",
-    "Doenca": "infecção",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 96,
-    "NomeBusca": "Metronidazol",
-    "PrescricaoCompleta": "1 – Metronidazol 10% _________ 1 tubo\r\nUsar 1 aplicar a noite por 5 dias",
-    "Categoria": "Antiparasitário",
-    "Doenca": "infecção, vaginose",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 97,
-    "NomeBusca": "Miconazol",
-    "PrescricaoCompleta": "1 – Miconazol 2% creme ________ 1 tubo\r\nUsar 1 aplicador a noite por 7 dias",
-    "Categoria": "Antifúngico",
-    "Doenca": "infecção, vaginose",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 98,
-    "NomeBusca": "Mupirocina",
-    "PrescricaoCompleta": "1 – Mupirocina 2% creme ______ 1 tubo\r\nAplicar nas lesões de 8 em 8 horas por 5 dias",
-    "Categoria": "Antibiótico",
-    "Doenca": "ferida, impetigo",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 99,
-    "NomeBusca": "Nafazolina",
-    "PrescricaoCompleta": "1 - Nafazolina 0,5mg/ml solução nasal _____________ 1 frasco\r\nAplicar 4 gotas “dentro de cada nariz” de 6 em 6 horas por até 5 dias\r\nObs.: Não fazer uso prolongado desta medicação.",
-    "Categoria": "Descongestionante nasal",
-    "Doenca": "rinite",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 100,
-    "NomeBusca": "Naproxeno",
-    "PrescricaoCompleta": "1 – Naproxeno 250 mg ______________________1 caixa\r\nTomar 1 comprimido de 12 em 12 horas por até 5 dias",
-    "Categoria": "AINE",
-    "Doenca": "dor",
-    "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 101,
-    "NomeBusca": "Naproxeno",
-    "PrescricaoCompleta": "1 – Naproxeno 500 mg ________________________ 1 caixa\r\nTomar 1 comprimido de 12 em 12 horas por até 5 dias",
-    "Categoria": "AINE",
-    "Doenca": "dor",
-    "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 102,
-    "NomeBusca": "Neomicina, polimixina B, hidrocortisona",
-    "PrescricaoCompleta": "1 – Sulfato de neomicina 0,5 % + sulfato de polimixina B + hidrocortisona 1 % _______ 1 frasco\r\nAplicar 4 gotas no(s) ouvido(s) acometidos de 6/6 horas por 10 dias",
-    "Categoria": "Antibiótico, corticoide",
-    "Doenca": "otite",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 103,
-    "NomeBusca": "Nimesulida",
-    "PrescricaoCompleta": "1 – Nimesulida 100 mg_________________________ 1 caixa\r\nTomar 1 comprimido de 12 em 12 horas por até 5 dias",
-    "Categoria": "AINE",
-    "Doenca": "dor",
-    "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 104,
-    "NomeBusca": "Nitazoxanida",
-    "PrescricaoCompleta": "1 – Nitazoxanida 500 mg _____ 1 cp\r\nTomar 1 comprimido de 12 em 12 horas por 3 dias",
-    "Categoria": "Anti-helmíntico",
-    "Doenca": "helmintoses",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 105,
-    "NomeBusca": "Nitrofurantoína",
-    "PrescricaoCompleta": "1 – Nitrofurantoina 100 mg __________ __ comprimidos\r\nTomar 1 comprimido de 6 em 6 horas por __ dias",
-    "Categoria": "Antibiótico",
-    "Doenca": "infecção, ITU",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 106,
-    "NomeBusca": "Óleo mineral",
-    "PrescricaoCompleta": "1 – Óleo mineral ______________________________ 1 frasco\r\nTomar 1 colher de sopa (15 ml) ao deitar a noite\r\nObs.: Se não melhora, pode aumentar para 2 (duas) colheres de sopa à noite e 1 (uma) pela manhã",
-    "Categoria": "Laxante",
-    "Doenca": "constipação",
-    "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 107,
-    "NomeBusca": "Omeprazol",
-    "PrescricaoCompleta": "1. Omeprazol 20 mg - 1 caixa\r\nTomar 1 cápsula pela manhã em jejum, 30 minutos antes da refeição",
-    "Categoria": "Antiulceroso",
-    "Doenca": "gastrite",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 108,
-    "NomeBusca": "Ondansetrona",
-    "PrescricaoCompleta": "1 – Ondansetrona 4 mg _______________ 20 cp\r\nTomar 1 comprimido de 8 em 8 horas se náuseas ou vômitos",
+    "NomeBusca": "Metoclopramida",
+    "PrescricaoCompleta": "1 - Metoclopramida 10 mg _____ 20 cp\r\nTomar 1 comprimido de 8 em 8 horas se náuseas ou vômitos",
     "Categoria": "Antiemético",
     "Doenca": "náuseas, vômitos",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 96,
+    "NomeBusca": "Metoprolol",
+    "PrescricaoCompleta": "1 - Succinato de metoprolol 50 mg _____ 30 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
+    "Categoria": "Anti-hipertensivo, BB",
+    "Doenca": "has, ic",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 97,
+    "NomeBusca": "Metronidazol",
+    "PrescricaoCompleta": "1 - Metronidazol 400 mg _____ 20 comprimidos\r\nTomar 1 comprimido de 8 em 8 horas por 5 dias",
+    "Categoria": "Antiparasitário",
+    "Doenca": "infecção",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 98,
+    "NomeBusca": "Metronidazol",
+    "PrescricaoCompleta": "1 - Metronidazol 10% _____ 1 tubo\r\nUsar 1 aplicar a noite por 5 dias",
+    "Categoria": "Antiparasitário",
+    "Doenca": "infecção, vaginose",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "creme"
+  },
+  {
+    "ID_Item": 99,
+    "NomeBusca": "Miconazol",
+    "PrescricaoCompleta": "1 - Miconazol 2% creme _____ 1 tubo\r\nUsar 1 aplicador a noite por 7 dias",
+    "Categoria": "Antifúngico",
+    "Doenca": "infecção, vaginose",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "creme"
+  },
+  {
+    "ID_Item": 100,
+    "NomeBusca": "Mupirocina",
+    "PrescricaoCompleta": "1 - Mupirocina 2% creme _____ 1 tubo\r\nAplicar nas lesões de 8 em 8 horas por 5 dias",
+    "Categoria": "Antibiótico",
+    "Doenca": "ferida, impetigo",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "creme"
+  },
+  {
+    "ID_Item": 101,
+    "NomeBusca": "Nafazolina",
+    "PrescricaoCompleta": "1 - Nafazolina 0,5mg/ml solução nasal _____ 1 frasco\r\nAplicar 4 gotas “dentro de cada nariz” de 6 em 6 horas por até 5 dias\r\nObs.: Não fazer uso prolongado desta medicação.",
+    "Categoria": "Descongestionante nasal",
+    "Doenca": "rinite",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "solução nasal"
+  },
+  {
+    "ID_Item": 102,
+    "NomeBusca": "Naproxeno",
+    "PrescricaoCompleta": "1 - Naproxeno 250 mg _____1 caixa\r\nTomar 1 comprimido de 12 em 12 horas por até 5 dias",
+    "Categoria": "AINE",
+    "Doenca": "dor",
+    "OrdemPrioridade": 3,
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 103,
+    "NomeBusca": "Naproxeno",
+    "PrescricaoCompleta": "1 - Naproxeno 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 12 em 12 horas por até 5 dias",
+    "Categoria": "AINE",
+    "Doenca": "dor",
+    "OrdemPrioridade": 3,
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 104,
+    "NomeBusca": "Neomicina, polimixina B, hidrocortisona",
+    "PrescricaoCompleta": "1 - Sulfato de neomicina 0,5 % + sulfato de polimixina B + hidrocortisona 1 % _____ 1 frasco\r\nAplicar 4 gotas no(s) ouvido(s) acometidos de 6/6 horas por 10 dias",
+    "Categoria": "Antibiótico, corticoide",
+    "Doenca": "otite",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "solução otológica"
+  },
+  {
+    "ID_Item": 105,
+    "NomeBusca": "Nimesulida",
+    "PrescricaoCompleta": "1 - Nimesulida 100 mg_____ 1 caixa\r\nTomar 1 comprimido de 12 em 12 horas por até 5 dias",
+    "Categoria": "AINE",
+    "Doenca": "dor",
+    "OrdemPrioridade": 3,
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 106,
+    "NomeBusca": "Nitazoxanida",
+    "PrescricaoCompleta": "1 - Nitazoxanida 500 mg _____ 1 cp\r\nTomar 1 comprimido de 12 em 12 horas por 3 dias",
+    "Categoria": "Anti-helmíntico",
+    "Doenca": "helmintoses",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 107,
+    "NomeBusca": "Nitrofurantoína",
+    "PrescricaoCompleta": "1 - Nitrofurantoina 100 mg _____ __ comprimidos\r\nTomar 1 comprimido de 6 em 6 horas por __ dias",
+    "Categoria": "Antibiótico",
+    "Doenca": "infecção, ITU",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 108,
+    "NomeBusca": "Óleo mineral",
+    "PrescricaoCompleta": "1 - Óleo mineral _____ 1 frasco\r\nTomar 1 colher de sopa (15 ml) ao deitar a noite\r\nObs.: Se não melhora, pode aumentar para 2 (duas) colheres de sopa à noite e 1 (uma) pela manhã",
+    "Categoria": "Laxante",
+    "Doenca": "constipação",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "frasco"
   },
   {
     "ID_Item": 109,
-    "NomeBusca": "Paracetamol",
-    "PrescricaoCompleta": "1 – Paracetamol 750 mg ___________________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs. 1: Se não melhora somente com o paracetamol, continue tomando-o junto com o anti-inflamatório abaixo",
-    "Categoria": "Analgésico",
-    "Doenca": "dor",
-    "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Omeprazol",
+    "PrescricaoCompleta": "1 - Omeprazol 20 mg _____ 60 comprimidos\r\nTomar 1 cápsula pela manhã em jejum, 30 minutos antes da refeição, por 2 meses",
+    "Categoria": "Antiulceroso",
+    "Doenca": "gastrite",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "cápsula"
   },
   {
     "ID_Item": 110,
-    "NomeBusca": "Paracetamol",
-    "PrescricaoCompleta": "1 – Paracetamol 500 mg ___________________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs. 1: Se não melhora somente com o paracetamol, continue tomando-o junto com o\r\nanti-inflamatório abaixo",
-    "Categoria": "Analgésico",
-    "Doenca": "dor",
-    "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Ondansetrona",
+    "PrescricaoCompleta": "1 - Ondansetrona 4 mg _____ 20 cp\r\nTomar 1 comprimido de 8 em 8 horas se náuseas ou vômitos",
+    "Categoria": "Antiemético",
+    "Doenca": "náuseas, vômitos",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 111,
-    "NomeBusca": "Permanganato de potássio",
-    "PrescricaoCompleta": "Diluir 1 envelope em 3 litros de água morna. Realizar banho ou compressa, 3x ao dia. Evitar\r\ncontato com região de mucosa (olhos e boca por exemplo)",
-    "Categoria": "Antisséptico",
-    "Doenca": "ferida",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Paracetamol",
+    "PrescricaoCompleta": "1 - Paracetamol 750 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre",
+    "Categoria": "Analgésico",
+    "Doenca": "dor",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 112,
-    "NomeBusca": "Permetrina",
-    "PrescricaoCompleta": "1 – Permetrina 5% loção _________________ 1 frasco\r\nAplicar sobre o corpo (Não aplicar em região de cabeça) à noite. Enxaguar pela manhã. Repetir por 3 dias. Após 1 semana, repetir por mais 3 dias.",
-    "Categoria": "escabicida, pediculicida",
-    "Doenca": "escabiose, pediculose",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Paracetamol",
+    "PrescricaoCompleta": "1 - Paracetamol 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre",
+    "Categoria": "Analgésico",
+    "Doenca": "dor",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 113,
-    "NomeBusca": "Permetrina",
-    "PrescricaoCompleta": "1 – Permetrina 1% xampu ________________ 1 frasco\r\nApós lavar cabelo, deve-se aplicar este produto nos cabelos úmidos, cobrindo todo o couro cabeludo, e esfregar abundantemente em toda a extensão; O produto deve agir por 10 minutos. Passar o pente fino para a remoção dos piolhos e das lêndeas; Enxaguar o cabelo com água morna e enxugar com a toalha; Repetir após 7 dias, se houver necessidade; A quantidade necessária do produto depende do volume e tamanho dos cabelos, pode ser necessário usar o frasco inteiro e em alguns casos, de cabelo mais longos, pode ser necessário mais de um frasco;",
-    "Categoria": "escabicida, pediculicida",
-    "Doenca": "escabiose, pediculose",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Paracetamol e AINE",
+    "PrescricaoCompleta": "1 - Paracetamol 750 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs. 1: Se não melhora somente com o paracetamol, continue tomando-o junto com o anti-inflamatório abaixo",
+    "Categoria": "Analgésico",
+    "Doenca": "dor",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 114,
+    "NomeBusca": "Paracetamol e AINE",
+    "PrescricaoCompleta": "1 - Paracetamol 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs. 1: Se não melhora somente com o paracetamol, continue tomando-o junto com o\r\nanti-inflamatório abaixo",
+    "Categoria": "Analgésico",
+    "Doenca": "dor",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 115,
+    "NomeBusca": "Permanganato de potássio",
+    "PrescricaoCompleta": "1 - Permanganato de potássio _____ 4 envelopes\r\nDiluir 1 envelope em 3 litros de água morna. Realizar banho ou compressa, 3x ao dia. Evitar\r\ncontato com região de mucosa (olhos e boca por exemplo)",
+    "Categoria": "Antisséptico",
+    "Doenca": "ferida",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "pó"
+  },
+  {
+    "ID_Item": 116,
+    "NomeBusca": "Permetrina",
+    "PrescricaoCompleta": "1 - Permetrina 5% loção _____ 1 frasco\r\nAplicar sobre o corpo (Não aplicar em região de cabeça) à noite. Enxaguar pela manhã. Repetir por 3 dias. Após 1 semana, repetir por mais 3 dias.",
+    "Categoria": "escabicida, pediculicida",
+    "Doenca": "escabiose, pediculose",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "loção"
+  },
+  {
+    "ID_Item": 117,
+    "NomeBusca": "Permetrina",
+    "PrescricaoCompleta": "1 - Permetrina 1% xampu _____ 1 frasco\r\nApós lavar cabelo, deve-se aplicar este produto nos cabelos úmidos, cobrindo todo o couro cabeludo, e esfregar abundantemente em toda a extensão; O produto deve agir por 10 minutos. Passar o pente fino para a remoção dos piolhos e das lêndeas; Enxaguar o cabelo com água morna e enxugar com a toalha; Repetir após 7 dias, se houver necessidade; A quantidade necessária do produto depende do volume e tamanho dos cabelos, pode ser necessário usar o frasco inteiro e em alguns casos, de cabelo mais longos, pode ser necessário mais de um frasco;",
+    "Categoria": "escabicida, pediculicida",
+    "Doenca": "escabiose, pediculose",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "xampu"
+  },
+  {
+    "ID_Item": 118,
     "NomeBusca": "Policresuleno, cinchocaína",
     "PrescricaoCompleta": "1 - Policresuleno + Cloridrato de cinchocaína pomada _____ 1 frasco\r\nAplicar de 2 a 3 vezes no dia na região afetada até melhora dos sintomas",
     "Categoria": "Antisséptico, adstringente, anestésico local",
     "Doenca": "hemorroida",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "pomada"
   },
   {
-    "ID_Item": 115,
+    "ID_Item": 119,
     "NomeBusca": "Prednisolona",
-    "PrescricaoCompleta": "1 - Prednisolona 0,1% colírio ______________ 1 frasco\r\nAplicar __ gotas de ___ horas por 5 dias",
+    "PrescricaoCompleta": "1 - Prednisolona 0,1% colírio _____ 1 frasco\r\nAplicar __ gotas de ___ horas por 5 dias",
     "Categoria": "Corticoide",
     "Doenca": "conjuntivite",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução oftálmica"
   },
   {
-    "ID_Item": 116,
+    "ID_Item": 120,
     "NomeBusca": "Prednisona",
-    "PrescricaoCompleta": "1 – Prednisona 5 mg _______________________________ __ CPs\r\nTomar ___ comprimido (s) por dia por ___ dias",
+    "PrescricaoCompleta": "1 - Prednisona 5 mg _____ __ CPs\r\nTomar ___ comprimido (s) por dia por ___ dias",
     "Categoria": "Corticoide",
     "Doenca": "asma, dermatite",
     "OrdemPrioridade": "",
     "FormaFarmaceutica": "comprimido"
   },
   {
-    "ID_Item": 117,
+    "ID_Item": 121,
     "NomeBusca": "Prednisona",
-    "PrescricaoCompleta": "1 – Prednisona 20 mg ________________ 10 cp\r\nTomar 2 cp por dia por 5 dias",
+    "PrescricaoCompleta": "1 - Prednisona 20 mg _____ 10 cp\r\nTomar 2 cp por dia por 5 dias",
     "Categoria": "Corticoide",
     "Doenca": "crise asma",
     "OrdemPrioridade": "",
     "FormaFarmaceutica": "comprimido"
   },
   {
-    "ID_Item": 118,
+    "ID_Item": 122,
     "NomeBusca": "Prednisona",
-    "PrescricaoCompleta": "1 – Prednisolona 3 mg/ml _____________ 1 caixa\r\nTomar 14 ml por dia por 5 dias",
+    "PrescricaoCompleta": "1 - Prednisolona 3 mg/ml _____ 1 caixa\r\nTomar 14 ml por dia por 5 dias",
     "Categoria": "Corticoide",
     "Doenca": "crise asma, bronquite",
     "OrdemPrioridade": "",
     "FormaFarmaceutica": "solução oral"
   },
   {
-    "ID_Item": 119,
+    "ID_Item": 123,
     "NomeBusca": "Prometazina",
-    "PrescricaoCompleta": "1 – Prometazina 25 mg ______________________________ 1 caixa\r\nTomar 1 comprimido de 12 em 12 horas",
+    "PrescricaoCompleta": "1 - Prometazina 25 mg _____ 1 caixa\r\nTomar 1 comprimido de 12 em 12 horas",
     "Categoria": "Anti-histamínico",
     "Doenca": "alergia",
     "OrdemPrioridade": 2,
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 120,
-    "NomeBusca": "Psyllium",
-    "PrescricaoCompleta": "1 – Psyllium __________________________________ 1 caixa\r\nTomar 7 g ou 1 colhe de chá em 240 ml de água ou bebida favorita, 2 vezes ao dia. Misture bem e beba imediatamente. Para melhor efeito tome um copo adicional de água.",
-    "Categoria": "Laxante",
-    "Doenca": "constipação",
-    "OrdemPrioridade": 5,
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 121,
-    "NomeBusca": "Sacarato de hidróxido férrico",
-    "PrescricaoCompleta": "1 – Sacarato de hidróxido férrico (ex..: noripurum) __________ __ amp(s)\r\nDiluir ___ ampolas em ___ de S.F.0,9%. Correr lentamente. Repetir a cada uma semana (__ semanas de duração)",
-    "Categoria": "Ferro",
-    "Doenca": "anemia",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 122,
-    "NomeBusca": "Sais de reidratação oral",
-    "PrescricaoCompleta": "1 - Sais de reidratação oral ________________ _ envelopes\r\nPara preparar o soro de reidratação oral: diluir 1 envelope em 1 litro de água fervida ou filtrada. Tomar ___ L por dia de soro de reidratação oral. Tomar também líquido caseiros (água, suco, soro caseiro, chá e outros): ___ L. Total de litros por dia ___ L.) Tomar essa quantidade depois de dois dias de estar sem febre.",
-    "Categoria": "Eletrólitos",
-    "Doenca": "dengue",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 123,
-    "NomeBusca": "Sais de reidratação oral",
-    "PrescricaoCompleta": "1 - Soro de reidratação oral ________________ _ envelopes\r\nDiluir 1 envelope em 1 litro de água fervida ou filtrada. Tomar 1 copo para cada evacuação ou vômitos",
-    "Categoria": "Eletrólitos",
-    "Doenca": "diarreia",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 124,
-    "NomeBusca": "Salbutamol",
-    "PrescricaoCompleta": "1 – Salbutamol 100 mcg aerossol ______________ 1 frasco\r\nInalar 4 jatos se desconforto respiratório pela asma",
-    "Categoria": "Agonista beta-2-adrenérgico",
-    "Doenca": "asma",
-    "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Psyllium",
+    "PrescricaoCompleta": "1 - Psyllium _____ 1 caixa\r\nTomar 7 g ou 1 colhe de chá em 240 ml de água ou bebida favorita, 2 vezes ao dia. Misture bem e beba imediatamente. Para melhor efeito tome um copo adicional de água.",
+    "Categoria": "Laxante",
+    "Doenca": "constipação",
+    "OrdemPrioridade": 5,
+    "FormaFarmaceutica": "chá"
   },
   {
     "ID_Item": 125,
-    "NomeBusca": "Salbutamol",
-    "PrescricaoCompleta": "1 – Salbutamol 100 mcg aerossol ______________ 1 frasco\r\nInalar 4 jatos de 4 em 4 horas por 2 dias, e após, usar de chiado no peito ou falta de ar",
-    "Categoria": "Agonista beta-2-adrenérgico",
-    "Doenca": "crise asma",
-    "OrdemPrioridade": 1,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Sacarato de hidróxido férrico",
+    "PrescricaoCompleta": "1 - Sacarato de hidróxido férrico (ex..: noripurum) _____ __ amp(s)\r\nDiluir ___ ampolas em ___ de S.F.0,9%. Correr lentamente. Repetir a cada uma semana (__ semanas de duração)",
+    "Categoria": "Ferro",
+    "Doenca": "anemia",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "solução injetável"
   },
   {
     "ID_Item": 126,
-    "NomeBusca": "Simeticona",
-    "PrescricaoCompleta": "1 - Simeticona 40 mg __________________ 1 caixa\r\nTomar 1 comprimido de 8 em 8h por 3 dias",
-    "Categoria": "Antifisético",
-    "Doenca": "flatulência",
+    "NomeBusca": "Sais de reidratação oral",
+    "PrescricaoCompleta": "1 - Sais de reidratação oral _____ _ envelopes\r\nPara preparar o soro de reidratação oral: diluir 1 envelope em 1 litro de água fervida ou filtrada. Tomar ___ L por dia de soro de reidratação oral. Tomar também líquido caseiros (água, suco, soro caseiro, chá e outros): ___ L. Total de litros por dia ___ L.) Tomar essa quantidade depois de dois dias de estar sem febre.",
+    "Categoria": "Eletrólitos",
+    "Doenca": "dengue",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "pó para solução oral"
   },
   {
     "ID_Item": 127,
+    "NomeBusca": "Sais de reidratação oral",
+    "PrescricaoCompleta": "1 - Sais de reidratação oral _____ _ envelopes\r\nDiluir 1 envelope em 1 litro de água fervida ou filtrada. Tomar 1 copo para cada evacuação ou vômitos",
+    "Categoria": "Eletrólitos",
+    "Doenca": "diarreia",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "pó para solução oral"
+  },
+  {
+    "ID_Item": 128,
+    "NomeBusca": "Salbutamol",
+    "PrescricaoCompleta": "1 - Salbutamol 100 mcg aerossol _____ 1 frasco\r\nInalar 4 jatos se desconforto respiratório pela asma",
+    "Categoria": "Agonista beta-2-adrenérgico",
+    "Doenca": "asma",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "aerossol"
+  },
+  {
+    "ID_Item": 129,
+    "NomeBusca": "Salbutamol",
+    "PrescricaoCompleta": "1 - Salbutamol 100 mcg aerossol _____ 1 frasco\r\nInalar 4 jatos de 4 em 4 horas por 2 dias, e após, usar de chiado no peito ou falta de ar",
+    "Categoria": "Agonista beta-2-adrenérgico",
+    "Doenca": "crise asma",
+    "OrdemPrioridade": 1,
+    "FormaFarmaceutica": "aerossol"
+  },
+  {
+    "ID_Item": 130,
+    "NomeBusca": "Simeticona",
+    "PrescricaoCompleta": "1 - Simeticona 40 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8h por 3 dias",
+    "Categoria": "Antifisético",
+    "Doenca": "flatulência",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 131,
     "NomeBusca": "Soro fisiológico",
     "PrescricaoCompleta": "1 - Soro fisiológico\r\nRealizar lavagem nasal com soro. Usar seringa",
     "Categoria": "Soro fisiológico",
     "Doenca": "rinite",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 128,
-    "NomeBusca": "Sulfametoxazol, trimetoprima",
-    "PrescricaoCompleta": "1 - Sulfametoxazol+trimetoprima 400/80mg ________ __ comprimidos\r\nTomar ___ comprimidos de _____ horas por ___ dias",
-    "Categoria": "Antibiótico, antifolato",
-    "Doenca": "infecção",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 129,
-    "NomeBusca": "Sumatriptina",
-    "PrescricaoCompleta": "1 – Sumatriptana 50 mg __________ 1 caixa\r\nTomar 1 comprimido se dor de cabeça intensa",
-    "Categoria": "Agonista do receptor 5-HT1",
-    "Doenca": "cefaleia",
-    "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 130,
-    "NomeBusca": "Tenoxicam",
-    "PrescricaoCompleta": "1 – Tenoxicam 20 mg _________________________ 1 caixa\r\nTomar 1 comprimido por dia por até 5 dias",
-    "Categoria": "AINE",
-    "Doenca": "dor",
-    "OrdemPrioridade": 3,
-    "FormaFarmaceutica": ""
-  },
-  {
-    "ID_Item": 131,
-    "NomeBusca": "Tramadol",
-    "PrescricaoCompleta": "1 – Tramadol 50 mg ______________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor",
-    "Categoria": "Analgésico opioide",
-    "Doenca": "dor",
-    "OrdemPrioridade": 4,
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "solução"
   },
   {
     "ID_Item": 132,
-    "NomeBusca": "Tramadol",
-    "PrescricaoCompleta": "1 – Tramadol 100 mg _____________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor",
-    "Categoria": "Analgésico opioide",
-    "Doenca": "dor",
-    "OrdemPrioridade": 4,
-    "FormaFarmaceutica": ""
+    "NomeBusca": "Sulfametoxazol, trimetoprima",
+    "PrescricaoCompleta": "1 - Sulfametoxazol+trimetoprima 400/80mg _____ __ comprimidos\r\nTomar ___ comprimidos de _____ horas por ___ dias",
+    "Categoria": "Antibiótico, antifolato",
+    "Doenca": "infecção",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "comprimido"
   },
   {
     "ID_Item": 133,
-    "NomeBusca": "Triancinolona",
-    "PrescricaoCompleta": "1 – Triancinolona acetonida 1mg/g ________________ 1 tubo\r\nAplicar sobre a lesão até de 8 em 8 horas por 7 dias após as refeições.",
-    "Categoria": "Corticoide tópico",
-    "Doenca": "Estomatite aftosa",
+    "NomeBusca": "Sumatriptina",
+    "PrescricaoCompleta": "1 - Sumatriptana 50 mg _____ 1 caixa\r\nTomar 1 comprimido se dor de cabeça intensa",
+    "Categoria": "Agonista do receptor 5-HT1",
+    "Doenca": "cefaleia",
     "OrdemPrioridade": "",
-    "FormaFarmaceutica": ""
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 134,
+    "NomeBusca": "Tenoxicam",
+    "PrescricaoCompleta": "1 - Tenoxicam 20 mg _____ 1 caixa\r\nTomar 1 comprimido por dia por até 5 dias",
+    "Categoria": "AINE",
+    "Doenca": "dor",
+    "OrdemPrioridade": 3,
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 135,
+    "NomeBusca": "Tramadol",
+    "PrescricaoCompleta": "1 - Tramadol 50 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor",
+    "Categoria": "Analgésico opioide",
+    "Doenca": "dor",
+    "OrdemPrioridade": 4,
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 136,
+    "NomeBusca": "Tramadol",
+    "PrescricaoCompleta": "1 - Tramadol 100 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor",
+    "Categoria": "Analgésico opioide",
+    "Doenca": "dor",
+    "OrdemPrioridade": 4,
+    "FormaFarmaceutica": "comprimido"
+  },
+  {
+    "ID_Item": 137,
+    "NomeBusca": "Triancinolona",
+    "PrescricaoCompleta": "1 - Triancinolona acetonida 1mg/g _____ 1 tubo\r\nAplicar sobre a lesão até de 8 em 8 horas por 7 dias após as refeições.",
+    "Categoria": "Corticoide tópico",
+    "Doenca": "estomatite aftosa",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "pasta"
   }
 ]

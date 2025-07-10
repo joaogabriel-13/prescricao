@@ -1,86 +1,51 @@
 [
   {
     "ID_Item": 1,
-    "NomeBusca": "Admissão ou observação",
-    "ConteudoTexto": "UPA – São Sebastiao\r\nData: \r\nSala vermelha / Sala amarela\r\nAdmissão\r\nSES/CNS/CPF:\r\nProcedência: \r\nContato de familiares/responsáveis:\r\nDI na UPA e horário: \r\n.\r\n#HMA:\r\n\r\n.\r\n#HPP\r\n\r\n.\r\n#MUC\r\n\r\n.\r\n- Medicações conciliadas: \r\n\r\n.\r\n#Dispositivos:\r\n- AVP em \r\n\r\n.\r\n# Medicações específicas: \r\n\r\n.\r\n#Ex. físico \r\nPA | PAM |FC |FR |Temp |SatO2 em  |HGT\r\nPeso:\r\n\r\n.\r\n#Ex. complementares\r\n=> Lab\r\n\r\n.\r\n=> ECG\r\n\r\n.\r\n=> Imagem\r\n\r\n.\r\n=> Outros\r\n\r\n.\r\n=> Ex. prévios\r\n\r\n.\r\n#HD\r\n\r\n.\r\n#Pendências \r\n\r\n.\r\n#Conduta",
-    "Categoria": "Admissão, observação",
+    "NomeBusca": "Renovação hospital dia",
+    "ConteudoTexto": "Realizo prescrição de medicações em regime de hospital dia prescrito por: Oriento sobre a importância de realizar o acompanhamento rotineiro em consulta médicas, principalmente pelo profissional assistente ou pela equipe de saúde da atenção primária de referência.\r\n\r\nObs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida sobre a doença, ou se presença de não melhora ou piora da doença",
+    "Categoria": "Renovação de receita",
     "OrdemPrioridade": 1
   },
   {
     "ID_Item": 2,
+    "NomeBusca": "Sutura",
+    "ConteudoTexto": "Realizo antissepsia de ferida. Realizo sutura de forma asséptica. Oriento sobre complicações de ferida. Oriento sobre cuidados de ferida. Prescrevo analgesia; Forneço ___ dias de atestado; Retirada de ponto com ___ dias; Oriento sobre checagem de cartão vacinal para verificar nova dose de vacina de tétano",
+    "Categoria": "Sutura",
+    "OrdemPrioridade": 2
+  },
+  {
+    "ID_Item": 3,
     "NomeBusca": "Atestado acompanhante",
     "ConteudoTexto": "Acompanhante em questão esteve como acompanhante durante internação de (nome do paciente internado), (grau de parentesco) no (Estabelecimento de Saúde), (Cidade e estado), nos períodos: de __ até __.\r\n\r\nCID:\r\n \r\n\r\nData: ",
     "Categoria": "Atestado",
     "OrdemPrioridade": ""
   },
   {
-    "ID_Item": 3,
+    "ID_Item": 4,
     "NomeBusca": "Atestado médico",
     "ConteudoTexto": "Paciente atendido na UPA de São Sebastião, Brasília-DF, com necessidade de afastamento de atividade laborais e/ou educacionais por um período de \r\n\r\nCID:\r\n\r\nData: ",
     "Categoria": "Atestado",
     "OrdemPrioridade": ""
   },
   {
-    "ID_Item": 4,
+    "ID_Item": 5,
     "NomeBusca": "Atestado paciente internado",
     "ConteudoTexto": "Paciente em questão esteve internado na UPA de São Sebastião, Brasília-DF, nos períodos:\r\nDe __ até __\r\nAlém disso, necessita de atestado médico para afastamento de atividades laborais e/ou escolares, nos perído e com quantidade de dias\r\nQuantidade de dias:\r\nData de início\r\nData de  término\r\n\r\nCID:\r\n\r\nData: ",
     "Categoria": "Atestado",
     "OrdemPrioridade": ""
   },
   {
-    "ID_Item": 5,
-    "NomeBusca": "Evolução, amarela",
-    "ConteudoTexto": "Paciente em leito de sala amarela, tranquilo, contactuante e acompanhado de. Está estável hemodinamicamente e eupneico em a.a. Há boa dieta via oral. Eliminações de fezes adequadas. Diurese em de bom aspecto e adequada. Apresenta bons sinais vitais e sem disglicemias. Nega dor.",
-    "Categoria": "Evolução",
-    "OrdemPrioridade": 3
-  },
-  {
     "ID_Item": 6,
-    "NomeBusca": "Evolução, vermelha",
-    "ConteudoTexto": "Paciente em leito de sala vermelha, estável hemodinamicamente sem uso de DVA e eupneico em a.a. Há boa dieta via oral. Eliminações de fezes adequadas. Diurese em de bom aspecto e adequada. Apresenta bons sinais vitais e sem disglicemias. Nega dor. ",
-    "Categoria": "Evolução",
-    "OrdemPrioridade": 2
-  },
-  {
-    "ID_Item": 7,
-    "NomeBusca": "Renovação hospital dia",
-    "ConteudoTexto": "Realizo prescrição de medicações em regime de hospital dia prescrito por: Oriento sobre a importância de realizar o acompanhamento rotineiro em consulta médicas, principalmente pelo profissional assistente ou pela equipe de saúde da atenção primária de referência.\r\n\r\nObs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida sobre a doença, ou se presença de não melhora ou piora da doença",
-    "Categoria": "Renovação de receita",
-    "OrdemPrioridade": ""
-  },
-  {
-    "ID_Item": 8,
     "NomeBusca": "Renovação Uso Contínuo",
     "ConteudoTexto": "Realizo prescrição de medicações de uso contínuo prescrito por: Oriento sobre a importância de realizar o acompanhamento rotineiro em consulta médicas, principalmente pelo profissional assistente ou pela equipe de saúde da atenção primária de referência.\r\n\r\nObs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida sobre a doença, ou se presença de não melhora ou piora da doença",
     "Categoria": "Renovação de receita",
     "OrdemPrioridade": ""
   },
   {
-    "ID_Item": 9,
-    "NomeBusca": "Síndrome gripal",
-    "ConteudoTexto": "Uso oral\r\n\r\n1 – Dipirona 500 mg _______________________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas\r\nObs. 2: Se não melhora somente com a dipirona, continue tomando-a junto com o anti-inflamatório abaixo\r\n\r\n1 - Ibuprofeno 600 mg _________________________ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas por 5 dias\r\n\r\n1 – Loratadina 10 mg _____________ 1 caixa\r\nTomar 1 comprimido por dia\r\n\r\n1 – Guaco xarope ______________________ 1 frasco\r\nTomar 10 ml de 8 em 8 horas por 5 dias\r\n\r\nUso tópico\r\n\r\n1 - Soro fisiológico \r\nRealizar lavagem nasal com soro. Usar seringa\r\n\r\n1 - Budesonida spray nasal 50 mcg _______________ 1 frasco\r\nAplicar 1 jato em cada narina de 12 em 12 horas por no máximo 7 dias",
-    "Categoria": "Doença",
-    "OrdemPrioridade": 5
-  },
-  {
-    "ID_Item": 10,
+    "ID_Item": 7,
     "NomeBusca": "Solicitação exame",
     "ConteudoTexto": "Realizo prescrição de exame laboratoriais solicitado por: Oriento sobre a importância de realizar o acompanhamento rotineiro em consulta médicas, principalmente pelo profissional assistente/solicitante ou pela equipe de saúde da atenção primária de referência.\r\n\r\nObs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida sobre a doença, ou se presença de não melhora ou piora da doença",
     "Categoria": "Renovação de receita",
     "OrdemPrioridade": ""
-  },
-  {
-    "ID_Item": 11,
-    "NomeBusca": "Sutura",
-    "ConteudoTexto": "Uso oral \r\n\r\n1 – Dipirona 500 mg _______________________ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\n\r\n2 – Ibuprofeno 600 mg _____________________ 1 caixa \r\nTomar 1 comprimido de 8 em 8 horas por até 5 dias\r\n\r\nUso tópico\r\n\r\n1 – Clorexidina 1% solução ___________________ 1 frasco\r\nAplicar 2 vezes ao dia em lesão\r\n\r\nObs.: Como curativo utilizar gazes ou outros curativos específicos. Usar esparadrapo para fixar. \r\n\r\nObs2.: Deixa a ferida com o curativo inicial por 24h. Realizar a troca de curativo 2 vezes ao dia. Na troca de curativo realizar limpeza com água e antisséptico (sabão neutro ou solução antisséptica); Sempre deixar a ferida coberta. Em caso de surgimento de edema, vermelhidão ou pus, ou seja, sinais de infecção procurar assistência médica. \r\n\r\nObs3.: Retirar os pontos com _ dias",
-    "Categoria": "Sutura",
-    "OrdemPrioridade": 6
-  },
-  {
-    "ID_Item": 12,
-    "NomeBusca": "Sutura",
-    "ConteudoTexto": "Realizo antissepsia de ferida. Realizo sutura de forma asséptica. Oriento sobre complicações de ferida. Oriento sobre cuidados de ferida. Prescrevo analgesia; Forneço ___ dias de atestado; Retirada de ponto com ___ dias; Oriento sobre checagem de cartão vacinal para verificar nova dose de vacina de tétano",
-    "Categoria": "Sutura",
-    "OrdemPrioridade": 4
   }
 ]
