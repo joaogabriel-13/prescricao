@@ -16,7 +16,7 @@
   {
     "ID_Item": 3,
     "NomeBusca": "Atestado acompanhante",
-    "ConteudoTexto": "Acompanhante em questão esteve como acompanhante durante internação de (nome do paciente internado), (grau de parentesco) no (Estabelecimento de Saúde), (Cidade e estado), nos períodos: de __ até __.\r\n\r\nCID:\r\n \r\n\r\nData: ",
+    "ConteudoTexto": "Acompanhante em questão esteve como acompanhante durante internação de (nome do paciente internado), (grau de parentesco) no (Estabelecimento de Saúde), (Cidade e estado), nos períodos: de __ até __.\r\n\r\nCID:\r\n \r\nData: ",
     "Categoria": "Atestado",
     "OrdemPrioridade": ""
   },
