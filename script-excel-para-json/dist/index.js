@@ -88,6 +88,18 @@ function converterExcelParaJson() {
         sheetNames.forEach((sheetName) => {
             const worksheet = workbook.Sheets[sheetName];
             const jsonData = XLSX.utils.sheet_to_json(worksheet, { defval: "" });
+            // Converte a coluna 'isCalculable' de string para booleano
+            jsonData.forEach(row => {
+                if (row.hasOwnProperty('isCalculable')) {
+                    const value = String(row.isCalculable).trim().toLowerCase();
+                    if (value === 'true') {
+                        row.isCalculable = true;
+                    }
+                    else if (value === 'false') {
+                        row.isCalculable = false;
+                    }
+                }
+            });
             if (jsonData.length > 0) {
                 const allKeys = Object.keys(jsonData[0]);
                 const keysToRemove = [];
