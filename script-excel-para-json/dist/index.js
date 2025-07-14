@@ -88,8 +88,9 @@ function converterExcelParaJson() {
         sheetNames.forEach((sheetName) => {
             const worksheet = workbook.Sheets[sheetName];
             const jsonData = XLSX.utils.sheet_to_json(worksheet, { defval: "" });
-            // Converte a coluna 'isCalculable' de string para booleano
+            // Itera sobre cada linha do JSON para processamento de dados
             jsonData.forEach(row => {
+                // Converte a coluna 'isCalculable' de string para booleano
                 if (row.hasOwnProperty('isCalculable')) {
                     const value = String(row.isCalculable).trim().toLowerCase();
                     if (value === 'true') {
@@ -97,6 +98,29 @@ function converterExcelParaJson() {
                     }
                     else if (value === 'false') {
                         row.isCalculable = false;
+                    }
+                }
+                // Processa a coluna 'PrescricoesPadronizadasJSON' para converter string Python-like em objeto JSON
+                if (row.hasOwnProperty('PrescricoesPadronizadasJSON')) {
+                    const pyJsonString = row.PrescricoesPadronizadasJSON;
+                    if (typeof pyJsonString === 'string' && pyJsonString.trim()) {
+                        try {
+                            // Converte a sintaxe Python-like (com aspas simples, True, False, None) para JSON válido
+                            // A regex agora lida com aspas simples de forma mais segura,
+                            // convertendo-as para aspas duplas apenas quando delimitam chaves ou valores.
+                            const jsonString = pyJsonString
+                                .replace(/\bNone\b/g, 'null')
+                                .replace(/\bTrue\b/g, 'true')
+                                .replace(/\bFalse\b/g, 'false')
+                                .replace(/'([^']*)'/g, '"$1"'); // Regex mais segura para aspas
+                            row.PrescricoesPadronizadasJSON = JSON.parse(jsonString);
+                        }
+                        catch (error) {
+                            console.error(`ERRO ao fazer parse do JSON da coluna 'PrescricoesPadronizadasJSON' para o item com ID '${row.ID || row.ID_Item || 'N/A'}' na planilha '${sheetName}'. Verifique a sintaxe.`);
+                            console.error('Conteúdo original:', pyJsonString);
+                            console.error('Erro de parse:', error);
+                            // Mantém o valor original como string se o parse falhar
+                        }
                     }
                 }
             });

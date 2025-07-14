@@ -3766,5 +3766,29 @@
     "calcRoundingMax": "",
     "calcType": "",
     "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": 158,
+    "NomeBusca": "Loratadina",
+    "PrescricaoCompleta": "1 - Loratadina 1 mg/ml ___________________ 1 frasco\r\nDar ___ mls por dia",
+    "Categoria": "Anti-histamínico",
+    "Doenca": "alergia",
+    "OrdemPrioridade": "",
+    "FormaFarmaceutica": "solução oral",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
   }
 ]

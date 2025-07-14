@@ -1,0 +1,134 @@
+[
+  {
+    "ID": 1,
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Ceftriaxona",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "1g/frasco",
+    "UnidadesDose": "g; mg",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": "Correr em 30 minutos"
+  },
+  {
+    "ID": 2,
+    "Categoria": "Dieta",
+    "ItemPrincipal": "Dieta via oral",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Dieta via oral conforme prescrição nutricional",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 3,
+    "Categoria": "Monitorização",
+    "ItemPrincipal": "",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 4,
+    "Categoria": "Cuidados da enfermagem",
+    "ItemPrincipal": "Sinais vitais",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Sinais vitais de 2 em 2 horas",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 5,
+    "Categoria": "Cuidados da enfermagem",
+    "ItemPrincipal": "Sinais vitais",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Sinais vitais de 6 em 6 horas",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 6,
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Metoprolol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "25 mg Comp;\r\n50 mg Comp",
+    "UnidadesDose": "mg; Comp",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 7,
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Fentanil",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "50 mcg/ml Amp 2 ml;\r\n50 mcg/ml Amp 2 ml",
+    "UnidadesDose": "mcg; ml",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 8,
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Midazolam",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "5 mg/ml Amp 3 ml;\r\n5 mg/ml Amp 10 ml",
+    "UnidadesDose": "mg; ml",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 9,
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Cloreto de sódio",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "0,9% (100 ml);\r\n0,9% (250 ml);\r\n0,9% (500 ml);\r\n0,9% (1000 ml);",
+    "UnidadesDose": "ml; frasco",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 10,
+    "Categoria": "Cuidados da enfermagem",
+    "ItemPrincipal": "Cuidados com posicionamento",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Cabeceira elevada em 30°",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 11,
+    "Categoria": "Cuidados da enfermagem",
+    "ItemPrincipal": "Prevenção de úlcera de pressão",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Mudança de posição de 6 em 6 horas",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": 12,
+    "Categoria": "Oxigenoterapia",
+    "ItemPrincipal": "Oxigenoterapia",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Cateter nasal à 2 L/min, se SatO2 < 94%",
+    "PrescricoesPadronizadasJSON": "",
+    "ObservacaoPadrao": ""
+  }
+]

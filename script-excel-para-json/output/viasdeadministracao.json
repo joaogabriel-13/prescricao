@@ -1,0 +1,46 @@
+[
+  {
+    "Sigla": "VO",
+    "Nome": "Via oral"
+  },
+  {
+    "Sigla": "EV",
+    "Nome": "Endovenoso"
+  },
+  {
+    "Sigla": "IM",
+    "Nome": "Imtramuscular"
+  },
+  {
+    "Sigla": "Inalatório",
+    "Nome": "Via inalatória"
+  },
+  {
+    "Sigla": "Via SNE",
+    "Nome": "Via sondanasoentérica"
+  },
+  {
+    "Sigla": "Tópico",
+    "Nome": "Tópico"
+  },
+  {
+    "Sigla": "Hipodermóclise",
+    "Nome": "Hipodermóclise"
+  },
+  {
+    "Sigla": "Via retal",
+    "Nome": "Via retal"
+  },
+  {
+    "Sigla": "Via nasal",
+    "Nome": "Via nasal"
+  },
+  {
+    "Sigla": "Via otológica",
+    "Nome": "Via otológica"
+  },
+  {
+    "Sigla": "Via oftálmica",
+    "Nome": "Via oftálmica"
+  }
+]

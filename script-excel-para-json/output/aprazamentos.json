@@ -1,0 +1,78 @@
+[
+  {
+    "Horario": "Agora",
+    "Descricao": "Dose única imediata"
+  },
+  {
+    "Horario": "Dose única",
+    "Descricao": "Dose única"
+  },
+  {
+    "Horario": "1/1h",
+    "Descricao": "De 1 em 1 hora"
+  },
+  {
+    "Horario": "2/2h",
+    "Descricao": "De 2 em 2 horas"
+  },
+  {
+    "Horario": "3/3h",
+    "Descricao": "De 3 em 3 horas "
+  },
+  {
+    "Horario": "4/4h",
+    "Descricao": "De 4 em 4 horas "
+  },
+  {
+    "Horario": "6/6h",
+    "Descricao": "De 6 em 6 horas "
+  },
+  {
+    "Horario": "8/8h",
+    "Descricao": "De 8 em 8 horas"
+  },
+  {
+    "Horario": "12/12h",
+    "Descricao": "De 12 em 12 horas "
+  },
+  {
+    "Horario": "24/24h",
+    "Descricao": "De 24 em 24 horas"
+  },
+  {
+    "Horario": "48/38h",
+    "Descricao": "De 48 em 48 horas"
+  },
+  {
+    "Horario": "72/72h",
+    "Descricao": "De 72 em 72 horas"
+  },
+  {
+    "Horario": "1x dia",
+    "Descricao": "1 vez ao dia"
+  },
+  {
+    "Horario": "2x dia",
+    "Descricao": "2 vezes ao dia"
+  },
+  {
+    "Horario": "3x dia ",
+    "Descricao": "3 vezes ao dia"
+  },
+  {
+    "Horario": "4x dia ",
+    "Descricao": "4 vezes ao dia"
+  },
+  {
+    "Horario": "1x semana",
+    "Descricao": "1 vez por semana"
+  },
+  {
+    "Horario": "2x semana",
+    "Descricao": "2 vezes por semana"
+  },
+  {
+    "Horario": "3x semana",
+    "Descricao": "3 vezes por semana"
+  }
+]
