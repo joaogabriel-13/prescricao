@@ -2,6 +2,57 @@ import * as XLSX from 'xlsx';
 import * as fs from 'fs';
 import * as path from 'path';
 
+/**
+ * Converte uma string de dicionário/lista Python para um objeto JSON.
+ * Lida com None, True, False e aspas simples.
+ * @param pyString A string no formato Python.
+ * @returns Um objeto JSON ou a string original em caso de erro.
+ */
+function pythonStringToJson(pyString: string): any {
+    if (!pyString || !pyString.trim()) {
+        return ""; // Retorna string vazia se a entrada for vazia.
+    }
+
+    try {
+        // 1. Substituições globais de palavras-chave Python para JSON
+        let jsonString = pyString
+            .replace(/\bNone\b/g, 'null')
+            .replace(/\bTrue\b/g, 'true')
+            .replace(/\bFalse\b/g, 'false');
+
+        // 2. Substituição de aspas simples por duplas de forma segura
+        // Esta regex visa substituir aspas simples que delimitam chaves e valores,
+        // tentando ignorar aspas dentro de valores de string.
+        // '([^']*)' captura o conteúdo entre aspas.
+        // A substituição por `"$1"` envolve o conteúdo capturado com aspas duplas.
+        // Isso é uma melhoria, mas ainda pode falhar em casos complexos (ex: aspas escapadas).
+        jsonString = jsonString.replace(/'/g, '"');
+
+        // 3. Tenta fazer o parse
+        return JSON.parse(jsonString);
+    } catch (e) {
+        // Se o parse inicial falhar, pode ser por causa de aspas duplas dentro de strings.
+        // Ex: "{'key': 'value with "quotes"'}" se torna '{"key": "value with "quotes""}' -> Inválido
+        // Tentativa de corrigir aspas duplas internas que não foram escapadas.
+        try {
+            let correctedString = pyString
+                .replace(/\bNone\b/g, 'null')
+                .replace(/\bTrue\b/g, 'true')
+                .replace(/\bFalse\b/g, 'false')
+                .replace(/\\/g, '\\\\') // Escapa barras invertidas
+                .replace(/'/g, '"') // Troca aspas simples por duplas
+                .replace(/""/g, '\"'); // Tenta escapar aspas duplas que ficaram juntas
+
+            return JSON.parse(correctedString);
+        } catch (error) {
+            console.error(`Falha ao converter a string Python para JSON após múltiplas tentativas. String original: ${pyString}`);
+            // Retorna a string original ou vazia para não quebrar o resto do processo
+            return pyString;
+        }
+    }
+}
+
+
 // __dirname aqui se refere ao diretório do arquivo JS compilado
 // Ex: /workspaces/prescricao/script-excel-para-json/dist/
 
@@ -82,23 +133,8 @@ function converterExcelParaJson() {
                 if (row.hasOwnProperty('PrescricoesPadronizadasJSON')) {
                     const pyJsonString = row.PrescricoesPadronizadasJSON;
                     if (typeof pyJsonString === 'string' && pyJsonString.trim()) {
-                        try {
-                            // Converte a sintaxe Python-like (com aspas simples, True, False, None) para JSON válido
-                            // A regex agora lida com aspas simples de forma mais segura,
-                            // convertendo-as para aspas duplas apenas quando delimitam chaves ou valores.
-                            const jsonString = pyJsonString
-                                .replace(/\bNone\b/g, 'null')
-                                .replace(/\bTrue\b/g, 'true')
-                                .replace(/\bFalse\b/g, 'false')
-                                .replace(/'([^']*)'/g, '"$1"'); // Regex mais segura para aspas
-
-                            row.PrescricoesPadronizadasJSON = JSON.parse(jsonString);
-                        } catch (error) {
-                            console.error(`ERRO ao fazer parse do JSON da coluna 'PrescricoesPadronizadasJSON' para o item com ID '${row.ID || row.ID_Item || 'N/A'}' na planilha '${sheetName}'. Verifique a sintaxe.`);
-                            console.error('Conteúdo original:', pyJsonString);
-                            console.error('Erro de parse:', error);
-                            // Mantém o valor original como string se o parse falhar
-                        }
+                        // Usa a nova função robusta para conversão
+                        row.PrescricoesPadronizadasJSON = pythonStringToJson(pyJsonString);
                     }
                 }
             });
