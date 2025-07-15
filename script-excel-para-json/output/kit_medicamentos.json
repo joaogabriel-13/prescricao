@@ -11,14 +11,14 @@
     "NomeBusca": "Dispepsia",
     "ConteudoTexto": "Uso oral\r\n\r\n1 – Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas\r\n\r\n1 – Escopolamina 10 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor\r\n\r\n1 – Domperidona 10 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas. Tomar 15-30 minutos antes das refeições\r\n\r\n1 – Metoclopramida 10 mg _____ 1 caixa\r\nTomar 1 comprimido de 8 em 8 horas se náuseas ou vômitos\r\n\r\n1 - Hidróxido de alumínio + hidróxido de magnésio _____ 1 frasco\r\nTomar 1 colher 30 min antes das refeições principais\r\n\r\n1 -  Omeprazol 20 mg _____ 60 comprimidos\r\nTomar 1 cápsula pela manhã em jejum, 30 minutos antes da refeição, por 2 meses",
     "Categoria": "Sistema gastrointestinal",
-    "OrdemPrioridade": "2"
+    "OrdemPrioridade": "3"
   },
   {
     "ID_Item": "3",
     "NomeBusca": "Sutura",
     "ConteudoTexto": "Uso oral \r\n\r\n1 – Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\n\r\n2 – Ibuprofeno 600 mg _____ 1 caixa \r\nTomar 1 comprimido de 8 em 8 horas por até 5 dias\r\n\r\nUso tópico\r\n\r\n1 – Clorexidina 1% solução _____ 1 frasco\r\nAplicar 2 vezes ao dia em lesão\r\n\r\nObs.: Como curativo utilizar gazes ou outros curativos específicos. Usar esparadrapo para fixar. \r\n\r\nObs2.: Deixa a ferida com o curativo inicial por 24h. Realizar a troca de curativo 2 vezes ao dia. Na troca de curativo realizar limpeza com água e antisséptico (sabão neutro ou solução antisséptica); Sempre deixar a ferida coberta. Em caso de surgimento de edema, vermelhidão ou pus, ou seja, sinais de infecção procurar assistência médica. \r\n\r\nObs3.: Retirar os pontos com ___ dias",
     "Categoria": "Ferimento",
-    "OrdemPrioridade": "3"
+    "OrdemPrioridade": "5"
   },
   {
     "ID_Item": "4",
@@ -32,6 +32,13 @@
     "NomeBusca": "Dengue",
     "ConteudoTexto": "Uso oral\r\n\r\n1 - Sais de reidratação oral _____ ___ envelopes\r\nPara preparar o soro de reidratação oral: diluir 1 envelope em 1 litro de água fervida ou filtrada. \r\nTomar soro de reidratação oral: ___ L.\r\nTomar também líquido caseiros (água, suco, soro caseiro, chá e outros): ___ L. \r\nTotal de litros por dia ___ L. \r\nObs.: Tomar essa quantidade depois de dois dias de estar sem febre.\r\n\r\n1 – Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas\r\n\r\nou\r\n\r\n1 – Paracetamol 750 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\n\r\n1 – Loratadina 10 mg _____ 1 caixa\r\nTomar 1 comprimido por dia\r\n\r\nOrientações gerais:\r\n1 – Procurar urgência e emergência se sinais de alarme: vômitos persistentes (um vômito “atrás do outro”; dor de barriga intensa; sensação de desmaio/desmaio; sangramentos (dentro da boca, na tosse, no vômito ou nas fezes)\r\n2 – Combater o mosquito transmissor da dengue (Aedes Aegypti)\r\n3 – Usar medicações com orientação médica\r\n4 – Não usar antiinflimatórios não esteroidais (Exemplo: ibuprofeno, nimesulida, cetoprofeno, naproxeno, diclofenaco etc etc) e salicilatos (Exemplo: AAS)\r\nBeba bastante líquidos!!!",
     "Categoria": "Sistema hematológico",
-    "OrdemPrioridade": "5"
+    "OrdemPrioridade": "6"
+  },
+  {
+    "ID_Item": "6",
+    "NomeBusca": "Dor osteomuscular",
+    "ConteudoTexto": "Uso oral\r\n\r\n1 - Dipirona 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 6 em 6 horas se dor ou febre\r\nObs.: Pode tomar até 2 comprimidos de 6 em 6 horas\r\nObs. 2: Se não melhora somente com a dipirona, continue tomando-a junto com o anti-inflamatório abaixo\r\n\r\n1 - Naproxeno 500 mg _____ 1 caixa\r\nTomar 1 comprimido de 12 em 12 horas por até 5 dias\r\n\r\n1 - Ciclobenzaprina 10 mg _____ 1 caixa\r\nTomar 1 comprimido por dia à noite por 7 dias\r\n",
+    "Categoria": "Sistema musculo esquelético",
+    "OrdemPrioridade": "2"
   }
 ]
