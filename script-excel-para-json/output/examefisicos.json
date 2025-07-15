@@ -1,37 +1,37 @@
 [
   {
-    "ID_Item": 1,
+    "ID_Item": "1",
     "NomeBusca": "Masculino",
     "ConteudoTexto": "BEG, LOTE, corado, hidratado, AAA\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, indolor à palpação, sem sinais de peritonite\r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: pupilas isocóricas e foto reagentes. Glasgow 15",
     "Categoria": "Exame físico",
-    "OrdemPrioridade": 1
+    "OrdemPrioridade": "1"
   },
   {
-    "ID_Item": 2,
+    "ID_Item": "2",
     "NomeBusca": "Feminino",
     "ConteudoTexto": "BEG, LOTE, corada, hidratada, AAA\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, indolor à palpação, sem sinais de peritonite\r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: pupilas isocóricas e foto reagentes. Glasgow 15",
     "Categoria": "Exame físico",
-    "OrdemPrioridade": 2
+    "OrdemPrioridade": "2"
   },
   {
-    "ID_Item": 3,
+    "ID_Item": "3",
     "NomeBusca": "Trauma",
     "ConteudoTexto": "A – Vias aéreas pérvias. Sem presença de corpos estranhos visíveis em orofaringe. Pulso arterial presente. Região cervical: palpação indolor e movimentação passiva e ativa indolor. \r\nB – Eupneico. Movimento torácicos simétricos e sem desvio de traqueia. MVF+, s /RA\r\nC – RCR em 2T, BNF, s/ sopros. Extremidades bem perfundidas (TEC < 3 segundos). Sem instabilidade em pelve \r\nD – Glasgow 15. Pupilas isocóricas e fotorreagentes. \r\nE – ",
     "Categoria": "Exame físico",
-    "OrdemPrioridade": 4
+    "OrdemPrioridade": "4"
   },
   {
-    "ID_Item": 4,
+    "ID_Item": "4",
     "NomeBusca": "Psiquiátrico",
     "ConteudoTexto": "aparência, atitude, consciência, orientação, atenção, memória, inteligência, sensopercepção, fala, pensamento, humor, afeto, consciência do eu, vontade, pragmatismo, consciência de morbidade e planos para o futuro",
     "Categoria": "Exame mental",
-    "OrdemPrioridade": 3
+    "OrdemPrioridade": "3"
   },
   {
-    "ID_Item": 5,
+    "ID_Item": "5",
     "NomeBusca": "Dengue",
     "ConteudoTexto": "Nega alterações urinárias ou evacuatórias\r\nNega lesões de pele, dor abdominal, sangramentos, tontura, lipotimia ou prurido\r\n\r\nExame físico\r\n\r\nBEG, LOTE, CHAAA\r\nSem lesões de pele\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, indolor à palpação, sem sinais de peritonite\r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: pupilas isocóricas e foto reagentes. Glasgow 15\r\nOroscopia: sem lesões ou sinais de sangramento",
     "Categoria": "Exame na dengue",
-    "OrdemPrioridade": 5
+    "OrdemPrioridade": "5"
   }
 ]

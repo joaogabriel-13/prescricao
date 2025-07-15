@@ -1,58 +1,58 @@
 [
   {
-    "ID_Item": 1,
+    "ID_Item": "1",
     "NomeBusca": "Admissão ou observação",
     "ConteudoTexto": "UPA – São Sebastiao\r\nData: \r\nSala vermelha / Sala amarela\r\nAdmissão\r\nSES/CNS/CPF:\r\nProcedência: \r\nContato de familiares/responsáveis:\r\nDI na UPA e horário: \r\n.\r\n#HMA:\r\n\r\n.\r\n#HPP\r\n\r\n.\r\n#MUC\r\n\r\n.\r\n- Medicações conciliadas: \r\n\r\n.\r\n#Dispositivos:\r\n- AVP em \r\n\r\n.\r\n# Medicações específicas: \r\n\r\n.\r\n#Ex. físico \r\nPA | PAM |FC |FR |Temp |SatO2 em  |HGT\r\nPeso:\r\n\r\n.\r\n#Ex. complementares\r\n=> Lab\r\n\r\n.\r\n=> ECG\r\n\r\n.\r\n=> Imagem\r\n\r\n.\r\n=> Outros\r\n\r\n.\r\n=> Ex. prévios\r\n\r\n.\r\n#HD\r\n\r\n.\r\n#Pendências \r\n\r\n.\r\n#Conduta",
     "Categoria": "Admissão, observação",
-    "OrdemPrioridade": 1
+    "OrdemPrioridade": "1"
   },
   {
-    "ID_Item": 2,
+    "ID_Item": "2",
     "NomeBusca": "Evolução",
     "ConteudoTexto": "UPA – São Sebastiao\r\nData: \r\nSala vermelha / Sala amarela\r\nEvolução\r\nSES/CNS/CPF:\r\nProcedência: \r\nContato de familiares/responsáveis:\r\nDI na UPA e horário:\r\n.\r\n#HD\r\n \r\n.\r\n#HMA\r\n\r\n.\r\n#HPP\r\n\r\n.\r\n#MUC\r\n\r\n.\r\n- Medicações conciliadas: \r\n\r\n.\r\n#Dispositivos\r\n- AVP\r\n- [Tipo de O2 suplementar]\r\n- [Dispositivo diurese]\r\n- CVC\r\n- SNE\r\n- TOT\r\n.\r\n# Medicações específicas: \r\n\r\n.\r\n# Evolução:\r\n\r\n.\r\n#Ex. físico \r\nPA | PAM |FC |FR |Temp |SatO2 em  |HGT\r\nPeso:\r\n\r\n.\r\n#Ex. complementares\r\n=> Lab\r\n\r\n.\r\n=> ECG\r\n\r\n.\r\n=> Imagem\r\n\r\n.\r\n=> Outros\r\n\r\n.\r\n=> Ex. prévios\r\n\r\n.\r\n\r\n#Pendências \r\n\r\n.\r\n#Conduta",
     "Categoria": "Evolução",
-    "OrdemPrioridade": 2
+    "OrdemPrioridade": "2"
   },
   {
-    "ID_Item": 3,
+    "ID_Item": "3",
     "NomeBusca": "Evolução, vermelha",
     "ConteudoTexto": "Paciente em leito de sala vermelha, estável hemodinamicamente sem uso de DVA e eupneico em a.a. Há boa dieta via oral. Eliminações de fezes adequadas. Diurese em de bom aspecto e adequada. Apresenta bons sinais vitais e sem disglicemias. Nega dor. ",
     "Categoria": "Paciente Hígido, Contactante, Tranquilo, Sem Doenças Neurológicas. Sala vermelha",
-    "OrdemPrioridade": 3
+    "OrdemPrioridade": "3"
   },
   {
-    "ID_Item": 4,
+    "ID_Item": "4",
     "NomeBusca": "Evolução, vermelha, IOT",
     "ConteudoTexto": "Paciente em leito de, sob intubação orotraqueal e ventilação mecânica. Hemodinamicamente estável, sem uso de droga vasoativa. Dieta enteral por sonda nasoenteral (SNE). Débito urinário [volume, e.g., 800] mL nas últimas horas via sonda vesical de demora (SVD), aspecto [amarelo claro/turvo/hematúrico]. Eliminações evacuatórias adequadas. Sem distermias, normocárdico, normotenso, sem disglicemias.\r\n.\r\nParâmetros da VM: [Modo], FiO2 [X, e.g., 50]%, PEEP [Y, e.g., 10] cmH2O, [Volume Corrente (VC) [Z, e.g., 420] mL ou Pressão Controlada (PC) [A, e.g., 15] cmH2O acima da PEEP], Frequência Respiratória (FR) irpm.",
     "Categoria": "Modelo de Evolução (Sala Vermelha / UTI)",
-    "OrdemPrioridade": 4
+    "OrdemPrioridade": "4"
   },
   {
-    "ID_Item": 5,
+    "ID_Item": "5",
     "NomeBusca": "Evolução, déficit neurológico",
     "ConteudoTexto": "Paciente em leito de [sala amarela/vermelha], acompanhado por [familiar/cuidador]. Hemodinamicamente estável sem drogas vasoativas, eupneico em ar ambiente. Apresenta-se sonolento , despertando a estímulos verbais, porém com desorientação temporoespacial e alopsíquica. Glasgow (O V M). Atenção hipovigil e tenacidade diminuída. Comportamento apático, pouco cooperativo aos cuidados. Pupilas isocóricas e fotorreagentes. Ausência de sinais de irritação meníngea. Sem déficits motores focais agudos aparentes. Aceitando parcialmente dieta oral pastosa. Diurese presente, de aspecto concentrado. Sem distermias, normocárdico, normotenso, sem disglicemias. Sem sinais de dor ou outras queixas passíveis de presunção no momento.",
     "Categoria": "Modelo de Evolução (Exemplo para Paciente com Demência de Base e Infecção Aguda)",
-    "OrdemPrioridade": 5
+    "OrdemPrioridade": "5"
   },
   {
-    "ID_Item": 6,
+    "ID_Item": "6",
     "NomeBusca": "Evolução, amarela",
     "ConteudoTexto": "Paciente em leito de sala amarela, [com/sem] acompanhante. Mantém-se contactuante (Glasgow 15) , calmo, orientado em tempo e espaço. Eupneico em ar ambiente. Hemodinamicamente estável. Aceitando bem a dieta ofertada por via oral. Eliminações intestinais presentes e fisiológicas. Diurese presente e fisiológica. Afebril, normocárdico, normotenso e com boa saturimetria. Glicemias capilares dentro da faixa de normalidade. Nega dor ou outras queixas no momento.",
     "Categoria": "Paciente Hígido, Contactante, Tranquilo, Sem Doenças Neurológicas. Sala amarela",
-    "OrdemPrioridade": 6
+    "OrdemPrioridade": "6"
   },
   {
-    "ID_Item": 7,
+    "ID_Item": "7",
     "NomeBusca": "Evolução, TQT",
     "ConteudoTexto": "Paciente em leito de [sala amarela/vermelha], em ventilação espontânea através de traqueostomia com cânula [plástica sem balão / metálica / plástica com cuff [insuflado/desinsuflado]] número [X]. Estoma traqueal de bom aspecto, fixador limpo e bem posicionado. Realizada limpeza da cânula interna e troca de curativo conforme rotina. Aspiração traqueal com secreção [fluida, hialina], em [pequena] quantidade. Eupneico em ar ambiente [ou em uso de O2 [X] L/min via conector de TQT ou máscara de TQT, SatO2 [Y]%].",
     "Categoria": "Modelo para Paciente em Ventilação Espontânea com TQT (Sala Amarela/Vermelha)",
-    "OrdemPrioridade": 7
+    "OrdemPrioridade": "7"
   },
   {
-    "ID_Item": 8,
+    "ID_Item": "8",
     "NomeBusca": "Evolução, TQT, O2 suplementar",
     "ConteudoTexto": "Paciente em leito de [sala amarela/vermelha], [descrever estado neurológico]. Mantém traqueostomia com cânula [plástica com cuff insuflado] número [X], para proteção de via aérea [ou para ventilação mecânica intermitente]. Estoma traqueal de aspecto satisfatório, fixador adequado. Secreção traqueal [tipo, quantidade, aspecto], aspirada conforme necessidade. Atualmente em [macronebulização com O2 a [Y]% via máscara de TQT / períodos de ventilação espontânea em tubo T / ventilação mecânica em modo [especificar modo e parâmetros básicos se em desmame intermitente]]. SatO2 [Z]%.",
     "Categoria": "Modelo para Paciente com TQT Recebendo O2 Suplementar ou em Processo de Desmame de VM (ainda com TQT)",
-    "OrdemPrioridade": 8
+    "OrdemPrioridade": "8"
   }
 ]

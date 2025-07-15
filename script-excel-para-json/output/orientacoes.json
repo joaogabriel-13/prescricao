@@ -1,42 +1,42 @@
 [
   {
-    "ID_Item": 1,
+    "ID_Item": "1",
     "NomeBusca": "Hemorroida",
     "ConteudoTexto": "a)\tAumentar o consumo de alimentos ricos em fibras;\r\nb)\tAumentar o consumo de água e de outros líquidos;\r\nc)\tEnquanto houver hemorroida, tentar evitar o uso de papel higiênico. Lavar-se durante o\r\nbanho;\r\nd)\tRealizar banhos de assento por, pelo menos, três vezes ao dia e após as evacuações;\r\ne)\tOs banhos de assento podem ser realizados colocando-se água morna em uma bacia, e\r\nsentando-se nu dentro dela, de modo a permitir o contato da água com a lesão, por pelo menos 15 minutos ou até a água esfriar.",
     "Categoria": "Anal"
   },
   {
-    "ID_Item": 2,
+    "ID_Item": "2",
     "NomeBusca": "Constipação",
     "ConteudoTexto": "a)\tRealize atividades físicas regulares;\r\nb)\tO consumo de alimentos deve ser rico em fibras, com verduras, frutas, farinha de trigo, linhaça etc;\r\nc)\tJuntamente com as fibras, é importante beber bastante água;\r\nd)\tFicar sentado no vaso sanitário por alguns minutos todos os dias, mesmo sem sucesso, de preferência logo ao acordar ou cerca de 30 minutos após as refeições, de maneira a treinar o ritmo do intestino;\r\ne)\tDurante a evacuação, pode-se tentar elevar os joelhos, apoiando os pés em alguma superfície mais alta, de maneira a aumentar a pressão abdominal;",
     "Categoria": "Gastrointestinal"
   },
   {
-    "ID_Item": 3,
+    "ID_Item": "3",
     "NomeBusca": "Dificuldade para dormir",
     "ConteudoTexto": "a)\tEvitar ficar na cama sem dormir, e não usar a cama para outras atividades, como ler, ver\r\ntelevisão ou comer. Não cochilar diante da televisão antes de deitar.\r\nb)\tEvitar atividades ou hábitos que possam prejudicar o sono quando feitos à noite: praticar\r\nexercícios, café, cigarro ou bebidas alcoólicas até 6 horas antes do horário de dormir.\r\nc)\tNão fazer grandes refeições antes de se deitar.\r\nd)\tNão usar nenhum medicamento sem antes consultar seu médico.\r\ne)\tPerto da hora de dormir, preferir atividades que relaxem: banho quente, reduzir as luzes do quarto, leitura ou ouvir música.\r\nf)\tPraticar atividades físicas regularmente.\r\ng)\tSe for trabalhador noturno, para tentar dormir durante o dia, preferir manter as cortinas fechadas e evitar atividades com luminosidade (televisão, computador).\r\nh)\tSe possível, não prolongar o horário habitual de sono durante os dias de folga.\r\ni)\tTer horários regulares para dormir e acordar, evitando cochilos durante o dia.",
     "Categoria": "Neurológico"
   },
   {
-    "ID_Item": 4,
+    "ID_Item": "4",
     "NomeBusca": "DRGE",
     "ConteudoTexto": "a)\tElevação da cabeceira da cama (15 cm): use um apoio sob os pés da cama, ou\r\ntravesseiros/almofadas.\r\nb)\tEvitar deitar-se nas duas horas após as refeições.\r\nc)\tEvitar refeições espaçadas e em grande quantidade.\r\nd)\tModerar a ingestão dos seguintes alimentos, na dependência dos sintomas: frituras e gordurosos, alimentos condimentados (pimenta, ketchup), chás ricos em cafeína (verde, mate e preto), suplementos de cafeína, frutas cítricas, café, bebidas alcoólicas, bebidas gasosas/refrigerantes, menta, hortelã e produtos à base de tomate ou chocolate.\r\ne)\tNão fumar ou, pelo menos, tentar reduzir a quantidade de cigarros fumados por dia.\r\nf)\tRedução de peso corporal.\r\ng)\tTomar os medicamentos prescritos, mesmo na ausência de sintomas, e não usar nenhum remédio sem antes consultar seu médico.",
     "Categoria": "Gastrointestinal"
   },
   {
-    "ID_Item": 5,
+    "ID_Item": "5",
     "NomeBusca": "Epistaxe",
     "ConteudoTexto": "a)\tManter o ambiente úmido. Ambientes secos contribuem para o sangramento nasal;\r\nb)\tEvitar alimentos picantes;\r\nc)\tEvitar banhos quentes;\r\nd)\tExercícios extenuantes podem aumentar a chance de sangramento nasal;\r\ne)\tAplicar soro fisiológico frequentemente no nariz também contribui para sangramentos;\r\nf)\tEm caso de sangramento, pressionar o nariz na região logo abaixo do osso (já na parte\r\ng)\tmole do nariz), utilizando o indicador e o polegar;\r\nh)\tAguardar o sangramento parar e continuar pressionando por mais 5 minutos depois da interrupção do sangramento;\r\ni)\tNão é recomendado virar a cabeça para trás ou deitar de barriga para cima;\r\nj)\tEm caso de sangramento persistente, pode-se assoar o nariz de forma lenta e persistente, para tentar eliminar possíveis coágulos que contribuem para o sangramento não parar;\r\nk)\tProcurar um médico em caso de sangramentos que não cessem.",
     "Categoria": "Vascular"
   },
   {
-    "ID_Item": 6,
+    "ID_Item": "6",
     "NomeBusca": "TCE",
     "ConteudoTexto": "Até o momento não foi constatada, através dos exames realizados, qualquer evidência de que o trauma deste paciente tenha sido significativo para que ele permaneça em observação ou admitido neste hospital, e, portanto, será LIBERADO.  Entretanto, novos sinais, sintomas e complicações podem ocorrer horas, dias e semanas ou até meses após o traumatismo.  As primeiras 48 horas são as mais críticas.  É aconselhável que este paciente permaneça em companhia de alguém confiável pelo menos durante este período.\r\n\r\nO   paciente   deverá   retornar   ao   hospital   especializado (ou outras unidades de pronto-atendimento) imediatamente, se parecerem os seguintes sinais e sintomas abaixo relacionados\r\n\r\n1.Dor de cabeça persistente que não melhora com analgésicos comuns;\r\n2.Sonolência excessiva ou insônia;\r\n3.Irritabilidade, ou ansiedade ou labilidade emocional;\r\n4.Desmaio, fraqueza, diminuição   da   força   nas   pernas, na   metade   do   corpo   ou formigamento nas pernas ou metade do no corpo;\r\n5.Dificuldade de falar ou entender, de memória ou concentração;\r\n6.Modificações de personalidade ou comportamento;\r\n7.Confusão mental ou piora progressiva da consciência;\r\n8.Náuseas, ou vômitos persistentes, tonturas ou convulsão;\r\n9.Diminuição da audição, da visão ou intolerância à luz;\r\n10.Movimento estranho dos olhos, visão dupla;\r\n11.Alteração da respiração, das batidas do coração ou febre (acima de 37,8°C);\r\n12.Perda de líquido claro ou sangue pelo ouvido ou nariz;\r\n13.Alteração do tamanho ou forma das pupilas;\r\n14.Depressão ou agressividade;\r\n15.Dor na nuca ou durante movimentos do pescoço;\r\n16.Dificuldades de realizar suas atividades domésticas ou no emprego. \r\n\r\nPode continuar usando as medicações prescritas pelo seu MÉDICO, porém não use sedativos, ou remédios para dormir, xaropes para tosse ou outros que possam produzir sono. Não tome bebidas alcoólicas pelo menos nas próximas 48 horas. Durante o sono peça para ser acordado frequentemente (2 a 3 vezes), para que se possa avaliar a presença dos sinais acima descritos",
     "Categoria": "Neurológico"
   },
   {
-    "ID_Item": 7,
+    "ID_Item": "7",
     "NomeBusca": "Dengue",
     "ConteudoTexto": "Orientações gerais:\r\n1 – Procurar urgência e emergência se sinais de alarme: vômitos persistentes (um vômito “atrás do outro”; dor de barriga intensa; sensação de desmaio/desmaio; sangramentos (dentro da boca, na tosse, no vômito ou nas fezes)\r\n2 – Combater o mosquito transmissor da dengue (Aedes Aegypti)\r\n3 – Usar medicações com orientação médica\r\n4 – Não usar antiinflimatórios não esteroidais (Exemplo: ibuprofeno, nimesulida, cetoprofeno, naproxeno, diclofenaco etc etc) e salicilatos (Exemplo: AAS)\r\nBeba bastante líquidos!!!",
     "Categoria": "Dengue"

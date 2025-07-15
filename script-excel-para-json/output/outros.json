@@ -1,48 +1,48 @@
 [
   {
-    "ID_Item": 1,
+    "ID_Item": "1",
     "NomeBusca": "Renovação hospital dia",
     "ConteudoTexto": "Realizo prescrição de medicações em regime de hospital dia prescrito por: Oriento sobre a importância de realizar o acompanhamento rotineiro em consulta médicas, principalmente pelo profissional assistente ou pela equipe de saúde da atenção primária de referência.\r\n\r\nObs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida sobre a doença, ou se presença de não melhora ou piora da doença",
     "Categoria": "Renovação de receita",
-    "OrdemPrioridade": 1
+    "OrdemPrioridade": "1"
   },
   {
-    "ID_Item": 2,
+    "ID_Item": "2",
     "NomeBusca": "Sutura",
     "ConteudoTexto": "Realizo antissepsia de ferida. Realizo sutura de forma asséptica. Oriento sobre complicações de ferida. Oriento sobre cuidados de ferida. Prescrevo analgesia; Forneço ___ dias de atestado; Retirada de ponto com ___ dias; Oriento sobre checagem de cartão vacinal para verificar nova dose de vacina de tétano",
     "Categoria": "Sutura",
-    "OrdemPrioridade": 2
+    "OrdemPrioridade": "2"
   },
   {
-    "ID_Item": 3,
+    "ID_Item": "3",
     "NomeBusca": "Atestado acompanhante",
     "ConteudoTexto": "Acompanhante em questão esteve como acompanhante durante internação de (nome do paciente internado), (grau de parentesco) no (Estabelecimento de Saúde), (Cidade e estado), nos períodos: de __ até __.\r\n\r\nCID:\r\n \r\nData: ",
     "Categoria": "Atestado",
     "OrdemPrioridade": ""
   },
   {
-    "ID_Item": 4,
+    "ID_Item": "4",
     "NomeBusca": "Atestado médico",
     "ConteudoTexto": "Paciente atendido na UPA de São Sebastião, Brasília-DF, com necessidade de afastamento de atividade laborais e/ou educacionais por um período de \r\n\r\nCID:\r\n\r\nData: ",
     "Categoria": "Atestado",
     "OrdemPrioridade": ""
   },
   {
-    "ID_Item": 5,
+    "ID_Item": "5",
     "NomeBusca": "Atestado paciente internado",
     "ConteudoTexto": "Paciente em questão esteve internado na UPA de São Sebastião, Brasília-DF, nos períodos:\r\nDe __ até __\r\nAlém disso, necessita de atestado médico para afastamento de atividades laborais e/ou escolares, nos perído e com quantidade de dias\r\nQuantidade de dias:\r\nData de início\r\nData de  término\r\n\r\nCID:\r\n\r\nData: ",
     "Categoria": "Atestado",
     "OrdemPrioridade": ""
   },
   {
-    "ID_Item": 6,
+    "ID_Item": "6",
     "NomeBusca": "Renovação Uso Contínuo",
     "ConteudoTexto": "Realizo prescrição de medicações de uso contínuo prescrito por: Oriento sobre a importância de realizar o acompanhamento rotineiro em consulta médicas, principalmente pelo profissional assistente ou pela equipe de saúde da atenção primária de referência.\r\n\r\nObs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida sobre a doença, ou se presença de não melhora ou piora da doença",
     "Categoria": "Renovação de receita",
     "OrdemPrioridade": ""
   },
   {
-    "ID_Item": 7,
+    "ID_Item": "7",
     "NomeBusca": "Solicitação exame",
     "ConteudoTexto": "Realizo prescrição de exame laboratoriais solicitado por: Oriento sobre a importância de realizar o acompanhamento rotineiro em consulta médicas, principalmente pelo profissional assistente/solicitante ou pela equipe de saúde da atenção primária de referência.\r\n\r\nObs.: Oriento sobre retorno a este estabelecimento de saúde em caso de dúvida sobre a doença, ou se presença de não melhora ou piora da doença",
     "Categoria": "Renovação de receita",

@@ -3,52 +3,24 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 /**
- * Converte uma string de dicionário/lista Python para um objeto JSON.
- * Lida com None, True, False e aspas simples.
- * @param pyString A string no formato Python.
+ * Converte uma string JSON para um objeto JavaScript.
+ * Lida com strings que podem conter quebras de linha.
+ * @param jsonString A string no formato JSON.
  * @returns Um objeto JSON ou a string original em caso de erro.
  */
-function pythonStringToJson(pyString: string): any {
-    if (!pyString || !pyString.trim()) {
-        return ""; // Retorna string vazia se a entrada for vazia.
+function stringToJson(jsonString: string): any {
+    if (!jsonString || !jsonString.trim()) {
+        return null; // Retorna null se a entrada for vazia para representar ausência de valor.
     }
 
     try {
-        // 1. Substituições globais de palavras-chave Python para JSON
-        let jsonString = pyString
-            .replace(/\bNone\b/g, 'null')
-            .replace(/\bTrue\b/g, 'true')
-            .replace(/\bFalse\b/g, 'false');
-
-        // 2. Substituição de aspas simples por duplas de forma segura
-        // Esta regex visa substituir aspas simples que delimitam chaves e valores,
-        // tentando ignorar aspas dentro de valores de string.
-        // '([^']*)' captura o conteúdo entre aspas.
-        // A substituição por `"$1"` envolve o conteúdo capturado com aspas duplas.
-        // Isso é uma melhoria, mas ainda pode falhar em casos complexos (ex: aspas escapadas).
-        jsonString = jsonString.replace(/'/g, '"');
-
-        // 3. Tenta fazer o parse
-        return JSON.parse(jsonString);
+        // Remove quebras de linha que podem invalidar o JSON e tenta fazer o parse.
+        const cleanedString = jsonString.replace(/(\r\n|\n|\r)/gm, "").trim();
+        return JSON.parse(cleanedString);
     } catch (e) {
-        // Se o parse inicial falhar, pode ser por causa de aspas duplas dentro de strings.
-        // Ex: "{'key': 'value with "quotes"'}" se torna '{"key": "value with "quotes""}' -> Inválido
-        // Tentativa de corrigir aspas duplas internas que não foram escapadas.
-        try {
-            let correctedString = pyString
-                .replace(/\bNone\b/g, 'null')
-                .replace(/\bTrue\b/g, 'true')
-                .replace(/\bFalse\b/g, 'false')
-                .replace(/\\/g, '\\\\') // Escapa barras invertidas
-                .replace(/'/g, '"') // Troca aspas simples por duplas
-                .replace(/""/g, '\"'); // Tenta escapar aspas duplas que ficaram juntas
-
-            return JSON.parse(correctedString);
-        } catch (error) {
-            console.error(`Falha ao converter a string Python para JSON após múltiplas tentativas. String original: ${pyString}`);
-            // Retorna a string original ou vazia para não quebrar o resto do processo
-            return pyString;
-        }
+        console.error(`Falha ao converter a string para JSON. String original: ${jsonString}`, e);
+        // Retorna a string original para inspeção no arquivo de saída em caso de erro.
+        return jsonString;
     }
 }
 
@@ -115,10 +87,18 @@ function converterExcelParaJson() {
 
         sheetNames.forEach((sheetName: string) => {
             const worksheet = workbook.Sheets[sheetName];
+            // Usar as opções padrão (raw: true) e garantir que valores vazios sejam strings.
             const jsonData: PlanilhaItem[] = XLSX.utils.sheet_to_json<PlanilhaItem>(worksheet, { defval: "" });
 
             // Itera sobre cada linha do JSON para processamento de dados
             jsonData.forEach(row => {
+                // Garante que todos os valores sejam strings para consistência antes do processamento
+                for (const key in row) {
+                    if (row.hasOwnProperty(key) && row[key] !== null && typeof row[key] !== 'undefined') {
+                        row[key] = String(row[key]);
+                    }
+                }
+
                 // Converte a coluna 'isCalculable' de string para booleano
                 if (row.hasOwnProperty('isCalculable')) {
                     const value = String(row.isCalculable).trim().toLowerCase();
@@ -129,13 +109,11 @@ function converterExcelParaJson() {
                     }
                 }
 
-                // Processa a coluna 'PrescricoesPadronizadasJSON' para converter string Python-like em objeto JSON
+                // Processa a coluna 'PrescricoesPadronizadasJSON' para converter string em objeto JSON
                 if (row.hasOwnProperty('PrescricoesPadronizadasJSON')) {
-                    const pyJsonString = row.PrescricoesPadronizadasJSON;
-                    if (typeof pyJsonString === 'string' && pyJsonString.trim()) {
-                        // Usa a nova função robusta para conversão
-                        row.PrescricoesPadronizadasJSON = pythonStringToJson(pyJsonString);
-                    }
+                    const jsonStr = row.PrescricoesPadronizadasJSON;
+                    // Usa a função de conversão, que agora lida com strings vazias retornando null.
+                    row.PrescricoesPadronizadasJSON = stringToJson(jsonStr);
                 }
             });
 

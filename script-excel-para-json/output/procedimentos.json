@@ -1,36 +1,36 @@
 [
   {
-    "ID_Item": 1,
+    "ID_Item": "1",
     "NomeBusca": "IOT",
     "ConteudoTexto": "Pré-oxigenado paciente por 3 minutos com O2 à 100%; Realizados medicações para otimização: Realizada sedação com: ?, e bloqueio neuromuscular com: ?; Posicionado paciente com coxim; Feito laringoscopia. Cormack-Lehane: __; Passado tubo endotraqueal n° __. Passado em __ tentativas; Insuflado cuff e conectado ao dispositivo bolsa-válvula-máscara; Checado posicionamento do tubo por meio da ausculta, já que não dispomos de capnógrafo ou de capnografia. Verificado que o tubo endotraqueal está bem-posicionado; Fixado tubo endotraqueal em ___ cm a nível de comissura labial; Conectado tudo endotraqueal ao ventilador mecânico com parâmetros: __; ",
     "Categoria": "Via aérea"
   },
   {
-    "ID_Item": 2,
+    "ID_Item": "2",
     "NomeBusca": "CVC",
     "ConteudoTexto": "Explico procedimento para paciente. Posiciono de forma adequada o paciente; Realizo paramentação; Realizado antissepsia de local de punção: ?; Realizado anestesia local; Realizado punção com agulha, introduzido fio-guia e, após, feito dilatação com o dilatador; Introduzido cateter, retirado fio-guia e feito fixação com fio nylon. Procedimento sem intercorrência. Cateter duplo lúmen e tamanho Fr 7",
     "Categoria": "Acesso venoso central"
   },
   {
-    "ID_Item": 3,
+    "ID_Item": "3",
     "NomeBusca": "RCP",
     "ConteudoTexto": "Circunstâncias do Evento:\r\n- Hora do início da parada cardíaca.\r\n- Condição do paciente no momento da parada (ex.: apneia, ausência de pulso, inconsciência).\r\nIntervenções Realizadas:\r\n- Compressões Torácicas: Frequência, profundidade e qualidade das compressões (ex.: \"compressões realizadas a uma frequência de 100-120/min e profundidade de 5-6 cm\").\r\n- Ventilação: Método utilizado (ex.: ventilação boca-a-máscara, bolsa-válvula-máscara, intubação endotraqueal) e frequência das ventilações.\r\n- Desfibrilação: Número de choques administrados, energia utilizada (ex.: \"choque de 200J administrado\") e resposta do paciente.\r\n- Medicações: Tipo, dose e via de administração de medicamentos (ex.: \"1 mg de epinefrina IV a cada 3-5 minutos\").\r\n\r\nResultados da RCP:\r\n- Retorno da Circulação Espontânea (RCE): Hora do RCE e condição do paciente após o RCE (ex.: \"RCE obtido às 14:35, paciente com pulso palpável e pressão arterial de 90/60 mmHg\").\r\n- Interrupção da RCP: Hora e motivo da interrupção (ex.: \"RCP interrompida às 14:50 devido a ordem de não ressuscitar\").\r\n\r\nCuidados Pós-Parada:\r\n- Medidas de suporte hemodinâmico e ventilatório.\r\n- Gerenciamento da temperatura alvo e outras intervenções crítica ",
     "Categoria": "Ressuscitação cardiopulmonar"
   },
   {
-    "ID_Item": 4,
+    "ID_Item": "4",
     "NomeBusca": "Paracentese",
     "ConteudoTexto": "- Indicação: [e.g., \"Paracentese para alívio sintomático\"].\r\n- Explicado o procedimento, riscos e benefícios para o paciente.\r\n- Posicionado paciente em decúbito [dorsal ou lateral] com a cabeceira elevada entre 45 e 90 graus.\r\n- Marcado ponto anatômico na junção do terço lateral com os dois terços mediais de uma linha imaginária traçada entre a espinha ilíaca anterossuperior esquerda e a cicatriz umbilical.\r\n- Realizada a antissepsia com clorexidina alcóolica no local da punção e colocado campos estéreis.\r\n- Infiltrado anestésico local com lidocaína à 2% com uma agulha fina\r\n- Inserido cateter 14G lentamente até o retorno de líquido ascítico com aspecto [e.g., amarela-citrino, límpido]. \r\n- Avançado cateter plástico sobre a agulha. Retirado a agulha\r\n- Conectado cateter a um equipo. Saída do líquido de forma gravitacional e coletado em saco coletor\r\n- Retirado: [e.g. 2] L de líquido ascítico\r\n- Reposto albumina na dose de: [e.g. 40] g\r\n- Retirado o cateter. Aplicado curativo compressivo e oclusivo no local da punção\r\n- Procedimento sem intercorrências imediatas\r\nObs.: Não dispomos de recipiente coletor à vácuo. Não dispomos de laboratório para análise laboratoriais",
     "Categoria": "Punção terapêutica"
   },
   {
-    "ID_Item": 5,
+    "ID_Item": "5",
     "NomeBusca": "Toracocentese",
     "ConteudoTexto": "- Indicação: [e.g., \"Para alívio\"]\r\n- Explicado procedimento para o paciente quanto ao riscos e benefícios\r\n- Posiciono paciente para que fique sentando e inclinado para frente\r\n- Determino local da punção pelo método da percussão, da ausculta e do nível intercostal. Utilizo a linha escapular média. Utilizo também a borda superior da costela inferior ao espaço intercostal escolhido\r\n- Realizo antissepsia com clorexidina com tensoativo e clorexidina alcóolica. Coloco campos cirúrgicos\r\n- Realizo anestesia no local da punção com lidocaína à 2%\r\n- Realizo a punção com cateter [e.g., 18] G sobre agulha acoplada a seringa. Ao perder a resistência e aspirar o líquido pleural avanço o cateter, e depois retiro a agulha.\r\n- Conecto o sistema de drenagem à extremidade do cateter. Sendo coberto a abertura do cateter com o dedo durante a inserção ou troca de equipamento no cateter para evitar pneumotórax. \r\n- Retiro: [e.g., 700] ml de líquido pleural\r\n- Sem intercorrência durante o procedimento. Paciente tolerou bem\r\n- Realizado curativo oclusivo no local da punção",
     "Categoria": "Punção terapêutica"
   },
   {
-    "ID_Item": 6,
+    "ID_Item": "6",
     "NomeBusca": "Drenagem torácica",
     "ConteudoTexto": "- Indicação: [e.g., pneumotórax, hemotórax etc.]\r\n- Explico procedimento para o paciente quanto ao riscos e benefícios\r\n- Determino local anatômico formado pelo \"triângulo de segurança\". Limites: linha axilar anterior, borda anterior do músculo grande dorsal e ao nível do [e.g., 4° ou 5°] espaço intercostal\r\n- Posiciono o paciente em decúbito dorsal. Braço ipsilateral da punção abduzido e posicionado com a mão na região da cabeça.\r\n- Realizo a paramentação\r\n- Realizo antissepsia com clorexidina com tensoativos e com clorexidina alcóolica e coloco os campos estéreis\r\n- Anestesia local: infiltração anestésica generosa com lidocaína à 2%\r\n- Incisão: feito incisão na pele de aproximadamente 2 a 3 cm sobre o espaço intercostal escolhido [e.g., 5° EIC]\r\n- Dissecção romba: com uma pinça hemostática, disseca-se os tecidos subcutâneos e muscular. Sempre direcionado para borda superior da costela inferior\r\n- Perfuração da pleura e exploração digital: avançado com a pinça. Perfurado a pleura. Aberto a pinça para alargar o orifício da pleura. Explorado cavidade e orifício com o dedo enluvado\r\n- Inserção do dreno: pinçado o dreno tamanho [e.g., 28] Fr com a pinça hemostática e, usando o dedo como guia, introduzido o dreno na cavidade pleural. Direcionado o dreno póstero-superiormente. E introduzido 2 a 3 cm para além do último orifício do dreno\r\n- Conexão ao sistema sela d'água: conectado a extremidade externa ao sistema de drenagem com selo d'água. Colocado [e.g., 500] ml de selo d'água. \r\n- Sutura e fixação: realizado ponto em \"U\" com fio não absorvível. Após isso, realizo o nó de \"bailarina\"\r\n- Confirmação: [Drenagem de: ] [Oscilação da coluna líquida] [Borbulhamento do selo d'agua] [Embaçamento por ar do tubo]\r\n- Procedimento realizado sem intercorrências",
     "Categoria": "Drenagem terapêutica"

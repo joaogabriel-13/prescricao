@@ -1,5 +1,9 @@
 [
   {
+    "Horario": "ACM",
+    "Descricao": "À critério médico"
+  },
+  {
     "Horario": "Agora",
     "Descricao": "Dose única imediata"
   },
@@ -74,5 +78,25 @@
   {
     "Horario": "3x semana",
     "Descricao": "3 vezes por semana"
+  },
+  {
+    "Horario": "Em jejum",
+    "Descricao": "Em jejum"
+  },
+  {
+    "Horario": "Após almoço",
+    "Descricao": "Após almoço"
+  },
+  {
+    "Horario": "Manhã",
+    "Descricao": "Manhã"
+  },
+  {
+    "Horario": "Tarde",
+    "Descricao": "Tarde"
+  },
+  {
+    "Horario": "Noite",
+    "Descricao": "Noite"
   }
 ]
