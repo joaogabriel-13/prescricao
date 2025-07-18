@@ -705,7 +705,7 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Nitroglicerina 200 mcg/ml BIC",
-        "texto": "Nitroprussiato 25 mg/ml, 10 ml, BIC, vazão ACM. Concentração: 200 mcg/ml",
+        "texto": "Nitroglicerina 5 mg/ml, 10 ml, BIC, vazão ACM. Concentração: 200 mcg/ml",
         "componentes": [
           {
             "item": "SF 0,9% ou SG 5%",

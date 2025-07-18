@@ -3,14 +3,14 @@
     "ID_Item": "1",
     "NomeBusca": "Masculino",
     "ConteudoTexto": "BEG, LOTE, corado, hidratado, AAA\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, indolor à palpação, sem sinais de peritonite\r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: pupilas isocóricas e foto reagentes. Glasgow 15",
-    "Categoria": "Exame físico",
+    "Categoria": "Adulto",
     "OrdemPrioridade": "1"
   },
   {
     "ID_Item": "2",
     "NomeBusca": "Feminino",
     "ConteudoTexto": "BEG, LOTE, corada, hidratada, AAA\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, indolor à palpação, sem sinais de peritonite\r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: pupilas isocóricas e foto reagentes. Glasgow 15",
-    "Categoria": "Exame físico",
+    "Categoria": "Adulto",
     "OrdemPrioridade": "2"
   },
   {
@@ -33,5 +33,33 @@
     "ConteudoTexto": "Nega alterações urinárias ou evacuatórias\r\nNega lesões de pele, dor abdominal, sangramentos, tontura, lipotimia ou prurido\r\n\r\nExame físico\r\n\r\nBEG, LOTE, CHAAA\r\nSem lesões de pele\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, indolor à palpação, sem sinais de peritonite\r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: pupilas isocóricas e foto reagentes. Glasgow 15\r\nOroscopia: sem lesões ou sinais de sangramento",
     "Categoria": "Exame na dengue",
     "OrdemPrioridade": "5"
+  },
+  {
+    "ID_Item": "6",
+    "NomeBusca": "Masculino",
+    "ConteudoTexto": "BEG, ativo, reativo, corado, hidratado e AAA. \r\nNão palpo linfonodos\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, indolor à palpação, sem sinais de peritonite\r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: pupilas isocóricas e foto reagentes. Sem sinais de déficits focais. Sem sinais de meningite. Tônus preservado\r\nOroscopia: mucosas coradas e sem outras alterações\r\nOtoscopia: OE: conduto auditivo pérvio, sem rubor ou edema e sem presença de secreção exsudativa. MT translúcida, normoposicionada e íntegra. OD: conduto auditivo pérvio, sem rubor ou edema e sem presença de secreção exsudativa. MT: translúcida, normoposicionada e íntegra",
+    "Categoria": "Criança",
+    "OrdemPrioridade": ""
+  },
+  {
+    "ID_Item": "7",
+    "NomeBusca": "Feminino",
+    "ConteudoTexto": "BEG, ativa, reativa, corada, hidratada e AAA \r\nNão palpo linfonodos\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, indolor à palpação, sem sinais de peritonite\r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: pupilas isocóricas e foto reagentes. Sem sinais de déficits focais. Sem sinais de meningite. Tônus preservado\r\nOroscopia: mucosas coradas e sem outras alterações\r\nOtoscopia: OE: conduto auditivo pérvio, sem rubor ou edema e sem presença de secreção exsudativa. MT translúcida, normoposicionada e íntegra. OD: conduto auditivo pérvio, sem rubor ou edema e sem presença de secreção exsudativa. MT: translúcida, normoposicionada e íntegra",
+    "Categoria": "Criança",
+    "OrdemPrioridade": ""
+  },
+  {
+    "ID_Item": "8",
+    "NomeBusca": "Masculino",
+    "ConteudoTexto": "BEG, ativo, reativo, corado, hidratado e AAA. \r\nNão palpo linfonodos\r\nFA: x cm, normotensa\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, sem sinais de defesa, sem sinais de peritonite. Parede abdominal íntegra.\r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: reflexos adequados para idade\r\nDorso: sem alterações anatômicas\r\nGenitália: típica masculina e testículos tópicos. Ânus pérvio\r\nOtoscopia: OE: conduto auditivo pérvio, sem rubor ou edema e sem presença de secreção exsudativa. MT translúcida, normoposicionada e íntegra. OD: conduto auditivo pérvio, sem rubor ou edema e sem presença de secreção exsudativa. MT: translúcida, normoposicionada e íntegra",
+    "Categoria": "Lactente",
+    "OrdemPrioridade": ""
+  },
+  {
+    "ID_Item": "9",
+    "NomeBusca": "Feminino",
+    "ConteudoTexto": "BEG, ativa, reativa, corada, hidratada e AAA \r\nFA: x cm, normotensa\r\nNão palpo linfonodos\r\nAC: RCR em 2T, BNF, s/ sopros\r\nAR: MVF+, s/ RA, sem sinais de desconforto respiratório\r\nABDOME: normotenso, RHA+, sem VMG, sem sinais de defesa, sem sinais de peritonite. Parede abdominal íntegra. \r\nExtremidades: sem edemas e bem perfundidas\r\nNeurológico: reflexos adequados para idade\r\nDorso: sem alterações anatômicas\r\nGenitália: típica feminina. Ânus pérvio\r\nOtoscopia: OE: conduto auditivo pérvio, sem rubor ou edema e sem presença de secreção exsudativa. MT translúcida, normoposicionada e íntegra. OD: conduto auditivo pérvio, sem rubor ou edema e sem presença de secreção exsudativa. MT: translúcida, normoposicionada e íntegra",
+    "Categoria": "Lactente",
+    "OrdemPrioridade": ""
   }
 ]
