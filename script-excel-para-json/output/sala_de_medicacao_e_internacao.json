@@ -2,6 +2,17 @@
   {
     "ID": "1",
     "Categoria": "Cuidados da enfermagem",
+    "ItemPrincipal": "Balanço hídrico",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Realizar balanço hídrico",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "2",
+    "Categoria": "Cuidados da enfermagem",
     "ItemPrincipal": "Controle glicêmico",
     "TipoItem": "",
     "Apresentacoes": "",
@@ -20,7 +31,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "2",
+    "ID": "3",
     "Categoria": "Cuidados da enfermagem",
     "ItemPrincipal": "Cuidados com posicionamento",
     "TipoItem": "Simples",
@@ -31,7 +42,29 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "3",
+    "ID": "4",
+    "Categoria": "Cuidados da enfermagem",
+    "ItemPrincipal": "Diurese",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Realizar controle de diurese",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "5",
+    "Categoria": "Cuidados da enfermagem",
+    "ItemPrincipal": "Fezes",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Observar aspectos das fezes",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "6",
     "Categoria": "Cuidados da enfermagem",
     "ItemPrincipal": "Prevenção de quedas",
     "TipoItem": "Simples",
@@ -42,7 +75,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "4",
+    "ID": "7",
     "Categoria": "Cuidados da enfermagem",
     "ItemPrincipal": "Prevenção de úlcera de pressão",
     "TipoItem": "Simples",
@@ -53,7 +86,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "5",
+    "ID": "8",
     "Categoria": "Cuidados da enfermagem",
     "ItemPrincipal": "Restrição no leito",
     "TipoItem": "Simples",
@@ -64,7 +97,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "6",
+    "ID": "9",
     "Categoria": "Cuidados da enfermagem",
     "ItemPrincipal": "Restrição no leito",
     "TipoItem": "Simples",
@@ -75,7 +108,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "7",
+    "ID": "10",
     "Categoria": "Cuidados da enfermagem",
     "ItemPrincipal": "Restrição no leito",
     "TipoItem": "Simples",
@@ -86,7 +119,18 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "8",
+    "ID": "11",
+    "Categoria": "Cuidados da enfermagem",
+    "ItemPrincipal": "Sangramento",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Observar presença de sangramento",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "12",
     "Categoria": "Cuidados da enfermagem",
     "ItemPrincipal": "Sinais vitais",
     "TipoItem": "Simples",
@@ -106,7 +150,18 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "9",
+    "ID": "13",
+    "Categoria": "Dieta",
+    "ItemPrincipal": "Dieta líquida de prova",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Dieta líquida de prova",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "14",
     "Categoria": "Dieta",
     "ItemPrincipal": "Dieta via oral",
     "TipoItem": "Simples",
@@ -117,12 +172,34 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "10",
+    "ID": "15",
+    "Categoria": "Dieta",
+    "ItemPrincipal": "Dieta via sonda nasoentérica",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Dieta via sonda nasoentérica",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "16",
+    "Categoria": "Dieta ",
+    "ItemPrincipal": "Dieta via GTT",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Dieta via gastrostomia ",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "17",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Acído acetilsalicílico",
     "TipoItem": "Complexo",
     "Apresentacoes": "100 mg Comp",
-    "UnidadesDose": "mg; comp",
+    "UnidadesDose": "mg; comprimido",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": [
       {
@@ -133,7 +210,18 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "11",
+    "ID": "18",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Acído valproico",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "250 mg Caps;\r\n500 mg Comp",
+    "UnidadesDose": "mg; capsula; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "19",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Adenosina",
     "TipoItem": "Complexo",
@@ -144,7 +232,40 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "12",
+    "ID": "20",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Albumina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "20% Amp 50 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "21",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Ambroxol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "3 mg/ml Xarope;\r\n6 mg/ml Xarope;",
+    "UnidadesDose": "mg; ml",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "22",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Amicacina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "50 mg/ml Amp 2 ml;\r\n250 mg/ml Amp 2 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "23",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Amiodarona",
     "TipoItem": "Complexo",
@@ -179,7 +300,73 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "13",
+    "ID": "24",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Amoxicilina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "500 mg Caps;\r\n250 mg/5 ml Suspensao oral",
+    "UnidadesDose": "mg; ml; cápsula",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "25",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Amoxicilina, clavulanato",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "500 + 125 mg Comp;\r\n500 +100 mg Pó",
+    "UnidadesDose": "mg; ml; comprimido; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "26",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Ampicilina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "500 mg Pó;\r\n1000 mg Pó",
+    "UnidadesDose": "mg; g; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "27",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Ampicilina, subactam",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "2000 + 1000 mg Amp pó",
+    "UnidadesDose": "mg; g; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "28",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Anlodipino",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "5 mg Comp;\r\n10 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "29",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Atracurio",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "10 mg/ml Amp 2,5 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "30",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Atropina",
     "TipoItem": "Complexo",
@@ -190,7 +377,56 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "14",
+    "ID": "31",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Azitromicina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "500 mg Pó",
+    "UnidadesDose": "ml; mg; ",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "32",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Beclometasona",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "50 mcg Aerossol;\r\n200 mcg Aerossol;\r\n250 mcg Aerossol",
+    "UnidadesDose": "mcg; jatos",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "33",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Benzilpenicilina benzatina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "600K de UI Amp pó\r\n1,2M de UI Amp pó",
+    "UnidadesDose": "UI; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Penicilina benzatina 1,2M UI IM agora",
+        "texto": "Penicilina benzatina 1,2 M UI, aplicar 1,2 M UI (1 ampola), IM, agora"
+      }
+    ],
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "34",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Bicarbonato de sódio",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "8,4% Amp 10 ml",
+    "UnidadesDose": "mg; ml; ampola; mEq",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "35",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Bromoprida",
     "TipoItem": "Complexo",
@@ -210,7 +446,29 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "15",
+    "ID": "36",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Captopril",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "25 mg Comp;\r\n50 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "37",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Carbamazepina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "200 mg Comp;\r\n100 mg/5 ml Suspensão oral",
+    "UnidadesDose": "mg; ml; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "38",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Carvão ativado",
     "TipoItem": "Complexo",
@@ -221,7 +479,62 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "16",
+    "ID": "39",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Caverdilol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "3,125 mg Comp;\r\n6,25 mg Comp;\r\n12, 5 mg Comp;\r\n25 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "40",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Cefazolina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "1 g Amp Pó",
+    "UnidadesDose": "mg; g; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "41",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Cefepima",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "1 g Amp Pó;\r\n2 g Amp Pó",
+    "UnidadesDose": "mg; g; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "42",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Cefotaxima",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "1000 mg Amp Pó",
+    "UnidadesDose": "mg; g; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "43",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Ceftazidima",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "1 g Amp Pó",
+    "UnidadesDose": "mg; g; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "44",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Ceftriaxona",
     "TipoItem": "Complexo",
@@ -257,7 +570,51 @@
     "ObservacaoPadrao": "Infundir em 30 minutos"
   },
   {
-    "ID": "17",
+    "ID": "45",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Cianocobalamina (Vitamina B12)",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "1000 mcg Amp 1 ml;\r\n1000 mcg Amp 2 ml",
+    "UnidadesDose": "mcg; mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "46",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Ciprofloxacino",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "250 mg Comp;\r\n500 mg Comp;\r\n2 mg/ml Bolsa 100 ml;\r\n2 mg/ml Bolsa 200 ml",
+    "UnidadesDose": "mg; ml; comprimido; bolsa",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "47",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Cisatracurio",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "2 mg/ml Amp 5 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "48",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Clindamicina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "150 mg/ml Amp 2 ml;\r\n150 mg/ml Amp 4 ml;\r\n150 mg/ml Amp 6 ml",
+    "UnidadesDose": "ml; mg; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "49",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Clonazepam",
     "TipoItem": "Complexo",
@@ -273,12 +630,12 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "18",
+    "ID": "50",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Clopidogrel",
     "TipoItem": "Complexo",
     "Apresentacoes": "75 mg Comp",
-    "UnidadesDose": "mg; comp",
+    "UnidadesDose": "mg; comprimido",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": [
       {
@@ -289,11 +646,11 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "19",
+    "ID": "51",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Cloreto de potássio",
     "TipoItem": "Complexo",
-    "Apresentacoes": "10% Amp 10 ml;\r\n19,1% Amp 10 ml",
+    "Apresentacoes": "60 mg/ml solução oral;\r\n10% Amp 10 ml;\r\n19,1% Amp 10 ml",
     "UnidadesDose": "ml; mg; g; ampola",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": [
@@ -325,7 +682,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "20",
+    "ID": "52",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Cloreto de sódio",
     "TipoItem": "Complexo",
@@ -348,7 +705,29 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "21",
+    "ID": "53",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Daptomicina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "500 mg Amp Pó",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "54",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Demenidrinato, piridoxina, glicose, frutose",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "30 mg + 50 mg + 100 mg + 100 mg Amp 10ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "55",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Dexametasona",
     "TipoItem": "Complexo",
@@ -364,12 +743,23 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "22",
+    "ID": "56",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Dexmedetomidina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "100 mcg/ml Amp 2 ml",
+    "UnidadesDose": "mcg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "57",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Diazepam",
     "TipoItem": "Complexo",
-    "Apresentacoes": "5  mg/ml Amp 2 ml",
-    "UnidadesDose": "ml; mg",
+    "Apresentacoes": "5 mg Comp;\r\n10 mg Comp;\r\n5  mg/ml Amp 2 ml",
+    "UnidadesDose": "ml; mg; comprimido; ampola",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": [
       {
@@ -381,7 +771,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "23",
+    "ID": "58",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Diclofenaco",
     "TipoItem": "Complexo",
@@ -397,7 +787,18 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "24",
+    "ID": "59",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Dinitrato de isossorbida",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "5 mg Comp SL;\r\n10 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "60",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Dipirona",
     "TipoItem": "Complexo",
@@ -417,7 +818,18 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "25",
+    "ID": "61",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Divalproato sódico",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "250 mg Comp;\r\n500 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "62",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Dobutamina",
     "TipoItem": "Complexo",
@@ -440,7 +852,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "26",
+    "ID": "63",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Dopamina",
     "TipoItem": "Complexo",
@@ -474,7 +886,40 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "27",
+    "ID": "64",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Enalapril",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "5 mg Comp;\r\n10 mg Comp;\r\n20 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "65",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Enoxaparina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "20 mg Amp 0,2 ml;\r\n40 mg Amp 0,4 ml;\r\n60 mg Amp 0,6 ml;\r\n80 mg Amp 0,8 ml;\r\n100 mg Amp 1 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "66",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Ertapenem",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "1 g Amp Pó",
+    "UnidadesDose": "mg; g; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "67",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Escopolamina",
     "TipoItem": "Complexo",
@@ -494,9 +939,53 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "28",
+    "ID": "68",
     "Categoria": "Medicamento",
-    "ItemPrincipal": "Fentanil",
+    "ItemPrincipal": "Espironolactona",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "25 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "69",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Etomidato",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "2 mg/ml Amp 10 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "70",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Fenitoína",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "100 mg Comp;\r\n50 mg/ml Amp 5 ml",
+    "UnidadesDose": "mg; ml; comprimido; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "71",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Fenobarbital",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "100 mg Comp;\r\n100 mg/ml Amp 2 ml;\r\n200 mg/ml Amp 1 ml",
+    "UnidadesDose": "mg; ml; comprimido; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "72",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Fentanila",
     "TipoItem": "Complexo",
     "Apresentacoes": "50 mcg/ml Amp 2 ml;\r\n50 mcg/ml Amp 2 ml",
     "UnidadesDose": "mcg; ml",
@@ -517,7 +1006,95 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "29",
+    "ID": "73",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Fitomenadiona (Vitamina K)",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "10 mg/ml Amp 1 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "74",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Fluconazol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "150 mg Caps;\r\n2 mg/ml solução infetável Frasco 100 ml ",
+    "UnidadesDose": "mg; ml; capsula; frasco",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "75",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Flumazenil",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "0,5 mg/ml Amp 5 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "76",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Formoterol, budesonida",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "6 mcg + 100 mcg Aerossol;\r\n6 mcg + 200 mcg Aerossol;\r\n6 mcg + 200 mcg Pó inalante;\r\n12 mcg + 400 mcg Pó inalante",
+    "UnidadesDose": "mcg; jatos",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "77",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Fosfato de sódio monobásico, fosfato de\r\nsódio dibásico ",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "(16 g + 6 g)/100 ml solução enema Bolsa 125 a 133 ml",
+    "UnidadesDose": "mg; g; ml; bolsa",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "78",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Furosemida",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "10 mg/ml Amp 2",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "79",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Gentamicina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "10 mg/ml Amp 1 ml;\r\n20 mg/ml Amp 1 ml;\r\n40 mg/ml Amp 1 ml;\r\n40 mg/ml Ampo 2ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "80",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Glicerina (Glicerol)",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "120 mg/ml solução retal/enama Frasco 500 ml",
+    "UnidadesDose": "mg; ml; frasco",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "81",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Glicose",
     "TipoItem": "",
@@ -538,18 +1115,73 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "30",
+    "ID": "82",
     "Categoria": "Medicamento",
-    "ItemPrincipal": "Haloperidol",
+    "ItemPrincipal": "Gluconato de calcio",
     "TipoItem": "Complexo",
-    "Apresentacoes": "5 mg/ml Amp 1 ml",
-    "UnidadesDose": "ml; mg; ampola",
+    "Apresentacoes": "10% Amp 10 ml",
+    "UnidadesDose": "mg; ml; ampola",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": null,
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "31",
+    "ID": "83",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Haloperidol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "5 mg/ml Amp 1 ml;\r\n2 mg/ml Solução oral",
+    "UnidadesDose": "ml; mg; ampola; gotas",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "84",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Hemocomponentes",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Transfusão de hemocomponentes ",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "85",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Heparina sódica",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "5000 UI Amp 0,25 ml;\r\n5000 UI/ml Amp 5 ml",
+    "UnidadesDose": "UI; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "86",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Hidralazina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "20 mg/ml Amp 1 ml",
+    "UnidadesDose": "ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "87",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Hidroclorotiazida",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "25 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "88",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Hidrocortisona ",
     "TipoItem": "Complexo",
@@ -560,7 +1192,51 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "32",
+    "ID": "89",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Imipenem, cilastina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "500 mg + 500 mg solução Amp Pó",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "90",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Indapamida",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "1,5 mg Comp;\r\n2,5 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "91",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Insulina glargina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "100 UI/ml Carpule 3 ml",
+    "UnidadesDose": "UI; ml; carpule",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "92",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Insulina humana NPH",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "100 UI/ml Amp 10 ml",
+    "UnidadesDose": "UI; ml",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "93",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Insulina humana regular ",
     "TipoItem": "Complexo",
@@ -576,7 +1252,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "33",
+    "ID": "94",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Ipratrópio",
     "TipoItem": "Complexo",
@@ -587,7 +1263,117 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "34",
+    "ID": "95",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Lactulose",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "667 mg/ml Frasco 120 ou 200 ml",
+    "UnidadesDose": "ml",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "96",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Levofloxacino",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "5 mg/ml Bolsa 100 ml;\r\n5 mg/ml Bolsa 150 ml",
+    "UnidadesDose": "ml; mg; bolsa",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "97",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Levotiroxina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "25 mcg Comp;\r\n50 mcg Comp;\r\n100 mcg Comp",
+    "UnidadesDose": "mcg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "98",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Lítio",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "300 mg Comp;\r\n450 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "99",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Loratadina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "10 mg Comp;\r\n1 mg/ml Solução oral",
+    "UnidadesDose": "mg; ml; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "100",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Losartana",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "50 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "101",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Manitol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "200 mg/ml Bolsa 250 ml",
+    "UnidadesDose": "mg; ml; bolsa",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "102",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Medicamento não padronizado",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "",
+    "UnidadesDose": "mcg; mg; g; ml; L; UI; gotas; comprimido; jatos; envelope",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "103",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Medicamento próprio do paciente",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "",
+    "UnidadesDose": "mcg; mg; g; ml; L; UI; gotas; comprimido; jatos; envelope",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "104",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Meropenem",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "500 mg Pó;\r\n1000 mg Pó",
+    "UnidadesDose": "mg; g; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "105",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Metoclopramida",
     "TipoItem": "Complexo",
@@ -607,12 +1393,12 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "35",
+    "ID": "106",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Metoprolol",
     "TipoItem": "Complexo",
     "Apresentacoes": "25 mg Comp;\r\n50 mg Comp;\r\n1 mg/ml Amp 5 ml",
-    "UnidadesDose": "mg; ml; Comp; ampola",
+    "UnidadesDose": "mg; ml; comprimido; ampola",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": [
       {
@@ -623,7 +1409,29 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "36",
+    "ID": "107",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Metoprolol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "25 mg Comp;\r\n50 mg Comp;\r\n100 mg Comp;\r\n1 mg/ml Amp 5",
+    "UnidadesDose": "mg; ml; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "108",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Metronidazol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "250 mg Comp;\r\n400 mg Comp;\r\n5 mg/ml Bolsa 100 ml",
+    "UnidadesDose": "mg; ml; comprimido; bolsa",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "109",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Midazolam",
     "TipoItem": "Complexo",
@@ -661,7 +1469,18 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "37",
+    "ID": "110",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Mononitrato de isossorbida",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "20 mg Comp;\r\n40 mg Comp;\r\n5 mg Comp SL",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "111",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Morfina",
     "TipoItem": "Complexo",
@@ -695,7 +1514,18 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "38",
+    "ID": "112",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Naloxona",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "0,4 mg/ml Amp 1 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "113",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Nitroglicerina",
     "TipoItem": "Complexo",
@@ -718,7 +1548,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "39",
+    "ID": "114",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Nitroprussiato",
     "TipoItem": "Complexo",
@@ -742,7 +1572,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "40",
+    "ID": "115",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Norepinefrina",
     "TipoItem": "Complexo",
@@ -787,23 +1617,73 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "41",
+    "ID": "116",
     "Categoria": "Medicamento",
-    "ItemPrincipal": "Penicilina benzatina ",
+    "ItemPrincipal": "Óleo mineral",
     "TipoItem": "Complexo",
-    "Apresentacoes": "1,2M de U Amp pó",
-    "UnidadesDose": "UI; ampola",
+    "Apresentacoes": "100% puro",
+    "UnidadesDose": "ml",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": [
-      {
-        "nome": "Penicilina benzatina 1,2M UI IM agora",
-        "texto": "Penicilina benzatina 1,2 M UI, aplicar 1,2 M UI (1 ampola), IM, agora"
-      }
-    ],
+    "PrescricoesPadronizadasJSON": null,
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "42",
+    "ID": "117",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Omeprazol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "40 mg Amp pó",
+    "UnidadesDose": "ml; mg; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "118",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Oxacilina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "500 mg Amp Pó",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "119",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Pancurônio",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "2 mg/ml Amp 2 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "120",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Pantoprazol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "40 mg Amp pó",
+    "UnidadesDose": "ml; mg; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "121",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Piperacilina, tazobactam",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "4 g + 500 mg Amp pó",
+    "UnidadesDose": "ml; mg; g; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "122",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Prometazina",
     "TipoItem": "Complexo",
@@ -823,7 +1703,62 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "43",
+    "ID": "123",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Propofol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "10 mg/ml Amp 20 ml;\r\n10 mg/ml Amp 50 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "124",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Propranolol",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "10 mg Comp;\r\n40 mg Comp;\r\n80 mg Comp;",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "125",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Quetiapina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "25 mg Comp;\r\n50 mg Comp;\r\n100 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "126",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Ringer com Lactato",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "250 ml Bolsa:\r\n500 ml Bolsa;\r\n1000 ml Bolsa",
+    "UnidadesDose": "ml; L; bolsa",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "127",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Rocurônio",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "10 mg/ml Amp 5 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "128",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Sacarato de hidroxido férrico",
     "TipoItem": "Complexo",
@@ -847,12 +1782,12 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "44",
+    "ID": "129",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Salbutamol",
     "TipoItem": "Complexo",
-    "Apresentacoes": "100 mcg",
-    "UnidadesDose": "mcg; jatos",
+    "Apresentacoes": "100 mcg;\r\n0,5 mg/ml Amp 1 ml",
+    "UnidadesDose": "mcg; mg; ml; jatos",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": [
       {
@@ -868,7 +1803,29 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "45",
+    "ID": "130",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Sinvastatina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "20 mg Comp;\r\n40 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "131",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Sulfametoxazol, trimetropina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "(400 mg + 80 mg)/5 ml Amp 5 ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "132",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Sulfato de magnésio",
     "TipoItem": "Complexo",
@@ -892,7 +1849,18 @@
     "ObservacaoPadrao": "Infundir em 30 minutos"
   },
   {
-    "ID": "46",
+    "ID": "133",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Suxametônio",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "100 mg Amp pó;\r\n500 mg Ampó",
+    "UnidadesDose": "mg;ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "134",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Tenoxicam",
     "TipoItem": "Complexo",
@@ -908,7 +1876,29 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "47",
+    "ID": "135",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Terlipressina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "1 mg Amp pó",
+    "UnidadesDose": "ml; mg; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "136",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Tiamina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "100 mg Comp;\r\n300 mg Comp",
+    "UnidadesDose": "mg; comprimido",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "137",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Tramadol",
     "TipoItem": "Complexo",
@@ -944,13 +1934,90 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "48",
+    "ID": "138",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Vancomicina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "500 mg Pó;\r\n1000 mg Pó",
+    "UnidadesDose": "mg;ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "139",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Vasopresssina",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "20 UI/ml Amp 1 ml ",
+    "UnidadesDose": "UI; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "140",
     "Categoria": "Oxigenoterapia",
     "ItemPrincipal": "Oxigenoterapia",
     "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
     "DescricaoCompleta": "Cateter nasal à 2 L/min, se SatO2 < 94%",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "141",
+    "Categoria": "Procedimentos da enfermagem",
+    "ItemPrincipal": "Coletor masculino",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Passar coletor de diurese masculino",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "142",
+    "Categoria": "Procedimentos da enfermagem",
+    "ItemPrincipal": "Sonda vesical de demora",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Passar sonda vesical de demora",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "143",
+    "Categoria": "Procedimentos da enfermagem",
+    "ItemPrincipal": "Sonda vesical de demora",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Retirar sonda vesical de demora",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "144",
+    "Categoria": "Procedimentos médicos",
+    "ItemPrincipal": "Acesso central",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Passar acesso central",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "145",
+    "Categoria": "Procedimentos médicos",
+    "ItemPrincipal": "Intubação orotraqueal",
+    "TipoItem": "",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Intubação orotraqueal",
     "PrescricoesPadronizadasJSON": null,
     "ObservacaoPadrao": ""
   }
