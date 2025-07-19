@@ -88,7 +88,7 @@
   {
     "ID": "8",
     "Categoria": "Cuidados da enfermagem",
-    "ItemPrincipal": "Restrição no leito",
+    "ItemPrincipal": "Restrição no leito (Absoluto)",
     "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
@@ -99,7 +99,7 @@
   {
     "ID": "9",
     "Categoria": "Cuidados da enfermagem",
-    "ItemPrincipal": "Restrição no leito",
+    "ItemPrincipal": "Restrição no leito (Relativo)",
     "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
@@ -110,7 +110,7 @@
   {
     "ID": "10",
     "Categoria": "Cuidados da enfermagem",
-    "ItemPrincipal": "Restrição no leito",
+    "ItemPrincipal": "Restrição no leito (Contenção)",
     "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
@@ -718,7 +718,7 @@
   {
     "ID": "54",
     "Categoria": "Medicamento",
-    "ItemPrincipal": "Demenidrinato, piridoxina, glicose, frutose",
+    "ItemPrincipal": "Dimenidrinato, piridoxina, glicose, frutose",
     "TipoItem": "Complexo",
     "Apresentacoes": "30 mg + 50 mg + 100 mg + 100 mg Amp 10ml",
     "UnidadesDose": "mg; ml; ampola",

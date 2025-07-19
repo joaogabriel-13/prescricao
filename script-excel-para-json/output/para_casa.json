@@ -1,6 +1,56 @@
 [
   {
     "ID_Item": "1",
+    "NomeBusca": "Acetado de medroxiprogesterona, cipionato de estradiol",
+    "Concentracao": "(25 + 5)/0,5 ml",
+    "FormaFarmaceutica": "suspensão injetável",
+    "PrescricaoCompleta": "1 - Acetado de medroxiprogesterona + cipionato de estradiol (25 + 5)/0,5 ml suspensão injetável _____ 1 ampola\r\nAplicar 0,5 ml (1 amp), IM, a cada 30 dias",
+    "Categoria": "Anticoncepcional",
+    "Doenca": "contracepção",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "2",
+    "NomeBusca": "Acetato de betametasona, fosfato dissódico de betametasona",
+    "Concentracao": "(3 + 3) mg/ml",
+    "FormaFarmaceutica": "suspensão injetável",
+    "PrescricaoCompleta": "1 - Acetato de Betametasona + Fosfato Dissódico de Betametasona (3 + 3) mg/ml suspensão injetável _____ 1 ampola\r\nAplicar 1 ml (1 amp) IM",
+    "Categoria": "Corticoide",
+    "Doenca": "dor osteomuscular",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "3",
     "NomeBusca": "Acetilcisteína",
     "Concentracao": "20 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -25,7 +75,132 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "2",
+    "ID_Item": "4",
+    "NomeBusca": "Acetilcisteína",
+    "Concentracao": "20 mg/ml",
+    "FormaFarmaceutica": "xarope",
+    "PrescricaoCompleta": "1 - Acetilcisteína 20 mg/ml _____ 1 frasco\r\nTomar 5 ml de __ em __ horas",
+    "Categoria": "Mucolítico",
+    "Doenca": "mucolítico",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "2 a 4 anos: 5 mL (100 mg) VO de 8/8 ou 12/12 horas;\r\n> 4 anos: 5 mL (100 mg) VO de 6/6 ou 8/8 horas;",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "5",
+    "NomeBusca": "Aciclovir",
+    "Concentracao": "200 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Aciclovir 200 mg comprimido _____ 1 caixa\r\nTomar 1 comprimido de 4 em 4 horas ",
+    "Categoria": "Antiviral",
+    "Doenca": "herpes simples, herpes-zóster",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "6",
+    "NomeBusca": "Ácido acetilsalicílico",
+    "Concentracao": "100 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Ácido acetilsalicílico 100 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia após o almoço",
+    "Categoria": "AINE",
+    "Doenca": "dor",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "7",
+    "NomeBusca": "Ácido fólico",
+    "Concentracao": "5 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Ácido fólico 5 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Vitamina",
+    "Doenca": "hipovitaminose",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "8",
+    "NomeBusca": "Ácido fólico",
+    "Concentracao": "0,2 mg/mL",
+    "FormaFarmaceutica": "solução oral",
+    "PrescricaoCompleta": "1 - Ácido fólico 0,2 mg/mL solução oral _____ 1 frasco\r\nTomar ___ gotas por dia",
+    "Categoria": "Vitamina",
+    "Doenca": "hipovitaminose",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "9",
     "NomeBusca": "Ácido mefenâmico",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -50,7 +225,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "3",
+    "ID_Item": "10",
     "NomeBusca": "Ácido tranexâmico",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -75,7 +250,82 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "4",
+    "ID_Item": "11",
+    "NomeBusca": "Ácido valpróico",
+    "Concentracao": "250 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Ácido valpróico 250 mg comprimido _____ ___ comp/mês\r\nTomar 1 comprimido de ___ em ___ horas",
+    "Categoria": "Anticonvulsivante",
+    "Doenca": "epilepsia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "12",
+    "NomeBusca": "Ácido valpróico",
+    "Concentracao": "300 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Ácido valpróico 300 mg comprimido _____ ___ comp/mês\r\nTomar 1 comprimido de ___ em ___ horas",
+    "Categoria": "Anticonvulsivante",
+    "Doenca": "epilepsia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "13",
+    "NomeBusca": "Ácido valpróico",
+    "Concentracao": "500 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Ácido valpróico 500 mg comprimido _____ ___ comp/mês\r\nTomar 1 comprimido de ___ em ___ horas",
+    "Categoria": "Anticonvulsivante",
+    "Doenca": "epilepsia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "14",
     "NomeBusca": "Água boricada",
     "Concentracao": "0.03",
     "FormaFarmaceutica": "solução tópica",
@@ -100,7 +350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "5",
+    "ID_Item": "15",
     "NomeBusca": "Albendazol",
     "Concentracao": "400 mg",
     "FormaFarmaceutica": "solução",
@@ -125,7 +375,57 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "6",
+    "ID_Item": "16",
+    "NomeBusca": "Albendazol",
+    "Concentracao": "40 mg/ml",
+    "FormaFarmaceutica": "suspensão oral",
+    "PrescricaoCompleta": "1 - Albendazol 40 mg/ml suspensão oral _____ 1 frasco\r\nTomar ____ ml(s) por dia por 3 dias",
+    "Categoria": "Anti-helmíntico",
+    "Doenca": "helmintoses",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "17",
+    "NomeBusca": "Alendronato",
+    "Concentracao": "70 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Alendronato 70 mg ____ 4 comp/mês\r\nTomar 1 comprimido por semana",
+    "Categoria": "Bisfosfonato",
+    "Doenca": "osteoporose",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "18",
     "NomeBusca": "Ambroxol",
     "Concentracao": "6 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -150,7 +450,32 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "7",
+    "ID_Item": "19",
+    "NomeBusca": "Amiodarona",
+    "Concentracao": "200 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Amiodarona 200 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Antiarrítmico de classe III",
+    "Doenca": "arritmia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "20",
     "NomeBusca": "Amoxicilina",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -175,7 +500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "8",
+    "ID_Item": "21",
     "NomeBusca": "Amoxicilina",
     "Concentracao": "250 mg/5 ml",
     "FormaFarmaceutica": "pó para solução oral",
@@ -200,7 +525,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "9",
+    "ID_Item": "22",
     "NomeBusca": "Amoxicilina, clavulanato",
     "Concentracao": "500+125 mg",
     "FormaFarmaceutica": "comprimido",
@@ -225,11 +550,11 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "10",
+    "ID_Item": "23",
     "NomeBusca": "Amoxicilina, clavulanato",
     "Concentracao": "50+12,5 mg/ml",
     "FormaFarmaceutica": "pó para solução oral",
-    "PrescricaoCompleta": "1 - Amoxicilina + clavulanato  50+12,5 mg/ml pó p/ susp _____ 1 frasco\r\nDar [...] ml(s) de 8 em 8 horas por ___ dias",
+    "PrescricaoCompleta": "1 - Amoxicilina + clavulanato 50+12,5 mg/ml pó p/ susp _____ 1 frasco\r\nDar [...] ml(s) de 8 em 8 horas por ___ dias",
     "Categoria": "Antibiótico, betalactâmico",
     "Doenca": "infecção",
     "OrdemPrioridade": "",
@@ -250,7 +575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "11",
+    "ID_Item": "24",
     "NomeBusca": "Anlodipino",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -275,11 +600,11 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "12",
+    "ID_Item": "25",
     "NomeBusca": "Anlodipino",
-    "Concentracao": "5 mg",
+    "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
-    "PrescricaoCompleta": "1 - Anlodipino 5 mg _____ 30 cp/mês\r\nTomar 1 (um) comprimido por dia",
+    "PrescricaoCompleta": "1 - Anlodipino 10 mg _____ 30 cp/mês\r\nTomar 1 (um) comprimido por dia",
     "Categoria": "Anti-hipertensivo, BCC",
     "Doenca": "has, ic",
     "OrdemPrioridade": "",
@@ -300,7 +625,157 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "13",
+    "ID_Item": "26",
+    "NomeBusca": "Atenolol",
+    "Concentracao": "50 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Atenolol 50 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Betabloqueador",
+    "Doenca": "arritmia, dac, has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "27",
+    "NomeBusca": "Atenolol",
+    "Concentracao": "100 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Atenolol 100 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Betabloqueador",
+    "Doenca": "arritmia, dac, has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "28",
+    "NomeBusca": "Atorvastatina",
+    "Concentracao": "10 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Atorvastatina cálcica 10 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Antilipêmico",
+    "Doenca": "dislipidemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "29",
+    "NomeBusca": "Atorvastatina",
+    "Concentracao": "20 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Atorvastatina cálcica 20 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Antilipêmico",
+    "Doenca": "dislipidemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "30",
+    "NomeBusca": "Atorvastatina",
+    "Concentracao": "40 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Atorvastatina cálcica 40 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Antilipêmico",
+    "Doenca": "dislipidemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "31",
+    "NomeBusca": "Atorvastatina",
+    "Concentracao": "80 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Atorvastatina cálcica 80 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Antilipêmico",
+    "Doenca": "dislipidemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "32",
     "NomeBusca": "Azitromicina",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -325,7 +800,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "14",
+    "ID_Item": "33",
     "NomeBusca": "Beclometasona",
     "Concentracao": "50 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -350,7 +825,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "15",
+    "ID_Item": "34",
     "NomeBusca": "Beclometasona",
     "Concentracao": "250 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -375,7 +850,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "16",
+    "ID_Item": "35",
     "NomeBusca": "Beclometasona",
     "Concentracao": "250 mcg",
     "FormaFarmaceutica": "solução oral",
@@ -400,7 +875,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "17",
+    "ID_Item": "36",
     "NomeBusca": "Betametasona",
     "Concentracao": "0,1mg/ml",
     "FormaFarmaceutica": "comprimido",
@@ -425,7 +900,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "18",
+    "ID_Item": "37",
     "NomeBusca": "Bromoprida",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -450,7 +925,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "19",
+    "ID_Item": "38",
     "NomeBusca": "Bromoprida",
     "Concentracao": "4 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -475,7 +950,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "20",
+    "ID_Item": "39",
     "NomeBusca": "Budesonida",
     "Concentracao": "50 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -500,7 +975,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "21",
+    "ID_Item": "40",
     "NomeBusca": "Budesonida",
     "Concentracao": "200 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -525,7 +1000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "22",
+    "ID_Item": "41",
     "NomeBusca": "Budesonida",
     "Concentracao": "32 mcg",
     "FormaFarmaceutica": "suspensão nasal",
@@ -550,7 +1025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "23",
+    "ID_Item": "42",
     "NomeBusca": "Budesonida",
     "Concentracao": "50 mcg",
     "FormaFarmaceutica": "suspensão nasal",
@@ -575,7 +1050,107 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "24",
+    "ID_Item": "43",
+    "NomeBusca": "Cálcio",
+    "Concentracao": "1.250 mg (equivalente a 500 mg de cálcio elementar)",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Carbonato de cálcio 1.250 mg (equivalente a 500 mg de cálcio elementar) comprimido _____ 30 comp/mês\r\nTomar 1 comprimido por dia durante as refeições",
+    "Categoria": "Mineral",
+    "Doenca": "hipocalcemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "44",
+    "NomeBusca": "Cálcio, colecalciferol",
+    "Concentracao": "1.250 mg (equivalente a 500 mg de cálcio elementar) + 200 UI",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Carbonato de cálcio + colecalciferol 1.250 mg (equivalente a 500 mg de cálcio elementar) + 200 UI comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Mineral, vitamina",
+    "Doenca": "osteoporose",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "45",
+    "NomeBusca": "Cálcio, colecalciferol",
+    "Concentracao": "1.250 mg (equivalente a 500 mg de cálcio elementar) + 400 UI",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Carbonato de cálcio + colecalciferol 1.250 mg (equivalente a 500 mg de cálcio elementar) + 400 UI comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Mineral, vitamina",
+    "Doenca": "osteoporose",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "46",
+    "NomeBusca": "Cálcio, colecalciferol",
+    "Concentracao": "1.500 mg (equivalente a 600 mg de cálcio elementar) + 400 UI",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Carbonato de cálcio + colecalciferol 1.500 mg (equivalente a 600 mg de cálcio elementar) + 400 UI comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Mineral, vitamina",
+    "Doenca": "osteoporose",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "47",
     "NomeBusca": "Carmelose",
     "Concentracao": "",
     "FormaFarmaceutica": "solução oftálmica",
@@ -600,7 +1175,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "25",
+    "ID_Item": "48",
     "NomeBusca": "Carvedilol",
     "Concentracao": "12,5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -625,7 +1200,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "26",
+    "ID_Item": "49",
     "NomeBusca": "Carvedilol",
     "Concentracao": "6,25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -650,7 +1225,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "27",
+    "ID_Item": "50",
     "NomeBusca": "Carvedilol",
     "Concentracao": "3,125 mg",
     "FormaFarmaceutica": "comprimido",
@@ -675,7 +1250,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "28",
+    "ID_Item": "51",
     "NomeBusca": "Cefalexina",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -700,7 +1275,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "29",
+    "ID_Item": "52",
     "NomeBusca": "Ceftriaxona",
     "Concentracao": "1g",
     "FormaFarmaceutica": "pó para solução injetável",
@@ -725,7 +1300,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "30",
+    "ID_Item": "53",
     "NomeBusca": "Cetoconazol",
     "Concentracao": "0.02",
     "FormaFarmaceutica": "creme",
@@ -750,7 +1325,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "31",
+    "ID_Item": "54",
     "NomeBusca": "Cetoconazol",
     "Concentracao": "0.02",
     "FormaFarmaceutica": "xampu",
@@ -775,7 +1350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "32",
+    "ID_Item": "55",
     "NomeBusca": "Ciclobenzaprina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -800,7 +1375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "33",
+    "ID_Item": "56",
     "NomeBusca": "Cinarizina",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -825,7 +1400,32 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "34",
+    "ID_Item": "57",
+    "NomeBusca": "Ciprofibrato",
+    "Concentracao": "100 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Ciprofibrato 100 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Antilipêmico",
+    "Doenca": "dislipidemia, hipertrigliceridemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "58",
     "NomeBusca": "Ciprofloxacino",
     "Concentracao": "250 mg",
     "FormaFarmaceutica": "comprimido",
@@ -850,7 +1450,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "35",
+    "ID_Item": "59",
     "NomeBusca": "Ciprofloxacino",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -875,7 +1475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "36",
+    "ID_Item": "60",
     "NomeBusca": "Ciprofloxacino, dexametasona",
     "Concentracao": "",
     "FormaFarmaceutica": "solução otológica",
@@ -900,7 +1500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "37",
+    "ID_Item": "61",
     "NomeBusca": "Clindamicina",
     "Concentracao": "300 mg",
     "FormaFarmaceutica": "comprimido",
@@ -925,7 +1525,32 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "38",
+    "ID_Item": "62",
+    "NomeBusca": "Clobetasol",
+    "Concentracao": "0,5 mg/g",
+    "FormaFarmaceutica": "creme",
+    "PrescricaoCompleta": "1 - Clobetasol 0,5 mg/g creme _____ 1 tubo\r\nAplicar 2 vezes ao dia",
+    "Categoria": "Corticoide tópico",
+    "Doenca": "alergia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "63",
     "NomeBusca": "Clorexidina",
     "Concentracao": "0.01",
     "FormaFarmaceutica": "solução",
@@ -950,7 +1575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "39",
+    "ID_Item": "64",
     "NomeBusca": "Clortalidona",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "solução",
@@ -975,7 +1600,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "40",
+    "ID_Item": "65",
     "NomeBusca": "Codeína",
     "Concentracao": "30 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1000,7 +1625,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "41",
+    "ID_Item": "66",
     "NomeBusca": "Codeína",
     "Concentracao": "3 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -1025,7 +1650,32 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "42",
+    "ID_Item": "67",
+    "NomeBusca": "Dapagliflozina",
+    "Concentracao": "10 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Dapagliflozina 10 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Inibidor do SGLT2",
+    "Doenca": "dm, drc, icc",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "68",
     "NomeBusca": "Desloratadina",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1050,7 +1700,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "43",
+    "ID_Item": "69",
     "NomeBusca": "Desloratadina",
     "Concentracao": "0,5 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -1075,9 +1725,9 @@
     "calcAgeRanges": "[{\"minMonths\":6,\"maxMonths\":11,\"dose\":\"2 mL (1 mg)\"},{\"minMonths\":12,\"maxMonths\":71,\"dose\":\"2,5 mL (1,25 mg)\"},{\"minMonths\":72,\"maxMonths\":143,\"dose\":\"5 mL (2,5 mg)\"},{\"minMonths\":144,\"dose\":\"10 mL (5 mg)\"}]"
   },
   {
-    "ID_Item": "44",
+    "ID_Item": "70",
     "NomeBusca": "Dexametasona",
-    "Concentracao": "",
+    "Concentracao": "0.001",
     "FormaFarmaceutica": "creme",
     "PrescricaoCompleta": "1 - Dexametasona creme _____ 1 tubo\r\nAplicar 2 vezes ao dia por ___",
     "Categoria": "Corticoide",
@@ -1100,7 +1750,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "45",
+    "ID_Item": "71",
     "NomeBusca": "Dexametasona",
     "Concentracao": "0,5 mg/5ml",
     "FormaFarmaceutica": "solução",
@@ -1125,7 +1775,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "46",
+    "ID_Item": "72",
     "NomeBusca": "Dexclorfeniramina",
     "Concentracao": "2 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1150,7 +1800,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "47",
+    "ID_Item": "73",
     "NomeBusca": "Diclofenaco",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1175,7 +1825,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "48",
+    "ID_Item": "74",
     "NomeBusca": "Dimenidrinato",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1200,7 +1850,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "49",
+    "ID_Item": "75",
     "NomeBusca": "Dimenidrinato, piridoxina",
     "Concentracao": "50/10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1225,7 +1875,32 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "50",
+    "ID_Item": "76",
+    "NomeBusca": "Dinitrato de isossorbida",
+    "Concentracao": "5 mg",
+    "FormaFarmaceutica": "comprimido sublingual",
+    "PrescricaoCompleta": "1 - Dinitrato de isossorbida 5 mg comprimido sublingual _____ 30 cp\r\nTomar 1 comprimido se dor no peito",
+    "Categoria": "Vasodilatador coronariano",
+    "Doenca": "dac, ic",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "77",
     "NomeBusca": "Diosmina, hesperidina",
     "Concentracao": "450/50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1250,7 +1925,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "51",
+    "ID_Item": "78",
     "NomeBusca": "Dipirona",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1275,7 +1950,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "52",
+    "ID_Item": "79",
     "NomeBusca": "Dipirona",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1300,7 +1975,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "53",
+    "ID_Item": "80",
     "NomeBusca": "Dipirona",
     "Concentracao": "500 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -1325,7 +2000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "54",
+    "ID_Item": "81",
     "NomeBusca": "Dipirona",
     "Concentracao": "50 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -1350,7 +2025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "55",
+    "ID_Item": "82",
     "NomeBusca": "Dipirona e AINE",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1375,7 +2050,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "56",
+    "ID_Item": "83",
     "NomeBusca": "Dipirona e AINE",
     "Concentracao": "500 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -1400,7 +2075,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "57",
+    "ID_Item": "84",
     "NomeBusca": "Domperidona",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1425,7 +2100,57 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "58",
+    "ID_Item": "85",
+    "NomeBusca": "Doxazosina",
+    "Concentracao": "2 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Doxazosina 2 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Bloqueador alfa-1-adrenérgico",
+    "Doenca": "has, hpb",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "86",
+    "NomeBusca": "Doxazosina",
+    "Concentracao": "4 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Doxazosina 4 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Bloqueador alfa-1-adrenérgico",
+    "Doenca": "has, hpb",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "87",
     "NomeBusca": "Enalapril",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1450,12 +2175,12 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "59",
+    "ID_Item": "88",
     "NomeBusca": "Enalapril",
-    "Concentracao": "10 mg",
+    "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
-    "PrescricaoCompleta": "1 - Enalapril 10 mg _____ 60 cp/mês\r\nTomar 1 comprimido de 12 em 12 horas",
-    "Categoria": "Anti-hipertensivo, IECA",
+    "PrescricaoCompleta": "1 - Enalapril 5 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "IECA",
     "Doenca": "has, ic",
     "OrdemPrioridade": "",
     "isCalculable": false,
@@ -1475,7 +2200,32 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "60",
+    "ID_Item": "89",
+    "NomeBusca": "Enalapril",
+    "Concentracao": "20 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Enalapril 20 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "IECA",
+    "Doenca": "has, ic",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "90",
     "NomeBusca": "Escopolamina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1500,7 +2250,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "61",
+    "ID_Item": "91",
     "NomeBusca": "Escopolamina",
     "Concentracao": "10mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -1525,7 +2275,7 @@
     "calcAgeRanges": "[ { \"minMonths\": 0, \"maxMonths\": 2, \"description\": \"< 3 meses\", \"calcDoseMinMgKg\": 1,5, \"calcDoseMaxMgKg\": 1,5, \"calcFrequencyHours\": 8, \"calcUnit\": \"gotas\" }, { \"minMonths\": 3, \"maxMonths\": 11, \"description\": \"3-11 meses\", \"calcDoseMinMgKg\": 0,7, \"calcDoseMaxMgKg\": 0,7, \"calcFrequencyHours\": 8, \"calcUnit\": \"gotas\", \"alternativeDose\": \"ou 10\" }, { \"minMonths\": 12, \"maxMonths\": 71, \"description\": \"1-6 anos\", \"calcDoseMinMgKg\": 0,3, \"calcDoseMaxMgKg\": 0,5, \"calcFrequencyHours\": 8, \"calcUnit\": \"gotas\", \"alternativeDose\": \"ou 10-20\" }, { \"minMonths\": 72, \"description\": \"> 6 anos\", \"dose\": \"20-40\" }\r\n]"
   },
   {
-    "ID_Item": "62",
+    "ID_Item": "92",
     "NomeBusca": "Espironolactona",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1550,7 +2300,57 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "63",
+    "ID_Item": "93",
+    "NomeBusca": "Espironolactona",
+    "Concentracao": "25 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Espironolactona 25 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Diurético poupador de potássio",
+    "Doenca": "has, ic",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "94",
+    "NomeBusca": "Espironolactona",
+    "Concentracao": "100 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Espironolactona 100 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Diurético poupador de potássio",
+    "Doenca": "cirrose hepática, has, ic",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "95",
     "NomeBusca": "Fexofenadina",
     "Concentracao": "6 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -1575,7 +2375,7 @@
     "calcAgeRanges": "[{\"minMonths\":6,\"maxMonths\":23,\"dose\":\"2,5 mL (15 mg)\"},{\"minMonths\":24,\"maxMonths\":143,\"dose\":\"5 mL (30 mg)\"},{\"minMonths\":144,\"dose\":\"10 mL (60 mg)\"}]"
   },
   {
-    "ID_Item": "64",
+    "ID_Item": "96",
     "NomeBusca": "Fluconazol",
     "Concentracao": "150 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1600,7 +2400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "65",
+    "ID_Item": "97",
     "NomeBusca": "Flunarizina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1625,7 +2425,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "66",
+    "ID_Item": "98",
     "NomeBusca": "Fluticasona",
     "Concentracao": "27,5 mcg/dose",
     "FormaFarmaceutica": "suspensão spray",
@@ -1650,7 +2450,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "67",
+    "ID_Item": "99",
     "NomeBusca": "Formoterol",
     "Concentracao": "6 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -1675,7 +2475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "68",
+    "ID_Item": "100",
     "NomeBusca": "Formoterol",
     "Concentracao": "12 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -1700,7 +2500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "69",
+    "ID_Item": "101",
     "NomeBusca": "Formoterol, beclometasona",
     "Concentracao": "100+6 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -1725,7 +2525,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "70",
+    "ID_Item": "102",
     "NomeBusca": "Formoterol, budesonida",
     "Concentracao": "6+200 mcg",
     "FormaFarmaceutica": "pó para inalação",
@@ -1750,7 +2550,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "71",
+    "ID_Item": "103",
     "NomeBusca": "Formoterol, budesonida",
     "Concentracao": "12+400 mcg",
     "FormaFarmaceutica": "pó para inalação",
@@ -1775,7 +2575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "72",
+    "ID_Item": "104",
     "NomeBusca": "Fosfomicina",
     "Concentracao": "3 g",
     "FormaFarmaceutica": "grânulo",
@@ -1800,7 +2600,57 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "73",
+    "ID_Item": "105",
+    "NomeBusca": "Furosemida",
+    "Concentracao": "40 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Furosemida 40 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Diurético de alça",
+    "Doenca": "has, ic",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "106",
+    "NomeBusca": "Glibenclamida",
+    "Concentracao": "5 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Glibenclamida 5 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Sulfonilureia",
+    "Doenca": "dm",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "107",
     "NomeBusca": "Gliclazida",
     "Concentracao": "30 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1825,7 +2675,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "74",
+    "ID_Item": "108",
     "NomeBusca": "Gliclazida",
     "Concentracao": "60 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1850,7 +2700,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "75",
+    "ID_Item": "109",
     "NomeBusca": "Guaco",
     "Concentracao": "30 g",
     "FormaFarmaceutica": "chá",
@@ -1875,7 +2725,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "76",
+    "ID_Item": "110",
     "NomeBusca": "Guaco",
     "Concentracao": "",
     "FormaFarmaceutica": "tintura",
@@ -1900,7 +2750,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "77",
+    "ID_Item": "111",
     "NomeBusca": "Guaco",
     "Concentracao": "",
     "FormaFarmaceutica": "solução oral",
@@ -1925,7 +2775,57 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "78",
+    "ID_Item": "112",
+    "NomeBusca": "Hidralazina",
+    "Concentracao": "25 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Hidralazina 25 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Anti-hipertensivo, vasodilatador",
+    "Doenca": "has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "113",
+    "NomeBusca": "Hidralazina",
+    "Concentracao": "50 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Hidralazina 50 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia ",
+    "Categoria": "Anti-hipertensivo, vasodilatador",
+    "Doenca": "has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "114",
     "NomeBusca": "Hidroclorotiazida",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -1950,11 +2850,36 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "79",
+    "ID_Item": "115",
+    "NomeBusca": "Hidroclorotiazida",
+    "Concentracao": "12,5 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Hidroclorotiazida 12,5 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Diurético tiazídico",
+    "Doenca": "has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "116",
     "NomeBusca": "Hidrocortisona",
-    "Concentracao": "",
+    "Concentracao": "0.01",
     "FormaFarmaceutica": "creme",
-    "PrescricaoCompleta": "1 - Hidrocortisona creme _____ 1 tubo\r\nAplicar 2 vezes ao dia por ___ dias. Realizar leve fricção",
+    "PrescricaoCompleta": "1 - Hidrocortisona 1% creme _____ 1 tubo\r\nAplicar 2 vezes ao dia por ___ dias. Realizar leve fricção",
     "Categoria": "Corticoide",
     "Doenca": "dermatite",
     "OrdemPrioridade": "",
@@ -1975,7 +2900,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "80",
+    "ID_Item": "117",
     "NomeBusca": "Hidróxido de alumínio, hidróxido de magnésio",
     "Concentracao": "(60 mg + 40 mg)/ml",
     "FormaFarmaceutica": "solução oral",
@@ -2000,7 +2925,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "81",
+    "ID_Item": "118",
     "NomeBusca": "Hidroxiquinolina, trolamina",
     "Concentracao": "0,4+140 mg",
     "FormaFarmaceutica": "solução otológica",
@@ -2025,7 +2950,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "82",
+    "ID_Item": "119",
     "NomeBusca": "Hidroxizina",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2050,7 +2975,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "83",
+    "ID_Item": "120",
     "NomeBusca": "Hidroxizina",
     "Concentracao": "2mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -2075,7 +3000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "84",
+    "ID_Item": "121",
     "NomeBusca": "Ibuprofeno",
     "Concentracao": "600 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2100,7 +3025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "85",
+    "ID_Item": "122",
     "NomeBusca": "Ibuprofeno",
     "Concentracao": "100mg/ml solução",
     "FormaFarmaceutica": "solução oral",
@@ -2125,7 +3050,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "86",
+    "ID_Item": "123",
     "NomeBusca": "Indapamida",
     "Concentracao": "1,5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2150,7 +3075,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "87",
+    "ID_Item": "124",
     "NomeBusca": "Indapamida",
     "Concentracao": "2,5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2175,7 +3100,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "88",
+    "ID_Item": "125",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -2200,7 +3125,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "89",
+    "ID_Item": "126",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -2225,7 +3150,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "90",
+    "ID_Item": "127",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -2250,7 +3175,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "91",
+    "ID_Item": "128",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -2275,7 +3200,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "92",
+    "ID_Item": "129",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -2300,7 +3225,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "93",
+    "ID_Item": "130",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -2325,7 +3250,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "94",
+    "ID_Item": "131",
     "NomeBusca": "Insulina humana regular",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -2350,7 +3275,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "95",
+    "ID_Item": "132",
     "NomeBusca": "Insulina humana regular",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -2375,7 +3300,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "96",
+    "ID_Item": "133",
     "NomeBusca": "Ipratrópio",
     "Concentracao": "",
     "FormaFarmaceutica": "solução para nebulização",
@@ -2400,7 +3325,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "97",
+    "ID_Item": "134",
     "NomeBusca": "Ivermectina",
     "Concentracao": "6 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2425,7 +3350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "98",
+    "ID_Item": "135",
     "NomeBusca": "Lactulose",
     "Concentracao": "667 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -2450,7 +3375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "99",
+    "ID_Item": "136",
     "NomeBusca": "Levofloxacino",
     "Concentracao": "750 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2475,7 +3400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "100",
+    "ID_Item": "137",
     "NomeBusca": "Loratadina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2500,7 +3425,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "101",
+    "ID_Item": "138",
     "NomeBusca": "Loratadina",
     "Concentracao": "1 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -2525,7 +3450,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "102",
+    "ID_Item": "139",
     "NomeBusca": "Losartana",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2550,7 +3475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "103",
+    "ID_Item": "140",
     "NomeBusca": "Losartana",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2575,7 +3500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "104",
+    "ID_Item": "141",
     "NomeBusca": "Macrogol 3350",
     "Concentracao": "3350",
     "FormaFarmaceutica": "pó para solução oral",
@@ -2600,7 +3525,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "105",
+    "ID_Item": "142",
     "NomeBusca": "Macrogol 3350, bicarbonato de sódio, cloreto de sódio, cloreto de potássio",
     "Concentracao": "",
     "FormaFarmaceutica": "Pó para preparação extemporânea",
@@ -2625,7 +3550,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "106",
+    "ID_Item": "143",
     "NomeBusca": "Metformina",
     "Concentracao": "850 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2650,7 +3575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "107",
+    "ID_Item": "144",
     "NomeBusca": "Metformina",
     "Concentracao": "850 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2675,7 +3600,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "108",
+    "ID_Item": "145",
     "NomeBusca": "Metformina",
     "Concentracao": "850 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2700,7 +3625,57 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "109",
+    "ID_Item": "146",
+    "NomeBusca": "Metformina",
+    "Concentracao": "500 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Metformina 500 mg comprimido _____ ___ comp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Biguanida",
+    "Doenca": "dm",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "147",
+    "NomeBusca": "Metildopa",
+    "Concentracao": "250 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Metildopa 250 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Agonista a-2 adrenérgico",
+    "Doenca": "has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "148",
     "NomeBusca": "Metoclopramida",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2725,7 +3700,32 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "110",
+    "ID_Item": "149",
+    "NomeBusca": "Metoclopramida",
+    "Concentracao": "4 mg/mL",
+    "FormaFarmaceutica": "solução oral",
+    "PrescricaoCompleta": "1 - Metoclopramida 4 mg/mL solução oral _____ 1 frasco\r\nTomar ___ gotas de 8 em 8 horas",
+    "Categoria": "Antiemético",
+    "Doenca": "náuseas, vômitos",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "150",
     "NomeBusca": "Metoprolol",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2750,7 +3750,82 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "111",
+    "ID_Item": "151",
+    "NomeBusca": "Metoprolol",
+    "Concentracao": "25 mg",
+    "FormaFarmaceutica": "comprimido de liberação prolongada",
+    "PrescricaoCompleta": "1 - Succinato de metoprolol 25 mg comprimido de liberação prolongada _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Betabloqueador",
+    "Doenca": "arritmia, ic, has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "152",
+    "NomeBusca": "Metoprolol",
+    "Concentracao": "50 mg",
+    "FormaFarmaceutica": "comprimido de liberação prolongada",
+    "PrescricaoCompleta": "1 - Succinato de metoprolol 50 mg comprimido de liberação prolongada _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Betabloqueador",
+    "Doenca": "arritmia, ic, has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "153",
+    "NomeBusca": "Metoprolol",
+    "Concentracao": "100 mg",
+    "FormaFarmaceutica": "comprimido de liberação prolongada",
+    "PrescricaoCompleta": "1 - Succinato de metoprolol 100 mg comprimido de liberação prolongada _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Betabloqueador",
+    "Doenca": "arritmia, ic, has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "154",
     "NomeBusca": "Metronidazol",
     "Concentracao": "400 mg",
     "FormaFarmaceutica": "comprimido",
@@ -2775,7 +3850,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "112",
+    "ID_Item": "155",
     "NomeBusca": "Metronidazol",
     "Concentracao": "0.1",
     "FormaFarmaceutica": "creme",
@@ -2800,9 +3875,9 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "113",
+    "ID_Item": "156",
     "NomeBusca": "Miconazol",
-    "Concentracao": "2% creme",
+    "Concentracao": "0.02",
     "FormaFarmaceutica": "creme",
     "PrescricaoCompleta": "1 - Miconazol 2% creme _____ 1 tubo\r\nUsar 1 aplicador a noite por 7 dias",
     "Categoria": "Antifúngico",
@@ -2825,7 +3900,57 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "114",
+    "ID_Item": "157",
+    "NomeBusca": "Mononitrato de isossorbida",
+    "Concentracao": "20 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Mononitrato de isossorbida 20 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Anti-hipertensivo, vasodilatador",
+    "Doenca": "angina, dac",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "158",
+    "NomeBusca": "Mononitrato de isossorbida",
+    "Concentracao": "40 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Mononitrato de isossorbida 40 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Anti-hipertensivo, vasodilatador",
+    "Doenca": "angina, dac",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "159",
     "NomeBusca": "Montelucaste",
     "Concentracao": "4 mg comprimido mastigável",
     "FormaFarmaceutica": "comprimido mastigável",
@@ -2850,7 +3975,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "115",
+    "ID_Item": "160",
     "NomeBusca": "Montelucaste",
     "Concentracao": "5 mg comprimido mastigável",
     "FormaFarmaceutica": "comprimido mastigável",
@@ -2875,7 +4000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "116",
+    "ID_Item": "161",
     "NomeBusca": "Montelucaste",
     "Concentracao": "10 mg comprimido",
     "FormaFarmaceutica": "comprimido mastigável",
@@ -2900,7 +4025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "117",
+    "ID_Item": "162",
     "NomeBusca": "Montelucaste",
     "Concentracao": "4 mg sachê (grânulo)",
     "FormaFarmaceutica": "grânulo",
@@ -2925,7 +4050,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "118",
+    "ID_Item": "163",
     "NomeBusca": "Mupirocina",
     "Concentracao": "2% creme",
     "FormaFarmaceutica": "creme",
@@ -2950,7 +4075,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "119",
+    "ID_Item": "164",
     "NomeBusca": "Nafazolina",
     "Concentracao": "0,5mg/ml solução nasal",
     "FormaFarmaceutica": "solução nasal",
@@ -2975,7 +4100,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "120",
+    "ID_Item": "165",
     "NomeBusca": "Naproxeno",
     "Concentracao": "250 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3000,7 +4125,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "121",
+    "ID_Item": "166",
     "NomeBusca": "Naproxeno",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3025,7 +4150,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "122",
+    "ID_Item": "167",
     "NomeBusca": "Neomicina, polimixina B, hidrocortisona",
     "Concentracao": "",
     "FormaFarmaceutica": "solução otológica",
@@ -3050,7 +4175,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "123",
+    "ID_Item": "168",
     "NomeBusca": "Nimesulida",
     "Concentracao": "",
     "FormaFarmaceutica": "comprimido",
@@ -3075,7 +4200,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "124",
+    "ID_Item": "169",
     "NomeBusca": "Nitazoxanida",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3100,7 +4225,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "125",
+    "ID_Item": "170",
     "NomeBusca": "Nitrofurantoína",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3125,7 +4250,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "126",
+    "ID_Item": "171",
     "NomeBusca": "Óleo mineral",
     "Concentracao": "",
     "FormaFarmaceutica": "frasco",
@@ -3150,7 +4275,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "127",
+    "ID_Item": "172",
     "NomeBusca": "Omeprazol",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "cápsula",
@@ -3175,7 +4300,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "128",
+    "ID_Item": "173",
     "NomeBusca": "Ondansetrona",
     "Concentracao": "4 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3200,7 +4325,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "129",
+    "ID_Item": "174",
     "NomeBusca": "Ondansetrona",
     "Concentracao": "8 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3225,7 +4350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "130",
+    "ID_Item": "175",
     "NomeBusca": "Paracetamol",
     "Concentracao": "750 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3250,7 +4375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "131",
+    "ID_Item": "176",
     "NomeBusca": "Paracetamol",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3275,7 +4400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "132",
+    "ID_Item": "177",
     "NomeBusca": "Paracetamol",
     "Concentracao": "200 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -3300,7 +4425,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "133",
+    "ID_Item": "178",
     "NomeBusca": "Paracetamol e AINE",
     "Concentracao": "750 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3325,7 +4450,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "134",
+    "ID_Item": "179",
     "NomeBusca": "Paracetamol e AINE",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3350,7 +4475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "135",
+    "ID_Item": "180",
     "NomeBusca": "Pelargonium Sidoides, Kaloba",
     "Concentracao": "",
     "FormaFarmaceutica": "solução oral",
@@ -3375,7 +4500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "136",
+    "ID_Item": "181",
     "NomeBusca": "Permanganato de potássio",
     "Concentracao": "",
     "FormaFarmaceutica": "pó",
@@ -3400,7 +4525,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "137",
+    "ID_Item": "182",
     "NomeBusca": "Permetrina",
     "Concentracao": "0.05",
     "FormaFarmaceutica": "loção",
@@ -3425,9 +4550,9 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "138",
+    "ID_Item": "183",
     "NomeBusca": "Permetrina",
-    "Concentracao": "",
+    "Concentracao": "0.05",
     "FormaFarmaceutica": "xampu",
     "PrescricaoCompleta": "1 - Permetrina 1% xampu _____ 1 frasco\r\nApós lavar cabelo, deve-se aplicar este produto nos cabelos úmidos, cobrindo todo o couro cabeludo, e esfregar abundantemente em toda a extensão; O produto deve agir por 10 minutos. Passar o pente fino para a remoção dos piolhos e das lêndeas; Enxaguar o cabelo com água morna e enxugar com a toalha; Repetir após 7 dias, se houver necessidade; A quantidade necessária do produto depende do volume e tamanho dos cabelos, pode ser necessário usar o frasco inteiro e em alguns casos, de cabelo mais longos, pode ser necessário mais de um frasco;",
     "Categoria": "escabicida, pediculicida",
@@ -3450,7 +4575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "139",
+    "ID_Item": "184",
     "NomeBusca": "Policresuleno, cinchocaína",
     "Concentracao": "",
     "FormaFarmaceutica": "pomada",
@@ -3475,7 +4600,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "140",
+    "ID_Item": "185",
     "NomeBusca": "Prednisolona",
     "Concentracao": "0.001",
     "FormaFarmaceutica": "solução oftálmica",
@@ -3500,7 +4625,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "141",
+    "ID_Item": "186",
     "NomeBusca": "Prednisolona",
     "Concentracao": "5 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -3525,7 +4650,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "142",
+    "ID_Item": "187",
     "NomeBusca": "Prednisona",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3550,7 +4675,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "143",
+    "ID_Item": "188",
     "NomeBusca": "Prednisona",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3575,7 +4700,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "144",
+    "ID_Item": "189",
     "NomeBusca": "Prednisona",
     "Concentracao": "3 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -3600,7 +4725,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "145",
+    "ID_Item": "190",
     "NomeBusca": "Prometazina",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3625,7 +4750,107 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "146",
+    "ID_Item": "191",
+    "NomeBusca": "Propafenona",
+    "Concentracao": "300 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Propafenona 300 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Antiarrítmico de classe 1C",
+    "Doenca": "arritmia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "192",
+    "NomeBusca": "Propafenona",
+    "Concentracao": "150 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Propafenona 150 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Antiarrítmico de classe 1C",
+    "Doenca": "arritmia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "193",
+    "NomeBusca": "Propranolol",
+    "Concentracao": "10 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Propranolol 10 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Betabloqueador",
+    "Doenca": "arritmia, dac, has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "194",
+    "NomeBusca": "Propranolol",
+    "Concentracao": "40 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Propranolol 40 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Betabloqueador",
+    "Doenca": "arritmia, dac, has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "195",
     "NomeBusca": "Psyllium",
     "Concentracao": "",
     "FormaFarmaceutica": "chá",
@@ -3650,7 +4875,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "147",
+    "ID_Item": "196",
     "NomeBusca": "Sacarato de hidróxido férrico",
     "Concentracao": "",
     "FormaFarmaceutica": "solução injetável",
@@ -3675,7 +4900,82 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "148",
+    "ID_Item": "197",
+    "NomeBusca": "Sacubitril valsartana",
+    "Concentracao": "50 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Sacubitril valsartana 50 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Inibidor de neprilisina, antagonista do receptor da angiotensina II",
+    "Doenca": "ic",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "198",
+    "NomeBusca": "Sacubitril valsartana",
+    "Concentracao": "100 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Sacubitril valsartana 100 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Inibidor de neprilisina, antagonista do receptor da angiotensina II",
+    "Doenca": "ic",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "199",
+    "NomeBusca": "Sacubitril valsartana",
+    "Concentracao": "200 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Sacubitril valsartana 200 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Inibidor de neprilisina, antagonista do receptor da angiotensina II",
+    "Doenca": "ic",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "200",
     "NomeBusca": "Sais de reidratação oral",
     "Concentracao": "",
     "FormaFarmaceutica": "pó para solução oral",
@@ -3700,7 +5000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "149",
+    "ID_Item": "201",
     "NomeBusca": "Sais de reidratação oral",
     "Concentracao": "",
     "FormaFarmaceutica": "pó para solução oral",
@@ -3725,7 +5025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "150",
+    "ID_Item": "202",
     "NomeBusca": "Salbutamol",
     "Concentracao": "100 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -3750,7 +5050,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "151",
+    "ID_Item": "203",
     "NomeBusca": "Salbutamol",
     "Concentracao": "100 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -3775,7 +5075,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "152",
+    "ID_Item": "204",
     "NomeBusca": "Simeticona",
     "Concentracao": "40 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3800,9 +5100,84 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "153",
+    "ID_Item": "205",
+    "NomeBusca": "Sinvastatina",
+    "Concentracao": "10 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Sinvastatina 10 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido à noite",
+    "Categoria": "Antilipêmico",
+    "Doenca": "dislipidemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "206",
+    "NomeBusca": "Sinvastatina",
+    "Concentracao": "20 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Sinvastatina 20 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido à noite",
+    "Categoria": "Antilipêmico",
+    "Doenca": "dislipidemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "207",
+    "NomeBusca": "Sinvastatina",
+    "Concentracao": "40 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Sinvastatina 40 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido à noite",
+    "Categoria": "Antilipêmico",
+    "Doenca": "dislipidemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "208",
     "NomeBusca": "Soro fisiológico",
-    "Concentracao": "",
+    "Concentracao": "0.009",
     "FormaFarmaceutica": "solução",
     "PrescricaoCompleta": "1 - Soro fisiológico\r\nRealizar lavagem nasal com soro. Usar seringa",
     "Categoria": "Soro fisiológico",
@@ -3825,7 +5200,32 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "154",
+    "ID_Item": "209",
+    "NomeBusca": "Sulfadiazina de prata",
+    "Concentracao": "10 mg/g (1%)",
+    "FormaFarmaceutica": "creme",
+    "PrescricaoCompleta": "1 - Sulfadiazina de prata 10 mg/g (1%) creme _____ 1 tubo\r\nAplicar 2 vezes ao dia",
+    "Categoria": "Antimicrobiano",
+    "Doenca": "feridas, queimaduras",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "210",
     "NomeBusca": "Sulfametoxazol, trimetoprima",
     "Concentracao": "400+80mg",
     "FormaFarmaceutica": "comprimido",
@@ -3850,7 +5250,82 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "155",
+    "ID_Item": "211",
+    "NomeBusca": "Sulfato ferroso",
+    "Concentracao": "Equivalente a 5 mg/mL de ferro elementar",
+    "FormaFarmaceutica": "xarope",
+    "PrescricaoCompleta": "1 - Sulfato ferroso Equivalente a 5 mg/mL de ferro elementar xarope _____ 1 frasco\r\nTomar ____ ml(s) por dia",
+    "Categoria": "Mineral",
+    "Doenca": "anemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "212",
+    "NomeBusca": "Sulfato ferroso",
+    "Concentracao": "Equivalente a 25 mg/mL de ferro elementar",
+    "FormaFarmaceutica": "solução oral",
+    "PrescricaoCompleta": "1 - Sulfato ferroso Equivalente a 25 mg/mL de ferro elementar solução oral _____ 1 frasco\r\nTomar ____ ml(s) por dia",
+    "Categoria": "Mineral",
+    "Doenca": "anemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "213",
+    "NomeBusca": "Sulfato ferroso",
+    "Concentracao": "Equivalente a 40 mg de ferro elementar",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Sulfato ferroso Equivalente a 40 mg de ferro elementar comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Mineral",
+    "Doenca": "anemia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "214",
     "NomeBusca": "Sumatriptina",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3875,7 +5350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "156",
+    "ID_Item": "215",
     "NomeBusca": "Tenoxicam",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3900,7 +5375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "157",
+    "ID_Item": "216",
     "NomeBusca": "Tramadol",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3925,7 +5400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "158",
+    "ID_Item": "217",
     "NomeBusca": "Tramadol",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3950,13 +5425,63 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "159",
+    "ID_Item": "218",
     "NomeBusca": "Triancinolona",
     "Concentracao": "1mg/g",
     "FormaFarmaceutica": "pasta",
     "PrescricaoCompleta": "1 - Triancinolona acetonida 1mg/g _____ 1 tubo\r\nAplicar sobre a lesão até de 8 em 8 horas por 7 dias após as refeições.",
     "Categoria": "Corticoide tópico",
     "Doenca": "estomatite aftosa",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "219",
+    "NomeBusca": "Verapamil",
+    "Concentracao": "80 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Verapamil 80 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Bloqueador do canal de cálcio",
+    "Doenca": "arritmia, has",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "220",
+    "NomeBusca": "Verapamil",
+    "Concentracao": "120 mg",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Verapamil 120 mg comprimido _____ 30 cp/mês\r\nTomar 1 comprimido por dia",
+    "Categoria": "Bloqueador do canal de cálcio",
+    "Doenca": "arritmia, has",
     "OrdemPrioridade": "",
     "isCalculable": false,
     "calcPlaceholder": "",
