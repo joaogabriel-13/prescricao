@@ -3276,6 +3276,56 @@
   },
   {
     "ID_Item": "132",
+    "NomeBusca": "Enterogermina plus®",
+    "Concentracao": "",
+    "FormaFarmaceutica": "frasco",
+    "PrescricaoCompleta": "1 - Enterogermina plus® _____ 1 embalagem\r\nDar 1 frasco por dia por 5 dias",
+    "Categoria": "Suplemento probiótico",
+    "Doenca": "diarreia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "133",
+    "NomeBusca": "Enterogermina®",
+    "Concentracao": "",
+    "FormaFarmaceutica": "flaconete",
+    "PrescricaoCompleta": "1 - Enterogermina® _____ 1 embalagem\r\nDar 2 frascos por dia por 5 dias",
+    "Categoria": "",
+    "Doenca": "",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "134",
     "NomeBusca": "Eritromicina",
     "Concentracao": "25 mg/mL",
     "FormaFarmaceutica": "suspensão oral",
@@ -3300,7 +3350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "133",
+    "ID_Item": "135",
     "NomeBusca": "Eritromicina",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3325,7 +3375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "134",
+    "ID_Item": "136",
     "NomeBusca": "Eritromicina",
     "Concentracao": "50 mg/mL",
     "FormaFarmaceutica": "suspensão oral",
@@ -3350,7 +3400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "135",
+    "ID_Item": "137",
     "NomeBusca": "Escopolamina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3375,7 +3425,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "136",
+    "ID_Item": "138",
     "NomeBusca": "Escopolamina",
     "Concentracao": "10mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -3400,7 +3450,7 @@
     "calcAgeRanges": "[ { \"minMonths\": 0, \"maxMonths\": 2, \"description\": \"< 3 meses\", \"calcDoseMinMgKg\": 1,5, \"calcDoseMaxMgKg\": 1,5, \"calcFrequencyHours\": 8, \"calcUnit\": \"gotas\" }, { \"minMonths\": 3, \"maxMonths\": 11, \"description\": \"3-11 meses\", \"calcDoseMinMgKg\": 0,7, \"calcDoseMaxMgKg\": 0,7, \"calcFrequencyHours\": 8, \"calcUnit\": \"gotas\", \"alternativeDose\": \"ou 10\" }, { \"minMonths\": 12, \"maxMonths\": 71, \"description\": \"1-6 anos\", \"calcDoseMinMgKg\": 0,3, \"calcDoseMaxMgKg\": 0,5, \"calcFrequencyHours\": 8, \"calcUnit\": \"gotas\", \"alternativeDose\": \"ou 10-20\" }, { \"minMonths\": 72, \"description\": \"> 6 anos\", \"dose\": \"20-40\" }\r\n]"
   },
   {
-    "ID_Item": "137",
+    "ID_Item": "139",
     "NomeBusca": "Espironolactona",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3425,7 +3475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "138",
+    "ID_Item": "140",
     "NomeBusca": "Espironolactona",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3450,7 +3500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "139",
+    "ID_Item": "141",
     "NomeBusca": "Estrogênios conjugados",
     "Concentracao": "0,625 mg/g",
     "FormaFarmaceutica": "creme vaginal",
@@ -3475,7 +3525,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "140",
+    "ID_Item": "142",
     "NomeBusca": "Etinilestradiol, levonorgestrel",
     "Concentracao": "0,03 mg + 0,15 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3500,7 +3550,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "141",
+    "ID_Item": "143",
     "NomeBusca": "Fenitoína",
     "Concentracao": "20 mg/mL",
     "FormaFarmaceutica": "suspensão oral",
@@ -3525,7 +3575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "142",
+    "ID_Item": "144",
     "NomeBusca": "Fenobarbital",
     "Concentracao": "40 mg/mL",
     "FormaFarmaceutica": "solução oral",
@@ -3550,7 +3600,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "143",
+    "ID_Item": "145",
     "NomeBusca": "Fexofenadina",
     "Concentracao": "6 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -3575,7 +3625,7 @@
     "calcAgeRanges": "[{\"minMonths\":6,\"maxMonths\":23,\"dose\":\"2,5 mL (15 mg)\"},{\"minMonths\":24,\"maxMonths\":143,\"dose\":\"5 mL (30 mg)\"},{\"minMonths\":144,\"dose\":\"10 mL (60 mg)\"}]"
   },
   {
-    "ID_Item": "144",
+    "ID_Item": "146",
     "NomeBusca": "Finasterida",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3600,7 +3650,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "145",
+    "ID_Item": "147",
     "NomeBusca": "Fluconazol",
     "Concentracao": "150 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3625,7 +3675,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "146",
+    "ID_Item": "148",
     "NomeBusca": "Fluconazol",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "cápsula",
@@ -3650,7 +3700,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "147",
+    "ID_Item": "149",
     "NomeBusca": "Flunarizina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3675,7 +3725,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "148",
+    "ID_Item": "150",
     "NomeBusca": "Fluoxetina",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "cápsula",
@@ -3700,7 +3750,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "149",
+    "ID_Item": "151",
     "NomeBusca": "Fluticasona",
     "Concentracao": "27,5 mcg/dose",
     "FormaFarmaceutica": "suspensão spray",
@@ -3725,7 +3775,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "150",
+    "ID_Item": "152",
     "NomeBusca": "Formoterol",
     "Concentracao": "6 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -3750,7 +3800,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "151",
+    "ID_Item": "153",
     "NomeBusca": "Formoterol",
     "Concentracao": "12 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -3775,7 +3825,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "152",
+    "ID_Item": "154",
     "NomeBusca": "Formoterol",
     "Concentracao": "12 mcg",
     "FormaFarmaceutica": "cápsula inalatória",
@@ -3800,7 +3850,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "153",
+    "ID_Item": "155",
     "NomeBusca": "Formoterol",
     "Concentracao": "12 mcg",
     "FormaFarmaceutica": "pó inalatório",
@@ -3825,7 +3875,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "154",
+    "ID_Item": "156",
     "NomeBusca": "Formoterol, beclometasona",
     "Concentracao": "100+6 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -3850,7 +3900,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "155",
+    "ID_Item": "157",
     "NomeBusca": "Formoterol, budesonida",
     "Concentracao": "12+400 mcg",
     "FormaFarmaceutica": "pó para inalação",
@@ -3875,7 +3925,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "156",
+    "ID_Item": "158",
     "NomeBusca": "Formoterol, budesonida",
     "Concentracao": "6 mcg + 200 mcg",
     "FormaFarmaceutica": "cápsula inalatória",
@@ -3900,7 +3950,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "157",
+    "ID_Item": "159",
     "NomeBusca": "Formoterol, budesonida",
     "Concentracao": "12 mcg + 400 mcg",
     "FormaFarmaceutica": "cápsula inalatória",
@@ -3925,7 +3975,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "158",
+    "ID_Item": "160",
     "NomeBusca": "Fosfomicina",
     "Concentracao": "3 g",
     "FormaFarmaceutica": "grânulo",
@@ -3950,7 +4000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "159",
+    "ID_Item": "161",
     "NomeBusca": "Furosemida",
     "Concentracao": "40 mg",
     "FormaFarmaceutica": "comprimido",
@@ -3975,7 +4025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "160",
+    "ID_Item": "162",
     "NomeBusca": "Gabapentina",
     "Concentracao": "300 mg",
     "FormaFarmaceutica": "cápsula",
@@ -4000,7 +4050,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "161",
+    "ID_Item": "163",
     "NomeBusca": "Gabapentina",
     "Concentracao": "400 mg",
     "FormaFarmaceutica": "cápsula",
@@ -4025,7 +4075,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "162",
+    "ID_Item": "164",
     "NomeBusca": "Galantamina",
     "Concentracao": "8 mg",
     "FormaFarmaceutica": "cápsula de liberação prolongada",
@@ -4050,7 +4100,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "163",
+    "ID_Item": "165",
     "NomeBusca": "Galantamina",
     "Concentracao": "16 mg",
     "FormaFarmaceutica": "cápsula de liberação prolongada",
@@ -4075,7 +4125,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "164",
+    "ID_Item": "166",
     "NomeBusca": "Galantamina",
     "Concentracao": "24 mg",
     "FormaFarmaceutica": "cápsula de liberação prolongada",
@@ -4100,7 +4150,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "165",
+    "ID_Item": "167",
     "NomeBusca": "Gentamicina",
     "Concentracao": "5 mg/g",
     "FormaFarmaceutica": "pomada oftálmica",
@@ -4125,7 +4175,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "166",
+    "ID_Item": "168",
     "NomeBusca": "Gentamicina",
     "Concentracao": "5 mg/mL",
     "FormaFarmaceutica": "solução oftálmica",
@@ -4150,7 +4200,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "167",
+    "ID_Item": "169",
     "NomeBusca": "Glibenclamida",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4175,7 +4225,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "168",
+    "ID_Item": "170",
     "NomeBusca": "Gliclazida",
     "Concentracao": "30 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4200,7 +4250,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "169",
+    "ID_Item": "171",
     "NomeBusca": "Gliclazida",
     "Concentracao": "60 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4225,7 +4275,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "170",
+    "ID_Item": "172",
     "NomeBusca": "Guaco",
     "Concentracao": "30 g",
     "FormaFarmaceutica": "chá",
@@ -4250,7 +4300,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "171",
+    "ID_Item": "173",
     "NomeBusca": "Guaco",
     "Concentracao": "",
     "FormaFarmaceutica": "tintura",
@@ -4275,7 +4325,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "172",
+    "ID_Item": "174",
     "NomeBusca": "Guaco",
     "Concentracao": "",
     "FormaFarmaceutica": "solução oral",
@@ -4300,7 +4350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "173",
+    "ID_Item": "175",
     "NomeBusca": "Haloperidol",
     "Concentracao": "1 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4325,7 +4375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "174",
+    "ID_Item": "176",
     "NomeBusca": "Haloperidol",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4350,7 +4400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "175",
+    "ID_Item": "177",
     "NomeBusca": "Haloperidol",
     "Concentracao": "50 mg/mL",
     "FormaFarmaceutica": "solução injetável",
@@ -4375,7 +4425,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "176",
+    "ID_Item": "178",
     "NomeBusca": "Haloperidol",
     "Concentracao": "2 mg/mL",
     "FormaFarmaceutica": "solução oral",
@@ -4400,7 +4450,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "177",
+    "ID_Item": "179",
     "NomeBusca": "Hidralazina",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4425,7 +4475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "178",
+    "ID_Item": "180",
     "NomeBusca": "Hidralazina",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4450,7 +4500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "179",
+    "ID_Item": "181",
     "NomeBusca": "Hidroclorotiazida",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4475,7 +4525,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "180",
+    "ID_Item": "182",
     "NomeBusca": "Hidroclorotiazida",
     "Concentracao": "12,5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4500,7 +4550,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "181",
+    "ID_Item": "183",
     "NomeBusca": "Hidrocortisona",
     "Concentracao": "0.01",
     "FormaFarmaceutica": "creme",
@@ -4525,7 +4575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "182",
+    "ID_Item": "184",
     "NomeBusca": "Hidróxido de alumínio, hidróxido de magnésio",
     "Concentracao": "(60  + 40) mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -4550,7 +4600,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "183",
+    "ID_Item": "185",
     "NomeBusca": "Hidroxiquinolina, trolamina",
     "Concentracao": "(0,4 + 140) mg",
     "FormaFarmaceutica": "solução otológica",
@@ -4575,7 +4625,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "184",
+    "ID_Item": "186",
     "NomeBusca": "Hidroxizina",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4600,7 +4650,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "185",
+    "ID_Item": "187",
     "NomeBusca": "Hidroxizina",
     "Concentracao": "2mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -4625,7 +4675,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "186",
+    "ID_Item": "188",
     "NomeBusca": "Hipromelose",
     "Concentracao": "3 mg/mL (0,3%)",
     "FormaFarmaceutica": "solução oftálmica",
@@ -4650,7 +4700,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "187",
+    "ID_Item": "189",
     "NomeBusca": "Hipromelose",
     "Concentracao": "5 mg/mL (0,5%)",
     "FormaFarmaceutica": "solução oftálmica",
@@ -4675,7 +4725,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "188",
+    "ID_Item": "190",
     "NomeBusca": "Ibuprofeno",
     "Concentracao": "600 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4700,7 +4750,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "189",
+    "ID_Item": "191",
     "NomeBusca": "Ibuprofeno",
     "Concentracao": "100mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -4725,7 +4775,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "190",
+    "ID_Item": "192",
     "NomeBusca": "Ibuprofeno",
     "Concentracao": "50 mg/mL",
     "FormaFarmaceutica": "suspensão oral",
@@ -4750,7 +4800,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "191",
+    "ID_Item": "193",
     "NomeBusca": "Indapamida",
     "Concentracao": "1,5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4775,7 +4825,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "192",
+    "ID_Item": "194",
     "NomeBusca": "Indapamida",
     "Concentracao": "2,5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -4800,7 +4850,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "193",
+    "ID_Item": "195",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -4825,7 +4875,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "194",
+    "ID_Item": "196",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -4850,7 +4900,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "195",
+    "ID_Item": "197",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -4875,7 +4925,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "196",
+    "ID_Item": "198",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -4900,7 +4950,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "197",
+    "ID_Item": "199",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -4925,7 +4975,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "198",
+    "ID_Item": "200",
     "NomeBusca": "Insulina humana NPH",
     "Concentracao": "100 UI/ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -4950,7 +5000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "199",
+    "ID_Item": "201",
     "NomeBusca": "Ipratrópio",
     "Concentracao": "0,25 mg/mL",
     "FormaFarmaceutica": "solução para nebulização",
@@ -4975,7 +5025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "200",
+    "ID_Item": "202",
     "NomeBusca": "Ipratrópio",
     "Concentracao": "20 mcg/dose",
     "FormaFarmaceutica": "solução com (aerossol)",
@@ -5000,7 +5050,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "201",
+    "ID_Item": "203",
     "NomeBusca": "Itraconazol",
     "Concentracao": "10 mg/mL",
     "FormaFarmaceutica": "solução oral",
@@ -5025,7 +5075,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "202",
+    "ID_Item": "204",
     "NomeBusca": "Itraconazol",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "cápsula",
@@ -5050,7 +5100,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "203",
+    "ID_Item": "205",
     "NomeBusca": "Ivermectina",
     "Concentracao": "6 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5075,7 +5125,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "204",
+    "ID_Item": "206",
     "NomeBusca": "Lactulose",
     "Concentracao": "667 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -5100,7 +5150,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "205",
+    "ID_Item": "207",
     "NomeBusca": "Lamotrigina",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5125,7 +5175,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "206",
+    "ID_Item": "208",
     "NomeBusca": "Lamotrigina",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5150,7 +5200,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "207",
+    "ID_Item": "209",
     "NomeBusca": "Lamotrigina",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5175,7 +5225,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "208",
+    "ID_Item": "210",
     "NomeBusca": "Levetiracetam",
     "Concentracao": "250 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5200,7 +5250,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "209",
+    "ID_Item": "211",
     "NomeBusca": "Levetiracetam",
     "Concentracao": "750 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5225,7 +5275,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "210",
+    "ID_Item": "212",
     "NomeBusca": "Levetiracetam",
     "Concentracao": "100 mg/mL",
     "FormaFarmaceutica": "solução oral",
@@ -5250,7 +5300,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "211",
+    "ID_Item": "213",
     "NomeBusca": "Levetiracetam",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5275,7 +5325,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "212",
+    "ID_Item": "214",
     "NomeBusca": "Levetiracetam",
     "Concentracao": "1.000 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5300,7 +5350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "213",
+    "ID_Item": "215",
     "NomeBusca": "Levodopa + benserazida",
     "Concentracao": "(100 + 25) mg",
     "FormaFarmaceutica": "comprimido",
@@ -5325,7 +5375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "214",
+    "ID_Item": "216",
     "NomeBusca": "Levodopa + benserazida",
     "Concentracao": "(200  + 50) mg",
     "FormaFarmaceutica": "comprimido",
@@ -5350,7 +5400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "215",
+    "ID_Item": "217",
     "NomeBusca": "Levodopa + carbidopa",
     "Concentracao": "(200 + 50) mg",
     "FormaFarmaceutica": "comprimido",
@@ -5375,7 +5425,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "216",
+    "ID_Item": "218",
     "NomeBusca": "Levodopa + carbidopa",
     "Concentracao": "(250 + 25) mg",
     "FormaFarmaceutica": "comprimido",
@@ -5400,7 +5450,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "217",
+    "ID_Item": "219",
     "NomeBusca": "Levofloxacino",
     "Concentracao": "750 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5425,7 +5475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "218",
+    "ID_Item": "220",
     "NomeBusca": "Levofloxacino",
     "Concentracao": "250 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5450,7 +5500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "219",
+    "ID_Item": "221",
     "NomeBusca": "Levofloxacino",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5475,7 +5525,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "220",
+    "ID_Item": "222",
     "NomeBusca": "Levonorgestrel",
     "Concentracao": "0,75 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5500,7 +5550,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "221",
+    "ID_Item": "223",
     "NomeBusca": "Levonorgestrel",
     "Concentracao": "1,5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5525,7 +5575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "222",
+    "ID_Item": "224",
     "NomeBusca": "Levotiroxina",
     "Concentracao": "12,5 mcg",
     "FormaFarmaceutica": "comprimido",
@@ -5550,7 +5600,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "223",
+    "ID_Item": "225",
     "NomeBusca": "Levotiroxina",
     "Concentracao": "25 mcg",
     "FormaFarmaceutica": "comprimido",
@@ -5575,7 +5625,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "224",
+    "ID_Item": "226",
     "NomeBusca": "Levotiroxina",
     "Concentracao": "37,5 mcg",
     "FormaFarmaceutica": "comprimido",
@@ -5600,7 +5650,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "225",
+    "ID_Item": "227",
     "NomeBusca": "Levotiroxina",
     "Concentracao": "50 mcg",
     "FormaFarmaceutica": "comprimido",
@@ -5625,7 +5675,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "226",
+    "ID_Item": "228",
     "NomeBusca": "Levotiroxina",
     "Concentracao": "100 mcg",
     "FormaFarmaceutica": "comprimido",
@@ -5650,7 +5700,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "227",
+    "ID_Item": "229",
     "NomeBusca": "Loratadina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5675,7 +5725,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "228",
+    "ID_Item": "230",
     "NomeBusca": "Loratadina",
     "Concentracao": "1 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -5700,7 +5750,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "229",
+    "ID_Item": "231",
     "NomeBusca": "Losartana",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5725,7 +5775,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "230",
+    "ID_Item": "232",
     "NomeBusca": "Losartana",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5750,7 +5800,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "231",
+    "ID_Item": "233",
     "NomeBusca": "Macrogol 3350",
     "Concentracao": "3350",
     "FormaFarmaceutica": "pó para solução oral",
@@ -5775,7 +5825,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "232",
+    "ID_Item": "234",
     "NomeBusca": "Macrogol 3350, bicarbonato de sódio, cloreto de sódio, cloreto de potássio",
     "Concentracao": "",
     "FormaFarmaceutica": "Pó para preparação extemporânea",
@@ -5800,7 +5850,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "233",
+    "ID_Item": "235",
     "NomeBusca": "Medroxiprogesterona",
     "Concentracao": "150 mg/mL",
     "FormaFarmaceutica": "suspensão injetável",
@@ -5825,7 +5875,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "234",
+    "ID_Item": "236",
     "NomeBusca": "Medroxiprogesterona",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5850,7 +5900,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "235",
+    "ID_Item": "237",
     "NomeBusca": "Medroxiprogesterona, estradiol",
     "Concentracao": "(25 + 5) mg/0,5 ml",
     "FormaFarmaceutica": "suspensão injetável",
@@ -5875,7 +5925,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "236",
+    "ID_Item": "238",
     "NomeBusca": "Metadona",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5900,7 +5950,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "237",
+    "ID_Item": "239",
     "NomeBusca": "Metadona",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5925,7 +5975,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "238",
+    "ID_Item": "240",
     "NomeBusca": "Metformina",
     "Concentracao": "850 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5950,7 +6000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "239",
+    "ID_Item": "241",
     "NomeBusca": "Metformina",
     "Concentracao": "850 mg",
     "FormaFarmaceutica": "comprimido",
@@ -5975,7 +6025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "240",
+    "ID_Item": "242",
     "NomeBusca": "Metformina",
     "Concentracao": "850 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6000,7 +6050,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "241",
+    "ID_Item": "243",
     "NomeBusca": "Metformina",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6025,7 +6075,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "242",
+    "ID_Item": "244",
     "NomeBusca": "Metildopa",
     "Concentracao": "250 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6050,7 +6100,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "243",
+    "ID_Item": "245",
     "NomeBusca": "Metoclopramida",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6075,7 +6125,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "244",
+    "ID_Item": "246",
     "NomeBusca": "Metoclopramida",
     "Concentracao": "4 mg/mL",
     "FormaFarmaceutica": "solução oral",
@@ -6100,7 +6150,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "245",
+    "ID_Item": "247",
     "NomeBusca": "Metoprolol",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6125,7 +6175,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "246",
+    "ID_Item": "248",
     "NomeBusca": "Metoprolol",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido de liberação prolongada",
@@ -6150,7 +6200,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "247",
+    "ID_Item": "249",
     "NomeBusca": "Metoprolol",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido de liberação prolongada",
@@ -6175,7 +6225,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "248",
+    "ID_Item": "250",
     "NomeBusca": "Metoprolol",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido de liberação prolongada",
@@ -6200,7 +6250,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "249",
+    "ID_Item": "251",
     "NomeBusca": "Metronidazol",
     "Concentracao": "400 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6225,7 +6275,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "250",
+    "ID_Item": "252",
     "NomeBusca": "Metronidazol",
     "Concentracao": "0.1",
     "FormaFarmaceutica": "gel vaginal",
@@ -6250,7 +6300,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "251",
+    "ID_Item": "253",
     "NomeBusca": "Miconazol",
     "Concentracao": "0.02",
     "FormaFarmaceutica": "creme vaginal",
@@ -6275,7 +6325,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "252",
+    "ID_Item": "254",
     "NomeBusca": "Mononitrato de isossorbida",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6300,7 +6350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "253",
+    "ID_Item": "255",
     "NomeBusca": "Mononitrato de isossorbida",
     "Concentracao": "40 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6325,7 +6375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "254",
+    "ID_Item": "256",
     "NomeBusca": "Montelucaste",
     "Concentracao": "4 mg",
     "FormaFarmaceutica": "comprimido mastigável",
@@ -6350,7 +6400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "255",
+    "ID_Item": "257",
     "NomeBusca": "Montelucaste",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido mastigável",
@@ -6375,7 +6425,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "256",
+    "ID_Item": "258",
     "NomeBusca": "Montelucaste",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido mastigável",
@@ -6400,7 +6450,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "257",
+    "ID_Item": "259",
     "NomeBusca": "Montelucaste",
     "Concentracao": "4 mg",
     "FormaFarmaceutica": "grânulo",
@@ -6425,7 +6475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "258",
+    "ID_Item": "260",
     "NomeBusca": "Morfina",
     "Concentracao": "10 mg/mL",
     "FormaFarmaceutica": "solução oral",
@@ -6450,7 +6500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "259",
+    "ID_Item": "261",
     "NomeBusca": "Morfina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6475,7 +6525,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "260",
+    "ID_Item": "262",
     "NomeBusca": "Morfina",
     "Concentracao": "30 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6500,7 +6550,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "261",
+    "ID_Item": "263",
     "NomeBusca": "Morfina",
     "Concentracao": "30 mg",
     "FormaFarmaceutica": "cápsula de liberação prolongada",
@@ -6525,7 +6575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "262",
+    "ID_Item": "264",
     "NomeBusca": "Morfina",
     "Concentracao": "60 mg",
     "FormaFarmaceutica": "cápsula de liberação prolongada",
@@ -6550,7 +6600,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "263",
+    "ID_Item": "265",
     "NomeBusca": "Morfina",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "cápsula de liberação prolongada",
@@ -6575,7 +6625,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "264",
+    "ID_Item": "266",
     "NomeBusca": "Mupirocina",
     "Concentracao": "0.02",
     "FormaFarmaceutica": "creme",
@@ -6600,7 +6650,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "265",
+    "ID_Item": "267",
     "NomeBusca": "Nafazolina",
     "Concentracao": "0,5mg/ml",
     "FormaFarmaceutica": "solução nasal",
@@ -6625,7 +6675,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "266",
+    "ID_Item": "268",
     "NomeBusca": "Naproxeno",
     "Concentracao": "250 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6650,7 +6700,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "267",
+    "ID_Item": "269",
     "NomeBusca": "Naproxeno",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6675,7 +6725,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "268",
+    "ID_Item": "270",
     "NomeBusca": "Neomicina, polimixina B, hidrocortisona",
     "Concentracao": "",
     "FormaFarmaceutica": "solução otológica",
@@ -6700,7 +6750,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "269",
+    "ID_Item": "271",
     "NomeBusca": "Nimesulida",
     "Concentracao": "",
     "FormaFarmaceutica": "comprimido",
@@ -6725,7 +6775,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "270",
+    "ID_Item": "272",
     "NomeBusca": "Nitazoxanida",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6750,7 +6800,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "271",
+    "ID_Item": "273",
     "NomeBusca": "Nitrofurantoína",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6775,7 +6825,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "272",
+    "ID_Item": "274",
     "NomeBusca": "Noretisterona",
     "Concentracao": "0,35 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6800,7 +6850,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "273",
+    "ID_Item": "275",
     "NomeBusca": "Nortriptilina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "cápsula",
@@ -6825,7 +6875,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "274",
+    "ID_Item": "276",
     "NomeBusca": "Nortriptilina",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "cápsula",
@@ -6850,7 +6900,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "275",
+    "ID_Item": "277",
     "NomeBusca": "Nortriptilina",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "cápsula",
@@ -6875,7 +6925,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "276",
+    "ID_Item": "278",
     "NomeBusca": "Nortriptilina",
     "Concentracao": "75 mg",
     "FormaFarmaceutica": "cápsula",
@@ -6900,7 +6950,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "277",
+    "ID_Item": "279",
     "NomeBusca": "Olanzapina",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6925,7 +6975,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "278",
+    "ID_Item": "280",
     "NomeBusca": "Olanzapina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -6950,7 +7000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "279",
+    "ID_Item": "281",
     "NomeBusca": "Óleo mineral",
     "Concentracao": "",
     "FormaFarmaceutica": "frasco",
@@ -6975,7 +7025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "280",
+    "ID_Item": "282",
     "NomeBusca": "Omeprazol",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "cápsula",
@@ -7000,7 +7050,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "281",
+    "ID_Item": "283",
     "NomeBusca": "Ondansetrona",
     "Concentracao": "4 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7025,7 +7075,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "282",
+    "ID_Item": "284",
     "NomeBusca": "Ondansetrona",
     "Concentracao": "8 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7050,7 +7100,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "283",
+    "ID_Item": "285",
     "NomeBusca": "Paracetamol",
     "Concentracao": "750 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7075,7 +7125,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "284",
+    "ID_Item": "286",
     "NomeBusca": "Paracetamol",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7100,7 +7150,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "285",
+    "ID_Item": "287",
     "NomeBusca": "Paracetamol",
     "Concentracao": "200 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -7125,7 +7175,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "286",
+    "ID_Item": "288",
     "NomeBusca": "Paracetamol e AINE",
     "Concentracao": "750 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7150,7 +7200,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "287",
+    "ID_Item": "289",
     "NomeBusca": "Paracetamol e AINE",
     "Concentracao": "500 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7175,7 +7225,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "288",
+    "ID_Item": "290",
     "NomeBusca": "Pelargonium Sidoides, Kaloba",
     "Concentracao": "",
     "FormaFarmaceutica": "solução oral",
@@ -7200,7 +7250,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "289",
+    "ID_Item": "291",
     "NomeBusca": "Permanganato de potássio",
     "Concentracao": "",
     "FormaFarmaceutica": "pó",
@@ -7225,7 +7275,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "290",
+    "ID_Item": "292",
     "NomeBusca": "Permetrina",
     "Concentracao": "0.05",
     "FormaFarmaceutica": "loção",
@@ -7250,7 +7300,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "291",
+    "ID_Item": "293",
     "NomeBusca": "Permetrina",
     "Concentracao": "0.05",
     "FormaFarmaceutica": "xampu",
@@ -7275,7 +7325,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "292",
+    "ID_Item": "294",
     "NomeBusca": "Policresuleno, cinchocaína",
     "Concentracao": "(50 + 10) mg/g",
     "FormaFarmaceutica": "pomada",
@@ -7300,7 +7350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "293",
+    "ID_Item": "295",
     "NomeBusca": "Prednisolona",
     "Concentracao": "0.001",
     "FormaFarmaceutica": "solução oftálmica",
@@ -7325,7 +7375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "294",
+    "ID_Item": "296",
     "NomeBusca": "Prednisolona",
     "Concentracao": "5 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -7350,7 +7400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "295",
+    "ID_Item": "297",
     "NomeBusca": "Prednisona",
     "Concentracao": "5 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7375,7 +7425,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "296",
+    "ID_Item": "298",
     "NomeBusca": "Prednisona",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7400,7 +7450,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "297",
+    "ID_Item": "299",
     "NomeBusca": "Prednisona",
     "Concentracao": "3 mg/ml",
     "FormaFarmaceutica": "solução oral",
@@ -7425,7 +7475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "298",
+    "ID_Item": "300",
     "NomeBusca": "Prometazina",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7450,7 +7500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "299",
+    "ID_Item": "301",
     "NomeBusca": "Propafenona",
     "Concentracao": "300 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7475,7 +7525,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "300",
+    "ID_Item": "302",
     "NomeBusca": "Propafenona",
     "Concentracao": "150 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7500,7 +7550,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "301",
+    "ID_Item": "303",
     "NomeBusca": "Propranolol",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7525,7 +7575,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "302",
+    "ID_Item": "304",
     "NomeBusca": "Propranolol",
     "Concentracao": "40 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7550,7 +7600,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "303",
+    "ID_Item": "305",
     "NomeBusca": "Psyllium",
     "Concentracao": "",
     "FormaFarmaceutica": "chá",
@@ -7575,7 +7625,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "304",
+    "ID_Item": "306",
     "NomeBusca": "Quetiapina",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7600,7 +7650,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "305",
+    "ID_Item": "307",
     "NomeBusca": "Quetiapina",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7625,7 +7675,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "306",
+    "ID_Item": "308",
     "NomeBusca": "Quetiapina",
     "Concentracao": "200 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7650,7 +7700,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "307",
+    "ID_Item": "309",
     "NomeBusca": "Quetiapina",
     "Concentracao": "300 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7675,7 +7725,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "308",
+    "ID_Item": "310",
     "NomeBusca": "Risedronato sódico",
     "Concentracao": "35 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7700,7 +7750,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "309",
+    "ID_Item": "311",
     "NomeBusca": "Risperidona",
     "Concentracao": "1 mg/mL",
     "FormaFarmaceutica": "solução oral",
@@ -7725,7 +7775,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "310",
+    "ID_Item": "312",
     "NomeBusca": "Risperidona",
     "Concentracao": "1 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7750,7 +7800,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "311",
+    "ID_Item": "313",
     "NomeBusca": "Risperidona",
     "Concentracao": "2 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7775,7 +7825,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "312",
+    "ID_Item": "314",
     "NomeBusca": "Risperidona",
     "Concentracao": "3 mg",
     "FormaFarmaceutica": "comprimido",
@@ -7800,7 +7850,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "313",
+    "ID_Item": "315",
     "NomeBusca": "Rivastigmina",
     "Concentracao": "1,5 mg",
     "FormaFarmaceutica": "cápsula",
@@ -7825,7 +7875,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "314",
+    "ID_Item": "316",
     "NomeBusca": "Rivastigmina",
     "Concentracao": "3 mg",
     "FormaFarmaceutica": "cápsula",
@@ -7850,7 +7900,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "315",
+    "ID_Item": "317",
     "NomeBusca": "Rivastigmina",
     "Concentracao": "4,5 mg",
     "FormaFarmaceutica": "cápsula",
@@ -7875,7 +7925,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "316",
+    "ID_Item": "318",
     "NomeBusca": "Rivastigmina",
     "Concentracao": "6 mg",
     "FormaFarmaceutica": "cápsula",
@@ -7900,7 +7950,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "317",
+    "ID_Item": "319",
     "NomeBusca": "Rivastigmina",
     "Concentracao": "2 mg/mL",
     "FormaFarmaceutica": "solução oral",
@@ -7925,7 +7975,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "318",
+    "ID_Item": "320",
     "NomeBusca": "Rivastigmina",
     "Concentracao": "9 mg",
     "FormaFarmaceutica": "adesivo transdérmico",
@@ -7950,7 +8000,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "319",
+    "ID_Item": "321",
     "NomeBusca": "Rivastigmina",
     "Concentracao": "18 mg",
     "FormaFarmaceutica": "adesivo transdérmico",
@@ -7975,7 +8025,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "320",
+    "ID_Item": "322",
     "NomeBusca": "Sacarato de hidróxido férrico",
     "Concentracao": "20 mg/ml",
     "FormaFarmaceutica": "solução injetável",
@@ -8000,7 +8050,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "321",
+    "ID_Item": "323",
     "NomeBusca": "Sacubitril valsartana",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8025,7 +8075,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "322",
+    "ID_Item": "324",
     "NomeBusca": "Sacubitril valsartana",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8050,7 +8100,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "323",
+    "ID_Item": "325",
     "NomeBusca": "Sacubitril valsartana",
     "Concentracao": "200 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8075,7 +8125,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "324",
+    "ID_Item": "326",
     "NomeBusca": "Sais de reidratação oral",
     "Concentracao": "",
     "FormaFarmaceutica": "pó para solução oral",
@@ -8100,7 +8150,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "325",
+    "ID_Item": "327",
     "NomeBusca": "Sais de reidratação oral",
     "Concentracao": "",
     "FormaFarmaceutica": "pó para solução oral",
@@ -8125,7 +8175,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "326",
+    "ID_Item": "328",
     "NomeBusca": "Salbutamol",
     "Concentracao": "100 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -8150,7 +8200,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "327",
+    "ID_Item": "329",
     "NomeBusca": "Salbutamol",
     "Concentracao": "100 mcg",
     "FormaFarmaceutica": "aerossol",
@@ -8175,7 +8225,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "328",
+    "ID_Item": "330",
     "NomeBusca": "Salmeterol",
     "Concentracao": "50 mcg",
     "FormaFarmaceutica": "pó inalatório",
@@ -8200,7 +8250,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "329",
+    "ID_Item": "331",
     "NomeBusca": "Sildenafila",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8225,7 +8275,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "330",
+    "ID_Item": "332",
     "NomeBusca": "Sildenafila",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8250,7 +8300,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "331",
+    "ID_Item": "333",
     "NomeBusca": "Sildenafila",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8275,7 +8325,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "332",
+    "ID_Item": "334",
     "NomeBusca": "Simeticona",
     "Concentracao": "40 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8300,7 +8350,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "333",
+    "ID_Item": "335",
     "NomeBusca": "Sinvastatina",
     "Concentracao": "10 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8325,7 +8375,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "334",
+    "ID_Item": "336",
     "NomeBusca": "Sinvastatina",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8350,7 +8400,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "335",
+    "ID_Item": "337",
     "NomeBusca": "Sinvastatina",
     "Concentracao": "40 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8375,7 +8425,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "336",
+    "ID_Item": "338",
     "NomeBusca": "Soro fisiológico",
     "Concentracao": "0.009",
     "FormaFarmaceutica": "solução",
@@ -8400,7 +8450,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "337",
+    "ID_Item": "339",
     "NomeBusca": "Sulfadiazina de prata",
     "Concentracao": "10 mg/g (1%)",
     "FormaFarmaceutica": "creme",
@@ -8425,7 +8475,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "338",
+    "ID_Item": "340",
     "NomeBusca": "Sulfametoxazol + trimetoprima",
     "Concentracao": "(40 + 8) mg/ml",
     "FormaFarmaceutica": "suspensão oral",
@@ -8450,7 +8500,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "339",
+    "ID_Item": "341",
     "NomeBusca": "Sulfametoxazol, trimetoprima",
     "Concentracao": "(400+80) mg",
     "FormaFarmaceutica": "comprimido",
@@ -8475,7 +8525,57 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "340",
+    "ID_Item": "342",
+    "NomeBusca": "Sulfato de Zinco",
+    "Concentracao": "17,6 mg/mL (4 mg/mL de zinco elementar)",
+    "FormaFarmaceutica": "solução oral",
+    "PrescricaoCompleta": "1 - Sulfato de zinco 17,6 mg/mL (4 mg/mL de zinco elementar) _____ 1 frasco\r\nDar ___ ml(s) por dia por 14 dias",
+    "Categoria": "Mineral",
+    "Doenca": "diarreia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "Diarreia aguda:\r\n< 6 meses: 2,5 mL (10 mg) VO 1x/dia, por 10-14 dias;\r\n≥ 6 meses a 5 anos: 5 mL (20 mg) VO 1x/dia, por 10-14 dias.",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "343",
+    "NomeBusca": "Sulfato de Zinco",
+    "Concentracao": "20 mg (20 mg de zinco elementar)",
+    "FormaFarmaceutica": "comprimido",
+    "PrescricaoCompleta": "1 - Sulfato de zinco 20 mg comprimido _____ 1 caixa\r\nTomar 2 comprimidos por dia, no intervalo entre as refeições, por 7 dias",
+    "Categoria": "Mineral",
+    "Doenca": "diarreia",
+    "OrdemPrioridade": "",
+    "isCalculable": false,
+    "calcPlaceholder": "",
+    "calcInfo": "",
+    "calcDoseMinMgKg": "",
+    "calcDoseMaxMgKg": "",
+    "calcConcentrationMgMl": "",
+    "calcUnit": "",
+    "calcDropsPerMl": "",
+    "calcFrequencyHours": "",
+    "calcMaxMgPerDose": "",
+    "calcMaxDoseMgKgDay": "",
+    "calcMaxDoseMgDay": "",
+    "calcRoundingMax": "",
+    "calcType": "",
+    "calcAgeRanges": ""
+  },
+  {
+    "ID_Item": "344",
     "NomeBusca": "Sulfato ferroso",
     "Concentracao": "Equivalente a 5 mg/mL de ferro elementar",
     "FormaFarmaceutica": "xarope",
@@ -8500,7 +8600,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "341",
+    "ID_Item": "345",
     "NomeBusca": "Sulfato ferroso",
     "Concentracao": "Equivalente a 25 mg/mL de ferro elementar",
     "FormaFarmaceutica": "solução oral",
@@ -8525,7 +8625,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "342",
+    "ID_Item": "346",
     "NomeBusca": "Sulfato ferroso",
     "Concentracao": "Equivalente a 40 mg de ferro elementar",
     "FormaFarmaceutica": "comprimido",
@@ -8550,7 +8650,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "343",
+    "ID_Item": "347",
     "NomeBusca": "Sumatriptina",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8575,7 +8675,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "344",
+    "ID_Item": "348",
     "NomeBusca": "Tenoxicam",
     "Concentracao": "20 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8600,7 +8700,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "345",
+    "ID_Item": "349",
     "NomeBusca": "Tetraciclina",
     "Concentracao": "5 mg/g",
     "FormaFarmaceutica": "pomada oftálmica",
@@ -8625,7 +8725,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "346",
+    "ID_Item": "350",
     "NomeBusca": "Topiramato",
     "Concentracao": "25 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8650,7 +8750,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "347",
+    "ID_Item": "351",
     "NomeBusca": "Topiramato",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8675,7 +8775,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "348",
+    "ID_Item": "352",
     "NomeBusca": "Topiramato",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8700,7 +8800,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "349",
+    "ID_Item": "353",
     "NomeBusca": "Tramadol",
     "Concentracao": "50 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8725,7 +8825,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "350",
+    "ID_Item": "354",
     "NomeBusca": "Tramadol",
     "Concentracao": "100 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8750,7 +8850,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "351",
+    "ID_Item": "355",
     "NomeBusca": "Triancinolona",
     "Concentracao": "1mg/g",
     "FormaFarmaceutica": "pasta",
@@ -8775,7 +8875,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "352",
+    "ID_Item": "356",
     "NomeBusca": "Verapamil",
     "Concentracao": "80 mg",
     "FormaFarmaceutica": "comprimido",
@@ -8800,7 +8900,7 @@
     "calcAgeRanges": ""
   },
   {
-    "ID_Item": "353",
+    "ID_Item": "357",
     "NomeBusca": "Verapamil",
     "Concentracao": "120 mg",
     "FormaFarmaceutica": "comprimido",
