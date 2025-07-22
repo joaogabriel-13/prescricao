@@ -99,22 +99,22 @@
   {
     "ID": "9",
     "Categoria": "Cuidados da enfermagem",
-    "ItemPrincipal": "Restrição no leito (Relativo)",
+    "ItemPrincipal": "Restrição no leito (Contenção)",
     "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
-    "DescricaoCompleta": "Repouso relativo no leito",
+    "DescricaoCompleta": "Contenção física no leito",
     "PrescricoesPadronizadasJSON": null,
     "ObservacaoPadrao": ""
   },
   {
     "ID": "10",
     "Categoria": "Cuidados da enfermagem",
-    "ItemPrincipal": "Restrição no leito (Contenção)",
+    "ItemPrincipal": "Restrição no leito (Relativo)",
     "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
-    "DescricaoCompleta": "Contenção física no leito",
+    "DescricaoCompleta": "Repouso relativo no leito",
     "PrescricoesPadronizadasJSON": null,
     "ObservacaoPadrao": ""
   },
@@ -196,7 +196,7 @@
   {
     "ID": "17",
     "Categoria": "Medicamento",
-    "ItemPrincipal": "Acído acetilsalicílico",
+    "ItemPrincipal": "Ácido acetilsalicílico",
     "TipoItem": "Complexo",
     "Apresentacoes": "100 mg Comp",
     "UnidadesDose": "mg; comprimido",
@@ -204,7 +204,11 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "AAS  300 mg agora",
-        "texto": "Acido acetilsalicílico 100 mg, 300 mg (3 comprimidos), VO, agora"
+        "texto": "Ácido acetilsalicílico 100 mg, 300 mg (3 comprimidos), VO, agora"
+      },
+      {
+        "nome": "AAS  100 mg 24/24h",
+        "texto": "Ácido acetilsalicílico 100 mg, 100 mg (1 comprimido), VO, após o almoço"
       }
     ],
     "ObservacaoPadrao": ""
@@ -212,7 +216,7 @@
   {
     "ID": "18",
     "Categoria": "Medicamento",
-    "ItemPrincipal": "Acído valproico",
+    "ItemPrincipal": "Ácido valproico",
     "TipoItem": "Complexo",
     "Apresentacoes": "250 mg Caps;\r\n500 mg Comp",
     "UnidadesDose": "mg; capsula; comprimido",
@@ -225,10 +229,21 @@
     "Categoria": "Medicamento",
     "ItemPrincipal": "Adenosina",
     "TipoItem": "Complexo",
-    "Apresentacoes": "3 mg/ml Ampo 2 ml",
+    "Apresentacoes": "3 mg/ml Amp 2 ml",
     "UnidadesDose": "ml; mg; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Adenosina  6 mg agora",
+        "texto": "Adenosina 3 mg/ml, 2 ml, EV, infusão rápida, agora",
+        "observacao": "Realizar flush e elevar o membro"
+      },
+      {
+        "nome": "Adenosina  12 mg agora",
+        "texto": "Adenosina 3 mg/ml, 4 ml, EV, infusão rápida, agora",
+        "observacao": "Realizar flush e elevar o membro"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -422,7 +437,13 @@
     "Apresentacoes": "8,4% Amp 10 ml",
     "UnidadesDose": "mg; ml; ampola; mEq",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Bicarbonato de sódio na PCR",
+        "texto": "Bicarbonato de sódio 8,4%, [Peso] mls, EV, infundir em 2 minutos",
+        "observacao": "Realizar flush. Elevar membro"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -453,7 +474,12 @@
     "Apresentacoes": "25 mg Comp;\r\n50 mg Comp",
     "UnidadesDose": "mg; comprimido",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Captopril 50 mg agora",
+        "texto": "Captopril 50 mg, 1 comprimido, VO, agora"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -641,6 +667,10 @@
       {
         "nome": "Clopidogrel  300 mg agora",
         "texto": "Clopidogrel 75 mg, 300 mg (4 comprimidos), VO, agora"
+      },
+      {
+        "nome": "Clopidogrel  75 mg 24/24h",
+        "texto": "Clopidogrel 75 mg, 1 comprimido, VO, após o almoço"
       }
     ],
     "ObservacaoPadrao": ""
@@ -673,6 +703,30 @@
           {
             "item": "SF 0,9%",
             "dose": "240",
+            "unidade": "ml"
+          }
+        ],
+        "observacao": "Infundir em veia central"
+      },
+      {
+        "nome": "Cloreto de potássio 10% 80 mEq/L BIC",
+        "texto": "Cloreto de potássio 10%, 30 ml, EV, BIC, infundir em 3 horas. Concentração: 80 mEq/L",
+        "componentes": [
+          {
+            "item": "SF 0,9%",
+            "dose": "470",
+            "unidade": "ml"
+          }
+        ],
+        "observacao": "Pode infundir em via periférica"
+      },
+      {
+        "nome": "Cloreto de potássio 10% 104 mEq/L BIC",
+        "texto": "Cloreto de potássio 10%, 20 ml, EV, BIC, infundir em 2 horas. Concentração: 104 mEq/L",
+        "componentes": [
+          {
+            "item": "SF 0,9%",
+            "dose": "230",
             "unidade": "ml"
           }
         ],
@@ -718,17 +772,6 @@
   {
     "ID": "54",
     "Categoria": "Medicamento",
-    "ItemPrincipal": "Dimenidrinato, piridoxina, glicose, frutose",
-    "TipoItem": "Complexo",
-    "Apresentacoes": "30 mg + 50 mg + 100 mg + 100 mg Amp 10ml",
-    "UnidadesDose": "mg; ml; ampola",
-    "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
-    "ObservacaoPadrao": ""
-  },
-  {
-    "ID": "55",
-    "Categoria": "Medicamento",
     "ItemPrincipal": "Dexametasona",
     "TipoItem": "Complexo",
     "Apresentacoes": "4 mg/ml Amp 2,5 ml",
@@ -743,18 +786,30 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "56",
+    "ID": "55",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Dexmedetomidina",
     "TipoItem": "Complexo",
     "Apresentacoes": "100 mcg/ml Amp 2 ml",
     "UnidadesDose": "mcg; ml; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Dexmedetomidina 4 mcg/ml BIC",
+        "texto": "Dexmedetomidina 100 mcg/ml, 2 ml (1 Amp), EV, BIC, vazão: ACM. Concentração: 4 mcg/ml",
+        "componentes": [
+          {
+            "item": "SF 0,9% ou SG 5%",
+            "dose": "48",
+            "unidade": "ml"
+          }
+        ]
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "57",
+    "ID": "56",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Diazepam",
     "TipoItem": "Complexo",
@@ -763,15 +818,15 @@
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": [
       {
-        "nome": "Midazolam 10 mg EV agora",
-        "texto": "Midazolam 5 mg/ml, 2 ml em 10 ml de ABD, EV, lento, agora",
+        "nome": "Diazepam 10 mg EV agora",
+        "texto": "Diazepam 5 mg/ml, 2 ml em 10 ml de ABD, EV, lento, agora",
         "observacao": "Infundir em 3 minutos"
       }
     ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "58",
+    "ID": "57",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Diclofenaco",
     "TipoItem": "Complexo",
@@ -781,7 +836,23 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Diclofenaco 75mg agora",
-        "texto": "Diclofenaco 25 mg/ml, 3 ml, IM, agora"
+        "texto": "Diclofenaco 25 mg/ml, 3 ml (1 Amp), IM, agora"
+      }
+    ],
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "58",
+    "Categoria": "Medicamento",
+    "ItemPrincipal": "Dimenidrinato, piridoxina, glicose, frutose",
+    "TipoItem": "Complexo",
+    "Apresentacoes": "30 mg + 50 mg + 100 mg + 100 mg Amp 10ml",
+    "UnidadesDose": "mg; ml; ampola",
+    "DescricaoCompleta": "",
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Dramin B6 1 Amp agora",
+        "texto": "Dimenidrinato + Piridoxina + Frutose + Glicose (30 mg + 50 mg + 100 mg + 100 mg), 1 Amp (10 ml), EV, agora"
       }
     ],
     "ObservacaoPadrao": ""
@@ -794,7 +865,12 @@
     "Apresentacoes": "5 mg Comp SL;\r\n10 mg Comp",
     "UnidadesDose": "mg; comprimido",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Dinitrato de isossorbida 5 mg Comp SL ACM",
+        "texto": "Dinitrato de isossorbida 5 mg Comp SL, 1 comprimido, sublingual, ACM"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -808,11 +884,11 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Dipirona 1g agora",
-        "texto": "Dipirona 500 mg/ml, 2ml, EV, agora"
+        "texto": "Dipirona 500 mg/ml, 2ml (1 Amp), EV, agora"
       },
       {
         "nome": "Dipirona 1g 6/6h se necessário",
-        "texto": "Dipirona 500 mg/ml, 2 ml, EV, de 6/6h, se dor ou febre"
+        "texto": "Dipirona 500 mg/ml, 2 ml (1 Amp), EV, de 6/6h, se dor ou febre"
       }
     ],
     "ObservacaoPadrao": ""
@@ -839,7 +915,7 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Dobutamina 4000 mcg/ml BIC",
-        "texto": "Dobutamina 250 mg/20 ml, 80 ml, BIC, vazão ACM. Concentração: 4000 mcg/ml",
+        "texto": "Dobutamina 250 mg/20 ml, 80 ml, EV, BIC, vazão ACM. Concentração: 4000 mcg/ml",
         "componentes": [
           {
             "item": "SF 0,9% ou SG 5%",
@@ -862,7 +938,7 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Dopamina 1000 mcg/ml BIC (100 ml)",
-        "texto": "Dopamina 5 mg/ml, 20 ml, BIC, vazão ACM. Concentração: 1000 mcg/ml",
+        "texto": "Dopamina 5 mg/ml, 20 ml, EV, BIC, vazão ACM. Concentração: 1000 mcg/ml",
         "componentes": [
           {
             "item": "SF 0,9% ou SG 5%",
@@ -872,8 +948,8 @@
         ]
       },
       {
-        "nome": "Dopamina 1000 mcg/ml BIC (100 ml)",
-        "texto": "Dopamina 5 mg/ml, 50 ml (5 ampolas), BIC, vazão ACM. Concentração: 1000 mcg/ml",
+        "nome": "Dopamina 1000 mcg/ml BIC (250 ml)",
+        "texto": "Dopamina 5 mg/ml, 50 ml (5 ampolas), EV, BIC, vazão ACM. Concentração: 1000 mcg/ml",
         "componentes": [
           {
             "item": "SF 0,9% ou SG 5%",
@@ -904,7 +980,12 @@
     "Apresentacoes": "20 mg Amp 0,2 ml;\r\n40 mg Amp 0,4 ml;\r\n60 mg Amp 0,6 ml;\r\n80 mg Amp 0,8 ml;\r\n100 mg Amp 1 ml",
     "UnidadesDose": "mg; ml; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Enoxaparina 40 mg 24/24h",
+        "texto": "Enoxaparina 40 mg, 40 mg, SC, 24/24h"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -929,11 +1010,11 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Escopolamina 20 mg agora",
-        "texto": "Escopolamina 20 mg/ml, 1 ml, EV, agora"
+        "texto": "Escopolamina 20 mg/ml, 1 ml (1 Amp), EV, agora"
       },
       {
         "nome": "Escopolamina 20 mg 6/6h se necessário",
-        "texto": "Escopolamina 20 mg/ml, 1 ml, EV, 6/6h, se dor abdominal"
+        "texto": "Escopolamina 20 mg/ml, 1 ml (1 Amp), EV, 6/6h, se dor abdominal"
       }
     ],
     "ObservacaoPadrao": ""
@@ -957,7 +1038,12 @@
     "Apresentacoes": "2 mg/ml Amp 10 ml",
     "UnidadesDose": "mg; ml; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Etomidato 20 mg agora",
+        "texto": "Etomidato 2 mg/ml, 20 mg (1 Amp), EV, agora"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -968,7 +1054,20 @@
     "Apresentacoes": "100 mg Comp;\r\n50 mg/ml Amp 5 ml",
     "UnidadesDose": "mg; ml; comprimido; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Fenitoína 1000 mg agora",
+        "texto": "Fenitoína 50 mg/ml, 20 ml, EV, agora. Concentração: 4 mg/ml. Velocidade de infusão: 33 mg/min",
+        "componentes": [
+          {
+            "item": "Cloreto de sódio 0,9%",
+            "dose": "230",
+            "unidade": "ml"
+          }
+        ],
+        "observacao": "Infundir em 30 minutos"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -987,13 +1086,17 @@
     "Categoria": "Medicamento",
     "ItemPrincipal": "Fentanila",
     "TipoItem": "Complexo",
-    "Apresentacoes": "50 mcg/ml Amp 2 ml;\r\n50 mcg/ml Amp 2 ml",
+    "Apresentacoes": "50 mcg/ml Amp 2 ml;\r\n50 mcg/ml Amp 10 ml",
     "UnidadesDose": "mcg; ml",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": [
       {
+        "nome": "Fentanil 200 mcg (4ml) agora",
+        "texto": "Fentanil 50 mcg/ml, 4 ml, EV, agora"
+      },
+      {
         "nome": "Fentanil 10 mcg/ml BIC",
-        "texto": "Fentanil 50 mcg/ml, 20 ml, BIC, vazão ACM. Concentração: 10 mcg/ml",
+        "texto": "Fentanil 50 mcg/ml, 20 ml, EV, BIC, vazão ACM. Concentração: 10 mcg/ml",
         "componentes": [
           {
             "item": "Glicose à 5%",
@@ -1122,7 +1225,42 @@
     "Apresentacoes": "10% Amp 10 ml",
     "UnidadesDose": "mg; ml; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Gluconato de calcio dose de ataque 10 ml",
+        "texto": "Gluconato de calcio 10%, 10ml (1 Amp), EV, BIC, infundir em 20 minutos",
+        "componentes": [
+          {
+            "item": "SF 0,9% ou SG 5%",
+            "dose": "50",
+            "unidade": "ml"
+          }
+        ]
+      },
+      {
+        "nome": "Gluconato de calcio dose de ataque 20 ml",
+        "texto": "Gluconato de calcio 10%, 20ml (2 Amp), EV, BIC, infundir em 20 minutos",
+        "componentes": [
+          {
+            "item": "SF 0,9% ou SG 5%",
+            "dose": "50",
+            "unidade": "ml"
+          }
+        ]
+      },
+      {
+        "nome": "Gluconato de calcio dose de manuntenção",
+        "texto": "Gluconato de calcio 10%, 110ml (11 Amp), EV, BIC, vazão: 50 ml/h",
+        "componentes": [
+          {
+            "item": "SF 0,9% ou SG 5%",
+            "dose": "890",
+            "unidade": "ml"
+          }
+        ],
+        "observacao": "Concentração: 1 mg/ml de cálcio elementar"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -1133,7 +1271,12 @@
     "Apresentacoes": "5 mg/ml Amp 1 ml;\r\n2 mg/ml Solução oral",
     "UnidadesDose": "ml; mg; ampola; gotas",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Haloperidol 5mg agora",
+        "texto": "Haloperidol 5 mg/ml, 1 ml (1 Amp), IM, agora"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -1246,7 +1389,41 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Insulina humana regular SC 4/4h se necessário",
-        "texto": "Insulina humana regular, SC, 4/4h, se glicemia capilar: 200-250: aplicar 2 UI / 250-300: aplicar 4 UI / 300-350: aplicar 6 UI / 350-400: aplicar 8 UI / > 400: solicitar avaliação médica"
+        "texto": "Insulina humana regular 100 UI/ml, SC, 4/4h, se glicemia capilar: 200-250: aplicar 2 UI / 250-300: aplicar 4 UI / 300-350: aplicar 6 UI / 350-400: aplicar 8 UI / > 400: solicitar avaliação médica"
+      },
+      {
+        "nome": "Solução polarizante Via periférica",
+        "texto": "Insulina humana regular 100 UI/ml, 10 UI, EV, correr em 30 minutos",
+        "componentes": [
+          {
+            "item": "Glicose à 10%",
+            "dose": "500",
+            "unidade": "ml"
+          }
+        ]
+      },
+      {
+        "nome": "Solução polarizante Via central",
+        "texto": "Insulina humana regular 100 UI/ml, 10 UI, EV, correr em 30 minutos",
+        "componentes": [
+          {
+            "item": "Glicose à 50%",
+            "dose": "100",
+            "unidade": "ml"
+          }
+        ]
+      },
+      {
+        "nome": "Insulinoterapia BIC",
+        "texto": "Insulina humana regular 100 UI/ml, 1 ml (100 UI), EV, BIC, vazão: ACM",
+        "componentes": [
+          {
+            "item": "SF 0,9%",
+            "dose": "100",
+            "unidade": "ml"
+          }
+        ],
+        "observacao": "Concentração: 1 UI/ml"
       }
     ],
     "ObservacaoPadrao": ""
@@ -1259,7 +1436,16 @@
     "Apresentacoes": "0,25 mg/ml Solução para nebulização",
     "UnidadesDose": "gotas; mg",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Ipratrópio 40 gotas agora",
+        "texto": "Ipratrópio 0,25 mg/ml, 40 gotas, para nebulização, via inalatória, agora"
+      },
+      {
+        "nome": "Ipratrópio 40 gotas 6/6h",
+        "texto": "Ipratrópio 0,25 mg/ml, 40 gotas, para nebulização, via inalatória, 6/6h"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
@@ -1397,7 +1583,7 @@
     "Categoria": "Medicamento",
     "ItemPrincipal": "Metoprolol",
     "TipoItem": "Complexo",
-    "Apresentacoes": "25 mg Comp;\r\n50 mg Comp;\r\n1 mg/ml Amp 5 ml",
+    "Apresentacoes": "25 mg Comp;\r\n50 mg Comp;\r\n100 mg Comp;\r\n1 mg/ml Amp 5 ml",
     "UnidadesDose": "mg; ml; comprimido; ampola",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": [
@@ -1411,17 +1597,6 @@
   {
     "ID": "107",
     "Categoria": "Medicamento",
-    "ItemPrincipal": "Metoprolol",
-    "TipoItem": "Complexo",
-    "Apresentacoes": "25 mg Comp;\r\n50 mg Comp;\r\n100 mg Comp;\r\n1 mg/ml Amp 5",
-    "UnidadesDose": "mg; ml; comprimido",
-    "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
-    "ObservacaoPadrao": ""
-  },
-  {
-    "ID": "108",
-    "Categoria": "Medicamento",
     "ItemPrincipal": "Metronidazol",
     "TipoItem": "Complexo",
     "Apresentacoes": "250 mg Comp;\r\n400 mg Comp;\r\n5 mg/ml Bolsa 100 ml",
@@ -1431,7 +1606,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "109",
+    "ID": "108",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Midazolam",
     "TipoItem": "Complexo",
@@ -1441,7 +1616,7 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Midazolam 1 mg/ml BIC (150 ml)",
-        "texto": "Midazolam 5 mg/ml, 30 ml, BIC, vazão ACM. Concentração: 1 mg/ml",
+        "texto": "Midazolam 5 mg/ml, 30 ml, EV, BIC, vazão ACM. Concentração: 1 mg/ml",
         "componentes": [
           {
             "item": "SF 0,9% ou SG 5%",
@@ -1452,7 +1627,7 @@
       },
       {
         "nome": "Midazolam 1 mg/ml BIC (250ml)",
-        "texto": "Midazolam 5 mg/ml, 50 ml, BIC, vazão ACM. Concentração: 1 mg/ml",
+        "texto": "Midazolam 5 mg/ml, 50 ml, EV, BIC, vazão ACM. Concentração: 1 mg/ml",
         "componentes": [
           {
             "item": "SF 0,9% ou SG 5%",
@@ -1469,7 +1644,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "110",
+    "ID": "109",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Mononitrato de isossorbida",
     "TipoItem": "Complexo",
@@ -1480,7 +1655,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "111",
+    "ID": "110",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Morfina",
     "TipoItem": "Complexo",
@@ -1490,7 +1665,7 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Morfina 2 mg agora",
-        "texto": "Morfina 10 mg/ml, 1 ml (1 ampola), EV, bolus, agora",
+        "texto": "Morfina 10 mg/ml, 1 ml (1 ampola), aplicar 2 ml, EV, bolus, agora",
         "componentes": [
           {
             "item": "ABD",
@@ -1514,7 +1689,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "112",
+    "ID": "111",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Naloxona",
     "TipoItem": "Complexo",
@@ -1525,7 +1700,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "113",
+    "ID": "112",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Nitroglicerina",
     "TipoItem": "Complexo",
@@ -1535,7 +1710,7 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Nitroglicerina 200 mcg/ml BIC",
-        "texto": "Nitroglicerina 5 mg/ml, 10 ml, BIC, vazão ACM. Concentração: 200 mcg/ml",
+        "texto": "Nitroglicerina 5 mg/ml, 10 ml, EV, BIC, vazão ACM. Concentração: 200 mcg/ml",
         "componentes": [
           {
             "item": "SF 0,9% ou SG 5%",
@@ -1548,7 +1723,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "114",
+    "ID": "113",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Nitroprussiato",
     "TipoItem": "Complexo",
@@ -1558,7 +1733,7 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Nitroprussiato 200 mcg/ml BIC",
-        "texto": "Nitroprussiato 25 mg/ml, 2 ml, BIC, vazão ACM. Concentração: 200 mcg/ml",
+        "texto": "Nitroprussiato 25 mg/ml, 2 ml, EV, BIC, vazão: ACM. Concentração: 200 mcg/ml",
         "componentes": [
           {
             "item": "SG 5%",
@@ -1572,7 +1747,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "115",
+    "ID": "114",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Norepinefrina",
     "TipoItem": "Complexo",
@@ -1582,7 +1757,7 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Norepinefrina 64 mcg/ml BIC",
-        "texto": "Norepinefrina 1 mg/ml, 16 ml, BIC, vazão ACM. Concentração: 64 mcg/ml",
+        "texto": "Norepinefrina 1 mg/ml, 16 ml, EV, BIC, vazão ACM. Concentração: 64 mcg/ml",
         "componentes": [
           {
             "item": "SG 5%",
@@ -1593,7 +1768,7 @@
       },
       {
         "nome": "Norepinefrina 160 mcg/ml BIC",
-        "texto": "Norepinefrina 1 mg/ml, 16 ml, BIC, vazão ACM. Concentração: 160 mcg/ml",
+        "texto": "Norepinefrina 1 mg/ml, 16 ml, EV, BIC, vazão ACM. Concentração: 160 mcg/ml",
         "componentes": [
           {
             "item": "SG 5%",
@@ -1604,7 +1779,7 @@
       },
       {
         "nome": "Norepinefrina 200 mcg/ml BIC",
-        "texto": "Norepinefrina 1 mg/ml, 20 ml, BIC, vazão ACM. Concentração: 200 mcg/ml",
+        "texto": "Norepinefrina 1 mg/ml, 20 ml, EV, BIC, vazão ACM. Concentração: 200 mcg/ml",
         "componentes": [
           {
             "item": "SG 5%",
@@ -1617,7 +1792,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "116",
+    "ID": "115",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Óleo mineral",
     "TipoItem": "Complexo",
@@ -1628,18 +1803,27 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "117",
+    "ID": "116",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Omeprazol",
     "TipoItem": "Complexo",
     "Apresentacoes": "40 mg Amp pó",
     "UnidadesDose": "ml; mg; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Omeprazol 40 mg 24/24h",
+        "texto": "Omeprazol 40 mg, 40 mg (1 Amp), EV, 24/24h"
+      },
+      {
+        "nome": "Omeprazol 40 mg 12/12h",
+        "texto": "Omeprazol 40 mg, 40 mg (1 Amp), EV, 12/12h"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "118",
+    "ID": "117",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Oxacilina",
     "TipoItem": "Complexo",
@@ -1650,7 +1834,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "119",
+    "ID": "118",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Pancurônio",
     "TipoItem": "Complexo",
@@ -1661,18 +1845,23 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "120",
+    "ID": "119",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Pantoprazol",
     "TipoItem": "Complexo",
     "Apresentacoes": "40 mg Amp pó",
     "UnidadesDose": "ml; mg; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Pantoprazol 40 mg 12/12h",
+        "texto": "Pantoprazol 40 mg, 40 mg (1 Amp), EV, 12/12h"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "121",
+    "ID": "120",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Piperacilina, tazobactam",
     "TipoItem": "Complexo",
@@ -1683,7 +1872,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "122",
+    "ID": "121",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Prometazina",
     "TipoItem": "Complexo",
@@ -1703,18 +1892,27 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "123",
+    "ID": "122",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Propofol",
     "TipoItem": "Complexo",
     "Apresentacoes": "10 mg/ml Amp 20 ml;\r\n10 mg/ml Amp 50 ml",
     "UnidadesDose": "mg; ml; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Propofol 100 mg agora",
+        "texto": "Propofol 10 mg/ml, 10 ml, EV, bolus, agora"
+      },
+      {
+        "nome": "Propofol BIC",
+        "texto": "Propofol 10 mg/ml, 100 ml, EV, BIC, vazão: ACM"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "124",
+    "ID": "123",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Propranolol",
     "TipoItem": "Complexo",
@@ -1725,7 +1923,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "125",
+    "ID": "124",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Quetiapina",
     "TipoItem": "Complexo",
@@ -1736,7 +1934,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "126",
+    "ID": "125",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Ringer com Lactato",
     "TipoItem": "Complexo",
@@ -1747,18 +1945,27 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "127",
+    "ID": "126",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Rocurônio",
     "TipoItem": "Complexo",
     "Apresentacoes": "10 mg/ml Amp 5 ml",
     "UnidadesDose": "mg; ml; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Rocurônio 50 mg (1 Amp) agora",
+        "texto": "Rocurônio 10 mg/ml, 5 ml (1 Amp), EV, bolus, agora"
+      },
+      {
+        "nome": "Rocurônio 100 mg ( 2 Amp) agora",
+        "texto": "Rocurônio 10 mg/ml, 10 ml (2 Amp), EV, bolus, agora"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "128",
+    "ID": "127",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Sacarato de hidroxido férrico",
     "TipoItem": "Complexo",
@@ -1768,11 +1975,11 @@
     "PrescricoesPadronizadasJSON": [
       {
         "nome": "Sacarato de hidroxido férrico 200 mg agora",
-        "texto": "Sacarato de hidroxido férrico 20 mg/ml, 5 ml (1 ampola), EV, agora",
+        "texto": "Sacarato de hidroxido férrico 20 mg/ml, 10 ml (2 Amp), EV, agora",
         "componentes": [
           {
             "item": "Cloreto de sódio à 0,9%",
-            "dose": "100",
+            "dose": "200",
             "unidade": "ml"
           }
         ],
@@ -1782,7 +1989,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "129",
+    "ID": "128",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Salbutamol",
     "TipoItem": "Complexo",
@@ -1793,7 +2000,7 @@
       {
         "nome": "Salbutamol 4 jatos com espaçador 20/20 min",
         "texto": "Salbutamol 100 mcg aerossol, 4 jatos a cada 20 minutos por 1 hora, via inalatória, agora",
-        "observação": "Usar espaçador"
+        "observacao": "Usar espaçador"
       },
       {
         "nome": "Salbutamol 6 jatos 20/20 min",
@@ -1803,18 +2010,23 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "130",
+    "ID": "129",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Sinvastatina",
     "TipoItem": "Complexo",
     "Apresentacoes": "20 mg Comp;\r\n40 mg Comp",
     "UnidadesDose": "mg; comprimido",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Sinvastatina 40 mg/dia",
+        "texto": "Sinvastatina 40 mg, 1 comprimido, VO, à noite"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "131",
+    "ID": "130",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Sulfametoxazol, trimetropina",
     "TipoItem": "Complexo",
@@ -1825,7 +2037,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "132",
+    "ID": "131",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Sulfato de magnésio",
     "TipoItem": "Complexo",
@@ -1849,18 +2061,23 @@
     "ObservacaoPadrao": "Infundir em 30 minutos"
   },
   {
-    "ID": "133",
+    "ID": "132",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Suxametônio",
     "TipoItem": "Complexo",
     "Apresentacoes": "100 mg Amp pó;\r\n500 mg Ampó",
-    "UnidadesDose": "mg;ml; ampola",
+    "UnidadesDose": "mg; ml; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Suxametônio 100 mg agora",
+        "texto": "Suxametônio 100 mg, 100 mg (1 Amp), EV, agora"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "134",
+    "ID": "133",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Tenoxicam",
     "TipoItem": "Complexo",
@@ -1876,7 +2093,7 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "135",
+    "ID": "134",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Terlipressina",
     "TipoItem": "Complexo",
@@ -1887,18 +2104,23 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "136",
+    "ID": "135",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Tiamina",
     "TipoItem": "Complexo",
     "Apresentacoes": "100 mg Comp;\r\n300 mg Comp",
     "UnidadesDose": "mg; comprimido",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Tiamina 300 mg/dia",
+        "texto": "Tiamina 300 mg, 1 comprimido, VO, 24/24h"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "137",
+    "ID": "136",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Tramadol",
     "TipoItem": "Complexo",
@@ -1920,7 +2142,7 @@
       },
       {
         "nome": "Tramadol 100 mg 6/6h se necessário",
-        "texto": "Tramadol 100 mg/ml, 2 ml (1 ampola), 6/6h, se dor",
+        "texto": "Tramadol 100 mg/ml, 2 ml (1 ampola), EV, 6/6h, se dor",
         "componentes": [
           {
             "item": "Cloreto de sódio à 0,9%",
@@ -1934,29 +2156,42 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "138",
+    "ID": "137",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Vancomicina",
     "TipoItem": "Complexo",
     "Apresentacoes": "500 mg Pó;\r\n1000 mg Pó",
-    "UnidadesDose": "mg;ml; ampola",
+    "UnidadesDose": "mg; ml; ampola",
     "DescricaoCompleta": "",
     "PrescricoesPadronizadasJSON": null,
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "139",
+    "ID": "138",
     "Categoria": "Medicamento",
     "ItemPrincipal": "Vasopresssina",
     "TipoItem": "Complexo",
     "Apresentacoes": "20 UI/ml Amp 1 ml ",
     "UnidadesDose": "UI; ml; ampola",
     "DescricaoCompleta": "",
-    "PrescricoesPadronizadasJSON": null,
+    "PrescricoesPadronizadasJSON": [
+      {
+        "nome": "Vasopressina 0,2 UI/ml BIC",
+        "texto": "Vasopressina 20 UI/ml, 1 ml (1 Amp), EV, BIC, vazão: ACM",
+        "componentes": [
+          {
+            "item": "Cloreto de sódio à 0,9%",
+            "dose": "100",
+            "unidade": "ml"
+          }
+        ],
+        "observacao": "Concentração: 0,2 UI/ml"
+      }
+    ],
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "140",
+    "ID": "139",
     "Categoria": "Oxigenoterapia",
     "ItemPrincipal": "Oxigenoterapia",
     "TipoItem": "Simples",
@@ -1967,21 +2202,43 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "141",
+    "ID": "140",
     "Categoria": "Procedimentos da enfermagem",
-    "ItemPrincipal": "Coletor masculino",
-    "TipoItem": "",
+    "ItemPrincipal": "Coletor masculino de urina",
+    "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
-    "DescricaoCompleta": "Passar coletor de diurese masculino",
+    "DescricaoCompleta": "Passar coletor de urina masculino",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "141",
+    "Categoria": "Procedimentos da enfermagem",
+    "ItemPrincipal": "Sonda nasogástrica",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Passar sonda nasogástrica",
     "PrescricoesPadronizadasJSON": null,
     "ObservacaoPadrao": ""
   },
   {
     "ID": "142",
     "Categoria": "Procedimentos da enfermagem",
-    "ItemPrincipal": "Sonda vesical de demora",
-    "TipoItem": "",
+    "ItemPrincipal": "Sonda vesical de alívio",
+    "TipoItem": "Simples",
+    "Apresentacoes": "",
+    "UnidadesDose": "",
+    "DescricaoCompleta": "Passar sonda vesical de alívio",
+    "PrescricoesPadronizadasJSON": null,
+    "ObservacaoPadrao": ""
+  },
+  {
+    "ID": "143",
+    "Categoria": "Procedimentos da enfermagem",
+    "ItemPrincipal": "Passar sonda vesical de demora",
+    "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
     "DescricaoCompleta": "Passar sonda vesical de demora",
@@ -1989,10 +2246,10 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "143",
+    "ID": "144",
     "Categoria": "Procedimentos da enfermagem",
-    "ItemPrincipal": "Sonda vesical de demora",
-    "TipoItem": "",
+    "ItemPrincipal": "Retirar sonda vesical de demora",
+    "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
     "DescricaoCompleta": "Retirar sonda vesical de demora",
@@ -2000,10 +2257,10 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "144",
+    "ID": "145",
     "Categoria": "Procedimentos médicos",
     "ItemPrincipal": "Acesso central",
-    "TipoItem": "",
+    "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
     "DescricaoCompleta": "Passar acesso central",
@@ -2011,10 +2268,10 @@
     "ObservacaoPadrao": ""
   },
   {
-    "ID": "145",
+    "ID": "146",
     "Categoria": "Procedimentos médicos",
     "ItemPrincipal": "Intubação orotraqueal",
-    "TipoItem": "",
+    "TipoItem": "Simples",
     "Apresentacoes": "",
     "UnidadesDose": "",
     "DescricaoCompleta": "Intubação orotraqueal",
