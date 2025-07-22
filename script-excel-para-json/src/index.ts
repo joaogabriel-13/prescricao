@@ -31,31 +31,40 @@ function stringToJson(jsonString: string): any {
 // Sobe um nível para chegar a /workspaces/prescricao/script-excel-para-json/
 const baseDir = path.join(__dirname, '..');
 
-const inputDir = path.join(baseDir, 'input'); // Deve resultar em /workspaces/prescricao/script-excel-para-json/input/
 const outputDir = path.join(baseDir, 'output'); // Deve resultar em /workspaces/prescricao/script-excel-para-json/output/
-const excelFileName = 'prescricoes.xlsx';
-const excelFilePath = path.join(inputDir, excelFileName);
+
+// Pega o caminho do arquivo do primeiro argumento da linha de comando
+const userProvidedPath = process.argv[2];
+let excelFilePath: string;
+
+if (userProvidedPath) {
+    // Resolve o caminho para garantir que seja absoluto e funcione independentemente de onde o script é chamado
+    excelFilePath = path.resolve(userProvidedPath);
+} else {
+    // Caminho padrão agora aponta para o seu arquivo local no Windows.
+    // Use duas barras invertidas para escapar corretamente no Windows.
+    excelFilePath = "C:\\Users\\joaog\\OneDrive\\Documentos\\Saúde\\Prescrições\\Prescrição_python\\prescricoes.xlsx";
+}
 
 interface PlanilhaItem {
     [key: string]: any;
 }
 
 function converterExcelParaJson() {
-    console.log(`Tentando ler o arquivo Excel de: ${excelFilePath}`);
-    console.log(`Diretório de entrada configurado para: ${inputDir}`);
-    console.log(`Diretório de saída configurado para: ${outputDir}`);
-    console.log(`__dirname (diretório do script em execução): ${__dirname}`);
-    console.log(`baseDir (calculado para input/output): ${baseDir}`);
-
-    // Verifica se o diretório de entrada existe
-    if (!fs.existsSync(inputDir)) {
-        console.error(`ERRO: Diretório de entrada não encontrado: ${inputDir}`);
-        return;
+    if (userProvidedPath) {
+        console.log(`Usando arquivo Excel fornecido via linha de comando: ${excelFilePath}`);
+    } else {
+        console.log(`Nenhum caminho de arquivo fornecido. Usando o caminho padrão: ${excelFilePath}`);
     }
+
+    console.log(`Diretório de saída configurado para: ${outputDir}`);
 
     // Verifica se o arquivo Excel existe
     if (!fs.existsSync(excelFilePath)) {
         console.error(`ERRO: Arquivo Excel não encontrado: ${excelFilePath}`);
+        if (!userProvidedPath) {
+            console.error(`Dica: Você pode arrastar o arquivo para a pasta 'input' ou fornecer o caminho completo como um argumento ao executar o script.`);
+        }
         return;
     }
 
